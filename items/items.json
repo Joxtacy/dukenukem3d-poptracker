@@ -87,6 +87,12 @@
     "initial_quantity": 0
   },
   {
+    "name": "Pistol",
+    "type": "static",
+    "img": "images/pistol.png",
+    "codes": "pistol"
+  },
+  {
     "name": "Pistol Capacity",
     "type": "consumable",
     "img": "images/pistol.png",

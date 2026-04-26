@@ -1399,7 +1399,7 @@
             ]
           },
           {
-            "name": "Exit",
+            "name": "Secret Exit",
             "item_count": 1,
             "access_rules": [
               "ep3,e3l5_unlock"
@@ -2207,7 +2207,7 @@
             ]
           },
           {
-            "name": "Exit",
+            "name": "Secret Exit",
             "item_count": 1,
             "access_rules": [
               "ep3,e3l8_unlock"

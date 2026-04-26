@@ -20,11 +20,14 @@ local function set_toggle(code, active)
     if obj then obj.Active = active end
 end
 
-local function reset_consumable(code, max_quantity, active)
+local function reset_consumable(code, _max_quantity_unused, active)
+    -- NOTE: PopTracker JsonItem doesn't expose MaxQuantity as a writable
+    -- property at runtime. The cap from items.json (99) is fixed; the
+    -- goal counter shows X/99 rather than X/<seed target>. Showing the
+    -- real target needs a separate text-label widget (v0.2 layout work).
     local obj = Tracker:FindObjectForCode(code)
     if not obj then return end
     obj.AcquiredCount = 0
-    if max_quantity ~= nil then obj.MaxQuantity = max_quantity end
     if active ~= nil then obj.Active = active end
 end
 

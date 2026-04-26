@@ -56,6 +56,17 @@ LEVELS = [
 
 
 def status_tab():
+    # Weapon order: pistol always first; columns line up across rows so
+    # capacity / progressive / ammo for the same weapon share a column.
+    WEAPON_ORDER = [
+        "pistol", "shotgun", "chaingun", "rpg", "pipebomb",
+        "shrinker", "devastator", "tripmine", "freezethrower", "expander",
+    ]
+    weapon_row = list(WEAPON_ORDER)  # pistol is a static item, always lit
+    capacity_row = [f"{w}_capacity" for w in WEAPON_ORDER]
+    progressive_row = [f"progressive_{w}" for w in WEAPON_ORDER]
+    ammo_row = [f"{w}_ammo" for w in WEAPON_ORDER]
+
     return {
         "title": "Status",
         "content": {
@@ -67,21 +78,17 @@ def status_tab():
                 "content": [
                     {
                         "type": "group",
-                        "header": "Weapons",
+                        "header": "Weapons (base / capacity / progressive / ammo)",
                         "dock": "top",
                         "content": {
                             "type": "itemgrid",
-                            "item_size": 40,
+                            "item_size": 36,
                             "item_margin": 3,
                             "rows": [
-                                ["shotgun", "chaingun", "rpg", "pipebomb",
-                                 "shrinker", "devastator", "tripmine",
-                                 "freezethrower", "expander"],
-                                ["shotgun_capacity", "chaingun_capacity",
-                                 "rpg_capacity", "pipebomb_capacity",
-                                 "shrinker_capacity", "devastator_capacity",
-                                 "tripmine_capacity", "freezethrower_capacity",
-                                 "expander_capacity"],
+                                weapon_row,
+                                capacity_row,
+                                progressive_row,
+                                ammo_row,
                             ],
                         },
                     },
@@ -91,29 +98,48 @@ def status_tab():
                         "dock": "top",
                         "content": {
                             "type": "itemgrid",
-                            "item_size": 40,
+                            "item_size": 36,
                             "item_margin": 3,
                             "rows": [
                                 ["steroids", "scuba_gear", "jetpack",
                                  "holo_duke", "night_vision_goggles",
                                  "first_aid_kit", "protective_boots"],
                                 ["steroids_capacity", "scuba_gear_capacity",
-                                 "jetpack_capacity", "armor", "sturdy_armor",
-                                 "heavy_armor", "_"],
+                                 "jetpack_capacity", "_", "_", "_", "_"],
+                                ["progressive_steroids",
+                                 "progressive_scuba_gear",
+                                 "progressive_jetpack",
+                                 "_", "_", "_", "_"],
                             ],
                         },
                     },
                     {
                         "type": "group",
-                        "header": "Abilities",
+                        "header": "Armor & Abilities",
                         "dock": "top",
                         "content": {
                             "type": "itemgrid",
-                            "item_size": 40,
+                            "item_size": 36,
                             "item_margin": 3,
                             "rows": [
-                                ["jump", "crouch", "sprint", "dive",
+                                ["armor", "sturdy_armor", "heavy_armor", "_",
+                                 "jump", "crouch", "sprint", "dive",
                                  "open", "use"],
+                            ],
+                        },
+                    },
+                    {
+                        "type": "group",
+                        "header": "Healing",
+                        "dock": "top",
+                        "content": {
+                            "type": "itemgrid",
+                            "item_size": 36,
+                            "item_margin": 3,
+                            "rows": [
+                                ["atomic_health", "plutonium_health",
+                                 "uranium_health", "medpak", "bandage",
+                                 "pity_heal", "ego_boost", "buff_up"],
                             ],
                         },
                     },

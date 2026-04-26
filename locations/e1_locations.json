@@ -1293,7 +1293,7 @@
             ]
           },
           {
-            "name": "Exit",
+            "name": "Secret Exit",
             "item_count": 1,
             "access_rules": [
               "ep1,e1l4_unlock"

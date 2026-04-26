@@ -221,6 +221,10 @@ def build_items_json(levels: list[LevelData]) -> list[dict[str, Any]]:
         weapon_id, cap_id, prog_id, ammo_id, root, display = w
         if weapon_id is not None:
             add(display, root, "toggle", f"images/{root}.png", short_id=weapon_id)
+        else:
+            # Pistol: no AP item (Duke starts with it). Render as a static
+            # always-on icon so the weapons row column doesn't have a gap.
+            add(display, root, "static", f"images/{root}.png")
         add(
             f"{display} Capacity",
             f"{root}_capacity",
@@ -370,7 +374,10 @@ def build_episode_locations(
             loc_type: str = loc["type"]
 
             if loc_type == "exit":
-                section_name = "Exit"
+                # Use the apworld's real loc name: most levels have just "Exit"
+                # but six levels also have a "Secret Exit" — collapsing both to
+                # "Exit" produced duplicate sections.
+                section_name = loc_name
                 rule = base_rule
             elif loc_type == "sector":
                 section_name = loc_name  # already starts with "Secret "

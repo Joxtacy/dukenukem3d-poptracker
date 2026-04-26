@@ -37,14 +37,15 @@
                   "content": [
                     {
                       "type": "group",
-                      "header": "Weapons",
+                      "header": "Weapons (base / capacity / progressive / ammo)",
                       "dock": "top",
                       "content": {
                         "type": "itemgrid",
-                        "item_size": 40,
+                        "item_size": 36,
                         "item_margin": 3,
                         "rows": [
                           [
+                            "pistol",
                             "shotgun",
                             "chaingun",
                             "rpg",
@@ -56,6 +57,7 @@
                             "expander"
                           ],
                           [
+                            "pistol_capacity",
                             "shotgun_capacity",
                             "chaingun_capacity",
                             "rpg_capacity",
@@ -65,6 +67,30 @@
                             "tripmine_capacity",
                             "freezethrower_capacity",
                             "expander_capacity"
+                          ],
+                          [
+                            "progressive_pistol",
+                            "progressive_shotgun",
+                            "progressive_chaingun",
+                            "progressive_rpg",
+                            "progressive_pipebomb",
+                            "progressive_shrinker",
+                            "progressive_devastator",
+                            "progressive_tripmine",
+                            "progressive_freezethrower",
+                            "progressive_expander"
+                          ],
+                          [
+                            "pistol_ammo",
+                            "shotgun_ammo",
+                            "chaingun_ammo",
+                            "rpg_ammo",
+                            "pipebomb_ammo",
+                            "shrinker_ammo",
+                            "devastator_ammo",
+                            "tripmine_ammo",
+                            "freezethrower_ammo",
+                            "expander_ammo"
                           ]
                         ]
                       }
@@ -75,7 +101,7 @@
                       "dock": "top",
                       "content": {
                         "type": "itemgrid",
-                        "item_size": 40,
+                        "item_size": 36,
                         "item_margin": 3,
                         "rows": [
                           [
@@ -91,9 +117,18 @@
                             "steroids_capacity",
                             "scuba_gear_capacity",
                             "jetpack_capacity",
-                            "armor",
-                            "sturdy_armor",
-                            "heavy_armor",
+                            "_",
+                            "_",
+                            "_",
+                            "_"
+                          ],
+                          [
+                            "progressive_steroids",
+                            "progressive_scuba_gear",
+                            "progressive_jetpack",
+                            "_",
+                            "_",
+                            "_",
                             "_"
                           ]
                         ]
@@ -101,20 +136,46 @@
                     },
                     {
                       "type": "group",
-                      "header": "Abilities",
+                      "header": "Armor & Abilities",
                       "dock": "top",
                       "content": {
                         "type": "itemgrid",
-                        "item_size": 40,
+                        "item_size": 36,
                         "item_margin": 3,
                         "rows": [
                           [
+                            "armor",
+                            "sturdy_armor",
+                            "heavy_armor",
+                            "_",
                             "jump",
                             "crouch",
                             "sprint",
                             "dive",
                             "open",
                             "use"
+                          ]
+                        ]
+                      }
+                    },
+                    {
+                      "type": "group",
+                      "header": "Healing",
+                      "dock": "top",
+                      "content": {
+                        "type": "itemgrid",
+                        "item_size": 36,
+                        "item_margin": 3,
+                        "rows": [
+                          [
+                            "atomic_health",
+                            "plutonium_health",
+                            "uranium_health",
+                            "medpak",
+                            "bandage",
+                            "pity_heal",
+                            "ego_boost",
+                            "buff_up"
                           ]
                         ]
                       }

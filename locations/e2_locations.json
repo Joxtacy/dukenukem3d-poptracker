@@ -1448,7 +1448,7 @@
             ]
           },
           {
-            "name": "Exit",
+            "name": "Secret Exit",
             "item_count": 1,
             "access_rules": [
               "ep2,e2l5_unlock"
@@ -2543,7 +2543,7 @@
             ]
           },
           {
-            "name": "Exit",
+            "name": "Secret Exit",
             "item_count": 1,
             "access_rules": [
               "ep2,e2l8_unlock"

@@ -33,6 +33,8 @@ The `tools/` directory contains scripts for regenerating items / locations / lay
 
 Releases are cut via the **Release** workflow in the GitHub Actions tab.
 
+What's planned for upcoming versions lives in [`ROADMAP.md`](ROADMAP.md).
+
 ## Credits
 
 - **apworld + engine**: [randomcodegen/NBloodAP](https://github.com/randomcodegen/NBloodAP) (fork of [LLCoolDave/Duke3DAP](https://github.com/LLCoolDave/Duke3DAP))

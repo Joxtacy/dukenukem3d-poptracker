@@ -1434,7 +1434,7 @@
             ]
           },
           {
-            "name": "Exit",
+            "name": "Secret Exit",
             "item_count": 1,
             "access_rules": [
               "ep4,e4l5_unlock"
