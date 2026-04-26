@@ -17,8 +17,7 @@ Living list of what's shipped, what's next, and what's deliberately deferred. Up
 
 Polish pass focused on real visual tracking and tighter logic.
 
-- **Per-level top-down map screenshots.** Open each `.MAP` in Mapster32, F12 the 2D view, drop `images/eXlY_map.png`. ~40 PNGs.
-- **Per-section pin coordinates.** All sections currently pin to `(100, 100)` on their level map — clickable but stacked. Hand-measure x/y on the screenshots and update `locations/eN_locations.json`.
+- **Per-level top-down maps + pin coordinates.** Run [`tools/gen_maps.py`](tools/gen_maps.py) against your local `duke3d.grp`; it parses each `.MAP` file directly, renders a vector top-down PNG for every level, and emits accurate sprite/sector pin coordinates. Then re-run `gen_pack_data.py` to bake pins into `locations/eN_locations.json`.
 - **Per-key access_rules gating.** Heuristic first pass: any location whose name mentions a door / colour gates on the matching key card. Cleaner second pass: encode the apworld's region requirements per level.
 - **Dynamic goal target display.** Replace the static `X/99` badge with a text-label widget that reads `GOAL_TARGETS` and renders `X / <slot target>`. Layout tweak.
 - **Real icons for remaining placeholders.** Whatever still ships as text-labelled stubs in `images/`.

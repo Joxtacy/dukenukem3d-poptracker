@@ -347,8 +347,17 @@ def slugify(name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_")
 
 
+def load_map_pins(repo_root: Path) -> dict[str, dict[str, list[int]]]:
+    """Read tools/map_pins.json if present, else return empty dict."""
+    p = repo_root / "tools" / "map_pins.json"
+    if not p.exists():
+        return {}
+    return json.loads(p.read_text())
+
+
 def build_episode_locations(
-    levels: list[LevelData], episode: int
+    levels: list[LevelData], episode: int,
+    pins: dict[str, dict[str, list[int]]] | None = None,
 ) -> list[dict[str, Any]]:
     """Build the locations JSON for a single episode.
 
@@ -362,6 +371,7 @@ def build_episode_locations(
     for level in ep_levels:
         cp = level.code_prefix
         map_name = f"{cp}_map"
+        level_pins = (pins or {}).get(level.prefix, {})
         sections: list[dict[str, Any]] = []
 
         # Build access-rule prefix for this level: epN, level_unlock.
@@ -386,14 +396,19 @@ def build_episode_locations(
                 section_name = loc_name
                 rule = base_rule
 
-            # No per-sprite key gating for v0.1: the apworld has region-graph
-            # rules we can't trivially mirror in PopTracker access_rules.
-            # Sections show as accessible as soon as the level is unlocked.
+            # Per-section pin coordinate. If gen_maps.py has been run, the pin
+            # comes from the .MAP sprite/sector position. Otherwise it falls
+            # back to (100, 100) so all pins stack at one spot — clickable but
+            # visually meaningless.
+            pin = level_pins.get(loc_name, [100, 100])
             sections.append(
                 {
                     "name": section_name,
                     "item_count": 1,
                     "access_rules": [rule],
+                    "map_locations": [
+                        {"map": map_name, "x": pin[0], "y": pin[1]}
+                    ],
                 }
             )
 
@@ -401,9 +416,6 @@ def build_episode_locations(
             {
                 "name": f"{level.prefix}: {level.name}",
                 "access_rules": [base_rule],
-                "map_locations": [
-                    {"map": map_name, "x": 100, "y": 100}
-                ],
                 "sections": sections,
             }
         )
@@ -570,6 +582,14 @@ def main():
     levels = load_levels(apworld_dir)
     print(f"Parsed {len(levels)} levels.")
 
+    map_pins = load_map_pins(out)
+    if map_pins:
+        n = sum(len(v) for v in map_pins.values())
+        print(f"Loaded {n} pin coordinates from tools/map_pins.json")
+    else:
+        print("No tools/map_pins.json found; pins will all be (100, 100). "
+              "Run tools/gen_maps.py first if you want real coordinates.")
+
     id_map_path = apworld_dir / "resources" / "id_map.json"
     id_map = json.loads(id_map_path.read_text())
     print(
@@ -586,7 +606,7 @@ def main():
 
     # locations/eN_locations.json + maps/eN_maps.json
     for ep in (1, 2, 3, 4):
-        loc_data = build_episode_locations(levels, ep)
+        loc_data = build_episode_locations(levels, ep, pins=map_pins)
         loc_path = out / "locations" / f"e{ep}_locations.json"
         loc_path.parent.mkdir(parents=True, exist_ok=True)
         loc_path.write_text(json.dumps(loc_data, indent=2) + "\n")

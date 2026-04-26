@@ -6,6 +6,7 @@ These scripts generate the bulk of the pack's data and assets. None of them ship
 |---|---|
 | [`gen_pack_data.py`](#gen_pack_datapy) | The Duke3D apworld changes (new NBloodAP release). |
 | [`gen_layout.py`](#gen_layoutpy) | The level list, episode count, or per-tab layout structure changes. Rare. |
+| [`gen_maps.py`](#gen_mapspy) | First-time setup of real per-level top-down maps + pin coordinates, or after the apworld bumps the levels' `location_defs`. |
 | [`gen_placeholders.py`](#gen_placeholderspy) | You want to wipe `images/` back to text-labeled placeholders, or a new icon was added. |
 | [`gen_recolors.py`](#gen_recolorspy) | You changed `images/atomic_health.png` or `images/armor.png` and want to refresh the four randomizer-only variants. |
 
@@ -95,6 +96,51 @@ python3 tools/gen_layout.py
 ```
 
 For finer changes, edit the script's `status_tab()` / `episode_tab()` functions rather than the generated JSON, since the JSON is overwritten on every run.
+
+---
+
+## `gen_maps.py`
+
+Renders top-down map PNGs for all 40 levels by parsing `duke3d.grp` directly, and extracts pixel-accurate pin coordinates for every sprite/sector location. Replaces the manual Mapster32 + image-editor workflow.
+
+**Reads**
+
+- `duke3d.grp` — the Atomic Edition GRP archive (Ken Silverman format). Contains all 40 `.MAP` files.
+- The extracted apworld at `/tmp/duke3d-apworld/extracted/duke3d/` (uses the same level metadata that `gen_pack_data.py` reads, so we know which sprite/sector index corresponds to each tracker location).
+
+**Writes**
+
+- `images/eXlY_map.png` × 40 — vector top-down renders (1024×768; walls drawn as line segments; aspect-preserving fit with a small padding margin).
+- `tools/map_pins.json` — `{ "E1L1": { "Bachelor RPG": [px, py], "Secret Bachelor Apartment": [px, py], … }, … }`. `gen_pack_data.py` reads this on its next run and bakes the coordinates into `map_locations[].x/.y` for every section. If the file is missing, all pins fall back to `(100, 100)` and stack on top of each other.
+
+**When to run**
+
+- One-time setup, after you've located your `duke3d.grp` (Atomic Edition, SHA1 `4fdef855…`).
+- After an apworld bump that adds, removes, or renumbers `location_defs` for any level — sprite indices may shift.
+
+**How to run**
+
+```sh
+tools/gen_maps.py --grp ~/Documents/Duke3D/duke3d.grp
+# then regenerate locations to bake pins into map_locations
+python3 tools/gen_pack_data.py
+```
+
+**Flags**
+
+```
+--grp PATH           Path to duke3d.grp (default: ~/Documents/Duke3D/duke3d.grp)
+--apworld-dir PATH   Apworld extraction (default: /tmp/duke3d-apworld/extracted/duke3d)
+--out-images PATH    Where to write per-level PNGs (default: images/)
+--out-pins PATH      Where to write the pin lookup (default: tools/map_pins.json)
+--skip-render        Only extract coords; don't write PNGs.
+```
+
+**Caveats**
+
+- Exit-type locations don't correspond to a sprite or sector — their `id` is the lotag of the in-map exit trigger, which we can't trivially resolve. Pins for `Exit` and `Secret Exit` sections fall back to the bbox center as a soft hint; click via the location panel rather than the map.
+- Sector centroids are computed as the unweighted average of the sector's wall vertices. For non-convex sectors the pin can land outside the sector polygon; close enough for a tracker pin.
+- Map version 7 only (Duke3D Atomic). Build engine has older versions floating around but Duke3D-AP only supports Atomic.
 
 ---
 
