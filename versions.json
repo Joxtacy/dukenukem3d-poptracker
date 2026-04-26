@@ -1,3 +1,13 @@
 {
-  "versions": []
+  "versions": [
+    {
+      "package_version": "0.0.1",
+      "download_url": "https://github.com/Joxtacy/dukenukem3d-poptracker/releases/download/v0.0.1/duke_nukem_3d_ap_tracker_0.0.1.zip",
+      "sha256": "00e13d016b114c8ae985eee8d947b5fabf6b70a096d658166592a7b82e75e41d",
+      "changelog": [
+        "chore(release): prepare v0.0.1",
+        "initial commit"
+      ]
+    }
+  ]
 }
