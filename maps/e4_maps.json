@@ -1,0 +1,68 @@
+[
+  {
+    "name": "e4l1_map",
+    "img": "images/e4l1_map.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "e4l2_map",
+    "img": "images/e4l2_map.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "e4l3_map",
+    "img": "images/e4l3_map.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "e4l4_map",
+    "img": "images/e4l4_map.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "e4l5_map",
+    "img": "images/e4l5_map.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "e4l6_map",
+    "img": "images/e4l6_map.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "e4l7_map",
+    "img": "images/e4l7_map.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "e4l8_map",
+    "img": "images/e4l8_map.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "e4l9_map",
+    "img": "images/e4l9_map.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "e4l10_map",
+    "img": "images/e4l10_map.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "e4l11_map",
+    "img": "images/e4l11_map.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  }
+]

@@ -1,0 +1,923 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dock_direction": "vertical",
+      "content": [
+        {
+          "type": "group",
+          "header": "Goal",
+          "dock": "top",
+          "content": {
+            "type": "itemgrid",
+            "item_size": 48,
+            "item_margin": 4,
+            "rows": [
+              [
+                "goal_exit",
+                "goal_secret",
+                "goal_boss"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Status",
+              "content": {
+                "type": "container",
+                "background": "#000000",
+                "content": {
+                  "type": "dock",
+                  "dock_direction": "vertical",
+                  "content": [
+                    {
+                      "type": "group",
+                      "header": "Weapons",
+                      "dock": "top",
+                      "content": {
+                        "type": "itemgrid",
+                        "item_size": 40,
+                        "item_margin": 3,
+                        "rows": [
+                          [
+                            "shotgun",
+                            "chaingun",
+                            "rpg",
+                            "pipebomb",
+                            "shrinker",
+                            "devastator",
+                            "tripmine",
+                            "freezethrower",
+                            "expander"
+                          ],
+                          [
+                            "shotgun_capacity",
+                            "chaingun_capacity",
+                            "rpg_capacity",
+                            "pipebomb_capacity",
+                            "shrinker_capacity",
+                            "devastator_capacity",
+                            "tripmine_capacity",
+                            "freezethrower_capacity",
+                            "expander_capacity"
+                          ]
+                        ]
+                      }
+                    },
+                    {
+                      "type": "group",
+                      "header": "Inventory",
+                      "dock": "top",
+                      "content": {
+                        "type": "itemgrid",
+                        "item_size": 40,
+                        "item_margin": 3,
+                        "rows": [
+                          [
+                            "steroids",
+                            "scuba_gear",
+                            "jetpack",
+                            "holo_duke",
+                            "night_vision_goggles",
+                            "first_aid_kit",
+                            "protective_boots"
+                          ],
+                          [
+                            "steroids_capacity",
+                            "scuba_gear_capacity",
+                            "jetpack_capacity",
+                            "armor",
+                            "sturdy_armor",
+                            "heavy_armor",
+                            "_"
+                          ]
+                        ]
+                      }
+                    },
+                    {
+                      "type": "group",
+                      "header": "Abilities",
+                      "dock": "top",
+                      "content": {
+                        "type": "itemgrid",
+                        "item_size": 40,
+                        "item_margin": 3,
+                        "rows": [
+                          [
+                            "jump",
+                            "crouch",
+                            "sprint",
+                            "dive",
+                            "open",
+                            "use"
+                          ]
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "title": "Episode 1",
+              "content": {
+                "type": "container",
+                "background": "#000000",
+                "content": {
+                  "type": "dock",
+                  "content": [
+                    {
+                      "type": "dock",
+                      "dock": "left",
+                      "content": [
+                        {
+                          "type": "group",
+                          "header": "Episode 1 - Levels (Unlock, Automap, Blue/Red/Yellow Keys)",
+                          "dock": "top",
+                          "content": {
+                            "type": "itemgrid",
+                            "item_size": 36,
+                            "item_margin": 2,
+                            "rows": [
+                              [
+                                "e1l1_unlock",
+                                "e1l1_automap",
+                                "_",
+                                "e1l1_red_key",
+                                "_"
+                              ],
+                              [
+                                "e1l2_unlock",
+                                "e1l2_automap",
+                                "e1l2_blue_key",
+                                "e1l2_red_key",
+                                "e1l2_yellow_key"
+                              ],
+                              [
+                                "e1l3_unlock",
+                                "e1l3_automap",
+                                "e1l3_blue_key",
+                                "e1l3_red_key",
+                                "e1l3_yellow_key"
+                              ],
+                              [
+                                "e1l4_unlock",
+                                "e1l4_automap",
+                                "e1l4_blue_key",
+                                "e1l4_red_key",
+                                "_"
+                              ],
+                              [
+                                "e1l5_unlock",
+                                "e1l5_automap",
+                                "e1l5_blue_key",
+                                "_",
+                                "_"
+                              ],
+                              [
+                                "e1l6_unlock",
+                                "e1l6_automap",
+                                "e1l6_blue_key",
+                                "e1l6_red_key",
+                                "_"
+                              ],
+                              [
+                                "e1l7_unlock",
+                                "e1l7_automap",
+                                "e1l7_blue_key",
+                                "_",
+                                "_"
+                              ]
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dock",
+                      "content": {
+                        "type": "tabbed",
+                        "tabs": [
+                          {
+                            "title": "E1L1: Hollywood Holocaust",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e1l1_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E1L2: Red Light District",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e1l2_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E1L3: Death Row",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e1l3_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E1L4: Toxic Dump",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e1l4_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E1L5: The Abyss",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e1l5_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E1L6: Launch Facility",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e1l6_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E1L7: Faces of Death",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e1l7_map"
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "title": "Episode 2",
+              "content": {
+                "type": "container",
+                "background": "#000000",
+                "content": {
+                  "type": "dock",
+                  "content": [
+                    {
+                      "type": "dock",
+                      "dock": "left",
+                      "content": [
+                        {
+                          "type": "group",
+                          "header": "Episode 2 - Levels (Unlock, Automap, Blue/Red/Yellow Keys)",
+                          "dock": "top",
+                          "content": {
+                            "type": "itemgrid",
+                            "item_size": 36,
+                            "item_margin": 2,
+                            "rows": [
+                              [
+                                "e2l1_unlock",
+                                "e2l1_automap",
+                                "e2l1_blue_key",
+                                "e2l1_red_key",
+                                "_"
+                              ],
+                              [
+                                "e2l2_unlock",
+                                "e2l2_automap",
+                                "_",
+                                "_",
+                                "e2l2_yellow_key"
+                              ],
+                              [
+                                "e2l3_unlock",
+                                "e2l3_automap",
+                                "e2l3_blue_key",
+                                "_",
+                                "e2l3_yellow_key"
+                              ],
+                              [
+                                "e2l4_unlock",
+                                "e2l4_automap",
+                                "_",
+                                "_",
+                                "_"
+                              ],
+                              [
+                                "e2l5_unlock",
+                                "e2l5_automap",
+                                "e2l5_blue_key",
+                                "e2l5_red_key",
+                                "_"
+                              ],
+                              [
+                                "e2l6_unlock",
+                                "e2l6_automap",
+                                "e2l6_blue_key",
+                                "e2l6_red_key",
+                                "_"
+                              ],
+                              [
+                                "e2l7_unlock",
+                                "e2l7_automap",
+                                "e2l7_blue_key",
+                                "e2l7_red_key",
+                                "e2l7_yellow_key"
+                              ],
+                              [
+                                "e2l8_unlock",
+                                "e2l8_automap",
+                                "e2l8_blue_key",
+                                "_",
+                                "e2l8_yellow_key"
+                              ],
+                              [
+                                "e2l9_unlock",
+                                "e2l9_automap",
+                                "_",
+                                "_",
+                                "_"
+                              ],
+                              [
+                                "e2l10_unlock",
+                                "e2l10_automap",
+                                "_",
+                                "_",
+                                "_"
+                              ],
+                              [
+                                "e2l11_unlock",
+                                "e2l11_automap",
+                                "_",
+                                "_",
+                                "_"
+                              ]
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dock",
+                      "content": {
+                        "type": "tabbed",
+                        "tabs": [
+                          {
+                            "title": "E2L1: Spaceport",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e2l1_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E2L2: Incubator",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e2l2_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E2L3: Warp Factor",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e2l3_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E2L4: Fusion Station",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e2l4_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E2L5: Occupied Territory",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e2l5_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E2L6: Tiberius Station",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e2l6_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E2L7: Lunar Reactor",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e2l7_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E2L8: Dark Side",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e2l8_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E2L9: Overlord",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e2l9_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E2L10: Spin Cycle",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e2l10_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E2L11: Lunatic Fringe",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e2l11_map"
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "title": "Episode 3",
+              "content": {
+                "type": "container",
+                "background": "#000000",
+                "content": {
+                  "type": "dock",
+                  "content": [
+                    {
+                      "type": "dock",
+                      "dock": "left",
+                      "content": [
+                        {
+                          "type": "group",
+                          "header": "Episode 3 - Levels (Unlock, Automap, Blue/Red/Yellow Keys)",
+                          "dock": "top",
+                          "content": {
+                            "type": "itemgrid",
+                            "item_size": 36,
+                            "item_margin": 2,
+                            "rows": [
+                              [
+                                "e3l1_unlock",
+                                "e3l1_automap",
+                                "e3l1_blue_key",
+                                "e3l1_red_key",
+                                "_"
+                              ],
+                              [
+                                "e3l2_unlock",
+                                "e3l2_automap",
+                                "e3l2_blue_key",
+                                "e3l2_red_key",
+                                "_"
+                              ],
+                              [
+                                "e3l3_unlock",
+                                "e3l3_automap",
+                                "e3l3_blue_key",
+                                "e3l3_red_key",
+                                "e3l3_yellow_key"
+                              ],
+                              [
+                                "e3l4_unlock",
+                                "e3l4_automap",
+                                "e3l4_blue_key",
+                                "e3l4_red_key",
+                                "_"
+                              ],
+                              [
+                                "e3l5_unlock",
+                                "e3l5_automap",
+                                "e3l5_blue_key",
+                                "e3l5_red_key",
+                                "e3l5_yellow_key"
+                              ],
+                              [
+                                "e3l6_unlock",
+                                "e3l6_automap",
+                                "e3l6_blue_key",
+                                "e3l6_red_key",
+                                "_"
+                              ],
+                              [
+                                "e3l7_unlock",
+                                "e3l7_automap",
+                                "e3l7_blue_key",
+                                "e3l7_red_key",
+                                "e3l7_yellow_key"
+                              ],
+                              [
+                                "e3l8_unlock",
+                                "e3l8_automap",
+                                "e3l8_blue_key",
+                                "_",
+                                "e3l8_yellow_key"
+                              ],
+                              [
+                                "e3l9_unlock",
+                                "e3l9_automap",
+                                "_",
+                                "_",
+                                "_"
+                              ],
+                              [
+                                "e3l10_unlock",
+                                "e3l10_automap",
+                                "_",
+                                "_",
+                                "_"
+                              ],
+                              [
+                                "e3l11_unlock",
+                                "e3l11_automap",
+                                "e3l11_blue_key",
+                                "e3l11_red_key",
+                                "_"
+                              ]
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dock",
+                      "content": {
+                        "type": "tabbed",
+                        "tabs": [
+                          {
+                            "title": "E3L1: Raw Meat",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e3l1_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E3L2: Bank Roll",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e3l2_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E3L3: Flood Zone",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e3l3_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E3L4: L.A. Rumble",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e3l4_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E3L5: Movie Set",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e3l5_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E3L6: Rabid Transit",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e3l6_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E3L7: Fahrenheit",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e3l7_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E3L8: Hotel Hell",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e3l8_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E3L9: Stadium",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e3l9_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E3L10: Tier Drops",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e3l10_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E3L11: Freeway",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e3l11_map"
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "title": "Episode 4",
+              "content": {
+                "type": "container",
+                "background": "#000000",
+                "content": {
+                  "type": "dock",
+                  "content": [
+                    {
+                      "type": "dock",
+                      "dock": "left",
+                      "content": [
+                        {
+                          "type": "group",
+                          "header": "Episode 4 - Levels (Unlock, Automap, Blue/Red/Yellow Keys)",
+                          "dock": "top",
+                          "content": {
+                            "type": "itemgrid",
+                            "item_size": 36,
+                            "item_margin": 2,
+                            "rows": [
+                              [
+                                "e4l1_unlock",
+                                "e4l1_automap",
+                                "e4l1_blue_key",
+                                "e4l1_red_key",
+                                "_"
+                              ],
+                              [
+                                "e4l2_unlock",
+                                "e4l2_automap",
+                                "e4l2_blue_key",
+                                "e4l2_red_key",
+                                "_"
+                              ],
+                              [
+                                "e4l3_unlock",
+                                "e4l3_automap",
+                                "e4l3_blue_key",
+                                "e4l3_red_key",
+                                "e4l3_yellow_key"
+                              ],
+                              [
+                                "e4l4_unlock",
+                                "e4l4_automap",
+                                "e4l4_blue_key",
+                                "e4l4_red_key",
+                                "_"
+                              ],
+                              [
+                                "e4l5_unlock",
+                                "e4l5_automap",
+                                "e4l5_blue_key",
+                                "e4l5_red_key",
+                                "e4l5_yellow_key"
+                              ],
+                              [
+                                "e4l6_unlock",
+                                "e4l6_automap",
+                                "e4l6_blue_key",
+                                "e4l6_red_key",
+                                "e4l6_yellow_key"
+                              ],
+                              [
+                                "e4l7_unlock",
+                                "e4l7_automap",
+                                "e4l7_blue_key",
+                                "e4l7_red_key",
+                                "_"
+                              ],
+                              [
+                                "e4l8_unlock",
+                                "e4l8_automap",
+                                "e4l8_blue_key",
+                                "e4l8_red_key",
+                                "e4l8_yellow_key"
+                              ],
+                              [
+                                "e4l9_unlock",
+                                "e4l9_automap",
+                                "e4l9_blue_key",
+                                "e4l9_red_key",
+                                "e4l9_yellow_key"
+                              ],
+                              [
+                                "e4l10_unlock",
+                                "e4l10_automap",
+                                "e4l10_blue_key",
+                                "e4l10_red_key",
+                                "e4l10_yellow_key"
+                              ],
+                              [
+                                "e4l11_unlock",
+                                "e4l11_automap",
+                                "e4l11_blue_key",
+                                "e4l11_red_key",
+                                "e4l11_yellow_key"
+                              ]
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dock",
+                      "content": {
+                        "type": "tabbed",
+                        "tabs": [
+                          {
+                            "title": "E4L1: It's Impossible",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e4l1_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E4L2: Duke-Burger",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e4l2_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E4L3: Shop-N-Bag",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e4l3_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E4L4: Babe Land",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e4l4_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E4L5: Pigsty",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e4l5_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E4L6: Going Postal",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e4l6_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E4L7: XXX-Stacy",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e4l7_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E4L8: Critical Mass",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e4l8_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E4L9: Derelict",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e4l9_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E4L10: The Queen",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e4l10_map"
+                              ]
+                            }
+                          },
+                          {
+                            "title": "E4L11: Area 51",
+                            "content": {
+                              "type": "map",
+                              "maps": [
+                                "e4l11_map"
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

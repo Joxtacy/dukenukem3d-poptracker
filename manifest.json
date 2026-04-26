@@ -1,0 +1,17 @@
+{
+  "name": "Duke Nukem 3D AP Tracker",
+  "game_name": "Duke Nukem 3D",
+  "package_uid": "duke_nukem_3d_ap_tracker",
+  "package_version": "0.0.1",
+  "min_poptracker_version": "0.25.0",
+  "versions_url": "https://github.com/joxtacy/dukenukem3d-poptracker/releases/latest/download/versions.json",
+  "author": "Joxtacy",
+  "variants": {
+    "all_episodes": {
+      "display_name": "All Episodes",
+      "flags": [
+        "ap"
+      ]
+    }
+  }
+}

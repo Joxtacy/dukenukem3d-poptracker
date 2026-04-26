@@ -1,0 +1,3161 @@
+[
+  {
+    "name": "Episode 2: Lunar Apocalypse",
+    "children": [
+      {
+        "name": "E2L1: Spaceport",
+        "access_rules": [
+          "ep2,e2l1_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e2l1_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Underwater Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Vent Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Elevator Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Elevator Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "MP Elevator Corner Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Middle Floor Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Attic Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Underwater Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Bottom Floor Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Start Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Bottom Floor Scuba Gear",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Blue Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Middle Floor Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Underwater Atomic Health 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Underwater Atomic Health 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Bottom Floor Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Top Floor Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Red Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Bottom Floor Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Space Shuttle RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Underwater Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "MP Attic Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "MP Attic Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "MP Attic Tripmine 3",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "MP Start Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Top Floor Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Middle Room Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Space Shuttle Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Monitor Wall Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          },
+          {
+            "name": "Secret Top Floor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Timed Alcove",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Elevator Corner",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Ventilation Shaft",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Shrinker Room",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Monitor Wall",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l1_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E2L2: Incubator",
+        "access_rules": [
+          "ep2,e2l2_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e2l2_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "MP Underwater Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Overgrown Passage Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Wall Panel Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Underwater Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Drone Alcove Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Hidden Screen Room Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "MP Control Room Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "EDF Logo Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Pool Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Pool Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Hidden Screen Room Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Armory RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Pipebombs behind Turret",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Beta Scuba Gear",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Force Field Control Atomic Health 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Force Field Control Atomic Health 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Force Field Control Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Beta Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Beta Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Armory Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Armory Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Armory Tripmine 3",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Wall Panel Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Cupboard Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Start Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Control Room Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Overgrown Passage Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          },
+          {
+            "name": "Secret EDF Logo",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Force Field Control Wall",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Hidden Screen Room 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Hidden Screen Room 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Wall Panel",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l2_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E2L3: Warp Factor",
+        "access_rules": [
+          "ep2,e2l3_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e2l3_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Engine Room Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Engine Room Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "MP Drone Room Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Blue Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Main Room Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Engine Room Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "MP Control Room Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Ready Room Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Control Room Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Engine Room Tripmine",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Start Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Wall Panel Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Wall Panel Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Reactor Atomic Health 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Reactor Atomic Health 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Control Room Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Control Room Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Conveyor Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Control Room Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Engine Room Burrowed Atomic Health 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Drone Room Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Engine Room Burrowed Atomic Health 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Engine Room Burrowed Atomic Health 3",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Main Room Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Control Room RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Left Wing RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "MP Control Room Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "MP Main Room Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Really Ready Room Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Really Ready Room Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Bridge Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Bridge Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Bridge RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Bridge Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          },
+          {
+            "name": "Secret Enterprise Bridge",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Really Ready Room",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l3_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E2L4: Fusion Station",
+        "access_rules": [
+          "ep2,e2l4_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e2l4_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Timed Room Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Column Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Start Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "First Level Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Reactor Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Top Floor Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "MP Reactor Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Start Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Pistons Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Pistons Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Pistons Protective Boots",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Top Ledge Atomic Health 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Top Ledge Atomic Health 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Red Room Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Top Floor Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Top Floor Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Start Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Top Ledge Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Vents Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Shotgun behind Babe",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Pistons Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Pistons Tripmine 3",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Pistons Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Pistons Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "First Level Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Underwater Pipebombs 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Underwater Pipebombs 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Start RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "MP Floor Jetpack 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "MP Floor Jetpack 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "MP Floor Jetpack 3",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "MP Floor Jetpack 4",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Pistons Atomic Health 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Pistons Atomic Health 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Pistons Tunnel Pipebombs 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Pistons Tunnel Pipebombs 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Top Floor Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "MP Floor RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "MP Floor Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Slime Hallway Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Slime Hallway Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "MP Reactor Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "MP Floor Protective Boots 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "MP Floor Protective Boots 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "MP Floor Protective Boots 3",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "MP Floor Protective Boots 4",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Red Room Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Pistons Ledge Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          },
+          {
+            "name": "Secret Top of Vents",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Pistons Tunnel",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Pistons Tunnel Ledge",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Pistons Chamber",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Column",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Timed Blade Room",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Vents Wall",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l4_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E2L5: Occupied Territory",
+        "access_rules": [
+          "ep2,e2l5_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e2l5_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Vent RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Vent Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "MP Center Room Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Slime Room Pipebombs 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Monitors Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Monitors Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "MP Center Room Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Blue Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Red Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Blastdoor Hole Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Slime Room Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Start Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Start Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Corridor Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "MP Battlelord Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Center Room Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Start Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Ramp Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "MP Large Door Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Slime Room Pipebombs 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Monitors Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Hallway Alcove Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "MP Exit RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Ramp Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Slime Room Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Large Door Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Start Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Secret Hallway Alcove",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Blastdoor Hole",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Vent",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Monitors",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l5_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E2L6: Tiberius Station",
+        "access_rules": [
+          "ep2,e2l6_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e2l6_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Timed Wall RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Toxic Room Protective Boots",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Toxic Room Scuba Gear",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Underwater Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Underwater Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Toxic Room Wall Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Supplies Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Supplies Armor 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Supplies Armor 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Blue Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Water Fountain Pipebombs 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Water Fountain Pipebombs 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Armory Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Timed Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Monitor Room Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Monitor Room Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Corridor Wall Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Timed Room Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Toxic Alcove Atomic Health 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Toxic Alcove Atomic Health 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Corridor Wall Explosion RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Toxic Room Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Exit Vent Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Exit Room Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Bathroom Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Bathroom Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Armory Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Corridor Wall Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "MP Toilet Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Red Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          },
+          {
+            "name": "Secret Toxic Alcove 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Toxic Alcove 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Corridor Wall",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Toxic Room Wall",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Water Fountain Wall",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Supplies",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Vent Wall Crack",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Timed Wall",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l6_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E2L7: Lunar Reactor",
+        "access_rules": [
+          "ep2,e2l7_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e2l7_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Toilet Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Start Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Trash Compactor Atomic Health 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Trash Compactor Atomic Health 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Reactor RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Reactor Lookout Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Canyon Cave Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Canyon Cave Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Toilet Tripmine",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Canyon Floor Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Reactor Vent Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Slime Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Slime Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Luke Skywalker Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Crew Quarters Tripmine",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Crew Quarters Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Crew Quarters Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Blue Vent Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Crew Quarters Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Door Vent Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Toilet Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Vent Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Toilet RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Red Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Blue Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Start Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Slime Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Reactor Stairs Tripmine",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Reactor Lookout Tripmine",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Reactor Lookout Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Reactor Ledge Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Reactor Ledge Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Slime Protective Boots",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Reactor Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          },
+          {
+            "name": "Secret Trash Compactor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Slime Monitors",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Luke Skywalker",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Canyon Cave",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Canyon Monitors",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Reactor Ledge 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Reactor Ledge 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l7_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E2L8: Dark Side",
+        "access_rules": [
+          "ep2,e2l8_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e2l8_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Overlord Pool Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Beta Wall Atomic Health 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Beta Wall Atomic Health 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Overlord Pool Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Hatching Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Surface Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Spacesuit RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Outlook Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Beta Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Beta Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Reactor Control Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Babes Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Gamma Vent Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Gamma Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Top of Hub Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Hub Crate RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Reactor Control Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Hub Atomic Health 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Hub Atomic Health 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Alpha Lab Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Alpha Lab Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Waste Pool Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Alpha Lab Tripmine",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Alpha Lab Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Alpha Lab Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Start Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Crumbling Canyon Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Crumbling Canyon Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "MP Tank Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Tank Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Blue Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Hub Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Hub Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Alpha Wall Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "MP Tank RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Alpha Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Start Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Outlook Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Alpha Lab Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Alpha Lab Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Reactor Control Protective Boots",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Top of Hub Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Top of Hub Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "MP Start Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "MP Surface Atomic Health 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "MP Surface Atomic Health 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "MP Surface Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "MP Surface Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "MP Surface Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "MP Surface RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "MP Surface Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Gamma Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Gamma Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Gamma Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Outlook Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Babes Pipebombs 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Babes Pipebombs 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Babes Pipebombs 3",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Secret Babes Wall",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Alpha Lab Tanks",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Hub Monitor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Beta Transport Wall",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Alpha Cracked Wall",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Gamma Monitor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Overlord Overhang",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l8_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E2L9: Overlord",
+        "access_rules": [
+          "ep2,e2l9_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e2l9_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Timed Wall RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Control Room Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Waterfall Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Vents Pipebombs 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Overlord Tunnel Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Broken Wall Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Waterfall Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Waterfall Scuba Gear",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Hidden Wall Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Hidden Wall Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Waterfall Tripmine",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Overlord Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Overlord Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Overlord Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Combination Lock Scuba Gear",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Control Room Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Control Room Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Vents Center Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Waterfall Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Waterfall Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Overlord Tunnel Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Waterfall RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Reactor Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Start Underwater Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Start Underwater Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Vents Pipebombs 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Waterfall Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Overlord Tunnel Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Timed Wall Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Timed Wall Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Waterfall Wall Pipebombs 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Waterfall Wall Pipebombs 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          },
+          {
+            "name": "Secret Hidden Reactor Wall",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Timed Overlord Wall",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Waterfall Wall",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Timed Reactor Wall",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l9_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E2L10: Spin Cycle",
+        "access_rules": [
+          "ep2,e2l10_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e2l10_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Beta Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "Gamma Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "Delta RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "Alpha Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "Gamma Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Alpha Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Beta Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Gamma Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Delta Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "Beta Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "Alpha Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "Delta Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "Alpha Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "Alpha Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "Delta Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "Delta Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "Alpha Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "Gamma Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "Beta Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "Center Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "Center Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l10_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E2L11: Lunatic Fringe",
+        "access_rules": [
+          "ep2,e2l11_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e2l11_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Center Ring Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "Top Ledge Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "MP Center Ring Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "Bottom Ring Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "Center Ring RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "Bottom Ring Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "MP Center Ring Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "Center Ring Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "Top Ledge Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "Center Ring Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "Bottom Ring Tripmine",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "Top Ledge Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "MP Top Ledge Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "Center Ring Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "Center Ring Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "Bottom Ring Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "Bottom Ring Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "Center Ring Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "Center Top Atomic Health 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "Center Top Atomic Health 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep2,e2l11_unlock"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

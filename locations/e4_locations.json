@@ -1,0 +1,3497 @@
+[
+  {
+    "name": "Episode 4: The Birth",
+    "children": [
+      {
+        "name": "E4L1: It's Impossible",
+        "access_rules": [
+          "ep4,e4l1_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e4l1_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Basement Container Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Kitchen Freezer Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Cave Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Upper Canyon Ledge Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Red Basement Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Red Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Blue Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Basement Container Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Basement Container Tripmine 3",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Upper Canyon Ledge Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "MP Upper Canyon Ledge Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Cave Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Final Doors Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Upstairs Computer RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Bathroom Secret Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Briefing Room Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Briefing Room Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Bathroom Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "MP Outside Area Ledge Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "MP Outside Area Ledge Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Briefing Room Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Kitchen Conveyer Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Kitchen Secret Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Kitchen Secret Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Final Doors Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Exit Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Barracks Bed Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Barracks Bed Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          },
+          {
+            "name": "Secret Upstairs Computer",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Final Doors",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Kitchen Freezer",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Cave",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Bathroom",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Barracks Bed",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Upper Canyon Ledge",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l1_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E4L2: Duke-Burger",
+        "access_rules": [
+          "ep4,e4l2_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e4l2_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Slaughterhouse Tripmine",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Conveyer Upper RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Kitchen Vent Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Kitchen Vent Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Kitchen Vent Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Inside DB Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Dog Kennel Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Manager Room Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Manager Room Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Red Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Manager Room Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Kitchen Fryer Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Slaughterhouse Vent Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Outside Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Outside Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "MP Inside DB RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Kitchen Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Kitchen Corner Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Outside Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "MP Outside Sign Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Slaughterhouse Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Counter Burger Box Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Kitchen Burger Box Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Outside Sign Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Blue Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Kitchen Back Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Kitchen Back Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          },
+          {
+            "name": "Secret Dog Kennel",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Kitchen Vent",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Conveyer Upper",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Kitchen Back",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l2_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E4L3: Shop-N-Bag",
+        "access_rules": [
+          "ep4,e4l3_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e4l3_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "MP Seal Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Warehouse Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Openable Box Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Storage Upper Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Storage Upper Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Storage Upper Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "MP Blue Vent Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Blue Top Crate RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "MP Outside Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "MP Behind boxes RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Shop Corridor Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Blue Fruit Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Blue Fruit Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Blue Fruit Tripmine 3",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Storage Upper Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Shop Corridor Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Crate Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Cashier Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Warehouse Upper Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Exploding Box Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Blue Vent Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Blue Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Red Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Manager Office Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Blue Fruit Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Warehouse Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "MP Shop Blue Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "MP Red Storage Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Red Storage Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Manager Office Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Trash Comp Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Red Storage Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Trash Comp Protective Boots",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          },
+          {
+            "name": "Secret Exploding Box",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Shop Corridor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Yellow Cashier",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Storage Upper",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Openable Box",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Trash Comp",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Red Storage",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l3_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E4L4: Babe Land",
+        "access_rules": [
+          "ep4,e4l4_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e4l4_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Red Boat RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Red Boat Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Red Auction Protective Boots",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Red Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Red Upper 2 Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "MP Boat Top Protective Boots",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Castle Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Castle Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Castle Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Red Auction Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Red Auction Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Upper Main Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "MP Red Key Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Blue Area Hidden Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Blue Area Hidden Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Pool Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Pool Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Inside Boat Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Boat Top Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Castle Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Castle RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Castle Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Castle Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Castle Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Upper Pool Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Blue Area Back RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Upper Main Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Ticket Booth Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Duck Conveyor Atomic Health 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Duck Conveyor Atomic Health 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Blue Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Red Upper Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Castle Dive Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Castle Dive Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Castle Dive Scuba Gear",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Sky Secret Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Red Boat Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          },
+          {
+            "name": "Secret Blue Area Hidden Room",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Blue Explosion",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Sky",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Prison",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l4_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E4L5: Pigsty",
+        "access_rules": [
+          "ep4,e4l5_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e4l5_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Basement Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Basement Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Security Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Graffiti Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Graffiti Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Graffiti Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Graffiti RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "MP Yellow Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Basement Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Basement Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Basement Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Basement Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Upstairs RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Upstairs Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Bookshelf Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Red Area Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Poster Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Blue Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Telephone Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Bookshelf Chaingun 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Bookshelf Chaingun 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Bookshelf Chaingun 3",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Start Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Start Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Basement Blue Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "MP Hangout Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Start Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Upstairs Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Start Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "MP Security Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "MP Security Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Unreachable Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Red Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Secret Telephone",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Poster",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Bookshelf",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Graffiti",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Basement",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l5_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E4L6: Going Postal",
+        "access_rules": [
+          "ep4,e4l6_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e4l6_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Firetruck Protective Boots",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Firetruck Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Container Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Blue Vent Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Red Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Red Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Red Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Red Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Red Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Red Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Red Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Front Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Red Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Blue Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Locker Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Locker Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Behind Counter Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Blue Desk Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Blue Crates Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Conveyer Upper Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Blue Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Blue Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "MP Conveyer Upper Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Conveyer Upper Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Locker Crate Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Basement RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Locker Secret Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Blue Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Firetruck Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Blue Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Red Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Paw Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Blue Conveyer Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Locker Secret Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Front Vent Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          },
+          {
+            "name": "Secret Locker",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Blue Vent",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Firetruck",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Front Vent",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l6_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E4L7: XXX-Stacy",
+        "access_rules": [
+          "ep4,e4l7_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e4l7_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Crusher Scuba Gear",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Blue Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Crate Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "MP Front Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Blue Apt. Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Printer Trashcan Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Front Upper Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Front Upper Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Crusher RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Crusher Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Blue Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Cola Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Cola Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Blue Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Outside Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Front Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Front Protective Boots",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Blue Secret Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "MP Outside Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Blue Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Blue Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Blue Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Front Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "MP Blue Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Red Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Blue Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Blue Apt. Trashcan Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Blue Apt. RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          },
+          {
+            "name": "Secret Blue Area",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Crate",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Blue Appartment",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l7_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E4L8: Critical Mass",
+        "access_rules": [
+          "ep4,e4l8_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e4l8_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Warehouse Vent Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "MP Bookshelf Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Control Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Control Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Control Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Blue Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Homer Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Explosion Lower Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Explosion Lower Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Explosion Lower Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Explosion Lower Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Front Upper Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Warehouse Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Explosion Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Outside Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Warehouse Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Explosion Lower Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Storage Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Storage Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Explosion Lower Protective Boots",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Blue Dive Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Blue Upper Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Blue Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Blue Secret RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Storage Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Storage Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Red Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Explosion Lower Scuba Gear",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "MP Explosion RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "MP Outside Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          },
+          {
+            "name": "Secret Explosion Lower",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Homer",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Blue Area",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Blue Upper",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l8_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E4L9: Derelict",
+        "access_rules": [
+          "ep4,e4l9_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e4l9_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Kitchen Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Upper Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Crusher Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Captains Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Captains Atomic Health 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Captains Atomic Health 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Captains Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Captains Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Barracks Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "TV Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Blue Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Upper Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Crate Protective Boots",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Upper Deck Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Upper Deck Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Scan Room RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Outside Dive RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Upper Deck Atomic Health 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Upper Deck Atomic Health 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Ship Deck Scuba Gear",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "MP Outside Dive Jetpack 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "MP Outside Dive Jetpack 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "MP Yellow Final Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Ship Deck Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Upper Deck Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Low Deck Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Upper Deck Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Upper Deck Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Upper Deck Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Crate Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Crate Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Scan Room  Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Crate RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "MP Crate Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Low Deck Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Low Deck Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Big Crate Pipebombs 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Big Crate Pipebombs 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Big Crate Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Fire Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Next to Crusher Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Next to Crusher Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Red Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Protective Boots",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Water Tank Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Underwater Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "MP Yellow Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Dive Secret Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Dive Secret Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Dive Secret Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Dive Secret Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "TV Timed Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          },
+          {
+            "name": "Secret Crate",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret TV",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Captains Cabin",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Dive",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Kitchen",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l9_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E4L10: The Queen",
+        "access_rules": [
+          "ep4,e4l10_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e4l10_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "R-Side Dive Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "DukeTag R-Side Protective Boots",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "DukeTag L-Side Protective Boots",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Dive Atomic Health 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Start Shotgun 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Start Shotgun 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Start Shotgun 3",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Start Shotgun 4",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "L-Side Vent Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Center Pipebombs 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Center Pipebombs 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Queen Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Queen Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Queen Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "L-Side Scuba Gear",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "R-Side Protective Boots",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "L-Side Dive Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "L-Side Dive Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Center Devastator 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Red Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "R-Side RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "DukeTag R-Side Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "L-Side RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Lobby Shotgun 4",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Lobby Shotgun 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Lobby Shotgun 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Lobby Shotgun 3",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "DukeTag L-Side Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Center Devastator 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Lobby Pipebombs 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Lobby Shotgun 5",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Lobby Shotgun 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Blue Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Blue Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Red Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "R-Side Dive Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "R-Side Dive Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "L-Side Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "R-Side Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Dive Atomic Health 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Pillar 1 Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Pillar 3 Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Pillar 4 Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Pillar 2 Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Lobby Pipebombs 4",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Lobby Pipebombs 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Lobby Pipebombs 3",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Lobby Chaingun 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "MP Lobby Chaingun 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Lobby Chaingun 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Lobby Chaingun 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "L-Side Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "R-Side Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "DukeTag RPG 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "DukeTag RPG 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "R-Side Vent Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          },
+          {
+            "name": "Secret Pillar 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Pillar 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Pillar 3",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Pillar 4",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret L-Side Vent",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret R-Side Vent",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Queens Chamber",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l10_unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E4L11: Area 51",
+        "access_rules": [
+          "ep4,e4l11_unlock"
+        ],
+        "map_locations": [
+          {
+            "map": "e4l11_map",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "UFO Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Vent Entrance Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "MP Outside Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "MP Blue Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "MP Red Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Elevator Drop Devastator",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Cave Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Blue Night Vision Goggles",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Outside Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Crate Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Lake Pipebombs",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Blue Tripmine 1",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Blue Tripmine 2",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Blue Holo Duke",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Symbol Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Corner Steroids",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Blue Tripmine 3",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Blue Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "MP Freezer Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Crate Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Tele Cave Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Vent Secret Atomic Health",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Blue Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Bunker Chaingun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Red Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Vent Entrance Armor",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Conveyer Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Conveyer Shrinker",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "MP Cave Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Bridge RPG",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Red Shotgun",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Elevator Drop Medkit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Crate Scuba Gear",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Table Freezethrower",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Yellow Key Card",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          },
+          {
+            "name": "Secret Symbol",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Corner",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Crate",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Vent",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Bridge",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret Lake",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Secret UFO",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock,secrets"
+            ]
+          },
+          {
+            "name": "Exit",
+            "item_count": 1,
+            "access_rules": [
+              "ep4,e4l11_unlock"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

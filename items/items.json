@@ -1,0 +1,1559 @@
+[
+  {
+    "name": "Blank",
+    "type": "static",
+    "img": "images/blank.png",
+    "codes": "_"
+  },
+  {
+    "name": "Episode 1",
+    "type": "toggle",
+    "img": "images/blank.png",
+    "codes": "ep1"
+  },
+  {
+    "name": "Episode 2",
+    "type": "toggle",
+    "img": "images/blank.png",
+    "codes": "ep2"
+  },
+  {
+    "name": "Episode 3",
+    "type": "toggle",
+    "img": "images/blank.png",
+    "codes": "ep3"
+  },
+  {
+    "name": "Episode 4",
+    "type": "toggle",
+    "img": "images/blank.png",
+    "codes": "ep4"
+  },
+  {
+    "name": "Include Secrets",
+    "type": "toggle",
+    "img": "images/blank.png",
+    "codes": "secrets"
+  },
+  {
+    "name": "Unlock Abilities",
+    "type": "toggle",
+    "img": "images/blank.png",
+    "codes": "ab_locked"
+  },
+  {
+    "name": "Unlock Interact",
+    "type": "toggle",
+    "img": "images/blank.png",
+    "codes": "int_locked"
+  },
+  {
+    "name": "Area Maps Unlockable",
+    "type": "toggle",
+    "img": "images/blank.png",
+    "codes": "maps_unlockable"
+  },
+  {
+    "name": "E1L7 Enabled",
+    "type": "toggle",
+    "img": "images/blank.png",
+    "codes": "e1l7_enabled"
+  },
+  {
+    "name": "Exits",
+    "type": "consumable",
+    "img": "images/goal_exit.png",
+    "codes": "goal_exit,d3d_2977761380",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Secrets",
+    "type": "consumable",
+    "img": "images/goal_secret.png",
+    "codes": "goal_secret,d3d_2977761381",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Bosses",
+    "type": "consumable",
+    "img": "images/goal_boss.png",
+    "codes": "goal_boss,d3d_2977761382",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Pistol Capacity",
+    "type": "consumable",
+    "img": "images/pistol.png",
+    "codes": "pistol_capacity,d3d_2977761501",
+    "max_quantity": 10,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Progressive Pistol",
+    "type": "progressive",
+    "img": "images/pistol.png",
+    "codes": "progressive_pistol,d3d_2977761521"
+  },
+  {
+    "name": "Pistol Ammo",
+    "type": "consumable",
+    "img": "images/pistol_ammo.png",
+    "codes": "pistol_ammo,d3d_2977761541",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Shotgun",
+    "type": "toggle",
+    "img": "images/shotgun.png",
+    "codes": "shotgun,d3d_2977761482"
+  },
+  {
+    "name": "Shotgun Capacity",
+    "type": "consumable",
+    "img": "images/shotgun.png",
+    "codes": "shotgun_capacity,d3d_2977761502",
+    "max_quantity": 10,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Progressive Shotgun",
+    "type": "progressive",
+    "img": "images/shotgun.png",
+    "codes": "progressive_shotgun,d3d_2977761522"
+  },
+  {
+    "name": "Shotgun Ammo",
+    "type": "consumable",
+    "img": "images/shotgun_ammo.png",
+    "codes": "shotgun_ammo,d3d_2977761542",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Chaingun",
+    "type": "toggle",
+    "img": "images/chaingun.png",
+    "codes": "chaingun,d3d_2977761483"
+  },
+  {
+    "name": "Chaingun Capacity",
+    "type": "consumable",
+    "img": "images/chaingun.png",
+    "codes": "chaingun_capacity,d3d_2977761503",
+    "max_quantity": 10,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Progressive Chaingun",
+    "type": "progressive",
+    "img": "images/chaingun.png",
+    "codes": "progressive_chaingun,d3d_2977761523"
+  },
+  {
+    "name": "Chaingun Ammo",
+    "type": "consumable",
+    "img": "images/chaingun_ammo.png",
+    "codes": "chaingun_ammo,d3d_2977761543",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "RPG",
+    "type": "toggle",
+    "img": "images/rpg.png",
+    "codes": "rpg,d3d_2977761484"
+  },
+  {
+    "name": "RPG Capacity",
+    "type": "consumable",
+    "img": "images/rpg.png",
+    "codes": "rpg_capacity,d3d_2977761504",
+    "max_quantity": 10,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Progressive RPG",
+    "type": "progressive",
+    "img": "images/rpg.png",
+    "codes": "progressive_rpg,d3d_2977761524"
+  },
+  {
+    "name": "RPG Ammo",
+    "type": "consumable",
+    "img": "images/rpg_ammo.png",
+    "codes": "rpg_ammo,d3d_2977761544",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Pipebomb",
+    "type": "toggle",
+    "img": "images/pipebomb.png",
+    "codes": "pipebomb,d3d_2977761485"
+  },
+  {
+    "name": "Pipebomb Capacity",
+    "type": "consumable",
+    "img": "images/pipebomb.png",
+    "codes": "pipebomb_capacity,d3d_2977761505",
+    "max_quantity": 10,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Progressive Pipebomb",
+    "type": "progressive",
+    "img": "images/pipebomb.png",
+    "codes": "progressive_pipebomb,d3d_2977761525"
+  },
+  {
+    "name": "Pipebomb Ammo",
+    "type": "consumable",
+    "img": "images/pipebomb_ammo.png",
+    "codes": "pipebomb_ammo,d3d_2977761545",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Shrinker",
+    "type": "toggle",
+    "img": "images/shrinker.png",
+    "codes": "shrinker,d3d_2977761486"
+  },
+  {
+    "name": "Shrinker Capacity",
+    "type": "consumable",
+    "img": "images/shrinker.png",
+    "codes": "shrinker_capacity,d3d_2977761506",
+    "max_quantity": 10,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Progressive Shrinker",
+    "type": "progressive",
+    "img": "images/shrinker.png",
+    "codes": "progressive_shrinker,d3d_2977761526"
+  },
+  {
+    "name": "Shrinker Ammo",
+    "type": "consumable",
+    "img": "images/shrinker_ammo.png",
+    "codes": "shrinker_ammo,d3d_2977761546",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Devastator",
+    "type": "toggle",
+    "img": "images/devastator.png",
+    "codes": "devastator,d3d_2977761487"
+  },
+  {
+    "name": "Devastator Capacity",
+    "type": "consumable",
+    "img": "images/devastator.png",
+    "codes": "devastator_capacity,d3d_2977761507",
+    "max_quantity": 10,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Progressive Devastator",
+    "type": "progressive",
+    "img": "images/devastator.png",
+    "codes": "progressive_devastator,d3d_2977761527"
+  },
+  {
+    "name": "Devastator Ammo",
+    "type": "consumable",
+    "img": "images/devastator_ammo.png",
+    "codes": "devastator_ammo,d3d_2977761547",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Tripmine",
+    "type": "toggle",
+    "img": "images/tripmine.png",
+    "codes": "tripmine,d3d_2977761488"
+  },
+  {
+    "name": "Tripmine Capacity",
+    "type": "consumable",
+    "img": "images/tripmine.png",
+    "codes": "tripmine_capacity,d3d_2977761508",
+    "max_quantity": 10,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Progressive Tripmine",
+    "type": "progressive",
+    "img": "images/tripmine.png",
+    "codes": "progressive_tripmine,d3d_2977761528"
+  },
+  {
+    "name": "Tripmine Ammo",
+    "type": "consumable",
+    "img": "images/tripmine_ammo.png",
+    "codes": "tripmine_ammo,d3d_2977761548",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Freezethrower",
+    "type": "toggle",
+    "img": "images/freezethrower.png",
+    "codes": "freezethrower,d3d_2977761489"
+  },
+  {
+    "name": "Freezethrower Capacity",
+    "type": "consumable",
+    "img": "images/freezethrower.png",
+    "codes": "freezethrower_capacity,d3d_2977761509",
+    "max_quantity": 10,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Progressive Freezethrower",
+    "type": "progressive",
+    "img": "images/freezethrower.png",
+    "codes": "progressive_freezethrower,d3d_2977761529"
+  },
+  {
+    "name": "Freezethrower Ammo",
+    "type": "consumable",
+    "img": "images/freezethrower_ammo.png",
+    "codes": "freezethrower_ammo,d3d_2977761549",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Expander",
+    "type": "toggle",
+    "img": "images/expander.png",
+    "codes": "expander,d3d_2977761491"
+  },
+  {
+    "name": "Expander Capacity",
+    "type": "consumable",
+    "img": "images/expander.png",
+    "codes": "expander_capacity,d3d_2977761511",
+    "max_quantity": 10,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Progressive Expander",
+    "type": "progressive",
+    "img": "images/expander.png",
+    "codes": "progressive_expander,d3d_2977761531"
+  },
+  {
+    "name": "Expander Ammo",
+    "type": "consumable",
+    "img": "images/expander_ammo.png",
+    "codes": "expander_ammo,d3d_2977761551",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Steroids",
+    "type": "toggle",
+    "img": "images/steroids.png",
+    "codes": "steroids,d3d_2977761580"
+  },
+  {
+    "name": "Steroids Capacity",
+    "type": "consumable",
+    "img": "images/steroids.png",
+    "codes": "steroids_capacity,d3d_2977761600",
+    "max_quantity": 10,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Progressive Steroids",
+    "type": "progressive",
+    "img": "images/steroids.png",
+    "codes": "progressive_steroids,d3d_2977761620"
+  },
+  {
+    "name": "Scuba Gear",
+    "type": "toggle",
+    "img": "images/scuba_gear.png",
+    "codes": "scuba_gear,d3d_2977761582"
+  },
+  {
+    "name": "Scuba Gear Capacity",
+    "type": "consumable",
+    "img": "images/scuba_gear.png",
+    "codes": "scuba_gear_capacity,d3d_2977761602",
+    "max_quantity": 10,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Progressive Scuba Gear",
+    "type": "progressive",
+    "img": "images/scuba_gear.png",
+    "codes": "progressive_scuba_gear,d3d_2977761622"
+  },
+  {
+    "name": "Jetpack",
+    "type": "toggle",
+    "img": "images/jetpack.png",
+    "codes": "jetpack,d3d_2977761584"
+  },
+  {
+    "name": "Jetpack Capacity",
+    "type": "consumable",
+    "img": "images/jetpack.png",
+    "codes": "jetpack_capacity,d3d_2977761604",
+    "max_quantity": 10,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Progressive Jetpack",
+    "type": "progressive",
+    "img": "images/jetpack.png",
+    "codes": "progressive_jetpack,d3d_2977761624"
+  },
+  {
+    "name": "Holo Duke",
+    "type": "consumable",
+    "img": "images/holo_duke.png",
+    "codes": "holo_duke,d3d_2977761583",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Night Vision Goggles",
+    "type": "consumable",
+    "img": "images/night_vision_goggles.png",
+    "codes": "night_vision_goggles,d3d_2977761587",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "First Aid Kit",
+    "type": "consumable",
+    "img": "images/first_aid_kit.png",
+    "codes": "first_aid_kit,d3d_2977761589",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Protective Boots",
+    "type": "consumable",
+    "img": "images/protective_boots.png",
+    "codes": "protective_boots,d3d_2977761590",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Armor",
+    "type": "consumable",
+    "img": "images/armor.png",
+    "codes": "armor,d3d_2977761581",
+    "max_quantity": 10,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Sturdy Armor",
+    "type": "consumable",
+    "img": "images/sturdy_armor.png",
+    "codes": "sturdy_armor,d3d_2977761601",
+    "max_quantity": 10,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Heavy Armor",
+    "type": "consumable",
+    "img": "images/heavy_armor.png",
+    "codes": "heavy_armor,d3d_2977761621",
+    "max_quantity": 10,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Jump",
+    "type": "toggle",
+    "img": "images/jump.png",
+    "codes": "jump,d3d_2977761630"
+  },
+  {
+    "name": "Dive",
+    "type": "toggle",
+    "img": "images/dive.png",
+    "codes": "dive,d3d_2977761631"
+  },
+  {
+    "name": "Crouch",
+    "type": "toggle",
+    "img": "images/crouch.png",
+    "codes": "crouch,d3d_2977761632"
+  },
+  {
+    "name": "Sprint",
+    "type": "toggle",
+    "img": "images/sprint.png",
+    "codes": "sprint,d3d_2977761633"
+  },
+  {
+    "name": "Open",
+    "type": "toggle",
+    "img": "images/open.png",
+    "codes": "open,d3d_2977761634"
+  },
+  {
+    "name": "Use",
+    "type": "toggle",
+    "img": "images/use.png",
+    "codes": "use,d3d_2977761635"
+  },
+  {
+    "name": "Atomic Health",
+    "type": "consumable",
+    "img": "images/atomic_health.png",
+    "codes": "atomic_health,d3d_2977761680",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Medpak",
+    "type": "consumable",
+    "img": "images/medpak.png",
+    "codes": "medpak,d3d_2977761681",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Bandage",
+    "type": "consumable",
+    "img": "images/bandage.png",
+    "codes": "bandage,d3d_2977761682",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Pity Heal",
+    "type": "consumable",
+    "img": "images/pity_heal.png",
+    "codes": "pity_heal,d3d_2977761683",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Ego Boost",
+    "type": "consumable",
+    "img": "images/ego_boost.png",
+    "codes": "ego_boost,d3d_2977761684",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Buff Up",
+    "type": "consumable",
+    "img": "images/buff_up.png",
+    "codes": "buff_up,d3d_2977761685",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Plutonium Health",
+    "type": "consumable",
+    "img": "images/plutonium_health.png",
+    "codes": "plutonium_health,d3d_2977761686",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Uranium Health",
+    "type": "consumable",
+    "img": "images/uranium_health.png",
+    "codes": "uranium_health,d3d_2977761687",
+    "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "E1L1 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e1l1_automap,d3d_2977762880"
+  },
+  {
+    "name": "E1L1 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e1l1_unlock,d3d_2977762980"
+  },
+  {
+    "name": "E1L1 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e1l1_red_key,d3d_2977763080"
+  },
+  {
+    "name": "E1L2 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e1l2_automap,d3d_2977762881"
+  },
+  {
+    "name": "E1L2 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e1l2_unlock,d3d_2977762981"
+  },
+  {
+    "name": "E1L2 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e1l2_blue_key,d3d_2977763081"
+  },
+  {
+    "name": "E1L2 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e1l2_red_key,d3d_2977763082"
+  },
+  {
+    "name": "E1L2 Yellow Key Card",
+    "type": "toggle",
+    "img": "images/key_yellow.png",
+    "codes": "e1l2_yellow_key,d3d_2977763083"
+  },
+  {
+    "name": "E1L3 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e1l3_automap,d3d_2977762882"
+  },
+  {
+    "name": "E1L3 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e1l3_unlock,d3d_2977762982"
+  },
+  {
+    "name": "E1L3 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e1l3_blue_key,d3d_2977763084"
+  },
+  {
+    "name": "E1L3 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e1l3_red_key,d3d_2977763085"
+  },
+  {
+    "name": "E1L3 Yellow Key Card",
+    "type": "toggle",
+    "img": "images/key_yellow.png",
+    "codes": "e1l3_yellow_key,d3d_2977763086"
+  },
+  {
+    "name": "E1L4 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e1l4_automap,d3d_2977762883"
+  },
+  {
+    "name": "E1L4 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e1l4_unlock,d3d_2977762983"
+  },
+  {
+    "name": "E1L4 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e1l4_blue_key,d3d_2977763087"
+  },
+  {
+    "name": "E1L4 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e1l4_red_key,d3d_2977763088"
+  },
+  {
+    "name": "E1L5 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e1l5_automap,d3d_2977762884"
+  },
+  {
+    "name": "E1L5 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e1l5_unlock,d3d_2977762984"
+  },
+  {
+    "name": "E1L5 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e1l5_blue_key,d3d_2977763089"
+  },
+  {
+    "name": "E1L6 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e1l6_automap,d3d_2977762885"
+  },
+  {
+    "name": "E1L6 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e1l6_unlock,d3d_2977762985"
+  },
+  {
+    "name": "E1L6 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e1l6_blue_key,d3d_2977763090"
+  },
+  {
+    "name": "E1L6 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e1l6_red_key,d3d_2977763091"
+  },
+  {
+    "name": "E1L7 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e1l7_automap,d3d_2977762886"
+  },
+  {
+    "name": "E1L7 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e1l7_unlock,d3d_2977762986"
+  },
+  {
+    "name": "E1L7 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e1l7_blue_key,d3d_2977763092"
+  },
+  {
+    "name": "E2L1 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e2l1_automap,d3d_2977762887"
+  },
+  {
+    "name": "E2L1 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e2l1_unlock,d3d_2977762987"
+  },
+  {
+    "name": "E2L1 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e2l1_blue_key,d3d_2977763093"
+  },
+  {
+    "name": "E2L1 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e2l1_red_key,d3d_2977763094"
+  },
+  {
+    "name": "E2L2 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e2l2_automap,d3d_2977762888"
+  },
+  {
+    "name": "E2L2 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e2l2_unlock,d3d_2977762988"
+  },
+  {
+    "name": "E2L2 Yellow Key Card",
+    "type": "toggle",
+    "img": "images/key_yellow.png",
+    "codes": "e2l2_yellow_key,d3d_2977763095"
+  },
+  {
+    "name": "E2L3 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e2l3_automap,d3d_2977762889"
+  },
+  {
+    "name": "E2L3 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e2l3_unlock,d3d_2977762989"
+  },
+  {
+    "name": "E2L3 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e2l3_blue_key,d3d_2977763096"
+  },
+  {
+    "name": "E2L3 Yellow Key Card",
+    "type": "toggle",
+    "img": "images/key_yellow.png",
+    "codes": "e2l3_yellow_key,d3d_2977763097"
+  },
+  {
+    "name": "E2L4 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e2l4_automap,d3d_2977762890"
+  },
+  {
+    "name": "E2L4 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e2l4_unlock,d3d_2977762990"
+  },
+  {
+    "name": "E2L5 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e2l5_automap,d3d_2977762891"
+  },
+  {
+    "name": "E2L5 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e2l5_unlock,d3d_2977762991"
+  },
+  {
+    "name": "E2L5 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e2l5_blue_key,d3d_2977763098"
+  },
+  {
+    "name": "E2L5 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e2l5_red_key,d3d_2977763099"
+  },
+  {
+    "name": "E2L6 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e2l6_automap,d3d_2977762892"
+  },
+  {
+    "name": "E2L6 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e2l6_unlock,d3d_2977762992"
+  },
+  {
+    "name": "E2L6 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e2l6_blue_key,d3d_2977763100"
+  },
+  {
+    "name": "E2L6 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e2l6_red_key,d3d_2977763101"
+  },
+  {
+    "name": "E2L7 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e2l7_automap,d3d_2977762893"
+  },
+  {
+    "name": "E2L7 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e2l7_unlock,d3d_2977762993"
+  },
+  {
+    "name": "E2L7 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e2l7_blue_key,d3d_2977763102"
+  },
+  {
+    "name": "E2L7 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e2l7_red_key,d3d_2977763103"
+  },
+  {
+    "name": "E2L7 Yellow Key Card",
+    "type": "toggle",
+    "img": "images/key_yellow.png",
+    "codes": "e2l7_yellow_key,d3d_2977763104"
+  },
+  {
+    "name": "E2L8 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e2l8_automap,d3d_2977762894"
+  },
+  {
+    "name": "E2L8 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e2l8_unlock,d3d_2977762994"
+  },
+  {
+    "name": "E2L8 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e2l8_blue_key,d3d_2977763105"
+  },
+  {
+    "name": "E2L8 Yellow Key Card",
+    "type": "toggle",
+    "img": "images/key_yellow.png",
+    "codes": "e2l8_yellow_key,d3d_2977763106"
+  },
+  {
+    "name": "E2L9 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e2l9_automap,d3d_2977762895"
+  },
+  {
+    "name": "E2L9 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e2l9_unlock,d3d_2977762995"
+  },
+  {
+    "name": "E2L10 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e2l10_automap,d3d_2977762896"
+  },
+  {
+    "name": "E2L10 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e2l10_unlock,d3d_2977762996"
+  },
+  {
+    "name": "E2L11 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e2l11_automap,d3d_2977762897"
+  },
+  {
+    "name": "E2L11 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e2l11_unlock,d3d_2977762997"
+  },
+  {
+    "name": "E3L1 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e3l1_automap,d3d_2977762898"
+  },
+  {
+    "name": "E3L1 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e3l1_unlock,d3d_2977762998"
+  },
+  {
+    "name": "E3L1 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e3l1_blue_key,d3d_2977763107"
+  },
+  {
+    "name": "E3L1 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e3l1_red_key,d3d_2977763108"
+  },
+  {
+    "name": "E3L2 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e3l2_automap,d3d_2977762899"
+  },
+  {
+    "name": "E3L2 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e3l2_unlock,d3d_2977762999"
+  },
+  {
+    "name": "E3L2 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e3l2_blue_key,d3d_2977763109"
+  },
+  {
+    "name": "E3L2 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e3l2_red_key,d3d_2977763110"
+  },
+  {
+    "name": "E3L3 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e3l3_automap,d3d_2977762900"
+  },
+  {
+    "name": "E3L3 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e3l3_unlock,d3d_2977763000"
+  },
+  {
+    "name": "E3L3 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e3l3_blue_key,d3d_2977763111"
+  },
+  {
+    "name": "E3L3 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e3l3_red_key,d3d_2977763112"
+  },
+  {
+    "name": "E3L3 Yellow Key Card",
+    "type": "toggle",
+    "img": "images/key_yellow.png",
+    "codes": "e3l3_yellow_key,d3d_2977763113"
+  },
+  {
+    "name": "E3L4 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e3l4_automap,d3d_2977762901"
+  },
+  {
+    "name": "E3L4 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e3l4_unlock,d3d_2977763001"
+  },
+  {
+    "name": "E3L4 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e3l4_blue_key,d3d_2977763114"
+  },
+  {
+    "name": "E3L4 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e3l4_red_key,d3d_2977763115"
+  },
+  {
+    "name": "E3L5 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e3l5_automap,d3d_2977762902"
+  },
+  {
+    "name": "E3L5 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e3l5_unlock,d3d_2977763002"
+  },
+  {
+    "name": "E3L5 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e3l5_blue_key,d3d_2977763116"
+  },
+  {
+    "name": "E3L5 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e3l5_red_key,d3d_2977763117"
+  },
+  {
+    "name": "E3L5 Yellow Key Card",
+    "type": "toggle",
+    "img": "images/key_yellow.png",
+    "codes": "e3l5_yellow_key,d3d_2977763118"
+  },
+  {
+    "name": "E3L6 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e3l6_automap,d3d_2977762903"
+  },
+  {
+    "name": "E3L6 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e3l6_unlock,d3d_2977763003"
+  },
+  {
+    "name": "E3L6 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e3l6_blue_key,d3d_2977763119"
+  },
+  {
+    "name": "E3L6 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e3l6_red_key,d3d_2977763120"
+  },
+  {
+    "name": "E3L7 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e3l7_automap,d3d_2977762904"
+  },
+  {
+    "name": "E3L7 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e3l7_unlock,d3d_2977763004"
+  },
+  {
+    "name": "E3L7 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e3l7_blue_key,d3d_2977763121"
+  },
+  {
+    "name": "E3L7 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e3l7_red_key,d3d_2977763122"
+  },
+  {
+    "name": "E3L7 Yellow Key Card",
+    "type": "toggle",
+    "img": "images/key_yellow.png",
+    "codes": "e3l7_yellow_key,d3d_2977763123"
+  },
+  {
+    "name": "E3L8 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e3l8_automap,d3d_2977762905"
+  },
+  {
+    "name": "E3L8 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e3l8_unlock,d3d_2977763005"
+  },
+  {
+    "name": "E3L8 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e3l8_blue_key,d3d_2977763124"
+  },
+  {
+    "name": "E3L8 Yellow Key Card",
+    "type": "toggle",
+    "img": "images/key_yellow.png",
+    "codes": "e3l8_yellow_key,d3d_2977763125"
+  },
+  {
+    "name": "E3L9 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e3l9_automap,d3d_2977762906"
+  },
+  {
+    "name": "E3L9 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e3l9_unlock,d3d_2977763006"
+  },
+  {
+    "name": "E3L10 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e3l10_automap,d3d_2977762907"
+  },
+  {
+    "name": "E3L10 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e3l10_unlock,d3d_2977763007"
+  },
+  {
+    "name": "E3L11 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e3l11_automap,d3d_2977762908"
+  },
+  {
+    "name": "E3L11 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e3l11_unlock,d3d_2977763008"
+  },
+  {
+    "name": "E3L11 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e3l11_blue_key,d3d_2977763126"
+  },
+  {
+    "name": "E3L11 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e3l11_red_key,d3d_2977763127"
+  },
+  {
+    "name": "E4L1 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e4l1_automap,d3d_2977762909"
+  },
+  {
+    "name": "E4L1 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e4l1_unlock,d3d_2977763009"
+  },
+  {
+    "name": "E4L1 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e4l1_blue_key,d3d_2977763128"
+  },
+  {
+    "name": "E4L1 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e4l1_red_key,d3d_2977763129"
+  },
+  {
+    "name": "E4L2 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e4l2_automap,d3d_2977762910"
+  },
+  {
+    "name": "E4L2 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e4l2_unlock,d3d_2977763010"
+  },
+  {
+    "name": "E4L2 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e4l2_blue_key,d3d_2977763130"
+  },
+  {
+    "name": "E4L2 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e4l2_red_key,d3d_2977763131"
+  },
+  {
+    "name": "E4L3 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e4l3_automap,d3d_2977762911"
+  },
+  {
+    "name": "E4L3 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e4l3_unlock,d3d_2977763011"
+  },
+  {
+    "name": "E4L3 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e4l3_blue_key,d3d_2977763132"
+  },
+  {
+    "name": "E4L3 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e4l3_red_key,d3d_2977763133"
+  },
+  {
+    "name": "E4L3 Yellow Key Card",
+    "type": "toggle",
+    "img": "images/key_yellow.png",
+    "codes": "e4l3_yellow_key,d3d_2977763134"
+  },
+  {
+    "name": "E4L4 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e4l4_automap,d3d_2977762912"
+  },
+  {
+    "name": "E4L4 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e4l4_unlock,d3d_2977763012"
+  },
+  {
+    "name": "E4L4 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e4l4_blue_key,d3d_2977763135"
+  },
+  {
+    "name": "E4L4 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e4l4_red_key,d3d_2977763136"
+  },
+  {
+    "name": "E4L5 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e4l5_automap,d3d_2977762913"
+  },
+  {
+    "name": "E4L5 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e4l5_unlock,d3d_2977763013"
+  },
+  {
+    "name": "E4L5 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e4l5_blue_key,d3d_2977763137"
+  },
+  {
+    "name": "E4L5 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e4l5_red_key,d3d_2977763138"
+  },
+  {
+    "name": "E4L5 Yellow Key Card",
+    "type": "toggle",
+    "img": "images/key_yellow.png",
+    "codes": "e4l5_yellow_key,d3d_2977763139"
+  },
+  {
+    "name": "E4L6 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e4l6_automap,d3d_2977762914"
+  },
+  {
+    "name": "E4L6 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e4l6_unlock,d3d_2977763014"
+  },
+  {
+    "name": "E4L6 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e4l6_blue_key,d3d_2977763140"
+  },
+  {
+    "name": "E4L6 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e4l6_red_key,d3d_2977763141"
+  },
+  {
+    "name": "E4L6 Yellow Key Card",
+    "type": "toggle",
+    "img": "images/key_yellow.png",
+    "codes": "e4l6_yellow_key,d3d_2977763142"
+  },
+  {
+    "name": "E4L7 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e4l7_automap,d3d_2977762915"
+  },
+  {
+    "name": "E4L7 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e4l7_unlock,d3d_2977763015"
+  },
+  {
+    "name": "E4L7 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e4l7_blue_key,d3d_2977763143"
+  },
+  {
+    "name": "E4L7 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e4l7_red_key,d3d_2977763144"
+  },
+  {
+    "name": "E4L8 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e4l8_automap,d3d_2977762916"
+  },
+  {
+    "name": "E4L8 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e4l8_unlock,d3d_2977763016"
+  },
+  {
+    "name": "E4L8 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e4l8_blue_key,d3d_2977763145"
+  },
+  {
+    "name": "E4L8 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e4l8_red_key,d3d_2977763146"
+  },
+  {
+    "name": "E4L8 Yellow Key Card",
+    "type": "toggle",
+    "img": "images/key_yellow.png",
+    "codes": "e4l8_yellow_key,d3d_2977763147"
+  },
+  {
+    "name": "E4L9 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e4l9_automap,d3d_2977762917"
+  },
+  {
+    "name": "E4L9 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e4l9_unlock,d3d_2977763017"
+  },
+  {
+    "name": "E4L9 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e4l9_blue_key,d3d_2977763148"
+  },
+  {
+    "name": "E4L9 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e4l9_red_key,d3d_2977763149"
+  },
+  {
+    "name": "E4L9 Yellow Key Card",
+    "type": "toggle",
+    "img": "images/key_yellow.png",
+    "codes": "e4l9_yellow_key,d3d_2977763150"
+  },
+  {
+    "name": "E4L10 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e4l10_automap,d3d_2977762918"
+  },
+  {
+    "name": "E4L10 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e4l10_unlock,d3d_2977763018"
+  },
+  {
+    "name": "E4L10 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e4l10_blue_key,d3d_2977763151"
+  },
+  {
+    "name": "E4L10 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e4l10_red_key,d3d_2977763152"
+  },
+  {
+    "name": "E4L10 Yellow Key Card",
+    "type": "toggle",
+    "img": "images/key_yellow.png",
+    "codes": "e4l10_yellow_key,d3d_2977763153"
+  },
+  {
+    "name": "E4L11 Automap",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "e4l11_automap,d3d_2977762919"
+  },
+  {
+    "name": "E4L11 Unlock",
+    "type": "toggle",
+    "img": "images/unlock.png",
+    "codes": "e4l11_unlock,d3d_2977763019"
+  },
+  {
+    "name": "E4L11 Blue Key Card",
+    "type": "toggle",
+    "img": "images/key_blue.png",
+    "codes": "e4l11_blue_key,d3d_2977763154"
+  },
+  {
+    "name": "E4L11 Red Key Card",
+    "type": "toggle",
+    "img": "images/key_red.png",
+    "codes": "e4l11_red_key,d3d_2977763155"
+  },
+  {
+    "name": "E4L11 Yellow Key Card",
+    "type": "toggle",
+    "img": "images/key_yellow.png",
+    "codes": "e4l11_yellow_key,d3d_2977763156"
+  }
+]
