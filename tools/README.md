@@ -142,6 +142,40 @@ python3 tools/gen_pack_data.py
 - Sector centroids are computed as the unweighted average of the sector's wall vertices. For non-convex sectors the pin can land outside the sector polygon; close enough for a tracker pin.
 - Map version 7 only (Duke3D Atomic). Build engine has older versions floating around but Duke3D-AP only supports Atomic.
 
+### Calibration mode (use a manual map image instead of the vector render)
+
+If the vector look isn't for you and you'd rather use top-downs from a wiki or atlas, calibrate per-level:
+
+```sh
+# 1) Generate a starter calibration JSON
+tools/gen_maps.py --init-calibration --grp ~/Documents/Duke3D/duke3d.grp
+
+# 2) Drop your manual map PNGs into images/eXlY_map.png (overwriting
+#    whatever vector renders are there)
+
+# 3) Open each manual image in any tool that shows pixel coords on hover
+#    (GIMP, Pixelmator, Affinity, VS Code's image-preview cursor, etc.)
+#    For each level, find the three reference sprites named in
+#    tools/map_calibration.json and write their pixel positions into
+#    image_xy.
+
+# 4) Re-run; default mode now picks up calibration:
+tools/gen_maps.py --grp ~/Documents/Duke3D/duke3d.grp
+
+# 5) Bake the new pin coordinates into locations:
+python3 tools/gen_pack_data.py
+```
+
+Each calibrated level computes a 6-DoF affine transform from the three (world_xy, image_xy) pairs (least-squares; supports any uniform rotation, scaling, or shear) and applies it to all 1608 sprite/sector locations to produce pixel coords aligned with the manual image. The vector renderer is skipped for calibrated levels — your manual PNG is preserved.
+
+Mix-and-match works: any level without a filled-in calibration entry falls back to the vector render. Useful if you only have manual images for a subset.
+
+**Tips for picking pixel coords accurately**
+
+- Zoom in on the image editor — even a few pixels off translates to noticeable pin drift.
+- Pick distinctive sprites the manual image clearly shows. The auto-picker chooses three that span the map so a small per-point error doesn't propagate badly.
+- If the resulting pins are slightly off, edit any reference point's `image_xy` and re-run — recomputation is instant.
+
 ---
 
 ## `gen_placeholders.py`

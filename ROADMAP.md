@@ -17,7 +17,9 @@ Living list of what's shipped, what's next, and what's deliberately deferred. Up
 
 Polish pass focused on real visual tracking and tighter logic.
 
-- **Per-level top-down maps + pin coordinates.** Run [`tools/gen_maps.py`](tools/gen_maps.py) against your local `duke3d.grp`; it parses each `.MAP` file directly, renders a vector top-down PNG for every level, and emits accurate sprite/sector pin coordinates. Then re-run `gen_pack_data.py` to bake pins into `locations/eN_locations.json`.
+- **Per-level top-down maps + pin coordinates.** Two paths, both driven by [`tools/gen_maps.py`](tools/gen_maps.py):
+  - **Vector renders (default)**: parse each `.MAP` file from `duke3d.grp` and render a wireframe top-down PNG plus accurate sprite/sector pin coordinates. Already wired; run `tools/gen_maps.py --grp <path>` then `python3 tools/gen_pack_data.py`.
+  - **Manual / wiki images via calibration**: drop your own per-level PNGs into `images/eXlY_map.png`, then run `tools/gen_maps.py --init-calibration` to generate `tools/map_calibration.json` with three auto-picked reference sprites per level. Fill in pixel coords in any image editor that shows cursor position, re-run `gen_maps.py`, and a 3-point affine transform produces pins aligned to your manual images. Mix and match per-level. Full workflow in [`tools/README.md`](tools/README.md#calibration-mode-use-a-manual-map-image-instead-of-the-vector-render).
 - **Per-key access_rules gating.** Heuristic first pass: any location whose name mentions a door / colour gates on the matching key card. Cleaner second pass: encode the apworld's region requirements per level.
 - **Dynamic goal target display.** Replace the static `X/99` badge with a text-label widget that reads `GOAL_TARGETS` and renders `X / <slot target>`. Layout tweak.
 - **Real icons for remaining placeholders.** Whatever still ships as text-labelled stubs in `images/`.

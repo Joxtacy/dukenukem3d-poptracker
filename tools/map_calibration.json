@@ -1,0 +1,1522 @@
+{
+  "E1L1": {
+    "image": "images/e1l1_map.png",
+    "reference_points": [
+      {
+        "name": "MP Start Shotgun",
+        "world_xy": [
+          -27373,
+          10523
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Jetpack behind Screen",
+        "world_xy": [
+          25344,
+          59648
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Toilet Medkit",
+        "world_xy": [
+          31232,
+          43136
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E1L2": {
+    "image": "images/e1l2_map.png",
+    "reference_points": [
+      {
+        "name": "Video Booth Steroids",
+        "world_xy": [
+          -1536,
+          2560
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Sewers Atomic Health",
+        "world_xy": [
+          16384,
+          39552
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Attic Medkit",
+        "world_xy": [
+          -22976,
+          30784
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E1L3": {
+    "image": "images/e1l3_map.png",
+    "reference_points": [
+      {
+        "name": "Submarine Engine Room Medkit",
+        "world_xy": [
+          -8192,
+          2816
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Blue Key Card",
+        "world_xy": [
+          33536,
+          45952
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Courtyard Pipebombs",
+        "world_xy": [
+          46748,
+          21138
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E1L4": {
+    "image": "images/e1l4_map.png",
+    "reference_points": [
+      {
+        "name": "Underwater Gate RPG",
+        "world_xy": [
+          -20736,
+          -21504
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Left Cylinder Atomic Health 1",
+        "world_xy": [
+          31936,
+          40960
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Submarine Armor",
+        "world_xy": [
+          -36608,
+          23744
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E1L5": {
+    "image": "images/e1l5_map.png",
+    "reference_points": [
+      {
+        "name": "Spaceship Shaft RPG",
+        "world_xy": [
+          -55936,
+          35328
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "MP Start Chaingun",
+        "world_xy": [
+          57664,
+          29824
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Spaceship Entrance Armor",
+        "world_xy": [
+          -896,
+          -6016
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E1L6": {
+    "image": "images/e1l6_map.png",
+    "reference_points": [
+      {
+        "name": "MP Rocket Chaingun",
+        "world_xy": [
+          24960,
+          -11200
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "MP Start Steroids",
+        "world_xy": [
+          24192,
+          41344
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Dark Room Pipebombs 2",
+        "world_xy": [
+          512,
+          23040
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E1L7": {
+    "image": "images/e1l7_map.png",
+    "reference_points": [
+      {
+        "name": "Center Room Tripmine 1",
+        "world_xy": [
+          -5888,
+          37888
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Water Tank Freezethrower",
+        "world_xy": [
+          35840,
+          40448
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Water Tank Shrinker",
+        "world_xy": [
+          28672,
+          30208
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E2L1": {
+    "image": "images/e2l1_map.png",
+    "reference_points": [
+      {
+        "name": "Underwater Chaingun",
+        "world_xy": [
+          -46496,
+          32768
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "MP Attic Tripmine 2",
+        "world_xy": [
+          62400,
+          32128
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Space Shuttle Steroids",
+        "world_xy": [
+          -36928,
+          44224
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E2L2": {
+    "image": "images/e2l2_map.png",
+    "reference_points": [
+      {
+        "name": "Force Field Control Chaingun",
+        "world_xy": [
+          28032,
+          -29312
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "MP Underwater Jetpack",
+        "world_xy": [
+          7424,
+          -1728
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Beta Medkit",
+        "world_xy": [
+          50880,
+          -13152
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E2L3": {
+    "image": "images/e2l3_map.png",
+    "reference_points": [
+      {
+        "name": "Bridge Chaingun",
+        "world_xy": [
+          3264,
+          -28736
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Start Chaingun",
+        "world_xy": [
+          31488,
+          47872
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Yellow Key Card",
+        "world_xy": [
+          6656,
+          37568
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E2L4": {
+    "image": "images/e2l4_map.png",
+    "reference_points": [
+      {
+        "name": "Vents Atomic Health",
+        "world_xy": [
+          -10624,
+          -18048
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Underwater Pipebombs 2",
+        "world_xy": [
+          61184,
+          -20992
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Top Floor Chaingun",
+        "world_xy": [
+          -1792,
+          21248
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E2L5": {
+    "image": "images/e2l5_map.png",
+    "reference_points": [
+      {
+        "name": "Monitors Tripmine 2",
+        "world_xy": [
+          -11008,
+          -2816
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Start Shotgun",
+        "world_xy": [
+          60411,
+          -10551
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Slime Room Devastator",
+        "world_xy": [
+          12288,
+          44032
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E2L6": {
+    "image": "images/e2l6_map.png",
+    "reference_points": [
+      {
+        "name": "Red Key Card",
+        "world_xy": [
+          7424,
+          -53504
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Supplies Armor 1",
+        "world_xy": [
+          -3328,
+          -640
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Corridor Wall Explosion RPG",
+        "world_xy": [
+          26624,
+          -10496
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E2L7": {
+    "image": "images/e2l7_map.png",
+    "reference_points": [
+      {
+        "name": "Luke Skywalker Shrinker",
+        "world_xy": [
+          -5696,
+          3584
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Reactor Ledge Tripmine 1",
+        "world_xy": [
+          34432,
+          36480
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Slime Holo Duke",
+        "world_xy": [
+          35200,
+          15872
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E2L8": {
+    "image": "images/e2l8_map.png",
+    "reference_points": [
+      {
+        "name": "Surface Pipebombs",
+        "world_xy": [
+          -41472,
+          -51072
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Yellow Key Card",
+        "world_xy": [
+          36096,
+          49088
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Beta Armor",
+        "world_xy": [
+          -58240,
+          3200
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E2L9": {
+    "image": "images/e2l9_map.png",
+    "reference_points": [
+      {
+        "name": "Waterfall Armor",
+        "world_xy": [
+          7552,
+          32384
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Timed Wall Medkit",
+        "world_xy": [
+          54016,
+          58368
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Start Underwater Shotgun",
+        "world_xy": [
+          41920,
+          20864
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E2L10": {
+    "image": "images/e2l10_map.png",
+    "reference_points": [
+      {
+        "name": "MP Alpha Holo Duke",
+        "world_xy": [
+          -18688,
+          -15616
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "MP Gamma Night Vision Goggles",
+        "world_xy": [
+          16128,
+          34560
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "MP Beta Jetpack",
+        "world_xy": [
+          30464,
+          -5120
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E2L11": {
+    "image": "images/e2l11_map.png",
+    "reference_points": [
+      {
+        "name": "Top Ledge Pipebombs",
+        "world_xy": [
+          1152,
+          33536
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Top Ledge Devastator",
+        "world_xy": [
+          5888,
+          45568
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Top Ledge Medkit",
+        "world_xy": [
+          9856,
+          33152
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E3L1": {
+    "image": "images/e3l1_map.png",
+    "reference_points": [
+      {
+        "name": "Start Devastator",
+        "world_xy": [
+          28320,
+          -48064
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Sushi Belt Freezethrower",
+        "world_xy": [
+          29696,
+          -8832
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Start Pool Holo Duke",
+        "world_xy": [
+          56320,
+          -35840
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E3L2": {
+    "image": "images/e3l2_map.png",
+    "reference_points": [
+      {
+        "name": "Red Key Card",
+        "world_xy": [
+          -36800,
+          20864
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Office Entrance Freezethrower",
+        "world_xy": [
+          12160,
+          20864
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "ATM Chaingun",
+        "world_xy": [
+          -128,
+          33152
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E3L3": {
+    "image": "images/e3l3_map.png",
+    "reference_points": [
+      {
+        "name": "Yellow Key Card",
+        "world_xy": [
+          -35328,
+          -38912
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Hidden Cave Devastator",
+        "world_xy": [
+          57216,
+          -40960
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Start Scuba Gear",
+        "world_xy": [
+          38016,
+          -20736
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E3L4": {
+    "image": "images/e3l4_map.png",
+    "reference_points": [
+      {
+        "name": "Sewer Pipebombs",
+        "world_xy": [
+          29696,
+          -52992
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Hooker Pipebombs",
+        "world_xy": [
+          52736,
+          -32000
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "MP Street Ledge Jetpack",
+        "world_xy": [
+          52992,
+          -51712
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E3L5": {
+    "image": "images/e3l5_map.png",
+    "reference_points": [
+      {
+        "name": "Moon Landing Chaingun",
+        "world_xy": [
+          25088,
+          2560
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Subway Medkit",
+        "world_xy": [
+          30464,
+          33536
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "3DRealms Freezethrower",
+        "world_xy": [
+          46208,
+          4224
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E3L6": {
+    "image": "images/e3l6_map.png",
+    "reference_points": [
+      {
+        "name": "Track Devastator",
+        "world_xy": [
+          29312,
+          -62656
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Underwater Shrinker",
+        "world_xy": [
+          12928,
+          -14336
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Train Medkit",
+        "world_xy": [
+          40960,
+          -35328
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E3L7": {
+    "image": "images/e3l7_map.png",
+    "reference_points": [
+      {
+        "name": "Exit RPG",
+        "world_xy": [
+          -35712,
+          -32640
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Fire Station Atomic Health",
+        "world_xy": [
+          -10368,
+          -8512
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Wine Rack Medkit",
+        "world_xy": [
+          -32064,
+          -6656
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E3L8": {
+    "image": "images/e3l8_map.png",
+    "reference_points": [
+      {
+        "name": "Shark Tank Scuba Gear 1",
+        "world_xy": [
+          27840,
+          -53952
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Jungle Freezethrower",
+        "world_xy": [
+          53760,
+          -23680
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Exit Pipebombs",
+        "world_xy": [
+          47744,
+          -60672
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E3L9": {
+    "image": "images/e3l9_map.png",
+    "reference_points": [
+      {
+        "name": "Ledge Chaingun",
+        "world_xy": [
+          -7168,
+          12288
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Ledge RPG",
+        "world_xy": [
+          29696,
+          38912
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Ledge Devastator",
+        "world_xy": [
+          -7168,
+          38912
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E3L10": {
+    "image": "images/e3l10_map.png",
+    "reference_points": [
+      {
+        "name": "Delta Pipebombs 1",
+        "world_xy": [
+          -13824,
+          0
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Beta Shotgun",
+        "world_xy": [
+          11456,
+          25024
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Alpha Shotgun",
+        "world_xy": [
+          11584,
+          -128
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E3L11": {
+    "image": "images/e3l11_map.png",
+    "reference_points": [
+      {
+        "name": "Conveyor Freezethrower",
+        "world_xy": [
+          -48768,
+          1152
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Underwater RPG",
+        "world_xy": [
+          19072,
+          21248
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Dumpster Shotgun",
+        "world_xy": [
+          -48320,
+          30144
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E4L1": {
+    "image": "images/e4l1_map.png",
+    "reference_points": [
+      {
+        "name": "Cave Atomic Health",
+        "world_xy": [
+          -7872,
+          22016
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Kitchen Secret Armor",
+        "world_xy": [
+          23296,
+          26496
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Exit Pipebombs",
+        "world_xy": [
+          -18688,
+          42336
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E4L2": {
+    "image": "images/e4l2_map.png",
+    "reference_points": [
+      {
+        "name": "Manager Room Armor",
+        "world_xy": [
+          28288,
+          8704
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Outside Steroids",
+        "world_xy": [
+          37376,
+          39424
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Conveyer Upper RPG",
+        "world_xy": [
+          42048,
+          6848
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E4L3": {
+    "image": "images/e4l3_map.png",
+    "reference_points": [
+      {
+        "name": "Storage Upper Atomic Health",
+        "world_xy": [
+          -44192,
+          7520
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Warehouse Upper Atomic Health",
+        "world_xy": [
+          -4352,
+          34816
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Manager Office Steroids",
+        "world_xy": [
+          -17696,
+          1728
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E4L4": {
+    "image": "images/e4l4_map.png",
+    "reference_points": [
+      {
+        "name": "Inside Boat Shrinker",
+        "world_xy": [
+          -36480,
+          -26496
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Red Boat RPG",
+        "world_xy": [
+          8192,
+          24320
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Ticket Booth Shotgun",
+        "world_xy": [
+          11776,
+          -38912
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E4L5": {
+    "image": "images/e4l5_map.png",
+    "reference_points": [
+      {
+        "name": "Basement Atomic Health",
+        "world_xy": [
+          12128,
+          -41632
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Yellow Atomic Health",
+        "world_xy": [
+          42112,
+          -21952
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Graffiti Devastator",
+        "world_xy": [
+          14592,
+          -17152
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E4L6": {
+    "image": "images/e4l6_map.png",
+    "reference_points": [
+      {
+        "name": "Container Pipebombs",
+        "world_xy": [
+          15200,
+          25856
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Yellow Key Card",
+        "world_xy": [
+          64768,
+          25472
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Firetruck Protective Boots",
+        "world_xy": [
+          13056,
+          43520
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E4L7": {
+    "image": "images/e4l7_map.png",
+    "reference_points": [
+      {
+        "name": "MP Outside Shotgun",
+        "world_xy": [
+          19328,
+          -11264
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Crusher RPG",
+        "world_xy": [
+          60256,
+          -7968
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Blue Key Card",
+        "world_xy": [
+          25984,
+          1440
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E4L8": {
+    "image": "images/e4l8_map.png",
+    "reference_points": [
+      {
+        "name": "MP Outside Freezethrower",
+        "world_xy": [
+          38912,
+          -36608
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Blue Dive Atomic Health",
+        "world_xy": [
+          34240,
+          42752
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Control Armor",
+        "world_xy": [
+          25536,
+          -3072
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E4L9": {
+    "image": "images/e4l9_map.png",
+    "reference_points": [
+      {
+        "name": "MP Yellow Final Jetpack",
+        "world_xy": [
+          -19456,
+          -2688
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Big Crate Armor",
+        "world_xy": [
+          58880,
+          29952
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Yellow Water Tank Atomic Health",
+        "world_xy": [
+          59840,
+          -11008
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E4L10": {
+    "image": "images/e4l10_map.png",
+    "reference_points": [
+      {
+        "name": "R-Side Dive Jetpack",
+        "world_xy": [
+          -41856,
+          736
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Queen Armor",
+        "world_xy": [
+          47360,
+          40704
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "MP Start Shotgun 3",
+        "world_xy": [
+          1280,
+          -22272
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "E4L11": {
+    "image": "images/e4l11_map.png",
+    "reference_points": [
+      {
+        "name": "MP Outside Pipebombs",
+        "world_xy": [
+          -36128,
+          13248
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Crate Scuba Gear",
+        "world_xy": [
+          13984,
+          7008
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      },
+      {
+        "name": "UFO Atomic Health",
+        "world_xy": [
+          -8480,
+          -13824
+        ],
+        "image_xy": [
+          null,
+          null
+        ]
+      }
+    ]
+  }
+}

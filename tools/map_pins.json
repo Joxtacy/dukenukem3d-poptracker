@@ -1,0 +1,6514 @@
+{
+  "E1L1": {
+    "Exit Ledge Night Vision Goggles": [
+      1100,
+      1175
+    ],
+    "Bachelor RPG": [
+      1102,
+      968
+    ],
+    "Bachelor Pipebombs": [
+      1082,
+      969
+    ],
+    "Elevator Night Vision": [
+      1179,
+      1011
+    ],
+    "Bachelor Shotgun": [
+      1102,
+      957
+    ],
+    "Bachelor Chaingun": [
+      1105,
+      984
+    ],
+    "MP Start Shotgun": [
+      313,
+      295
+    ],
+    "Billboard RPG": [
+      789,
+      842
+    ],
+    "MP Chaingun behind Screen": [
+      1266,
+      1192
+    ],
+    "Outside Ledge Atomic Health": [
+      934,
+      1239
+    ],
+    "Cash Register Atomic Health": [
+      1154,
+      865
+    ],
+    "Arcade Holo Duke": [
+      1103,
+      1003
+    ],
+    "Cash Register Shotgun": [
+      1287,
+      862
+    ],
+    "Toilet Medkit": [
+      1383,
+      891
+    ],
+    "Projector Atomic Health": [
+      1214,
+      991
+    ],
+    "Vent Holo Duke": [
+      1351,
+      954
+    ],
+    "MP Exit Shotgun": [
+      1161,
+      1262
+    ],
+    "Projector Secret RPG": [
+      1177,
+      989
+    ],
+    "Jetpack behind Screen": [
+      1275,
+      1192
+    ],
+    "Red Key Card": [
+      1206,
+      959
+    ],
+    "Poster Steroids": [
+      908,
+      1085
+    ],
+    "MP Apartment Chaingun": [
+      895,
+      1060
+    ],
+    "Cinema Armor": [
+      1267,
+      1164
+    ],
+    "MP Red Door Pipebombs": [
+      1117,
+      1138
+    ],
+    "Cash Register Alcove Armor": [
+      1138,
+      888
+    ],
+    "Projector Steroids": [
+      1234,
+      1026
+    ],
+    "Elevator Pipebombs": [
+      1192,
+      1010
+    ],
+    "Jetpack above Exit": [
+      1084,
+      1183
+    ],
+    "Secret Behind the Screen": [
+      1202,
+      1185
+    ],
+    "Secret Projector Hidden Room": [
+      1183,
+      984
+    ],
+    "Secret Hidden Apartment": [
+      908,
+      1002
+    ],
+    "Secret Projector Security Room": [
+      1275,
+      960
+    ],
+    "Secret Behind Poster": [
+      908,
+      1083
+    ],
+    "Secret Cash Register Alcove": [
+      1146,
+      888
+    ],
+    "Secret Bachelor Apartment": [
+      1093,
+      976
+    ],
+    "Secret Below Billboard": [
+      792,
+      860
+    ],
+    "Exit": [
+      1024,
+      662
+    ]
+  },
+  "E1L2": {
+    "Blue Key Card": [
+      661,
+      335
+    ],
+    "Sewers Jetpack": [
+      668,
+      919
+    ],
+    "Sewers Night Vision Goggles": [
+      690,
+      919
+    ],
+    "Sewers Steroids": [
+      675,
+      919
+    ],
+    "Sewers Holo Duke": [
+      683,
+      919
+    ],
+    "Vent Pipebombs": [
+      249,
+      572
+    ],
+    "MP Steroids outside Strip Floor": [
+      365,
+      624
+    ],
+    "Night Vision Goggles behind Curtains": [
+      163,
+      791
+    ],
+    "Strippers Chaingun": [
+      244,
+      602
+    ],
+    "Yellow Key Card": [
+      1013,
+      785
+    ],
+    "Dark Area Atomic Health": [
+      726,
+      273
+    ],
+    "Toilets Night Vision Goggles": [
+      639,
+      120
+    ],
+    "Pornography Store Shelves Pipebombs": [
+      609,
+      205
+    ],
+    "Pornography Store Shelves Armor": [
+      609,
+      195
+    ],
+    "Video Booth RPG": [
+      591,
+      116
+    ],
+    "Pornography Store Corner Holo Duke": [
+      479,
+      355
+    ],
+    "Red Key Card": [
+      493,
+      633
+    ],
+    "Sewers Atomic Health": [
+      958,
+      897
+    ],
+    "Sewers Pipebombs": [
+      745,
+      823
+    ],
+    "Attic Medkit": [
+      116,
+      710
+    ],
+    "MP Outside Ledge Jetpack": [
+      356,
+      492
+    ],
+    "Outside Ledge Armor": [
+      649,
+      672
+    ],
+    "Strip Club Entrance Shotgun": [
+      642,
+      693
+    ],
+    "Video Booth Steroids": [
+      575,
+      106
+    ],
+    "Chaingun near Blue Key Card": [
+      692,
+      350
+    ],
+    "Vent Atomic Health": [
+      307,
+      572
+    ],
+    "Pornography Store Shotgun": [
+      498,
+      314
+    ],
+    "MP Bar RPG": [
+      553,
+      728
+    ],
+    "Pornography Store Atomic Health": [
+      505,
+      350
+    ],
+    "Construction Site Medkit": [
+      890,
+      791
+    ],
+    "MP DukeTag Outside Ledge Spawn Pipebombs": [
+      630,
+      632
+    ],
+    "Secret Strip Club Vents": [
+      326,
+      600
+    ],
+    "Secret Hidden Ledge behind Curtains": [
+      163,
+      785
+    ],
+    "Secret Pornography Store Corner": [
+      488,
+      352
+    ],
+    "Secret Pornography Store Shelves": [
+      608,
+      199
+    ],
+    "Secret Pornography Store Dark Area": [
+      766,
+      291
+    ],
+    "Secret Behind Strippers": [
+      252,
+      602
+    ],
+    "Secret Attic Hidden Compartment": [
+      115,
+      709
+    ],
+    "Secret Sewers": [
+      715,
+      881
+    ],
+    "Exit": [
+      1024,
+      740
+    ]
+  },
+  "E1L3": {
+    "Control Room Secret Atomic Health": [
+      1262,
+      757
+    ],
+    "Control Room Vent Armor": [
+      1211,
+      948
+    ],
+    "Gallery Medkit": [
+      1166,
+      1190
+    ],
+    "Cell Block 01 Broken Wall Atomic Health": [
+      991,
+      874
+    ],
+    "Electric Chair Shotgun": [
+      1023,
+      1325
+    ],
+    "Control Room Secret Pipebombs": [
+      1159,
+      757
+    ],
+    "Submarine Gate Scuba Gear": [
+      1156,
+      364
+    ],
+    "Gear Room Atomic Health": [
+      1212,
+      1102
+    ],
+    "Cell Block 01 RPG": [
+      977,
+      672
+    ],
+    "MP Courtyard Medkit": [
+      1477,
+      694
+    ],
+    "Yellow Key Card": [
+      1211,
+      748
+    ],
+    "Courtyard Tunnel Atomic Health 1": [
+      1229,
+      421
+    ],
+    "Courtyard Tunnel Atomic Health 2": [
+      1211,
+      421
+    ],
+    "Courtyard Tunnel Atomic Health 3": [
+      1186,
+      421
+    ],
+    "Submarine Engine Room Medkit": [
+      266,
+      161
+    ],
+    "Underwater Pipebombs": [
+      696,
+      173
+    ],
+    "Chapel Chaingun": [
+      840,
+      1016
+    ],
+    "MP Showers Shotgun": [
+      1211,
+      577
+    ],
+    "Showers Protective Boots": [
+      1195,
+      582
+    ],
+    "Hanged Monk Atomic Health": [
+      980,
+      1099
+    ],
+    "Gallery Holo Duke": [
+      1078,
+      1224
+    ],
+    "Chapel Rafters Armor": [
+      1027,
+      1099
+    ],
+    "Chapel Rafters Atomic Health": [
+      1023,
+      1099
+    ],
+    "Gear Room Night Vision Goggles": [
+      1250,
+      1169
+    ],
+    "Blue Key Card": [
+      1253,
+      1181
+    ],
+    "Submarine Gate Hidden Night Vision Goggles": [
+      1168,
+      403
+    ],
+    "Breakable Canyon Wall Steroids": [
+      923,
+      763
+    ],
+    "Courtyard Pipebombs": [
+      1566,
+      594
+    ],
+    "Red Key Card": [
+      914,
+      718
+    ],
+    "Gear Room RPG": [
+      1267,
+      1168
+    ],
+    "MP Cell Block 01 Broken Wall Holo Duke": [
+      990,
+      754
+    ],
+    "Control Room Chaingun": [
+      1211,
+      881
+    ],
+    "Chapel Window Steroids": [
+      859,
+      1062
+    ],
+    "MP Cell Block 02 Jetpack": [
+      1414,
+      639
+    ],
+    "Secret Courtyard Tunnel": [
+      1211,
+      421
+    ],
+    "Secret Electric Chair": [
+      1023,
+      1324
+    ],
+    "Secret Chapel Rafters": [
+      1022,
+      1109
+    ],
+    "Secret Chapel Window": [
+      852,
+      1143
+    ],
+    "Secret Behind Bed": [
+      969,
+      932
+    ],
+    "Secret Submarine Engine Room": [
+      237,
+      180
+    ],
+    "Secret Submarine Gate Hidden Alcove": [
+      1168,
+      395
+    ],
+    "Secret Breakable Canyon Wall": [
+      894,
+      748
+    ],
+    "Secret Control Room Right Alcove": [
+      1256,
+      763
+    ],
+    "Secret Control Room Left Alcove": [
+      1165,
+      763
+    ],
+    "Exit": [
+      1024,
+      838
+    ]
+  },
+  "E1L4": {
+    "Gear Room Secret Scuba Gear": [
+      611,
+      779
+    ],
+    "Gear Room Secret Armor": [
+      603,
+      772
+    ],
+    "Canyon Steroids": [
+      1253,
+      1203
+    ],
+    "Secret Alcove Holo Duke outside Submarine": [
+      1001,
+      1030
+    ],
+    "Red Key Card": [
+      1195,
+      1490
+    ],
+    "Blue Key Card": [
+      910,
+      1112
+    ],
+    "Guard Tower Chaingun": [
+      1138,
+      1268
+    ],
+    "MP Sewage Chaingun": [
+      1302,
+      346
+    ],
+    "Toxic Waste Belt Scuba Gear": [
+      1303,
+      1402
+    ],
+    "Sewage Atomic Health": [
+      1308,
+      331
+    ],
+    "Gear Room Medkit": [
+      531,
+      912
+    ],
+    "Underwater Canyon Night Vision Goggles": [
+      599,
+      1224
+    ],
+    "Submarine Return Cave Atomic Health": [
+      1058,
+      1059
+    ],
+    "Sewage Protective Boots": [
+      1560,
+      735
+    ],
+    "MP Waterfall Shotgun": [
+      1104,
+      807
+    ],
+    "Underwater Canyon Chaingun": [
+      489,
+      1097
+    ],
+    "Underwater Gate RPG": [
+      372,
+      377
+    ],
+    "Underwater Scuba Gear": [
+      458,
+      1179
+    ],
+    "RPG near Blue Key Card": [
+      894,
+      1070
+    ],
+    "Underwater Secret Pipebombs 1": [
+      528,
+      1361
+    ],
+    "Underwater Secret Pipebombs 2": [
+      535,
+      1388
+    ],
+    "Underwater Secret Atomic Health": [
+      302,
+      1392
+    ],
+    "Right Cylinder Atomic Health": [
+      1337,
+      1540
+    ],
+    "Underwater Medkit": [
+      314,
+      1317
+    ],
+    "Cylinders Armor": [
+      1327,
+      1534
+    ],
+    "Underwater Hallway Holo Duke": [
+      511,
+      1037
+    ],
+    "Underwater Canyon Pipebombs": [
+      636,
+      999
+    ],
+    "Canyon Secret Scuba Gear": [
+      1240,
+      1029
+    ],
+    "Submarine Medkit": [
+      93,
+      1226
+    ],
+    "Submarine Atomic Health": [
+      84,
+      1226
+    ],
+    "Submarine Armor": [
+      74,
+      1226
+    ],
+    "Shotgun near Red Key Card": [
+      1195,
+      1450
+    ],
+    "Left Cylinder Atomic Health 2": [
+      1352,
+      1549
+    ],
+    "Left Cylinder Atomic Health 1": [
+      1360,
+      1549
+    ],
+    "Canyon Dark Cave Shotgun": [
+      1303,
+      1097
+    ],
+    "Canyon Dark Cave Medkit": [
+      1318,
+      1095
+    ],
+    "Sewage Secret Alcove Atomic Health 1": [
+      1250,
+      418
+    ],
+    "Sewage Secret Alcove Atomic Health 2": [
+      1250,
+      427
+    ],
+    "Canyon RPG": [
+      1202,
+      1016
+    ],
+    "Secret Submarine Return Cave 1": [
+      1117,
+      1043
+    ],
+    "Secret Submarine Return Cave 2": [
+      1074,
+      1059
+    ],
+    "Secret Submarine Return Cave 3": [
+      1080,
+      1104
+    ],
+    "Secret Waterfall Secret Teleporter": [
+      867,
+      150
+    ],
+    "Secret Underwater Secret Cave": [
+      990,
+      1328
+    ],
+    "Secret Guard Tower": [
+      1104,
+      1322
+    ],
+    "Secret Alcove near Blue Key Card": [
+      875,
+      1182
+    ],
+    "Secret Sewage Alcove": [
+      1284,
+      403
+    ],
+    "Secret Toxic Waste Belt Hidden Alcove": [
+      1278,
+      1549
+    ],
+    "Secret Canyon Wall": [
+      1232,
+      1038
+    ],
+    "Secret Top of Submarine": [
+      1001,
+      1155
+    ],
+    "Secret Left Cylinder": [
+      1356,
+      1546
+    ],
+    "Secret Canyon Dark Cave": [
+      1308,
+      1090
+    ],
+    "Sewer Breakable Wall": [
+      1779,
+      1437
+    ],
+    "Exit": [
+      1014,
+      1024
+    ],
+    "Secret Exit": [
+      1014,
+      1024
+    ]
+  },
+  "E1L5": {
+    "Battlelord Medkit": [
+      349,
+      1622
+    ],
+    "Battlelord Atomic Health 1": [
+      613,
+      1525
+    ],
+    "Battlelord Atomic Health 2": [
+      613,
+      1713
+    ],
+    "Waterfall Chaingun": [
+      1054,
+      1933
+    ],
+    "MP Start Chaingun": [
+      1867,
+      1498
+    ],
+    "Battlelord Jetpack": [
+      348,
+      1512
+    ],
+    "Battlelord Armor": [
+      394,
+      1471
+    ],
+    "Cracked Wall End Atomic Health": [
+      1294,
+      1304
+    ],
+    "Fire Pit Pipe Bombs": [
+      1157,
+      1978
+    ],
+    "Top of Spaceship Atomic Health": [
+      1004,
+      1162
+    ],
+    "Spaceship Shaft RPG": [
+      129,
+      1582
+    ],
+    "Spaceship Shaft Chaingun": [
+      129,
+      1653
+    ],
+    "Fire Pit Night Vision Goggles": [
+      1103,
+      1897
+    ],
+    "Canyon Chaingun": [
+      1550,
+      1877
+    ],
+    "MP Secret Fire Pit Armor": [
+      1494,
+      1993
+    ],
+    "Pipebombs near Blue Gate": [
+      1709,
+      1589
+    ],
+    "Start Shotgun": [
+      1844,
+      1515
+    ],
+    "Earthquake Atomic Health 1": [
+      1449,
+      1787
+    ],
+    "Earthquake Atomic Health 2": [
+      1500,
+      1763
+    ],
+    "Blue Key Card": [
+      1559,
+      1893
+    ],
+    "Cracked Wall Middle Atomic Health": [
+      941,
+      1316
+    ],
+    "Fire Pit RPG": [
+      1125,
+      1952
+    ],
+    "Dancing Shaman Atomic Health 1": [
+      1603,
+      1284
+    ],
+    "Dancing Shaman Atomic Health 2": [
+      1599,
+      1301
+    ],
+    "Dancing Shaman Atomic Health 3": [
+      1613,
+      1299
+    ],
+    "Red Waterfall Pipe Bombs": [
+      1566,
+      1536
+    ],
+    "Start Protective Boots": [
+      1768,
+      1528
+    ],
+    "Bottom of Ruins Protective Boots": [
+      991,
+      1810
+    ],
+    "Fire Place Medkit": [
+      1074,
+      1811
+    ],
+    "Toxic River Protective Boots": [
+      1488,
+      1783
+    ],
+    "Start RPG": [
+      1723,
+      1567
+    ],
+    "Secret Fire Pit Night Vision Goggles": [
+      1552,
+      1934
+    ],
+    "Secret Fire Pit Medkit": [
+      1514,
+      1901
+    ],
+    "Toxic River Holo Duke": [
+      1491,
+      1774
+    ],
+    "Toxic River Medkit": [
+      1483,
+      1778
+    ],
+    "Ruins Staircase Shotgun": [
+      1137,
+      1771
+    ],
+    "Fire Pit Steroids": [
+      1192,
+      1982
+    ],
+    "Cracked Wall Bottom Atomic Health": [
+      1136,
+      1352
+    ],
+    "Cracked Wall Protective Boots": [
+      926,
+      1199
+    ],
+    "Cracked Wall Medkit": [
+      980,
+      1230
+    ],
+    "Spaceship Entrance Armor": [
+      971,
+      950
+    ],
+    "Earthquake Night Vision Goggles": [
+      1331,
+      1692
+    ],
+    "Red Waterfall Cave Protective Boots": [
+      1374,
+      1634
+    ],
+    "MP Shrinker Room Steroids": [
+      981,
+      1857
+    ],
+    "MP Cracked Wall Bottom Pipebombs": [
+      1143,
+      1408
+    ],
+    "Canyon Pillars RPG": [
+      1402,
+      973
+    ],
+    "MP Fire Pit Jetpack": [
+      1102,
+      1911
+    ],
+    "MP Fire Place RPG": [
+      1107,
+      1813
+    ],
+    "MP Ruins Staircase Atomic Health": [
+      1162,
+      1755
+    ],
+    "MP Ruins Staircase Armor": [
+      1182,
+      1791
+    ],
+    "MP Bottom of Ruins Shotgun": [
+      1107,
+      1710
+    ],
+    "Fire Pit Atomic Health": [
+      1163,
+      1940
+    ],
+    "Secret Fire Pit Atomic Health 1": [
+      1485,
+      1991
+    ],
+    "Secret Fire Pit Atomic Health 2": [
+      1503,
+      1996
+    ],
+    "Secret Red Waterfall Passage": [
+      1601,
+      1570
+    ],
+    "Secret Dancing Shaman": [
+      1603,
+      1295
+    ],
+    "Secret Top of Spaceship": [
+      983,
+      1168
+    ],
+    "Secret Fire Pit Hidden Wall": [
+      1193,
+      1983
+    ],
+    "Secret Fire Pit Teleporter": [
+      1510,
+      1946
+    ],
+    "Secret Fire Pit Ledge": [
+      1490,
+      1907
+    ],
+    "Exit": [
+      1013,
+      1024
+    ]
+  },
+  "E1L6": {
+    "Rocket Jetpack": [
+      461,
+      512
+    ],
+    "Toxic Waste Pool Shotgun": [
+      972,
+      1174
+    ],
+    "Start Protective Boots": [
+      730,
+      1253
+    ],
+    "Outside Rocket Night Vision Goggles": [
+      403,
+      709
+    ],
+    "Dark Room RPG": [
+      264,
+      748
+    ],
+    "Dark Room Pipebombs 1": [
+      251,
+      936
+    ],
+    "Dark Room Pipebombs 2": [
+      186,
+      936
+    ],
+    "Spiral Chaingun": [
+      374,
+      1266
+    ],
+    "Dark Room Atomic Health": [
+      218,
+      871
+    ],
+    "Blue Key Card": [
+      380,
+      1177
+    ],
+    "Red Key Card": [
+      628,
+      941
+    ],
+    "Sewer Computers Atomic Health 1": [
+      866,
+      489
+    ],
+    "Sewer Computers Atomic Health 2": [
+      879,
+      476
+    ],
+    "Sewer Computers Atomic Health 3": [
+      853,
+      502
+    ],
+    "Sewer Protective Boots": [
+      859,
+      515
+    ],
+    "Dark Room Medkit": [
+      435,
+      729
+    ],
+    "Toxic Waste Pool Atomic Health 2": [
+      1280,
+      1298
+    ],
+    "Toxic Waste Pool Atomic Health 1": [
+      1286,
+      1208
+    ],
+    "MP Spiral Holo Duke": [
+      406,
+      1136
+    ],
+    "Vent Pipebombs": [
+      264,
+      716
+    ],
+    "Launch Room Steroids": [
+      636,
+      803
+    ],
+    "Start Armor": [
+      901,
+      1347
+    ],
+    "MP Start Steroids": [
+      785,
+      1399
+    ],
+    "MP Rocket Pit Pipebombs": [
+      561,
+      557
+    ],
+    "MP Toxic Waste Pool RPG": [
+      1325,
+      1253
+    ],
+    "MP Rocket Chaingun": [
+      804,
+      70
+    ],
+    "MP Gate Room Shotgun": [
+      631,
+      954
+    ],
+    "Launch Room Holo Duke": [
+      628,
+      792
+    ],
+    "Gate Room Armor": [
+      540,
+      1023
+    ],
+    "MP Start Jetpack": [
+      769,
+      1308
+    ],
+    "Secret Sewer Computers": [
+      866,
+      489
+    ],
+    "Secret Toxic Waste Pool": [
+      1285,
+      1301
+    ],
+    "Secret Dark Room Ceiling Vent": [
+      265,
+      719
+    ],
+    "Secret Gate Room Wall": [
+      564,
+      1020
+    ],
+    "Exit": [
+      932,
+      1024
+    ]
+  },
+  "E1L7": {
+    "MP Side Room Devastator": [
+      214,
+      392
+    ],
+    "MP Side Room RPG": [
+      240,
+      417
+    ],
+    "Waterfall 2 Atomic Health": [
+      917,
+      142
+    ],
+    "Waterfall 2 Armor": [
+      881,
+      177
+    ],
+    "Waterfall 1 Armor": [
+      1180,
+      475
+    ],
+    "Waterfall 1 Atomic Health": [
+      1215,
+      440
+    ],
+    "Center Room Atomic Health 1": [
+      330,
+      296
+    ],
+    "Center Room Atomic Health 2": [
+      317,
+      308
+    ],
+    "Center Room Armor": [
+      400,
+      238
+    ],
+    "Center Room Holo Duke": [
+      259,
+      379
+    ],
+    "Center Atomic Health": [
+      1048,
+      308
+    ],
+    "Center Armor": [
+      1061,
+      321
+    ],
+    "Center Protective Boots": [
+      1035,
+      296
+    ],
+    "Center Night Vision Goggles": [
+      1061,
+      296
+    ],
+    "Center Steroids": [
+      1035,
+      321
+    ],
+    "Center Room Tripmine 1": [
+      221,
+      283
+    ],
+    "Center Room Tripmine 2": [
+      304,
+      199
+    ],
+    "Side Room Pipebombs": [
+      615,
+      336
+    ],
+    "Water Tank Shotgun": [
+      830,
+      270
+    ],
+    "Water Tank Devastator": [
+      1266,
+      270
+    ],
+    "Water Tank Freezethrower": [
+      1266,
+      347
+    ],
+    "Water Tank Chaingun": [
+      1087,
+      526
+    ],
+    "Water Tank RPG": [
+      1010,
+      526
+    ],
+    "Water Tank Jetpack": [
+      830,
+      347
+    ],
+    "Water Tank Tripmine 1": [
+      1013,
+      87
+    ],
+    "Water Tank Tripmine 2": [
+      1006,
+      94
+    ],
+    "Water Tank Shrinker": [
+      1087,
+      90
+    ],
+    "Main Room Pipebombs": [
+      1003,
+      501
+    ],
+    "Blue Key Card": [
+      1048,
+      302
+    ],
+    "Secret Behind Waterfall 1": [
+      1197,
+      458
+    ],
+    "Secret Behind Waterfall 2": [
+      899,
+      159
+    ]
+  },
+  "E2L1": {
+    "Underwater Night Vision Goggles": [
+      96,
+      563
+    ],
+    "Vent Pipebombs": [
+      754,
+      485
+    ],
+    "Elevator Armor": [
+      1599,
+      562
+    ],
+    "Elevator Shrinker": [
+      1623,
+      590
+    ],
+    "MP Elevator Corner Freezethrower": [
+      763,
+      645
+    ],
+    "Middle Floor Jetpack": [
+      1519,
+      610
+    ],
+    "Attic Night Vision Goggles": [
+      1937,
+      573
+    ],
+    "Underwater Jetpack": [
+      162,
+      563
+    ],
+    "Bottom Floor Medkit": [
+      751,
+      520
+    ],
+    "Start Shotgun": [
+      730,
+      732
+    ],
+    "Bottom Floor Scuba Gear": [
+      776,
+      583
+    ],
+    "Blue Key Card": [
+      760,
+      556
+    ],
+    "Middle Floor Pipebombs": [
+      1522,
+      527
+    ],
+    "Underwater Atomic Health 1": [
+      160,
+      559
+    ],
+    "Underwater Atomic Health 2": [
+      160,
+      566
+    ],
+    "Bottom Floor Armor": [
+      771,
+      618
+    ],
+    "Top Floor Atomic Health": [
+      1869,
+      637
+    ],
+    "Red Key Card": [
+      124,
+      563
+    ],
+    "Bottom Floor Holo Duke": [
+      796,
+      492
+    ],
+    "Space Shuttle RPG": [
+      230,
+      715
+    ],
+    "Underwater Chaingun": [
+      43,
+      563
+    ],
+    "MP Attic Tripmine 1": [
+      1939,
+      551
+    ],
+    "MP Attic Tripmine 2": [
+      1954,
+      551
+    ],
+    "MP Attic Tripmine 3": [
+      1946,
+      550
+    ],
+    "MP Start Armor": [
+      690,
+      662
+    ],
+    "Top Floor Devastator": [
+      1856,
+      650
+    ],
+    "Middle Room Atomic Health": [
+      1528,
+      522
+    ],
+    "Space Shuttle Steroids": [
+      211,
+      764
+    ],
+    "Monitor Wall Atomic Health": [
+      742,
+      719
+    ],
+    "Secret Top Floor": [
+      1856,
+      639
+    ],
+    "Secret Timed Alcove": [
+      691,
+      662
+    ],
+    "Secret Elevator Corner": [
+      765,
+      637
+    ],
+    "Secret Ventilation Shaft": [
+      772,
+      500
+    ],
+    "Secret Shrinker Room": [
+      1623,
+      547
+    ],
+    "Secret Monitor Wall": [
+      732,
+      720
+    ],
+    "Exit": [
+      1024,
+      580
+    ]
+  },
+  "E2L2": {
+    "MP Underwater Jetpack": [
+      46,
+      1742
+    ],
+    "Overgrown Passage Jetpack": [
+      729,
+      1542
+    ],
+    "Wall Panel Freezethrower": [
+      604,
+      1272
+    ],
+    "Underwater Devastator": [
+      221,
+      1624
+    ],
+    "Drone Alcove Atomic Health": [
+      970,
+      1310
+    ],
+    "Hidden Screen Room Armor": [
+      1163,
+      1297
+    ],
+    "MP Control Room Freezethrower": [
+      727,
+      1771
+    ],
+    "EDF Logo Medkit": [
+      918,
+      1198
+    ],
+    "Pool Steroids": [
+      753,
+      1778
+    ],
+    "Pool Medkit": [
+      753,
+      1783
+    ],
+    "Hidden Screen Room Pipebombs": [
+      1132,
+      1352
+    ],
+    "Armory RPG": [
+      812,
+      1487
+    ],
+    "Pipebombs behind Turret": [
+      927,
+      1783
+    ],
+    "Beta Scuba Gear": [
+      1204,
+      1386
+    ],
+    "Force Field Control Atomic Health 1": [
+      611,
+      992
+    ],
+    "Force Field Control Atomic Health 2": [
+      611,
+      1019
+    ],
+    "Force Field Control Chaingun": [
+      597,
+      1005
+    ],
+    "Beta Medkit": [
+      1207,
+      1437
+    ],
+    "Beta Steroids": [
+      1201,
+      1437
+    ],
+    "Armory Tripmine 1": [
+      679,
+      1344
+    ],
+    "Armory Tripmine 2": [
+      693,
+      1344
+    ],
+    "Armory Tripmine 3": [
+      686,
+      1349
+    ],
+    "Wall Panel Holo Duke": [
+      574,
+      1277
+    ],
+    "Cupboard Night Vision Goggles": [
+      1050,
+      1229
+    ],
+    "Yellow Key Card": [
+      879,
+      1817
+    ],
+    "Start Shotgun": [
+      1131,
+      1043
+    ],
+    "Control Room Pipebombs": [
+      689,
+      1836
+    ],
+    "Overgrown Passage Shrinker": [
+      870,
+      1518
+    ],
+    "Secret EDF Logo": [
+      918,
+      1195
+    ],
+    "Secret Force Field Control Wall": [
+      677,
+      936
+    ],
+    "Secret Hidden Screen Room 1": [
+      1151,
+      1297
+    ],
+    "Secret Hidden Screen Room 2": [
+      1152,
+      1345
+    ],
+    "Secret Wall Panel": [
+      577,
+      1268
+    ],
+    "Exit": [
+      814,
+      1024
+    ]
+  },
+  "E2L3": {
+    "Engine Room Atomic Health": [
+      497,
+      1649
+    ],
+    "Engine Room Shotgun": [
+      534,
+      1633
+    ],
+    "MP Drone Room Holo Duke": [
+      682,
+      1716
+    ],
+    "Blue Key Card": [
+      510,
+      1608
+    ],
+    "Main Room Shrinker": [
+      644,
+      1596
+    ],
+    "Engine Room Armor": [
+      560,
+      1630
+    ],
+    "MP Control Room Jetpack": [
+      584,
+      1165
+    ],
+    "Ready Room Medkit": [
+      311,
+      742
+    ],
+    "Control Room Devastator": [
+      615,
+      1174
+    ],
+    "Engine Room Tripmine": [
+      603,
+      1690
+    ],
+    "Start Chaingun": [
+      652,
+      1840
+    ],
+    "Wall Panel Freezethrower": [
+      539,
+      1697
+    ],
+    "Wall Panel Pipebombs": [
+      679,
+      1782
+    ],
+    "Reactor Atomic Health 1": [
+      605,
+      1620
+    ],
+    "Reactor Atomic Health 2": [
+      606,
+      1654
+    ],
+    "Control Room Medkit": [
+      680,
+      1226
+    ],
+    "Yellow Key Card": [
+      258,
+      1677
+    ],
+    "Control Room Holo Duke": [
+      615,
+      1143
+    ],
+    "Conveyor Night Vision Goggles": [
+      615,
+      1269
+    ],
+    "Control Room Steroids": [
+      717,
+      1196
+    ],
+    "Engine Room Burrowed Atomic Health 1": [
+      470,
+      1655
+    ],
+    "Drone Room Medkit": [
+      659,
+      1693
+    ],
+    "Engine Room Burrowed Atomic Health 2": [
+      472,
+      1649
+    ],
+    "Engine Room Burrowed Atomic Health 3": [
+      473,
+      1653
+    ],
+    "Main Room Shotgun": [
+      504,
+      1545
+    ],
+    "Control Room RPG": [
+      616,
+      1109
+    ],
+    "Left Wing RPG": [
+      290,
+      1532
+    ],
+    "MP Control Room Armor": [
+      518,
+      1196
+    ],
+    "MP Main Room Chaingun": [
+      654,
+      1537
+    ],
+    "Really Ready Room Devastator": [
+      251,
+      744
+    ],
+    "Really Ready Room Freezethrower": [
+      262,
+      772
+    ],
+    "Bridge Chaingun": [
+      204,
+      624
+    ],
+    "Bridge Pipebombs": [
+      225,
+      680
+    ],
+    "Bridge RPG": [
+      158,
+      721
+    ],
+    "Bridge Atomic Health": [
+      203,
+      757
+    ],
+    "Secret Enterprise Bridge": [
+      198,
+      722
+    ],
+    "Secret Really Ready Room": [
+      245,
+      758
+    ],
+    "Exit": [
+      608,
+      1024
+    ]
+  },
+  "E2L4": {
+    "Timed Room Freezethrower": [
+      1670,
+      129
+    ],
+    "Column Armor": [
+      625,
+      249
+    ],
+    "Start Night Vision Goggles": [
+      1047,
+      774
+    ],
+    "First Level Night Vision Goggles": [
+      742,
+      249
+    ],
+    "Reactor Night Vision Goggles": [
+      759,
+      588
+    ],
+    "Top Floor Chaingun": [
+      725,
+      925
+    ],
+    "MP Reactor Holo Duke": [
+      642,
+      488
+    ],
+    "Start Atomic Health": [
+      1052,
+      490
+    ],
+    "Pistons Tripmine 1": [
+      1559,
+      620
+    ],
+    "Pistons Tripmine 2": [
+      1550,
+      616
+    ],
+    "Pistons Protective Boots": [
+      1509,
+      520
+    ],
+    "Top Ledge Atomic Health 1": [
+      720,
+      747
+    ],
+    "Top Ledge Atomic Health 2": [
+      700,
+      747
+    ],
+    "Red Room Devastator": [
+      368,
+      510
+    ],
+    "Top Floor Atomic Health": [
+      713,
+      923
+    ],
+    "Top Floor Medkit": [
+      744,
+      594
+    ],
+    "Start Armor": [
+      993,
+      454
+    ],
+    "Top Ledge Jetpack": [
+      710,
+      744
+    ],
+    "Vents Atomic Health": [
+      556,
+      175
+    ],
+    "Shotgun behind Babe": [
+      996,
+      742
+    ],
+    "Pistons Medkit": [
+      1576,
+      497
+    ],
+    "Pistons Tripmine 3": [
+      1553,
+      620
+    ],
+    "Pistons Night Vision Goggles": [
+      1549,
+      512
+    ],
+    "Pistons Chaingun": [
+      1604,
+      520
+    ],
+    "First Level Shrinker": [
+      748,
+      173
+    ],
+    "Underwater Pipebombs 1": [
+      1829,
+      119
+    ],
+    "Underwater Pipebombs 2": [
+      1926,
+      119
+    ],
+    "Start RPG": [
+      986,
+      471
+    ],
+    "MP Floor Jetpack 1": [
+      622,
+      422
+    ],
+    "MP Floor Jetpack 2": [
+      798,
+      422
+    ],
+    "MP Floor Jetpack 3": [
+      798,
+      598
+    ],
+    "MP Floor Jetpack 4": [
+      622,
+      598
+    ],
+    "Pistons Atomic Health 1": [
+      1519,
+      523
+    ],
+    "Pistons Atomic Health 2": [
+      1519,
+      515
+    ],
+    "Pistons Tunnel Pipebombs 1": [
+      1619,
+      607
+    ],
+    "Pistons Tunnel Pipebombs 2": [
+      1619,
+      602
+    ],
+    "Top Floor Shotgun": [
+      681,
+      593
+    ],
+    "MP Floor RPG": [
+      661,
+      764
+    ],
+    "MP Floor Devastator": [
+      671,
+      251
+    ],
+    "Slime Hallway Tripmine 1": [
+      395,
+      378
+    ],
+    "Slime Hallway Tripmine 2": [
+      398,
+      373
+    ],
+    "MP Reactor Pipebombs": [
+      735,
+      510
+    ],
+    "MP Floor Protective Boots 1": [
+      888,
+      334
+    ],
+    "MP Floor Protective Boots 2": [
+      527,
+      337
+    ],
+    "MP Floor Protective Boots 3": [
+      527,
+      688
+    ],
+    "MP Floor Protective Boots 4": [
+      884,
+      691
+    ],
+    "Red Room Steroids": [
+      368,
+      576
+    ],
+    "Pistons Ledge Steroids": [
+      1597,
+      425
+    ],
+    "Secret Top of Vents": [
+      594,
+      258
+    ],
+    "Secret Pistons Tunnel": [
+      1580,
+      631
+    ],
+    "Secret Pistons Tunnel Ledge": [
+      1619,
+      608
+    ],
+    "Secret Pistons Chamber": [
+      1621,
+      520
+    ],
+    "Secret Column": [
+      625,
+      248
+    ],
+    "Secret Timed Blade Room": [
+      1653,
+      119
+    ],
+    "Secret Vents Wall": [
+      586,
+      172
+    ],
+    "Exit": [
+      1024,
+      902
+    ]
+  },
+  "E2L5": {
+    "Vent RPG": [
+      1128,
+      423
+    ],
+    "Vent Armor": [
+      1128,
+      435
+    ],
+    "MP Center Room Freezethrower": [
+      531,
+      504
+    ],
+    "Slime Room Pipebombs 1": [
+      468,
+      1390
+    ],
+    "Monitors Tripmine 1": [
+      45,
+      475
+    ],
+    "Monitors Tripmine 2": [
+      45,
+      464
+    ],
+    "MP Center Room Pipebombs": [
+      572,
+      371
+    ],
+    "Blue Key Card": [
+      59,
+      470
+    ],
+    "Red Key Card": [
+      572,
+      1419
+    ],
+    "Blastdoor Hole Atomic Health": [
+      1351,
+      325
+    ],
+    "Slime Room Devastator": [
+      572,
+      1523
+    ],
+    "Start Chaingun": [
+      1489,
+      273
+    ],
+    "Start Medkit": [
+      1446,
+      231
+    ],
+    "Corridor Holo Duke": [
+      1128,
+      498
+    ],
+    "MP Battlelord Shrinker": [
+      82,
+      469
+    ],
+    "Center Room Medkit": [
+      610,
+      509
+    ],
+    "Start Shotgun": [
+      1661,
+      289
+    ],
+    "Ramp Steroids": [
+      774,
+      522
+    ],
+    "MP Large Door Jetpack": [
+      850,
+      470
+    ],
+    "Slime Room Pipebombs 2": [
+      462,
+      1396
+    ],
+    "Monitors Atomic Health": [
+      45,
+      470
+    ],
+    "Hallway Alcove Atomic Health": [
+      1435,
+      516
+    ],
+    "MP Exit RPG": [
+      572,
+      527
+    ],
+    "Ramp Night Vision Goggles": [
+      368,
+      519
+    ],
+    "Slime Room Night Vision Goggles": [
+      555,
+      1424
+    ],
+    "Large Door Night Vision Goggles": [
+      931,
+      517
+    ],
+    "Start Armor": [
+      1412,
+      275
+    ],
+    "Secret Hallway Alcove": [
+      1381,
+      510
+    ],
+    "Secret Blastdoor Hole": [
+      1365,
+      325
+    ],
+    "Secret Vent": [
+      1124,
+      396
+    ],
+    "Secret Monitors": [
+      49,
+      472
+    ],
+    "Exit": [
+      905,
+      1024
+    ],
+    "Secret Exit": [
+      905,
+      1024
+    ]
+  },
+  "E2L6": {
+    "Timed Wall RPG": [
+      693,
+      668
+    ],
+    "Toxic Room Protective Boots": [
+      825,
+      726
+    ],
+    "Toxic Room Scuba Gear": [
+      723,
+      739
+    ],
+    "Underwater Night Vision Goggles": [
+      694,
+      114
+    ],
+    "Underwater Medkit": [
+      595,
+      183
+    ],
+    "Toxic Room Wall Jetpack": [
+      671,
+      712
+    ],
+    "Supplies Medkit": [
+      426,
+      929
+    ],
+    "Supplies Armor 1": [
+      418,
+      956
+    ],
+    "Supplies Armor 2": [
+      434,
+      956
+    ],
+    "Blue Key Card": [
+      548,
+      803
+    ],
+    "Water Fountain Pipebombs 1": [
+      593,
+      803
+    ],
+    "Water Fountain Pipebombs 2": [
+      585,
+      811
+    ],
+    "Armory Shrinker": [
+      563,
+      960
+    ],
+    "Timed Devastator": [
+      687,
+      860
+    ],
+    "Monitor Room Shotgun": [
+      601,
+      789
+    ],
+    "Monitor Room Holo Duke": [
+      605,
+      774
+    ],
+    "Corridor Wall Steroids": [
+      675,
+      830
+    ],
+    "Timed Room Atomic Health": [
+      671,
+      860
+    ],
+    "Toxic Alcove Atomic Health 1": [
+      797,
+      677
+    ],
+    "Toxic Alcove Atomic Health 2": [
+      768,
+      677
+    ],
+    "Corridor Wall Explosion RPG": [
+      895,
+      799
+    ],
+    "Toxic Room Freezethrower": [
+      713,
+      711
+    ],
+    "Exit Vent Medkit": [
+      662,
+      591
+    ],
+    "Exit Room Chaingun": [
+      701,
+      503
+    ],
+    "Bathroom Tripmine 1": [
+      777,
+      587
+    ],
+    "Bathroom Tripmine 2": [
+      780,
+      587
+    ],
+    "Armory Night Vision Goggles": [
+      573,
+      960
+    ],
+    "Corridor Wall Night Vision Goggles": [
+      679,
+      783
+    ],
+    "MP Toilet Night Vision Goggles": [
+      828,
+      589
+    ],
+    "Red Key Card": [
+      589,
+      114
+    ],
+    "Secret Toxic Alcove 1": [
+      783,
+      678
+    ],
+    "Secret Toxic Alcove 2": [
+      766,
+      846
+    ],
+    "Secret Corridor Wall": [
+      677,
+      808
+    ],
+    "Secret Toxic Room Wall": [
+      670,
+      713
+    ],
+    "Secret Water Fountain Wall": [
+      586,
+      804
+    ],
+    "Secret Supplies": [
+      426,
+      946
+    ],
+    "Secret Vent Wall Crack": [
+      527,
+      930
+    ],
+    "Secret Timed Wall": [
+      693,
+      668
+    ],
+    "Exit": [
+      772,
+      1024
+    ]
+  },
+  "E2L7": {
+    "Toilet Steroids": [
+      1137,
+      603
+    ],
+    "Start Night Vision Goggles": [
+      935,
+      344
+    ],
+    "Trash Compactor Atomic Health 1": [
+      447,
+      522
+    ],
+    "Trash Compactor Atomic Health 2": [
+      433,
+      536
+    ],
+    "Reactor RPG": [
+      1014,
+      1119
+    ],
+    "Reactor Lookout Shotgun": [
+      1130,
+      911
+    ],
+    "Canyon Cave Armor": [
+      543,
+      423
+    ],
+    "Canyon Cave Atomic Health": [
+      512,
+      434
+    ],
+    "Toilet Tripmine": [
+      1070,
+      539
+    ],
+    "Canyon Floor Jetpack": [
+      345,
+      276
+    ],
+    "Reactor Vent Pipebombs": [
+      1014,
+      696
+    ],
+    "Slime Holo Duke": [
+      1201,
+      487
+    ],
+    "Slime Freezethrower": [
+      596,
+      556
+    ],
+    "Luke Skywalker Shrinker": [
+      111,
+      160
+    ],
+    "Crew Quarters Tripmine": [
+      321,
+      612
+    ],
+    "Crew Quarters Armor": [
+      321,
+      622
+    ],
+    "Crew Quarters Pipebombs": [
+      222,
+      537
+    ],
+    "Blue Vent Atomic Health": [
+      797,
+      699
+    ],
+    "Crew Quarters Chaingun": [
+      205,
+      617
+    ],
+    "Yellow Door Vent Atomic Health": [
+      831,
+      649
+    ],
+    "Toilet Medkit": [
+      1155,
+      573
+    ],
+    "Vent Devastator": [
+      877,
+      433
+    ],
+    "Toilet RPG": [
+      1058,
+      603
+    ],
+    "Red Key Card": [
+      1153,
+      469
+    ],
+    "Blue Key Card": [
+      1053,
+      562
+    ],
+    "Start Shotgun": [
+      935,
+      344
+    ],
+    "Yellow Key Card": [
+      348,
+      228
+    ],
+    "Slime Night Vision Goggles": [
+      655,
+      508
+    ],
+    "Reactor Stairs Tripmine": [
+      1084,
+      777
+    ],
+    "Reactor Lookout Tripmine": [
+      911,
+      931
+    ],
+    "Reactor Lookout Night Vision Goggles": [
+      1116,
+      934
+    ],
+    "Reactor Ledge Tripmine 1": [
+      1181,
+      1037
+    ],
+    "Reactor Ledge Tripmine 2": [
+      1181,
+      1016
+    ],
+    "Slime Protective Boots": [
+      826,
+      569
+    ],
+    "Reactor Atomic Health": [
+      1014,
+      1027
+    ],
+    "Secret Trash Compactor": [
+      435,
+      522
+    ],
+    "Secret Slime Monitors": [
+      1190,
+      487
+    ],
+    "Secret Luke Skywalker": [
+      144,
+      130
+    ],
+    "Secret Canyon Cave": [
+      520,
+      411
+    ],
+    "Secret Canyon Monitors": [
+      270,
+      431
+    ],
+    "Secret Reactor Ledge 1": [
+      1162,
+      1027
+    ],
+    "Secret Reactor Ledge 2": [
+      866,
+      1027
+    ],
+    "Exit": [
+      1024,
+      922
+    ]
+  },
+  "E2L8": {
+    "Overlord Pool Pipebombs": [
+      1172,
+      325
+    ],
+    "Beta Wall Atomic Health 1": [
+      481,
+      1037
+    ],
+    "Beta Wall Atomic Health 2": [
+      485,
+      1023
+    ],
+    "Overlord Pool Shrinker": [
+      1204,
+      382
+    ],
+    "Hatching Pipebombs": [
+      540,
+      135
+    ],
+    "Surface Pipebombs": [
+      390,
+      157
+    ],
+    "Spacesuit RPG": [
+      137,
+      831
+    ],
+    "Outlook Devastator": [
+      851,
+      574
+    ],
+    "Beta Armor": [
+      136,
+      979
+    ],
+    "Beta Pipebombs": [
+      835,
+      1028
+    ],
+    "Reactor Control Armor": [
+      1550,
+      1670
+    ],
+    "Babes Shotgun": [
+      1347,
+      1592
+    ],
+    "Gamma Vent Atomic Health": [
+      1127,
+      1693
+    ],
+    "Gamma Medkit": [
+      1037,
+      1868
+    ],
+    "Top of Hub Chaingun": [
+      999,
+      1004
+    ],
+    "Hub Crate RPG": [
+      1124,
+      1026
+    ],
+    "Reactor Control Devastator": [
+      1606,
+      1627
+    ],
+    "Hub Atomic Health 1": [
+      1033,
+      1040
+    ],
+    "Hub Atomic Health 2": [
+      1040,
+      1040
+    ],
+    "Alpha Lab Armor": [
+      1538,
+      1168
+    ],
+    "Alpha Lab Atomic Health": [
+      1538,
+      1108
+    ],
+    "Waste Pool Pipebombs": [
+      1486,
+      1203
+    ],
+    "Alpha Lab Tripmine": [
+      1771,
+      1126
+    ],
+    "Alpha Lab Pipebombs": [
+      1695,
+      1124
+    ],
+    "Alpha Lab Medkit": [
+      1755,
+      1073
+    ],
+    "Start Shotgun": [
+      1052,
+      849
+    ],
+    "Crumbling Canyon Atomic Health": [
+      1908,
+      1085
+    ],
+    "Crumbling Canyon Chaingun": [
+      1852,
+      1213
+    ],
+    "MP Tank Chaingun": [
+      1688,
+      1188
+    ],
+    "Tank Shrinker": [
+      1688,
+      1106
+    ],
+    "Blue Key Card": [
+      1602,
+      1038
+    ],
+    "Hub Freezethrower": [
+      1047,
+      1032
+    ],
+    "Hub Armor": [
+      1029,
+      1033
+    ],
+    "Alpha Wall Devastator": [
+      1199,
+      1050
+    ],
+    "MP Tank RPG": [
+      1688,
+      1091
+    ],
+    "Alpha Pipebombs": [
+      1186,
+      986
+    ],
+    "Yellow Key Card": [
+      1563,
+      1673
+    ],
+    "Start Armor": [
+      1091,
+      767
+    ],
+    "Outlook Night Vision Goggles": [
+      1139,
+      587
+    ],
+    "Alpha Lab Steroids": [
+      1775,
+      1205
+    ],
+    "Alpha Lab Holo Duke": [
+      1742,
+      1073
+    ],
+    "Reactor Control Protective Boots": [
+      1602,
+      1598
+    ],
+    "Top of Hub Night Vision Goggles": [
+      1029,
+      1004
+    ],
+    "Top of Hub Armor": [
+      1044,
+      1005
+    ],
+    "MP Start Jetpack": [
+      1071,
+      783
+    ],
+    "MP Surface Atomic Health 1": [
+      332,
+      574
+    ],
+    "MP Surface Atomic Health 2": [
+      308,
+      574
+    ],
+    "MP Surface Steroids": [
+      320,
+      562
+    ],
+    "MP Surface Jetpack": [
+      320,
+      585
+    ],
+    "MP Surface Shrinker": [
+      506,
+      419
+    ],
+    "MP Surface RPG": [
+      212,
+      419
+    ],
+    "MP Surface Freezethrower": [
+      521,
+      729
+    ],
+    "Gamma Tripmine 1": [
+      1041,
+      1145
+    ],
+    "Gamma Shrinker": [
+      1037,
+      1141
+    ],
+    "Gamma Tripmine 2": [
+      1032,
+      1145
+    ],
+    "Outlook Atomic Health": [
+      874,
+      539
+    ],
+    "Babes Pipebombs 1": [
+      1246,
+      1538
+    ],
+    "Babes Pipebombs 2": [
+      1242,
+      1546
+    ],
+    "Babes Pipebombs 3": [
+      1254,
+      1536
+    ],
+    "Secret Babes Wall": [
+      1250,
+      1544
+    ],
+    "Secret Alpha Lab Tanks": [
+      1678,
+      1139
+    ],
+    "Secret Hub Monitor": [
+      1037,
+      1039
+    ],
+    "Secret Beta Transport Wall": [
+      452,
+      1035
+    ],
+    "Secret Alpha Cracked Wall": [
+      1198,
+      1046
+    ],
+    "Secret Gamma Monitor": [
+      1037,
+      1144
+    ],
+    "Secret Overlord Overhang": [
+      1219,
+      388
+    ],
+    "Exit": [
+      1024,
+      980
+    ],
+    "Secret Exit": [
+      1024,
+      980
+    ]
+  },
+  "E2L9": {
+    "Timed Wall RPG": [
+      775,
+      1042
+    ],
+    "Control Room Armor": [
+      951,
+      1022
+    ],
+    "Waterfall Armor": [
+      415,
+      1213
+    ],
+    "Vents Pipebombs 1": [
+      775,
+      1109
+    ],
+    "Overlord Tunnel Medkit": [
+      1101,
+      1198
+    ],
+    "Broken Wall Medkit": [
+      597,
+      1050
+    ],
+    "Waterfall Night Vision Goggles": [
+      458,
+      1349
+    ],
+    "Waterfall Scuba Gear": [
+      680,
+      1330
+    ],
+    "Hidden Wall Atomic Health": [
+      775,
+      866
+    ],
+    "Hidden Wall Armor": [
+      775,
+      890
+    ],
+    "Waterfall Tripmine": [
+      606,
+      1281
+    ],
+    "Overlord Tripmine 1": [
+      1594,
+      1616
+    ],
+    "Overlord Tripmine 2": [
+      1409,
+      1616
+    ],
+    "Overlord Atomic Health": [
+      1501,
+      1272
+    ],
+    "Combination Lock Scuba Gear": [
+      797,
+      855
+    ],
+    "Control Room Night Vision Goggles": [
+      949,
+      956
+    ],
+    "Control Room Chaingun": [
+      935,
+      958
+    ],
+    "Vents Center Atomic Health": [
+      774,
+      1173
+    ],
+    "Waterfall Atomic Health": [
+      548,
+      1352
+    ],
+    "Waterfall Shrinker": [
+      458,
+      1249
+    ],
+    "Overlord Tunnel Devastator": [
+      1048,
+      1238
+    ],
+    "Waterfall RPG": [
+      511,
+      1401
+    ],
+    "Reactor Freezethrower": [
+      775,
+      986
+    ],
+    "Start Underwater Shotgun": [
+      1241,
+      936
+    ],
+    "Start Underwater Atomic Health": [
+      1292,
+      970
+    ],
+    "Vents Pipebombs 2": [
+      775,
+      1119
+    ],
+    "Waterfall Holo Duke": [
+      1080,
+      1139
+    ],
+    "Overlord Tunnel Jetpack": [
+      1126,
+      1152
+    ],
+    "Timed Wall Medkit": [
+      1532,
+      1838
+    ],
+    "Timed Wall Atomic Health": [
+      1501,
+      1862
+    ],
+    "Waterfall Wall Pipebombs 1": [
+      422,
+      1244
+    ],
+    "Waterfall Wall Pipebombs 2": [
+      431,
+      1232
+    ],
+    "Secret Hidden Reactor Wall": [
+      775,
+      882
+    ],
+    "Secret Timed Overlord Wall": [
+      1501,
+      1842
+    ],
+    "Secret Waterfall Wall": [
+      412,
+      1221
+    ],
+    "Secret Timed Reactor Wall": [
+      775,
+      1050
+    ],
+    "Exit": [
+      922,
+      1024
+    ]
+  },
+  "E2L10": {
+    "Beta Shrinker": [
+      849,
+      1195
+    ],
+    "Gamma Freezethrower": [
+      848,
+      1546
+    ],
+    "Delta RPG": [
+      501,
+      1545
+    ],
+    "Alpha Chaingun": [
+      497,
+      1194
+    ],
+    "Gamma Medkit": [
+      1014,
+      1735
+    ],
+    "MP Alpha Holo Duke": [
+      295,
+      953
+    ],
+    "MP Beta Jetpack": [
+      1195,
+      1145
+    ],
+    "MP Gamma Night Vision Goggles": [
+      932,
+      1871
+    ],
+    "MP Delta Jetpack": [
+      187,
+      1646
+    ],
+    "Beta Atomic Health": [
+      1040,
+      1030
+    ],
+    "Alpha Medkit": [
+      335,
+      1004
+    ],
+    "Delta Atomic Health": [
+      309,
+      1709
+    ],
+    "Alpha Shotgun": [
+      469,
+      849
+    ],
+    "Alpha Pipebombs": [
+      155,
+      1159
+    ],
+    "Delta Shotgun": [
+      469,
+      1894
+    ],
+    "Delta Shrinker": [
+      150,
+      1576
+    ],
+    "Alpha Armor": [
+      567,
+      1304
+    ],
+    "Gamma Night Vision Goggles": [
+      778,
+      1431
+    ],
+    "Beta Medkit": [
+      778,
+      1309
+    ],
+    "Center Holo Duke": [
+      656,
+      1386
+    ],
+    "Center Devastator": [
+      691,
+      1356
+    ],
+    "Exit": [
+      936,
+      1024
+    ]
+  },
+  "E2L11": {
+    "Center Ring Shrinker": [
+      136,
+      1722
+    ],
+    "Top Ledge Devastator": [
+      140,
+      1891
+    ],
+    "MP Center Ring Night Vision Goggles": [
+      137,
+      1830
+    ],
+    "Bottom Ring Holo Duke": [
+      121,
+      1844
+    ],
+    "Center Ring RPG": [
+      136,
+      1842
+    ],
+    "Bottom Ring Armor": [
+      150,
+      1844
+    ],
+    "MP Center Ring Jetpack": [
+      136,
+      1707
+    ],
+    "Center Ring Atomic Health": [
+      84,
+      1763
+    ],
+    "Top Ledge Pipebombs": [
+      61,
+      1690
+    ],
+    "Center Ring Steroids": [
+      179,
+      1812
+    ],
+    "Bottom Ring Tripmine": [
+      108,
+      1837
+    ],
+    "Top Ledge Medkit": [
+      206,
+      1684
+    ],
+    "MP Top Ledge Shrinker": [
+      161,
+      1662
+    ],
+    "Center Ring Chaingun": [
+      136,
+      1812
+    ],
+    "Center Ring Shotgun": [
+      191,
+      1741
+    ],
+    "Bottom Ring Freezethrower": [
+      111,
+      1775
+    ],
+    "Bottom Ring Shotgun": [
+      67,
+      1707
+    ],
+    "Center Ring Pipebombs": [
+      191,
+      1763
+    ],
+    "Center Top Atomic Health 1": [
+      131,
+      1775
+    ],
+    "Center Top Atomic Health 2": [
+      140,
+      1775
+    ],
+    "Exit": [
+      578,
+      1024
+    ]
+  },
+  "E3L1": {
+    "Booth Jetpack": [
+      1185,
+      1123
+    ],
+    "Start Ledge Chaingun": [
+      733,
+      786
+    ],
+    "Start Ledge Atomic Health": [
+      733,
+      832
+    ],
+    "Sushi Belt Atomic Health": [
+      982,
+      1608
+    ],
+    "Sushi Belt Freezethrower": [
+      940,
+      1727
+    ],
+    "Start Pit Atomic Health": [
+      898,
+      1035
+    ],
+    "Start Pit Pipebombs": [
+      1005,
+      1035
+    ],
+    "Sushi Belt Steroids": [
+      932,
+      1608
+    ],
+    "Blue Key Card": [
+      921,
+      1063
+    ],
+    "Red Key Card": [
+      1506,
+      1103
+    ],
+    "Booth Shotgun": [
+      1181,
+      1159
+    ],
+    "Hallway Poster Shrinker": [
+      1051,
+      1245
+    ],
+    "Booth Backroom Steroids": [
+      1297,
+      1254
+    ],
+    "Booth Medkit": [
+      1169,
+      1329
+    ],
+    "Karaoke RPG": [
+      1200,
+      1532
+    ],
+    "Stove Jetpack": [
+      737,
+      1635
+    ],
+    "Start Pool Pipebombs": [
+      1628,
+      916
+    ],
+    "Sink Atomic Health": [
+      641,
+      1520
+    ],
+    "Kitchen Armor": [
+      794,
+      1445
+    ],
+    "Kitchen Vent Tripmine": [
+      812,
+      1619
+    ],
+    "Sushi Belt Night Vision Goggles": [
+      837,
+      1674
+    ],
+    "MP Garage Door Shotgun": [
+      704,
+      1186
+    ],
+    "MP Booth Chaingun": [
+      1192,
+      1329
+    ],
+    "MP Garage Pool Medkit": [
+      1525,
+      1349
+    ],
+    "Start Devastator": [
+      899,
+      555
+    ],
+    "Start Pool Holo Duke": [
+      1735,
+      920
+    ],
+    "Sushi Belt Cupboard Pipebombs": [
+      808,
+      1655
+    ],
+    "Garage Door Scuba Gear": [
+      718,
+      1218
+    ],
+    "Hallway Armor": [
+      1091,
+      1407
+    ],
+    "Night Vision Goggles behind Urn": [
+      1136,
+      1392
+    ],
+    "Secret Geisha Wall": [
+      1025,
+      1124
+    ],
+    "Secret Hallway Sign": [
+      1091,
+      1408
+    ],
+    "Secret Sushi Belt Wall": [
+      935,
+      1724
+    ],
+    "Secret Wine Cabinet": [
+      743,
+      1440
+    ],
+    "Secret Sushi Belt Cupboard": [
+      807,
+      1652
+    ],
+    "Secret Hallway Wall": [
+      1194,
+      1393
+    ],
+    "Secret Hallway Poster": [
+      1049,
+      1245
+    ],
+    "Exit": [
+      1024,
+      904
+    ]
+  },
+  "E3L2": {
+    "Top of Gears Protective Boots": [
+      133,
+      1636
+    ],
+    "Start Pipebombs": [
+      614,
+      1408
+    ],
+    "Vending Machine Atomic Health": [
+      988,
+      1537
+    ],
+    "ATM Chaingun": [
+      808,
+      1841
+    ],
+    "Pillar Pipebombs": [
+      726,
+      1811
+    ],
+    "Bank Phone Holo Duke": [
+      602,
+      1771
+    ],
+    "Dumpster Trashcan Steroids": [
+      583,
+      1490
+    ],
+    "Dumpster Medkit": [
+      564,
+      1464
+    ],
+    "Top of Gears Jetpack": [
+      139,
+      1636
+    ],
+    "Red Key Card": [
+      137,
+      1616
+    ],
+    "Start Shotgun": [
+      522,
+      1424
+    ],
+    "Start Ledge RPG": [
+      557,
+      1628
+    ],
+    "Blue Key Card": [
+      979,
+      1715
+    ],
+    "Office Painting Devastator": [
+      923,
+      1760
+    ],
+    "Bank Painting Jetpack": [
+      447,
+      1747
+    ],
+    "Office Steroids": [
+      974,
+      1736
+    ],
+    "Office Entrance Freezethrower": [
+      1033,
+      1616
+    ],
+    "Switch Shrinker": [
+      304,
+      1651
+    ],
+    "Office Entrance Pipebombs": [
+      937,
+      1589
+    ],
+    "Office Ledge Armor": [
+      878,
+      1626
+    ],
+    "Office Far Ledge Atomic Health": [
+      642,
+      1487
+    ],
+    "Office Far Ledge Tripmine 1": [
+      829,
+      1487
+    ],
+    "Office Far Ledge Tripmine 2": [
+      726,
+      1487
+    ],
+    "Exit Medkit": [
+      445,
+      1403
+    ],
+    "Gear Protective Boots": [
+      275,
+      1686
+    ],
+    "Gear Atomic Health": [
+      306,
+      1570
+    ],
+    "Secret Bank Phone": [
+      602,
+      1766
+    ],
+    "Secret ATM": [
+      808,
+      1831
+    ],
+    "Secret Office Painting": [
+      923,
+      1759
+    ],
+    "Secret Bank Painting": [
+      447,
+      1743
+    ],
+    "Secret Gears Breakable Wall": [
+      307,
+      1556
+    ],
+    "Exit": [
+      1024,
+      940
+    ]
+  },
+  "E3L3": {
+    "MP Exit Jetpack": [
+      1643,
+      250
+    ],
+    "Water Surface Night Vision Goggles": [
+      1477,
+      526
+    ],
+    "Canyon Night Vision Goggles": [
+      1503,
+      444
+    ],
+    "MP Canyon Pillars Jetpack": [
+      1037,
+      585
+    ],
+    "Canyon Wall Jetpack": [
+      1334,
+      626
+    ],
+    "MP Hidden Cave Jetpack": [
+      1823,
+      453
+    ],
+    "Sunken Building Freezethrower": [
+      149,
+      615
+    ],
+    "Inside Building Tripmine 1": [
+      345,
+      598
+    ],
+    "Inside Building Tripmine 2": [
+      348,
+      595
+    ],
+    "Building Ledge Shrinker": [
+      1430,
+      482
+    ],
+    "Inside Building Holo Duke": [
+      370,
+      595
+    ],
+    "MP Chaingun near Red Door": [
+      1403,
+      357
+    ],
+    "MP Building Ledge Devastator": [
+      1312,
+      485
+    ],
+    "MP Inside Building Shotgun": [
+      318,
+      588
+    ],
+    "Exit Atomic Health": [
+      1730,
+      188
+    ],
+    "Sunken Building Chaingun": [
+      1143,
+      490
+    ],
+    "Blue Key Card": [
+      1040,
+      544
+    ],
+    "Underwater Atomic Health": [
+      134,
+      517
+    ],
+    "Underwater Armor": [
+      394,
+      421
+    ],
+    "Hidden Cave Scuba Gear": [
+      660,
+      580
+    ],
+    "Start Scuba Gear": [
+      1482,
+      875
+    ],
+    "Canyon Atomic Health": [
+      1359,
+      625
+    ],
+    "Hidden Cave Devastator": [
+      1850,
+      487
+    ],
+    "Inside Building Medkit": [
+      441,
+      757
+    ],
+    "Start RPG": [
+      1457,
+      823
+    ],
+    "Sign Top Atomic Health": [
+      1249,
+      399
+    ],
+    "Inside Building Pipebombs": [
+      340,
+      658
+    ],
+    "Underwater Shotgun": [
+      458,
+      602
+    ],
+    "Top of Building Pipebombs": [
+      1440,
+      507
+    ],
+    "Inside Building Steroids": [
+      315,
+      637
+    ],
+    "Building Ledge Atomic Health": [
+      1465,
+      517
+    ],
+    "Sunken Building Medkit": [
+      161,
+      571
+    ],
+    "Yellow Key Card": [
+      75,
+      526
+    ],
+    "Red Key Card": [
+      286,
+      404
+    ],
+    "MP Canyon Pillars Scuba Gear": [
+      1293,
+      305
+    ],
+    "MP Sunken Building Armor": [
+      1062,
+      536
+    ],
+    "MP Underwater RPG": [
+      208,
+      600
+    ],
+    "Canyon Alcove Chaingun": [
+      1418,
+      380
+    ],
+    "Secret Hidden Cave": [
+      1817,
+      475
+    ],
+    "Secret Building Canyon Wall": [
+      1338,
+      624
+    ],
+    "Secret Empty Ledge": [
+      1020,
+      540
+    ],
+    "Secret Canyon Alcove Window": [
+      1419,
+      359
+    ],
+    "Secret Hard Hat Area": [
+      1337,
+      301
+    ],
+    "Exit": [
+      1024,
+      452
+    ]
+  },
+  "E3L4": {
+    "Red Key Card": [
+      954,
+      412
+    ],
+    "Abortion Clinic Atomic Health": [
+      1272,
+      1309
+    ],
+    "Billboard Shrinker": [
+      1537,
+      664
+    ],
+    "Elevator Lobby Medkit": [
+      784,
+      1169
+    ],
+    "Elevator Shaft Devastator": [
+      815,
+      1334
+    ],
+    "Abortion Clinic Night Vision Goggles": [
+      1414,
+      1211
+    ],
+    "Abortion Clinic Steroids": [
+      1170,
+      1267
+    ],
+    "MP Streets Shotgun": [
+      1372,
+      911
+    ],
+    "Hooker Pipebombs": [
+      1496,
+      1376
+    ],
+    "Street Ledge Chaingun": [
+      918,
+      942
+    ],
+    "Streets Shotgun": [
+      903,
+      622
+    ],
+    "Office RPG": [
+      1089,
+      581
+    ],
+    "Billboard Atomic Health 1": [
+      1465,
+      963
+    ],
+    "Street Ledge RPG": [
+      918,
+      994
+    ],
+    "Billboard Atomic Health 2": [
+      1465,
+      942
+    ],
+    "Office Jetpack": [
+      954,
+      529
+    ],
+    "Tower Top Medkit": [
+      1029,
+      945
+    ],
+    "Sewer Pipebombs": [
+      567,
+      529
+    ],
+    "Street Ledge Armor": [
+      1506,
+      674
+    ],
+    "Office Holo Duke": [
+      1403,
+      509
+    ],
+    "Blue Key Card": [
+      1192,
+      1185
+    ],
+    "MP Billboard Jetpack": [
+      1620,
+      891
+    ],
+    "MP Street Ledge Jetpack": [
+      1506,
+      581
+    ],
+    "MP Tower Top RPG": [
+      1011,
+      1004
+    ],
+    "MP Elevator Top Chaingun": [
+      815,
+      1293
+    ],
+    "Sewer Walls Freezethrower": [
+      774,
+      818
+    ],
+    "MP Abortion Clinic Atomic Health": [
+      1187,
+      1283
+    ],
+    "MP Abortion Clinic Jetpack": [
+      1367,
+      1216
+    ],
+    "MP Abortion Clinic Pipebombs": [
+      1264,
+      1283
+    ],
+    "Street Ledge Tripmine 1": [
+      1506,
+      922
+    ],
+    "Street Ledge Tripmine 2": [
+      1506,
+      911
+    ],
+    "Streets Ledge Freezethrower": [
+      1212,
+      911
+    ],
+    "Street Ledge Medkit": [
+      830,
+      808
+    ],
+    "Secret Sewer Walls": [
+      727,
+      842
+    ],
+    "Secret Office Painting": [
+      965,
+      360
+    ],
+    "Secret Abortion Clinic Counter": [
+      1272,
+      1305
+    ],
+    "Exit": [
+      1024,
+      723
+    ]
+  },
+  "E3L5": {
+    "Control Room Night Vision Goggles": [
+      397,
+      1278
+    ],
+    "Moon Landing Atomic Health": [
+      333,
+      1409
+    ],
+    "Vending Machine Night Vision Goggles": [
+      464,
+      1752
+    ],
+    "Spacecraft Night Vision Goggles": [
+      334,
+      1575
+    ],
+    "Earth Vent Atomic Health": [
+      386,
+      1659
+    ],
+    "Earth Jetpack": [
+      307,
+      1664
+    ],
+    "3DRealms Freezethrower": [
+      701,
+      1414
+    ],
+    "Subway Medkit": [
+      391,
+      1992
+    ],
+    "3DRealms Atomic Health": [
+      709,
+      1517
+    ],
+    "Studio Medkit": [
+      353,
+      1467
+    ],
+    "Yellow Key Card": [
+      290,
+      1394
+    ],
+    "Crate Atomic Health": [
+      451,
+      1487
+    ],
+    "Crate Devastator": [
+      386,
+      1622
+    ],
+    "Red Key Card": [
+      271,
+      1575
+    ],
+    "Moon Landing Chaingun": [
+      285,
+      1381
+    ],
+    "Beta Armor": [
+      35,
+      1933
+    ],
+    "Blue Key Card": [
+      471,
+      1772
+    ],
+    "Beta Holo Duke": [
+      27,
+      1944
+    ],
+    "Subway Shotgun": [
+      560,
+      1736
+    ],
+    "Booth Medkit": [
+      585,
+      1769
+    ],
+    "Spacecraft Wall Atomic Health": [
+      234,
+      1535
+    ],
+    "Spacecraft RPG": [
+      287,
+      1525
+    ],
+    "Crash Site Steroids": [
+      689,
+      1371
+    ],
+    "Studio Pipebombs": [
+      442,
+      1302
+    ],
+    "Streets Pipebombs": [
+      466,
+      1290
+    ],
+    "Control Room Tripmine 1": [
+      396,
+      1283
+    ],
+    "Control Room Tripmine 2": [
+      396,
+      1273
+    ],
+    "Earth Shrinker": [
+      280,
+      1664
+    ],
+    "Vending Machine Atomic Health 1": [
+      456,
+      1806
+    ],
+    "Vending Machine Atomic Health 2": [
+      458,
+      1808
+    ],
+    "Vending Machine Atomic Health 3": [
+      454,
+      1808
+    ],
+    "Moon Landing Jetpack": [
+      302,
+      1408
+    ],
+    "Subway Chaingun": [
+      411,
+      1987
+    ],
+    "Secret Earth Screen": [
+      300,
+      1664
+    ],
+    "Secret Crate": [
+      386,
+      1618
+    ],
+    "Secret Vending Machine": [
+      456,
+      1802
+    ],
+    "Secret 3DRealms": [
+      697,
+      1444
+    ],
+    "Exit": [
+      551,
+      1024
+    ],
+    "Secret Exit": [
+      551,
+      1024
+    ]
+  },
+  "E3L6": {
+    "Track Steroids": [
+      839,
+      87
+    ],
+    "Red Key Card": [
+      157,
+      879
+    ],
+    "Blue Key Freezethrower": [
+      744,
+      1670
+    ],
+    "Library Pipebombs": [
+      932,
+      1123
+    ],
+    "Vending Machine Atomic Health": [
+      803,
+      485
+    ],
+    "Underwater Shrinker": [
+      178,
+      1721
+    ],
+    "Bookshelf Atomic Health": [
+      595,
+      1106
+    ],
+    "Track Devastator": [
+      717,
+      131
+    ],
+    "Magazine Store Night Vision Goggles": [
+      910,
+      883
+    ],
+    "Blue Key Card": [
+      742,
+      1695
+    ],
+    "Entrance Shotgun": [
+      572,
+      761
+    ],
+    "Poster Chaingun": [
+      965,
+      466
+    ],
+    "Magazine Holo Duke": [
+      734,
+      607
+    ],
+    "Entrance Pipebombs": [
+      713,
+      778
+    ],
+    "Blue Key Armor": [
+      654,
+      1674
+    ],
+    "Blue Key Medkit": [
+      837,
+      1674
+    ],
+    "Blue Door Atomic Health": [
+      73,
+      891
+    ],
+    "Train Chaingun": [
+      391,
+      782
+    ],
+    "Train Atomic Health": [
+      393,
+      586
+    ],
+    "Train RPG": [
+      1102,
+      832
+    ],
+    "Train Medkit": [
+      1100,
+      1030
+    ],
+    "Blue Door Tripmine 1": [
+      315,
+      1256
+    ],
+    "Blue Door Tripmine 2": [
+      311,
+      1180
+    ],
+    "Blue Door Tripmine 3": [
+      311,
+      1104
+    ],
+    "Blue Door Tripmine 4": [
+      313,
+      1032
+    ],
+    "Blue Door Tripmine 5": [
+      311,
+      955
+    ],
+    "MP Blue Door Night Vision Goggles": [
+      119,
+      933
+    ],
+    "Alien Base Devastator": [
+      266,
+      1376
+    ],
+    "Track Atomic Health": [
+      852,
+      94
+    ],
+    "Secret Post Box Wall": [
+      227,
+      1280
+    ],
+    "Secret Poster": [
+      965,
+      471
+    ],
+    "Secret Bookshelves": [
+      658,
+      1068
+    ],
+    "Secret Magazines": [
+      741,
+      607
+    ],
+    "Secret Alien Base": [
+      136,
+      1336
+    ],
+    "Secret Track Wall": [
+      811,
+      84
+    ],
+    "Exit": [
+      972,
+      1024
+    ]
+  },
+  "E3L7": {
+    "Pool Shotgun": [
+      65,
+      935
+    ],
+    "Building Night Vision Goggles": [
+      216,
+      1107
+    ],
+    "MP Broadcast Jetpack": [
+      411,
+      808
+    ],
+    "Building Freezethrower": [
+      229,
+      1127
+    ],
+    "Fire Station Medkit": [
+      468,
+      1014
+    ],
+    "Fire Truck Holo Duke": [
+      554,
+      970
+    ],
+    "Blue Key Card": [
+      150,
+      737
+    ],
+    "Window Medkit": [
+      267,
+      1114
+    ],
+    "Passage Armor": [
+      344,
+      947
+    ],
+    "MP Crates Jetpack": [
+      308,
+      1049
+    ],
+    "Crates Atomic Health": [
+      312,
+      1081
+    ],
+    "Pool Ledge Pipebombs": [
+      307,
+      815
+    ],
+    "Broadcast Devastator": [
+      468,
+      825
+    ],
+    "Red Key Card": [
+      441,
+      832
+    ],
+    "Set Chaingun": [
+      590,
+      798
+    ],
+    "Wine Rack Medkit": [
+      201,
+      1112
+    ],
+    "Building Steroids": [
+      249,
+      1114
+    ],
+    "Pool Shrinker": [
+      59,
+      761
+    ],
+    "Broadcast Tripmine": [
+      472,
+      799
+    ],
+    "Building Tripmine": [
+      261,
+      1100
+    ],
+    "Exit RPG": [
+      134,
+      630
+    ],
+    "Pool Medkit": [
+      127,
+      737
+    ],
+    "Fire Station RPG": [
+      511,
+      1126
+    ],
+    "Fire Station Atomic Health": [
+      604,
+      1078
+    ],
+    "Curtain Atomic Health": [
+      624,
+      838
+    ],
+    "Broadcast Shotgun": [
+      466,
+      902
+    ],
+    "Yellow Key Card": [
+      459,
+      1036
+    ],
+    "Secret Broadcast": [
+      422,
+      818
+    ],
+    "Secret Wine Rack": [
+      209,
+      1106
+    ],
+    "Secret Painting": [
+      229,
+      1124
+    ],
+    "Secret Curtain": [
+      619,
+      799
+    ],
+    "Exit": [
+      1024,
+      577
+    ]
+  },
+  "E3L8": {
+    "Shark Tank Atomic Health": [
+      583,
+      704
+    ],
+    "Shark Tank Scuba Gear 2": [
+      607,
+      709
+    ],
+    "Hallway Night Vision Goggles": [
+      1201,
+      1055
+    ],
+    "Hotel Room Vent Shrinker": [
+      954,
+      858
+    ],
+    "Yellow Key Card": [
+      1530,
+      488
+    ],
+    "Toilet RPG": [
+      778,
+      650
+    ],
+    "Dive Board Pipebombs": [
+      1206,
+      561
+    ],
+    "Toilet Atomic Health": [
+      813,
+      605
+    ],
+    "Outside Vent Steroids": [
+      983,
+      121
+    ],
+    "Apartment Devastator": [
+      1426,
+      487
+    ],
+    "Blue Key Card": [
+      1230,
+      170
+    ],
+    "Trashcan Pipebombs": [
+      872,
+      380
+    ],
+    "Dumpster Medkit": [
+      843,
+      267
+    ],
+    "Dumpster Chaingun": [
+      847,
+      252
+    ],
+    "Ledge Shotgun": [
+      988,
+      249
+    ],
+    "Streets Atomic Health 1": [
+      1280,
+      1130
+    ],
+    "Hotel Room Armor": [
+      1045,
+      833
+    ],
+    "Corner Tripmine 1": [
+      1235,
+      1055
+    ],
+    "Corner Tripmine 2": [
+      1243,
+      1051
+    ],
+    "Streets Atomic Health 2": [
+      1270,
+      1110
+    ],
+    "Shark Tank Pipebombs": [
+      558,
+      492
+    ],
+    "Shark Tank Medkit": [
+      766,
+      479
+    ],
+    "Viewpoint Holo Duke": [
+      1064,
+      444
+    ],
+    "Shark Tank Scuba Gear 1": [
+      555,
+      479
+    ],
+    "Wine Rack Holo Duke": [
+      810,
+      542
+    ],
+    "Lobby Night Vision Goggles": [
+      1055,
+      722
+    ],
+    "Lobby Armor": [
+      914,
+      855
+    ],
+    "Lobby Medkit": [
+      988,
+      734
+    ],
+    "MP Lobby Jetpack": [
+      1038,
+      724
+    ],
+    "MP Staircase Armor": [
+      498,
+      818
+    ],
+    "MP Streets Chaingun": [
+      1230,
+      1120
+    ],
+    "MP Hallway Freezethrower": [
+      1161,
+      783
+    ],
+    "Shark Tank Freezethrower": [
+      627,
+      586
+    ],
+    "Indiana Jones Atomic Health": [
+      1028,
+      1570
+    ],
+    "Exit Pipebombs": [
+      1324,
+      220
+    ],
+    "Jungle Freezethrower": [
+      1557,
+      1649
+    ],
+    "Secret Shark Tank": [
+      766,
+      477
+    ],
+    "Secret Wine Rack": [
+      810,
+      546
+    ],
+    "Secret Indiana Jones": [
+      1377,
+      1628
+    ],
+    "Exit": [
+      1024,
+      914
+    ],
+    "Secret Exit": [
+      1024,
+      914
+    ]
+  },
+  "E3L9": {
+    "MP Floor Armor": [
+      622,
+      484
+    ],
+    "MP Ledge Shotgun": [
+      218,
+      484
+    ],
+    "Floor Pipebombs 1": [
+      420,
+      308
+    ],
+    "Floor Pipebombs 2": [
+      420,
+      661
+    ],
+    "Floor Pipebombs 3": [
+      925,
+      661
+    ],
+    "Floor Pipebombs 4": [
+      925,
+      308
+    ],
+    "Ledge Shrinker 1": [
+      672,
+      737
+    ],
+    "MP Floor Chaingun": [
+      824,
+      661
+    ],
+    "MP Floor Freezethrower": [
+      521,
+      661
+    ],
+    "MP Floor RPG": [
+      521,
+      308
+    ],
+    "MP Floor Devastator": [
+      824,
+      308
+    ],
+    "Ledge Shrinker 2": [
+      672,
+      232
+    ],
+    "Ledge Night Vision Goggles 1": [
+      672,
+      901
+    ],
+    "Ledge Holo Duke": [
+      672,
+      68
+    ],
+    "Ledge Chaingun": [
+      218,
+      156
+    ],
+    "Ledge Jetpack": [
+      117,
+      484
+    ],
+    "Ledge RPG": [
+      1127,
+      813
+    ],
+    "Ledge Freezethrower": [
+      1177,
+      207
+    ],
+    "Ledge Shotgun": [
+      1265,
+      484
+    ],
+    "Ledge Devastator": [
+      218,
+      813
+    ],
+    "Floor Steroids 1": [
+      344,
+      484
+    ],
+    "Floor Steroids 2": [
+      1000,
+      484
+    ],
+    "MP Ledge Jetpack 1": [
+      1000,
+      182
+    ],
+    "MP Ledge Jetpack 2": [
+      1000,
+      787
+    ],
+    "Floor Night Vision Goggles": [
+      495,
+      283
+    ],
+    "MP Ledge Chaingun": [
+      1253,
+      434
+    ],
+    "MP Ledge Pipebombs": [
+      1228,
+      384
+    ],
+    "MP Ledge Devastator": [
+      1177,
+      358
+    ],
+    "MP Ledge RPG": [
+      1253,
+      535
+    ],
+    "MP Ledge Shrinker": [
+      1228,
+      585
+    ],
+    "MP Ledge Freezethrower": [
+      1177,
+      611
+    ],
+    "Floor Medkit": [
+      672,
+      699
+    ],
+    "Ledge Night Vision Goggles 2": [
+      243,
+      484
+    ],
+    "Floor Atomic Health 1": [
+      950,
+      459
+    ],
+    "Floor Atomic Health 2": [
+      950,
+      510
+    ],
+    "Floor Atomic Health 3": [
+      394,
+      459
+    ],
+    "Floor Atomic Health 4": [
+      394,
+      510
+    ],
+    "Exit": [
+      1024,
+      748
+    ]
+  },
+  "E3L10": {
+    "Beta Shotgun": [
+      598,
+      1988
+    ],
+    "Alpha Shotgun": [
+      601,
+      1446
+    ],
+    "Delta Tripmine 1": [
+      105,
+      1434
+    ],
+    "Delta Tripmine 2": [
+      101,
+      1433
+    ],
+    "Delta Tripmine 3": [
+      97,
+      1434
+    ],
+    "Alpha Armor": [
+      611,
+      1485
+    ],
+    "Beta Night Vision Goggles": [
+      611,
+      1942
+    ],
+    "Beta Medkit": [
+      558,
+      1995
+    ],
+    "Gamma Jetpack": [
+      48,
+      1942
+    ],
+    "Delta Pipebombs 1": [
+      54,
+      1449
+    ],
+    "Delta Pipebombs 2": [
+      54,
+      1457
+    ],
+    "Exit Freezethrower": [
+      338,
+      1708
+    ],
+    "Brick RPG": [
+      330,
+      1714
+    ],
+    "Brick Armor": [
+      382,
+      1661
+    ],
+    "Desert Chaingun": [
+      332,
+      1723
+    ],
+    "White Shrinker": [
+      318,
+      1714
+    ],
+    "Green Devastator": [
+      349,
+      1645
+    ],
+    "Alpha Steroids": [
+      558,
+      1433
+    ],
+    "Delta Holo Duke": [
+      48,
+      1485
+    ],
+    "Exit Atomic Health 1": [
+      339,
+      1700
+    ],
+    "Exit Atomic Health 2": [
+      343,
+      1700
+    ],
+    "Exit Atomic Health 3": [
+      335,
+      1700
+    ],
+    "Secret Delta": [
+      61,
+      1445
+    ],
+    "Secret Alpha": [
+      598,
+      1445
+    ],
+    "Secret Beta": [
+      598,
+      1982
+    ],
+    "Secret Gamma": [
+      61,
+      1982
+    ],
+    "Exit": [
+      898,
+      1024
+    ]
+  },
+  "E3L11": {
+    "Conveyor Control Armor": [
+      240,
+      317
+    ],
+    "Conveyor Night Vision Goggles": [
+      300,
+      304
+    ],
+    "Streets Pipebombs": [
+      508,
+      616
+    ],
+    "Underwater Shotgun": [
+      859,
+      580
+    ],
+    "Sewer Tripmine 1": [
+      271,
+      504
+    ],
+    "Sewer Tripmine 2": [
+      271,
+      509
+    ],
+    "Streets Steroids": [
+      500,
+      581
+    ],
+    "Ledge Steroids": [
+      98,
+      301
+    ],
+    "Conveyor Control Pipebombs": [
+      240,
+      301
+    ],
+    "Trashcan Atomic Health": [
+      391,
+      362
+    ],
+    "Toppled Building Jetpack": [
+      1261,
+      229
+    ],
+    "Trashcan Shotgun": [
+      82,
+      347
+    ],
+    "Underwater RPG": [
+      1271,
+      475
+    ],
+    "Underwater Atomic Health": [
+      836,
+      587
+    ],
+    "Sewer Armor": [
+      275,
+      508
+    ],
+    "Streets Devastator": [
+      401,
+      349
+    ],
+    "Ledge Medkit": [
+      98,
+      504
+    ],
+    "Ledge Night Vision Goggles": [
+      537,
+      549
+    ],
+    "Office Ledge Atomic Health 1": [
+      460,
+      431
+    ],
+    "Office Ledge Atomic Health 2": [
+      460,
+      398
+    ],
+    "Streets Medkit": [
+      391,
+      414
+    ],
+    "Streets Armor": [
+      407,
+      414
+    ],
+    "Office Chaingun": [
+      476,
+      429
+    ],
+    "Office Pipebombs": [
+      470,
+      364
+    ],
+    "Terminator RPG": [
+      231,
+      203
+    ],
+    "Conveyor Freezethrower": [
+      193,
+      156
+    ],
+    "Bedroom Shrinker": [
+      289,
+      516
+    ],
+    "Bathroom Freezethrower": [
+      230,
+      492
+    ],
+    "Dumpster Shotgun": [
+      201,
+      617
+    ],
+    "MP Underwater Jetpack": [
+      842,
+      606
+    ],
+    "Blue Key Card": [
+      501,
+      395
+    ],
+    "Red Key Card": [
+      240,
+      148
+    ],
+    "Secret Bookshelf": [
+      527,
+      361
+    ],
+    "Secret Office Spawn Room": [
+      504,
+      406
+    ],
+    "Secret Conveyor Control Room": [
+      240,
+      310
+    ],
+    "Secret Bedroom Window": [
+      299,
+      529
+    ],
+    "Secret Bathroom": [
+      247,
+      483
+    ],
+    "Exit": [
+      1024,
+      600
+    ]
+  },
+  "E4L1": {
+    "Basement Container Tripmine 1": [
+      1164,
+      379
+    ],
+    "Kitchen Freezer Freezethrower": [
+      1773,
+      337
+    ],
+    "Cave Night Vision Goggles": [
+      1210,
+      170
+    ],
+    "Upper Canyon Ledge Holo Duke": [
+      1498,
+      33
+    ],
+    "Red Basement Pipebombs": [
+      1171,
+      294
+    ],
+    "Red Key Card": [
+      1404,
+      506
+    ],
+    "Blue Key Card": [
+      1735,
+      465
+    ],
+    "Basement Container Tripmine 2": [
+      1164,
+      390
+    ],
+    "Basement Container Tripmine 3": [
+      1174,
+      379
+    ],
+    "Upper Canyon Ledge Pipebombs": [
+      1488,
+      34
+    ],
+    "MP Upper Canyon Ledge Steroids": [
+      1493,
+      28
+    ],
+    "Cave Atomic Health": [
+      1206,
+      167
+    ],
+    "Final Doors Atomic Health": [
+      1064,
+      483
+    ],
+    "Upstairs Computer RPG": [
+      1461,
+      449
+    ],
+    "Bathroom Secret Medkit": [
+      1681,
+      351
+    ],
+    "Briefing Room Armor": [
+      1207,
+      316
+    ],
+    "Briefing Room Shotgun": [
+      1281,
+      241
+    ],
+    "Bathroom Chaingun": [
+      1681,
+      423
+    ],
+    "MP Outside Area Ledge Shotgun": [
+      1568,
+      138
+    ],
+    "MP Outside Area Ledge Chaingun": [
+      1285,
+      178
+    ],
+    "Briefing Room Pipebombs": [
+      1241,
+      336
+    ],
+    "Kitchen Conveyer Atomic Health": [
+      1738,
+      228
+    ],
+    "Kitchen Secret Shrinker": [
+      1831,
+      237
+    ],
+    "Kitchen Secret Armor": [
+      1836,
+      258
+    ],
+    "Final Doors Devastator": [
+      1213,
+      486
+    ],
+    "Exit Pipebombs": [
+      988,
+      578
+    ],
+    "Barracks Bed Steroids": [
+      1567,
+      442
+    ],
+    "Barracks Bed Jetpack": [
+      1497,
+      442
+    ],
+    "Secret Upstairs Computer": [
+      1457,
+      437
+    ],
+    "Secret Final Doors": [
+      1064,
+      478
+    ],
+    "Secret Kitchen Freezer": [
+      1820,
+      249
+    ],
+    "Secret Cave": [
+      1208,
+      168
+    ],
+    "Secret Bathroom": [
+      1681,
+      354
+    ],
+    "Secret Barracks Bed": [
+      1497,
+      442
+    ],
+    "Secret Upper Canyon Ledge": [
+      1492,
+      40
+    ],
+    "Exit": [
+      1024,
+      534
+    ]
+  },
+  "E4L2": {
+    "Slaughterhouse Tripmine": [
+      592,
+      722
+    ],
+    "Conveyer Upper RPG": [
+      694,
+      608
+    ],
+    "Kitchen Vent Pipebombs": [
+      362,
+      1116
+    ],
+    "Kitchen Vent Steroids": [
+      333,
+      1146
+    ],
+    "Kitchen Vent Medkit": [
+      379,
+      1142
+    ],
+    "Inside DB Freezethrower": [
+      588,
+      1282
+    ],
+    "Dog Kennel Pipebombs": [
+      484,
+      582
+    ],
+    "Manager Room Tripmine 1": [
+      392,
+      686
+    ],
+    "Manager Room Tripmine 2": [
+      386,
+      686
+    ],
+    "Red Key Card": [
+      431,
+      1017
+    ],
+    "Manager Room Armor": [
+      365,
+      653
+    ],
+    "Kitchen Fryer Armor": [
+      403,
+      1038
+    ],
+    "Slaughterhouse Vent Medkit": [
+      493,
+      1022
+    ],
+    "Outside Atomic Health": [
+      389,
+      1120
+    ],
+    "Outside Pipebombs": [
+      423,
+      1399
+    ],
+    "MP Inside DB RPG": [
+      527,
+      1041
+    ],
+    "Kitchen Shotgun": [
+      429,
+      1007
+    ],
+    "Kitchen Corner Chaingun": [
+      502,
+      1096
+    ],
+    "Outside Steroids": [
+      582,
+      1386
+    ],
+    "MP Outside Sign Holo Duke": [
+      457,
+      891
+    ],
+    "Slaughterhouse Devastator": [
+      548,
+      964
+    ],
+    "Counter Burger Box Atomic Health": [
+      441,
+      1166
+    ],
+    "Kitchen Burger Box Atomic Health": [
+      493,
+      1099
+    ],
+    "Outside Sign Shrinker": [
+      428,
+      922
+    ],
+    "Blue Key Card": [
+      428,
+      915
+    ],
+    "Kitchen Back Night Vision Goggles": [
+      429,
+      986
+    ],
+    "Kitchen Back Freezethrower": [
+      405,
+      1034
+    ],
+    "Secret Dog Kennel": [
+      484,
+      601
+    ],
+    "Secret Kitchen Vent": [
+      353,
+      1116
+    ],
+    "Secret Conveyer Upper": [
+      685,
+      633
+    ],
+    "Secret Kitchen Back": [
+      405,
+      1034
+    ],
+    "Exit": [
+      638,
+      1024
+    ]
+  },
+  "E4L3": {
+    "MP Seal Chaingun": [
+      226,
+      264
+    ],
+    "Warehouse Pipebombs": [
+      750,
+      623
+    ],
+    "Openable Box Armor": [
+      393,
+      530
+    ],
+    "Storage Upper Freezethrower": [
+      136,
+      77
+    ],
+    "Storage Upper Pipebombs": [
+      136,
+      70
+    ],
+    "Storage Upper Night Vision Goggles": [
+      136,
+      85
+    ],
+    "MP Blue Vent Shrinker": [
+      298,
+      294
+    ],
+    "Blue Top Crate RPG": [
+      456,
+      158
+    ],
+    "MP Outside Shotgun": [
+      815,
+      352
+    ],
+    "MP Behind boxes RPG": [
+      461,
+      485
+    ],
+    "Shop Corridor Devastator": [
+      533,
+      640
+    ],
+    "Blue Fruit Tripmine 1": [
+      319,
+      85
+    ],
+    "Blue Fruit Tripmine 2": [
+      319,
+      90
+    ],
+    "Blue Fruit Tripmine 3": [
+      319,
+      95
+    ],
+    "Storage Upper Atomic Health": [
+      56,
+      131
+    ],
+    "Shop Corridor Medkit": [
+      500,
+      639
+    ],
+    "Crate Shotgun": [
+      554,
+      576
+    ],
+    "Yellow Cashier Devastator": [
+      526,
+      393
+    ],
+    "Warehouse Upper Atomic Health": [
+      768,
+      619
+    ],
+    "Exploding Box Chaingun": [
+      495,
+      429
+    ],
+    "Blue Vent Atomic Health": [
+      418,
+      303
+    ],
+    "Blue Key Card": [
+      475,
+      452
+    ],
+    "Yellow Key Card": [
+      216,
+      190
+    ],
+    "Red Key Card": [
+      473,
+      55
+    ],
+    "Manager Office Pipebombs": [
+      508,
+      104
+    ],
+    "Blue Fruit Armor": [
+      445,
+      93
+    ],
+    "Warehouse Night Vision Goggles": [
+      776,
+      591
+    ],
+    "MP Shop Blue Jetpack": [
+      204,
+      370
+    ],
+    "MP Red Storage Shotgun": [
+      148,
+      227
+    ],
+    "Red Storage Holo Duke": [
+      148,
+      208
+    ],
+    "Manager Office Steroids": [
+      529,
+      27
+    ],
+    "Trash Comp Medkit": [
+      166,
+      408
+    ],
+    "Red Storage Steroids": [
+      150,
+      282
+    ],
+    "Trash Comp Protective Boots": [
+      151,
+      390
+    ],
+    "Secret Exploding Box": [
+      506,
+      426
+    ],
+    "Secret Shop Corridor": [
+      492,
+      630
+    ],
+    "Secret Yellow Cashier": [
+      532,
+      393
+    ],
+    "Secret Storage Upper": [
+      143,
+      76
+    ],
+    "Secret Openable Box": [
+      391,
+      528
+    ],
+    "Secret Trash Comp": [
+      151,
+      394
+    ],
+    "Secret Red Storage": [
+      148,
+      279
+    ],
+    "Exit": [
+      1024,
+      594
+    ]
+  },
+  "E4L4": {
+    "Red Boat RPG": [
+      1047,
+      1238
+    ],
+    "Red Boat Chaingun": [
+      634,
+      823
+    ],
+    "Red Auction Protective Boots": [
+      1072,
+      1078
+    ],
+    "Red Key Card": [
+      1124,
+      483
+    ],
+    "Red Upper 2 Pipebombs": [
+      842,
+      1013
+    ],
+    "MP Boat Top Protective Boots": [
+      737,
+      770
+    ],
+    "Castle Pipebombs": [
+      1006,
+      914
+    ],
+    "Castle Jetpack": [
+      991,
+      929
+    ],
+    "Castle Holo Duke": [
+      1021,
+      899
+    ],
+    "Red Auction Night Vision Goggles": [
+      1047,
+      1126
+    ],
+    "Red Auction Holo Duke": [
+      1107,
+      1167
+    ],
+    "Upper Main Pipebombs": [
+      952,
+      271
+    ],
+    "MP Red Key Medkit": [
+      563,
+      729
+    ],
+    "Blue Area Hidden Night Vision Goggles": [
+      1105,
+      484
+    ],
+    "Blue Area Hidden Armor": [
+      1126,
+      478
+    ],
+    "Pool Steroids": [
+      851,
+      319
+    ],
+    "Pool Medkit": [
+      789,
+      135
+    ],
+    "Inside Boat Shrinker": [
+      297,
+      385
+    ],
+    "Boat Top Freezethrower": [
+      779,
+      773
+    ],
+    "Castle Atomic Health": [
+      995,
+      903
+    ],
+    "Castle RPG": [
+      1008,
+      811
+    ],
+    "Castle Devastator": [
+      877,
+      890
+    ],
+    "Castle Chaingun": [
+      954,
+      970
+    ],
+    "Castle Shotgun": [
+      1049,
+      890
+    ],
+    "Upper Pool Chaingun": [
+      628,
+      383
+    ],
+    "Blue Area Back RPG": [
+      1180,
+      417
+    ],
+    "Upper Main Atomic Health": [
+      909,
+      400
+    ],
+    "Ticket Booth Shotgun": [
+      1107,
+      177
+    ],
+    "Duck Conveyor Atomic Health 1": [
+      1180,
+      370
+    ],
+    "Duck Conveyor Atomic Health 2": [
+      1163,
+      370
+    ],
+    "Blue Key Card": [
+      703,
+      383
+    ],
+    "Red Upper Armor": [
+      666,
+      729
+    ],
+    "Castle Dive Tripmine 1": [
+      226,
+      929
+    ],
+    "Castle Dive Tripmine 2": [
+      217,
+      929
+    ],
+    "Castle Dive Scuba Gear": [
+      406,
+      791
+    ],
+    "Sky Secret Atomic Health": [
+      900,
+      564
+    ],
+    "Red Boat Shrinker": [
+      1223,
+      761
+    ],
+    "Secret Blue Area Hidden Room": [
+      1115,
+      460
+    ],
+    "Secret Blue Explosion": [
+      1080,
+      371
+    ],
+    "Secret Sky": [
+      900,
+      570
+    ],
+    "Secret Prison": [
+      810,
+      1096
+    ],
+    "Exit": [
+      1024,
+      984
+    ]
+  },
+  "E4L5": {
+    "Basement Pipebombs": [
+      1464,
+      240
+    ],
+    "Basement Atomic Health": [
+      1336,
+      218
+    ],
+    "Security Steroids": [
+      1535,
+      150
+    ],
+    "Graffiti Steroids": [
+      1336,
+      580
+    ],
+    "Graffiti Freezethrower": [
+      1415,
+      580
+    ],
+    "Graffiti Devastator": [
+      1377,
+      627
+    ],
+    "Graffiti RPG": [
+      1394,
+      627
+    ],
+    "Yellow Atomic Health": [
+      1836,
+      546
+    ],
+    "MP Yellow Shotgun": [
+      1796,
+      505
+    ],
+    "Basement Tripmine 1": [
+      1327,
+      252
+    ],
+    "Basement Tripmine 2": [
+      1325,
+      246
+    ],
+    "Basement Freezethrower": [
+      1346,
+      304
+    ],
+    "Basement Jetpack": [
+      1472,
+      230
+    ],
+    "Upstairs RPG": [
+      1664,
+      236
+    ],
+    "Upstairs Medkit": [
+      1682,
+      240
+    ],
+    "Bookshelf Atomic Health": [
+      1520,
+      407
+    ],
+    "Red Area Steroids": [
+      1715,
+      331
+    ],
+    "Poster Medkit": [
+      1750,
+      350
+    ],
+    "Blue Key Card": [
+      1531,
+      229
+    ],
+    "Telephone Atomic Health": [
+      1505,
+      318
+    ],
+    "Bookshelf Chaingun 1": [
+      1546,
+      432
+    ],
+    "Bookshelf Chaingun 2": [
+      1535,
+      432
+    ],
+    "Bookshelf Chaingun 3": [
+      1526,
+      432
+    ],
+    "Start Shotgun": [
+      1505,
+      372
+    ],
+    "Start Chaingun": [
+      1535,
+      477
+    ],
+    "Basement Blue Pipebombs": [
+      1437,
+      199
+    ],
+    "Yellow Key Card": [
+      1716,
+      336
+    ],
+    "MP Hangout Jetpack": [
+      1791,
+      379
+    ],
+    "Yellow Shrinker": [
+      1691,
+      520
+    ],
+    "Start Armor": [
+      1528,
+      458
+    ],
+    "Upstairs Night Vision Goggles": [
+      1719,
+      144
+    ],
+    "Start Pipebombs": [
+      1347,
+      353
+    ],
+    "MP Security Armor": [
+      1548,
+      176
+    ],
+    "MP Security Shotgun": [
+      1548,
+      124
+    ],
+    "Unreachable Holo Duke": [
+      1774,
+      327
+    ],
+    "Red Key Card": [
+      1514,
+      82
+    ],
+    "Secret Telephone": [
+      1505,
+      324
+    ],
+    "Secret Poster": [
+      1753,
+      338
+    ],
+    "Secret Bookshelf": [
+      1537,
+      417
+    ],
+    "Secret Graffiti": [
+      1383,
+      614
+    ],
+    "Secret Basement": [
+      1336,
+      218
+    ],
+    "Exit": [
+      982,
+      1024
+    ],
+    "Secret Exit": [
+      982,
+      1024
+    ]
+  },
+  "E4L6": {
+    "Firetruck Protective Boots": [
+      240,
+      1056
+    ],
+    "Firetruck Devastator": [
+      205,
+      1048
+    ],
+    "Container Pipebombs": [
+      312,
+      460
+    ],
+    "Blue Vent Shrinker": [
+      1385,
+      443
+    ],
+    "Red Key Card": [
+      1126,
+      473
+    ],
+    "Red Chaingun": [
+      1456,
+      475
+    ],
+    "Red Armor": [
+      1499,
+      473
+    ],
+    "Red Medkit": [
+      1452,
+      391
+    ],
+    "Red Pipebombs": [
+      1430,
+      480
+    ],
+    "Red Tripmine 1": [
+      1599,
+      706
+    ],
+    "Red Tripmine 2": [
+      1599,
+      699
+    ],
+    "Front Holo Duke": [
+      758,
+      495
+    ],
+    "Red Atomic Health": [
+      1872,
+      728
+    ],
+    "Blue Freezethrower": [
+      1441,
+      953
+    ],
+    "Locker Steroids": [
+      1095,
+      184
+    ],
+    "Locker Armor": [
+      1134,
+      235
+    ],
+    "Behind Counter Shotgun": [
+      931,
+      538
+    ],
+    "Blue Desk Pipebombs": [
+      1121,
+      598
+    ],
+    "Blue Crates Devastator": [
+      1238,
+      776
+    ],
+    "Conveyer Upper Night Vision Goggles": [
+      1406,
+      931
+    ],
+    "Blue Steroids": [
+      1298,
+      607
+    ],
+    "Blue Armor": [
+      1337,
+      395
+    ],
+    "MP Conveyer Upper Jetpack": [
+      1126,
+      482
+    ],
+    "Conveyer Upper Medkit": [
+      1099,
+      477
+    ],
+    "Locker Crate Chaingun": [
+      1264,
+      132
+    ],
+    "Basement RPG": [
+      745,
+      214
+    ],
+    "Locker Secret Atomic Health": [
+      1140,
+      140
+    ],
+    "Blue Atomic Health": [
+      1311,
+      953
+    ],
+    "Firetruck Atomic Health": [
+      438,
+      1000
+    ],
+    "Blue Key Card": [
+      1134,
+      218
+    ],
+    "Red Devastator": [
+      1473,
+      471
+    ],
+    "Paw Shotgun": [
+      1078,
+      737
+    ],
+    "Blue Conveyer Atomic Health": [
+      1419,
+      814
+    ],
+    "Locker Secret Medkit": [
+      1311,
+      227
+    ],
+    "Yellow Key Card": [
+      1985,
+      447
+    ],
+    "Front Vent Pipebombs": [
+      732,
+      426
+    ],
+    "Secret Locker": [
+      1203,
+      193
+    ],
+    "Secret Blue Vent": [
+      1349,
+      427
+    ],
+    "Secret Firetruck": [
+      222,
+      1142
+    ],
+    "Secret Front Vent": [
+      737,
+      427
+    ],
+    "Exit": [
+      1024,
+      916
+    ]
+  },
+  "E4L7": {
+    "Crusher Scuba Gear": [
+      1951,
+      966
+    ],
+    "Blue Holo Duke": [
+      1567,
+      1003
+    ],
+    "Crate Freezethrower": [
+      1472,
+      1071
+    ],
+    "MP Front Jetpack": [
+      1440,
+      944
+    ],
+    "Blue Apt. Pipebombs": [
+      1618,
+      866
+    ],
+    "Printer Trashcan Pipebombs": [
+      1443,
+      934
+    ],
+    "Front Upper Armor": [
+      1402,
+      1062
+    ],
+    "Front Upper Atomic Health": [
+      1447,
+      1039
+    ],
+    "Crusher RPG": [
+      1993,
+      925
+    ],
+    "Crusher Medkit": [
+      1962,
+      925
+    ],
+    "Blue Key Card": [
+      1461,
+      1071
+    ],
+    "Cola Tripmine 1": [
+      1735,
+      1009
+    ],
+    "Cola Tripmine 2": [
+      1740,
+      1008
+    ],
+    "Blue Devastator": [
+      1588,
+      991
+    ],
+    "Outside Pipebombs": [
+      1300,
+      938
+    ],
+    "Front Chaingun": [
+      1403,
+      874
+    ],
+    "Front Protective Boots": [
+      1403,
+      890
+    ],
+    "Blue Secret Shrinker": [
+      1699,
+      811
+    ],
+    "MP Outside Shotgun": [
+      1357,
+      874
+    ],
+    "Blue Atomic Health": [
+      1575,
+      1044
+    ],
+    "Blue Night Vision Goggles": [
+      1722,
+      812
+    ],
+    "Blue Medkit": [
+      1480,
+      856
+    ],
+    "Front Steroids": [
+      1403,
+      886
+    ],
+    "MP Blue Jetpack": [
+      1669,
+      950
+    ],
+    "Red Key Card": [
+      1574,
+      1001
+    ],
+    "Blue Shotgun": [
+      1552,
+      806
+    ],
+    "Blue Apt. Trashcan Devastator": [
+      1612,
+      876
+    ],
+    "Blue Apt. RPG": [
+      1657,
+      868
+    ],
+    "Secret Blue Area": [
+      1699,
+      813
+    ],
+    "Secret Crate": [
+      1469,
+      1071
+    ],
+    "Secret Blue Appartment": [
+      1641,
+      869
+    ],
+    "Exit": [
+      1024,
+      809
+    ]
+  },
+  "E4L8": {
+    "Warehouse Vent Night Vision Goggles": [
+      1563,
+      734
+    ],
+    "MP Bookshelf Jetpack": [
+      1507,
+      744
+    ],
+    "Control Freezethrower": [
+      1453,
+      848
+    ],
+    "Control Armor": [
+      1408,
+      973
+    ],
+    "Control Shotgun": [
+      1432,
+      965
+    ],
+    "Blue Key Card": [
+      1418,
+      932
+    ],
+    "Homer Atomic Health": [
+      1579,
+      817
+    ],
+    "Explosion Lower Medkit": [
+      1683,
+      883
+    ],
+    "Explosion Lower Devastator": [
+      1645,
+      895
+    ],
+    "Explosion Lower Atomic Health": [
+      1676,
+      877
+    ],
+    "Explosion Lower Pipebombs": [
+      1685,
+      871
+    ],
+    "Front Upper Armor": [
+      1594,
+      580
+    ],
+    "Warehouse Atomic Health": [
+      1563,
+      611
+    ],
+    "Explosion Chaingun": [
+      1563,
+      765
+    ],
+    "Outside Pipebombs": [
+      1647,
+      565
+    ],
+    "Warehouse Shotgun": [
+      1553,
+      669
+    ],
+    "Explosion Lower Holo Duke": [
+      1613,
+      923
+    ],
+    "Storage Medkit": [
+      1532,
+      988
+    ],
+    "Storage Steroids": [
+      1595,
+      996
+    ],
+    "Explosion Lower Protective Boots": [
+      1631,
+      987
+    ],
+    "Blue Dive Atomic Health": [
+      1539,
+      1661
+    ],
+    "Yellow Key Card": [
+      1579,
+      1661
+    ],
+    "Blue Upper Shrinker": [
+      1617,
+      880
+    ],
+    "Blue Chaingun": [
+      1547,
+      884
+    ],
+    "Blue Secret RPG": [
+      1536,
+      809
+    ],
+    "Storage Tripmine 1": [
+      1559,
+      976
+    ],
+    "Storage Tripmine 2": [
+      1567,
+      976
+    ],
+    "Red Key Card": [
+      1538,
+      743
+    ],
+    "Explosion Lower Scuba Gear": [
+      1667,
+      862
+    ],
+    "MP Explosion RPG": [
+      1645,
+      796
+    ],
+    "MP Outside Freezethrower": [
+      1609,
+      469
+    ],
+    "Secret Explosion Lower": [
+      1683,
+      880
+    ],
+    "Secret Homer": [
+      1565,
+      803
+    ],
+    "Secret Blue Area": [
+      1538,
+      808
+    ],
+    "Secret Blue Upper": [
+      1614,
+      887
+    ],
+    "Exit": [
+      1024,
+      875
+    ]
+  },
+  "E4L9": {
+    "Kitchen Medkit": [
+      1706,
+      963
+    ],
+    "Yellow Upper Atomic Health": [
+      1773,
+      317
+    ],
+    "Crusher Atomic Health": [
+      1773,
+      950
+    ],
+    "Captains Shrinker": [
+      1617,
+      859
+    ],
+    "Captains Atomic Health 1": [
+      1617,
+      839
+    ],
+    "Captains Atomic Health 2": [
+      1617,
+      878
+    ],
+    "Captains Night Vision Goggles": [
+      1707,
+      829
+    ],
+    "Captains Armor": [
+      1695,
+      962
+    ],
+    "Barracks Steroids": [
+      1815,
+      824
+    ],
+    "TV Chaingun": [
+      1692,
+      860
+    ],
+    "Yellow Pipebombs": [
+      1810,
+      652
+    ],
+    "Blue Key Card": [
+      1110,
+      727
+    ],
+    "Yellow Upper Pipebombs": [
+      1690,
+      342
+    ],
+    "Crate Protective Boots": [
+      1874,
+      709
+    ],
+    "Upper Deck Steroids": [
+      1145,
+      535
+    ],
+    "Upper Deck Medkit": [
+      1143,
+      268
+    ],
+    "Scan Room RPG": [
+      1172,
+      790
+    ],
+    "Outside Dive RPG": [
+      454,
+      396
+    ],
+    "Upper Deck Atomic Health 1": [
+      1077,
+      775
+    ],
+    "Upper Deck Atomic Health 2": [
+      1210,
+      778
+    ],
+    "Ship Deck Scuba Gear": [
+      1070,
+      450
+    ],
+    "MP Outside Dive Jetpack 1": [
+      553,
+      846
+    ],
+    "MP Outside Dive Jetpack 2": [
+      201,
+      824
+    ],
+    "MP Yellow Final Jetpack": [
+      376,
+      256
+    ],
+    "Ship Deck Armor": [
+      1111,
+      923
+    ],
+    "Upper Deck Shotgun": [
+      1143,
+      704
+    ],
+    "Low Deck Chaingun": [
+      1143,
+      733
+    ],
+    "Upper Deck Shrinker": [
+      1143,
+      736
+    ],
+    "Upper Deck Tripmine 1": [
+      1124,
+      856
+    ],
+    "Upper Deck Tripmine 2": [
+      1161,
+      856
+    ],
+    "Crate Freezethrower": [
+      981,
+      817
+    ],
+    "Crate Devastator": [
+      1301,
+      864
+    ],
+    "Scan Room  Night Vision Goggles": [
+      1097,
+      790
+    ],
+    "Crate RPG": [
+      1882,
+      716
+    ],
+    "MP Crate Jetpack": [
+      1874,
+      723
+    ],
+    "Low Deck Atomic Health": [
+      1143,
+      768
+    ],
+    "Low Deck Holo Duke": [
+      1038,
+      896
+    ],
+    "Big Crate Pipebombs 1": [
+      1857,
+      869
+    ],
+    "Big Crate Pipebombs 2": [
+      1877,
+      867
+    ],
+    "Big Crate Armor": [
+      1882,
+      883
+    ],
+    "Fire Atomic Health": [
+      1856,
+      850
+    ],
+    "Next to Crusher Chaingun": [
+      1772,
+      883
+    ],
+    "Next to Crusher Shotgun": [
+      1775,
+      994
+    ],
+    "Red Key Card": [
+      1698,
+      833
+    ],
+    "Yellow Key Card": [
+      1862,
+      898
+    ],
+    "Yellow Atomic Health": [
+      1773,
+      388
+    ],
+    "Yellow Protective Boots": [
+      1623,
+      650
+    ],
+    "Yellow Steroids": [
+      1697,
+      656
+    ],
+    "Yellow Water Tank Atomic Health": [
+      1900,
+      96
+    ],
+    "Yellow Underwater Atomic Health": [
+      1648,
+      96
+    ],
+    "MP Yellow Jetpack": [
+      1786,
+      388
+    ],
+    "Dive Secret Chaingun": [
+      1628,
+      829
+    ],
+    "Dive Secret Steroids": [
+      1623,
+      819
+    ],
+    "Dive Secret Night Vision Goggles": [
+      1623,
+      839
+    ],
+    "Dive Secret Armor": [
+      1623,
+      829
+    ],
+    "TV Timed Shotgun": [
+      1756,
+      917
+    ],
+    "Secret Crate": [
+      1882,
+      716
+    ],
+    "Secret TV": [
+      1700,
+      867
+    ],
+    "Secret Captains Cabin": [
+      1618,
+      860
+    ],
+    "Secret Dive": [
+      1743,
+      831
+    ],
+    "Secret Kitchen": [
+      1707,
+      965
+    ],
+    "Exit": [
+      1024,
+      798
+    ]
+  },
+  "E4L10": {
+    "R-Side Dive Jetpack": [
+      446,
+      429
+    ],
+    "DukeTag R-Side Protective Boots": [
+      1538,
+      555
+    ],
+    "DukeTag L-Side Protective Boots": [
+      785,
+      559
+    ],
+    "Yellow Dive Atomic Health 1": [
+      1574,
+      1082
+    ],
+    "MP Start Shotgun 1": [
+      1140,
+      97
+    ],
+    "MP Start Shotgun 2": [
+      1184,
+      97
+    ],
+    "MP Start Shotgun 3": [
+      1184,
+      36
+    ],
+    "MP Start Shotgun 4": [
+      1140,
+      36
+    ],
+    "L-Side Vent Pipebombs": [
+      1545,
+      490
+    ],
+    "Center Pipebombs 1": [
+      1144,
+      557
+    ],
+    "Center Pipebombs 2": [
+      1179,
+      557
+    ],
+    "Queen Medkit": [
+      1963,
+      1106
+    ],
+    "Queen Atomic Health": [
+      1954,
+      1113
+    ],
+    "Queen Armor": [
+      1972,
+      1113
+    ],
+    "L-Side Scuba Gear": [
+      1650,
+      428
+    ],
+    "R-Side Protective Boots": [
+      674,
+      686
+    ],
+    "L-Side Dive Armor": [
+      1947,
+      492
+    ],
+    "L-Side Dive Atomic Health": [
+      1941,
+      485
+    ],
+    "MP Center Devastator 1": [
+      1162,
+      574
+    ],
+    "Red Medkit": [
+      768,
+      559
+    ],
+    "R-Side RPG": [
+      737,
+      666
+    ],
+    "DukeTag R-Side Jetpack": [
+      846,
+      538
+    ],
+    "L-Side RPG": [
+      1587,
+      447
+    ],
+    "MP Lobby Shotgun 4": [
+      1035,
+      592
+    ],
+    "MP Lobby Shotgun 1": [
+      1298,
+      592
+    ],
+    "Lobby Shotgun 1": [
+      1162,
+      723
+    ],
+    "MP Lobby Shotgun 3": [
+      1162,
+      395
+    ],
+    "DukeTag L-Side Jetpack": [
+      1478,
+      575
+    ],
+    "MP Center Devastator 2": [
+      1162,
+      539
+    ],
+    "Lobby Pipebombs 1": [
+      1219,
+      723
+    ],
+    "MP Lobby Shotgun 5": [
+      1035,
+      522
+    ],
+    "MP Lobby Shotgun 2": [
+      1293,
+      522
+    ],
+    "Blue Medkit": [
+      1559,
+      555
+    ],
+    "Blue Key Card": [
+      1947,
+      486
+    ],
+    "Red Key Card": [
+      343,
+      662
+    ],
+    "R-Side Dive Atomic Health": [
+      349,
+      663
+    ],
+    "R-Side Dive Armor": [
+      342,
+      656
+    ],
+    "L-Side Armor": [
+      1521,
+      636
+    ],
+    "R-Side Armor": [
+      803,
+      478
+    ],
+    "Yellow Key Card": [
+      761,
+      559
+    ],
+    "Yellow Steroids": [
+      1105,
+      951
+    ],
+    "Yellow Dive Atomic Health 2": [
+      1538,
+      1008
+    ],
+    "MP Pillar 1 Chaingun": [
+      1061,
+      487
+    ],
+    "MP Pillar 3 Chaingun": [
+      1263,
+      487
+    ],
+    "MP Pillar 4 Chaingun": [
+      1263,
+      627
+    ],
+    "MP Pillar 2 Chaingun": [
+      1061,
+      627
+    ],
+    "Lobby Pipebombs 4": [
+      1105,
+      723
+    ],
+    "Lobby Pipebombs 2": [
+      1219,
+      395
+    ],
+    "Lobby Pipebombs 3": [
+      1105,
+      395
+    ],
+    "MP Lobby Chaingun 2": [
+      1070,
+      723
+    ],
+    "MP Lobby Chaingun 1": [
+      1254,
+      723
+    ],
+    "Lobby Chaingun 1": [
+      1254,
+      395
+    ],
+    "Lobby Chaingun 2": [
+      1070,
+      395
+    ],
+    "L-Side Devastator": [
+      1641,
+      419
+    ],
+    "R-Side Devastator": [
+      682,
+      695
+    ],
+    "DukeTag RPG 1": [
+      1127,
+      66
+    ],
+    "DukeTag RPG 2": [
+      1197,
+      66
+    ],
+    "R-Side Vent Pipebombs": [
+      786,
+      617
+    ],
+    "Secret Pillar 1": [
+      1056,
+      487
+    ],
+    "Secret Pillar 2": [
+      1056,
+      627
+    ],
+    "Secret Pillar 3": [
+      1268,
+      487
+    ],
+    "Secret Pillar 4": [
+      1268,
+      627
+    ],
+    "Secret L-Side Vent": [
+      1528,
+      506
+    ],
+    "Secret R-Side Vent": [
+      795,
+      608
+    ],
+    "Secret Queens Chamber": [
+      1963,
+      1107
+    ],
+    "Exit": [
+      1024,
+      784
+    ]
+  },
+  "E4L11": {
+    "UFO Atomic Health": [
+      1197,
+      68
+    ],
+    "Vent Entrance Pipebombs": [
+      1304,
+      244
+    ],
+    "MP Outside Pipebombs": [
+      637,
+      616
+    ],
+    "MP Blue Chaingun": [
+      894,
+      541
+    ],
+    "MP Red Steroids": [
+      1512,
+      329
+    ],
+    "Elevator Drop Devastator": [
+      1296,
+      472
+    ],
+    "Cave Night Vision Goggles": [
+      824,
+      804
+    ],
+    "Blue Night Vision Goggles": [
+      976,
+      527
+    ],
+    "Outside Pipebombs": [
+      630,
+      788
+    ],
+    "Crate Holo Duke": [
+      1630,
+      493
+    ],
+    "Lake Pipebombs": [
+      1530,
+      664
+    ],
+    "Blue Tripmine 1": [
+      1027,
+      584
+    ],
+    "Blue Tripmine 2": [
+      1027,
+      607
+    ],
+    "Blue Holo Duke": [
+      864,
+      517
+    ],
+    "Symbol Atomic Health": [
+      903,
+      581
+    ],
+    "Corner Steroids": [
+      855,
+      506
+    ],
+    "Blue Tripmine 3": [
+      1027,
+      596
+    ],
+    "Blue Medkit": [
+      981,
+      460
+    ],
+    "MP Freezer Atomic Health": [
+      1328,
+      584
+    ],
+    "Crate Armor": [
+      1646,
+      490
+    ],
+    "Tele Cave Shotgun": [
+      985,
+      452
+    ],
+    "Vent Secret Atomic Health": [
+      1304,
+      222
+    ],
+    "Blue Key Card": [
+      1356,
+      322
+    ],
+    "Bunker Chaingun": [
+      596,
+      773
+    ],
+    "Red Key Card": [
+      1325,
+      584
+    ],
+    "Vent Entrance Armor": [
+      1239,
+      322
+    ],
+    "Conveyer Jetpack": [
+      1483,
+      415
+    ],
+    "Conveyer Shrinker": [
+      1539,
+      392
+    ],
+    "MP Cave Jetpack": [
+      819,
+      810
+    ],
+    "Bridge RPG": [
+      1016,
+      662
+    ],
+    "Red Shotgun": [
+      1427,
+      354
+    ],
+    "Elevator Drop Medkit": [
+      1312,
+      519
+    ],
+    "Crate Scuba Gear": [
+      1652,
+      490
+    ],
+    "Table Freezethrower": [
+      1388,
+      628
+    ],
+    "Yellow Key Card": [
+      1525,
+      273
+    ],
+    "Secret Symbol": [
+      903,
+      580
+    ],
+    "Secret Corner": [
+      860,
+      513
+    ],
+    "Secret Crate": [
+      1649,
+      493
+    ],
+    "Secret Vent": [
+      1304,
+      229
+    ],
+    "Secret Bridge": [
+      1017,
+      668
+    ],
+    "Secret Lake": [
+      1597,
+      638
+    ],
+    "Secret UFO": [
+      1208,
+      82
+    ],
+    "Exit": [
+      1024,
+      855
+    ]
+  }
+}

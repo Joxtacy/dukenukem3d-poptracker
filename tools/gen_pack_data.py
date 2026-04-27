@@ -366,13 +366,17 @@ def build_episode_locations(
     map_locations entry pointing to the per-level stub map and sections
     (Exit, Secret-*, sprite picks) gated by access_rules.
     """
+    # Three-layer structure (group → level → location → section). The pin
+    # lives on the location (grandchild) so each sprite/secret renders its
+    # own marker on the level map. PopTracker silently ignores map_locations
+    # on leaf sections; it has to be on a container.
     children = []
     ep_levels = [lv for lv in levels if lv.episode == episode]
     for level in ep_levels:
         cp = level.code_prefix
         map_name = f"{cp}_map"
         level_pins = (pins or {}).get(level.prefix, {})
-        sections: list[dict[str, Any]] = []
+        loc_children: list[dict[str, Any]] = []
 
         # Build access-rule prefix for this level: epN, level_unlock.
         base_rule = f"ep{episode},{cp}_unlock"
@@ -384,30 +388,28 @@ def build_episode_locations(
             loc_type: str = loc["type"]
 
             if loc_type == "exit":
-                # Use the apworld's real loc name: most levels have just "Exit"
-                # but six levels also have a "Secret Exit" — collapsing both to
-                # "Exit" produced duplicate sections.
-                section_name = loc_name
                 rule = base_rule
             elif loc_type == "sector":
-                section_name = loc_name  # already starts with "Secret "
                 rule = f"{base_rule},secrets"
             else:  # sprite
-                section_name = loc_name
                 rule = base_rule
 
-            # Per-section pin coordinate. If gen_maps.py has been run, the pin
-            # comes from the .MAP sprite/sector position. Otherwise it falls
-            # back to (100, 100) so all pins stack at one spot — clickable but
-            # visually meaningless.
             pin = level_pins.get(loc_name, [100, 100])
-            sections.append(
+            loc_children.append(
                 {
-                    "name": section_name,
-                    "item_count": 1,
-                    "access_rules": [rule],
+                    "name": loc_name,
                     "map_locations": [
                         {"map": map_name, "x": pin[0], "y": pin[1]}
+                    ],
+                    "sections": [
+                        {
+                            # Section name matches the location name so the
+                            # PopTracker path used by autotracking is
+                            # "<group>/<level>/<loc>/<loc>".
+                            "name": loc_name,
+                            "item_count": 1,
+                            "access_rules": [rule],
+                        }
                     ],
                 }
             )
@@ -416,7 +418,7 @@ def build_episode_locations(
             {
                 "name": f"{level.prefix}: {level.name}",
                 "access_rules": [base_rule],
-                "sections": sections,
+                "children": loc_children,
             }
         )
 
@@ -441,7 +443,7 @@ def build_episode_maps(
             {
                 "name": f"{cp}_map",
                 "img": f"images/{cp}_map.png",
-                "location_size": 24,
+                "location_size": 14,
                 "location_border_thickness": 2,
             }
         )
@@ -525,7 +527,10 @@ def build_autotracking_data_lua(
                 )
                 keycard_id += 1
 
-    # Build LOCATION_MAP from id_map.json: net_id -> "Ep group/Level child/Section"
+    # Build LOCATION_MAP from id_map.json. Path matches the JSON tree:
+    #   "Episode N: Name/EXLY: Level/<Location>/<Location>"
+    # i.e. group/level-child/location-grandchild/section, with the section
+    # name reusing the location name (see build_episode_locations).
     lines.append("")
     lines.append("-- per-location paths, derived from apworld id_map.json")
     locations_with_secrets: list[str] = []
@@ -534,7 +539,7 @@ def build_autotracking_data_lua(
         prefix, _, section = loc_name.partition(" ")
         if not prefix or not section or prefix not in level_path:
             continue
-        path = f"{level_path[prefix]}/{section}"
+        path = f"{level_path[prefix]}/{section}/{section}"
         lines.append(f"LOCATION_MAP[{net_id(short_id)}] = {lua_str(path)}")
         if section.startswith("Secret "):
             locations_with_secrets.append(prefix)
@@ -611,9 +616,10 @@ def main():
         loc_path.parent.mkdir(parents=True, exist_ok=True)
         loc_path.write_text(json.dumps(loc_data, indent=2) + "\n")
         sections = sum(
-            len(child["sections"])
+            len(loc_child["sections"])
             for group in loc_data
-            for child in group["children"]
+            for level_child in group["children"]
+            for loc_child in level_child.get("children", [])
         )
         print(f"Wrote {loc_path} ({sections} sections).")
 
