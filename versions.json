@@ -1,6 +1,17 @@
 {
   "versions": [
     {
+      "package_version": "0.0.2",
+      "download_url": "https://github.com/Joxtacy/dukenukem3d-poptracker/releases/download/v0.0.2/duke_nukem_3d_ap_tracker_0.0.2.zip",
+      "sha256": "e7dff625f952c089e2c1d17032c2c89baea8e26a88be1c33b922f488d54a4178",
+      "changelog": [
+        "feat(logic): per-key access-rules gating from location-name heuristic",
+        "feat(maps): variable-size renders, three-layer locations, manual-image calibration",
+        "chore: remove `.DS_Store` from being tracked",
+        "feat(maps): automate top-down map renders and pin coordinates"
+      ]
+    },
+    {
       "package_version": "0.0.1",
       "download_url": "https://github.com/Joxtacy/dukenukem3d-poptracker/releases/download/v0.0.1/duke_nukem_3d_ap_tracker_0.0.1.zip",
       "sha256": "00e13d016b114c8ae985eee8d947b5fabf6b70a096d658166592a7b82e75e41d",
