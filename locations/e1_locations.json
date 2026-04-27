@@ -459,7 +459,7 @@
                 "name": "MP Red Door Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep1,e1l1_unlock"
+                  "ep1,e1l1_unlock,e1l1_red_key"
                 ]
               }
             ]
@@ -3702,7 +3702,7 @@
                 "name": "Pipebombs near Blue Gate",
                 "item_count": 1,
                 "access_rules": [
-                  "ep1,e1l5_unlock"
+                  "ep1,e1l5_unlock,e1l5_blue_key"
                 ]
               }
             ]

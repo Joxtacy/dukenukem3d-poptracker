@@ -4915,7 +4915,7 @@
                 "name": "Yellow Door Vent Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,e2l7_yellow_key"
                 ]
               }
             ]

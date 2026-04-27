@@ -1577,7 +1577,7 @@
                 "name": "MP Chaingun near Red Door",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l3_unlock"
+                  "ep3,e3l3_unlock,e3l3_red_key"
                 ]
               }
             ]
@@ -3976,7 +3976,7 @@
                 "name": "Blue Door Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l6_unlock"
+                  "ep3,e3l6_unlock,e3l6_blue_key"
                 ]
               }
             ]
@@ -4071,7 +4071,7 @@
                 "name": "Blue Door Tripmine 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l6_unlock"
+                  "ep3,e3l6_unlock,e3l6_blue_key"
                 ]
               }
             ]
@@ -4090,7 +4090,7 @@
                 "name": "Blue Door Tripmine 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l6_unlock"
+                  "ep3,e3l6_unlock,e3l6_blue_key"
                 ]
               }
             ]
@@ -4109,7 +4109,7 @@
                 "name": "Blue Door Tripmine 3",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l6_unlock"
+                  "ep3,e3l6_unlock,e3l6_blue_key"
                 ]
               }
             ]
@@ -4128,7 +4128,7 @@
                 "name": "Blue Door Tripmine 4",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l6_unlock"
+                  "ep3,e3l6_unlock,e3l6_blue_key"
                 ]
               }
             ]
@@ -4147,7 +4147,7 @@
                 "name": "Blue Door Tripmine 5",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l6_unlock"
+                  "ep3,e3l6_unlock,e3l6_blue_key"
                 ]
               }
             ]
@@ -4166,7 +4166,7 @@
                 "name": "MP Blue Door Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l6_unlock"
+                  "ep3,e3l6_unlock,e3l6_blue_key"
                 ]
               }
             ]

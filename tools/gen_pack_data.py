@@ -355,6 +355,36 @@ def load_map_pins(repo_root: Path) -> dict[str, dict[str, list[int]]]:
     return json.loads(p.read_text())
 
 
+# Heuristic: location names that strongly indicate gating by a colored key
+# card. Two patterns:
+#   1) "<Color> <Keyword>" where Keyword is a noun for a colored door / room
+#      (e.g. "Blue Door Tripmine 1", "Red Storage Holo Duke")
+#   2) "near <Color> Door" / "near <Color> Gate" — proximity to a colored
+#      access barrier (e.g. "MP Chaingun near Red Door")
+# Excludes "<Color> Key Card" (the card itself), descriptive uses
+# ("<Color> Waterfall", "<Color> Vent", "<Color> Fruit"), and ambiguous
+# bare adjectives ("Red Medkit"). See ROADMAP for the full v0.3 path.
+KEY_GATE_PATTERNS = re.compile(
+    r"\b(Red|Blue|Yellow)\s+"
+    r"(Door|Room|Gate|Basement|Storage|Boat|Auction|Cashier)\b"
+    r"|\bnear\s+(Red|Blue|Yellow)\s+(Door|Gate)\b",
+    re.IGNORECASE,
+)
+
+
+def detect_key_gates(name: str) -> set[str]:
+    """Return the lowercase colour names ('red'/'blue'/'yellow') that gate
+    this location based on the heuristic. Empty set means no gate."""
+    if "Key Card" in name:
+        return set()
+    colors: set[str] = set()
+    for m in KEY_GATE_PATTERNS.finditer(name):
+        c = m.group(1) or m.group(3)
+        if c:
+            colors.add(c.lower())
+    return colors
+
+
 def build_episode_locations(
     levels: list[LevelData], episode: int,
     pins: dict[str, dict[str, list[int]]] | None = None,
@@ -383,6 +413,7 @@ def build_episode_locations(
         if level.episode == 1 and level.levelnum == 6:
             base_rule = f"ep1,e1l7_enabled,{cp}_unlock"
 
+        level_key_codes = {k.lower() for k in level.keys}
         for loc in level.location_defs:
             loc_name: str = loc["name"]
             loc_type: str = loc["type"]
@@ -393,6 +424,16 @@ def build_episode_locations(
                 rule = f"{base_rule},secrets"
             else:  # sprite
                 rule = base_rule
+
+            # Heuristic per-key gating. Only append a key requirement if
+            # the matched colour is actually one of this level's keys —
+            # otherwise we'd reference an item code that doesn't exist.
+            gate_colours = detect_key_gates(loc_name) & level_key_codes
+            if gate_colours:
+                extra = ",".join(
+                    f"{cp}_{c}_key" for c in sorted(gate_colours)
+                )
+                rule = f"{rule},{extra}"
 
             pin = level_pins.get(loc_name, [100, 100])
             loc_children.append(
