@@ -22,7 +22,7 @@
                 "name": "Underwater Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_dive,$can_open,$can_use"
                 ]
               }
             ]
@@ -41,7 +41,7 @@
                 "name": "Vent Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -60,7 +60,7 @@
                 "name": "Elevator Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key"
                 ]
               }
             ]
@@ -79,7 +79,7 @@
                 "name": "Elevator Shrinker",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key"
                 ]
               }
             ]
@@ -98,7 +98,8 @@
                 "name": "MP Elevator Corner Freezethrower",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,jetpack",
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
                 ]
               }
             ]
@@ -117,7 +118,7 @@
                 "name": "Middle Floor Jetpack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use,$jump,e2l1_blue_key"
                 ]
               }
             ]
@@ -136,7 +137,8 @@
                 "name": "Attic Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,jetpack",
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
                 ]
               }
             ]
@@ -155,7 +157,7 @@
                 "name": "Underwater Jetpack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_dive,$can_open,$can_use,$jump,e2l1_blue_key"
                 ]
               }
             ]
@@ -174,7 +176,7 @@
                 "name": "Bottom Floor Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -212,7 +214,7 @@
                 "name": "Bottom Floor Scuba Gear",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -231,7 +233,7 @@
                 "name": "Blue Key Card",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -250,7 +252,7 @@
                 "name": "Middle Floor Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key"
                 ]
               }
             ]
@@ -269,7 +271,7 @@
                 "name": "Underwater Atomic Health 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_dive,$can_open,$can_use,$jump,e2l1_blue_key"
                 ]
               }
             ]
@@ -288,7 +290,7 @@
                 "name": "Underwater Atomic Health 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_dive,$can_open,$can_use,$jump,e2l1_blue_key"
                 ]
               }
             ]
@@ -307,7 +309,7 @@
                 "name": "Bottom Floor Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -326,7 +328,8 @@
                 "name": "Top Floor Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,jetpack",
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
                 ]
               }
             ]
@@ -345,7 +348,7 @@
                 "name": "Red Key Card",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_dive,$can_open,$can_use,$jump,e2l1_blue_key"
                 ]
               }
             ]
@@ -364,7 +367,7 @@
                 "name": "Bottom Floor Holo Duke",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -402,7 +405,7 @@
                 "name": "Underwater Chaingun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_dive,$can_open,$can_use"
                 ]
               }
             ]
@@ -421,7 +424,8 @@
                 "name": "MP Attic Tripmine 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,jetpack",
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
                 ]
               }
             ]
@@ -440,7 +444,8 @@
                 "name": "MP Attic Tripmine 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,jetpack",
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
                 ]
               }
             ]
@@ -459,7 +464,8 @@
                 "name": "MP Attic Tripmine 3",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,jetpack",
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
                 ]
               }
             ]
@@ -478,7 +484,7 @@
                 "name": "MP Start Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$jump"
                 ]
               }
             ]
@@ -497,7 +503,8 @@
                 "name": "Top Floor Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,jetpack",
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
                 ]
               }
             ]
@@ -516,7 +523,8 @@
                 "name": "Middle Room Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,jetpack",
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
                 ]
               }
             ]
@@ -554,7 +562,7 @@
                 "name": "Monitor Wall Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open"
                 ]
               }
             ]
@@ -573,7 +581,8 @@
                 "name": "Secret Top Floor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,secrets"
+                  "ep2,e2l1_unlock,secrets,$can_open,$can_use,e2l1_blue_key,jetpack",
+                  "ep2,e2l1_unlock,secrets,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
                 ]
               }
             ]
@@ -592,7 +601,7 @@
                 "name": "Secret Timed Alcove",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,secrets"
+                  "ep2,e2l1_unlock,secrets,$jump"
                 ]
               }
             ]
@@ -611,7 +620,8 @@
                 "name": "Secret Elevator Corner",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,secrets"
+                  "ep2,e2l1_unlock,secrets,$can_open,$can_use,e2l1_blue_key,jetpack",
+                  "ep2,e2l1_unlock,secrets,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
                 ]
               }
             ]
@@ -630,7 +640,7 @@
                 "name": "Secret Ventilation Shaft",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,secrets"
+                  "ep2,e2l1_unlock,secrets,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -649,7 +659,7 @@
                 "name": "Secret Shrinker Room",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,secrets"
+                  "ep2,e2l1_unlock,secrets,$can_open,$can_use,e2l1_blue_key"
                 ]
               }
             ]
@@ -668,7 +678,7 @@
                 "name": "Secret Monitor Wall",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,secrets"
+                  "ep2,e2l1_unlock,secrets,$can_open"
                 ]
               }
             ]
@@ -687,7 +697,7 @@
                 "name": "Exit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock"
+                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,e2l1_red_key"
                 ]
               }
             ]
@@ -714,7 +724,11 @@
                 "name": "MP Underwater Jetpack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_dive,$can_open,$can_use,e2l2_yellow_key",
+                  "ep2,e2l2_unlock,$can_dive,$can_open,$can_sprint,$can_use,$glitched,$logic_hard",
+                  "ep2,e2l2_unlock,$can_dive,$can_open,$can_use,$glitched,$logic_hard,steroids",
+                  "ep2,e2l2_unlock,$can_dive,$can_open,$can_use,$glitched,$logic_hard,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_dive,$can_jump,$can_open,$can_use,$glitched,$logic_extreme"
                 ]
               }
             ]
@@ -733,7 +747,19 @@
                 "name": "Overgrown Passage Jetpack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,e2l2_yellow_key",
+                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key,jetpack",
+                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key,progressive_jetpack",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_sprint,$can_use,$glitched,$logic_hard",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$logic_hard,jetpack",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$logic_hard,progressive_jetpack",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_hard,steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,jetpack,steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_jetpack,steroids",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_hard,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,jetpack,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_jetpack,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_extreme"
                 ]
               }
             ]
@@ -752,7 +778,7 @@
                 "name": "Wall Panel Freezethrower",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -771,7 +797,11 @@
                 "name": "Underwater Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_dive,$can_open,$can_use,e2l2_yellow_key",
+                  "ep2,e2l2_unlock,$can_dive,$can_open,$can_sprint,$can_use,$glitched,$logic_hard",
+                  "ep2,e2l2_unlock,$can_dive,$can_open,$can_use,$glitched,$logic_hard,steroids",
+                  "ep2,e2l2_unlock,$can_dive,$can_open,$can_use,$glitched,$logic_hard,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_dive,$can_jump,$can_open,$can_use,$glitched,$logic_extreme"
                 ]
               }
             ]
@@ -790,7 +820,8 @@
                 "name": "Drone Alcove Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$crouch_jump",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -809,7 +840,9 @@
                 "name": "Hidden Screen Room Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$jump",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$logic_hard",
+                  "ep2,e2l2_unlock,$can_open,$logic_extreme"
                 ]
               }
             ]
@@ -828,7 +861,9 @@
                 "name": "MP Control Room Freezethrower",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$logic_extreme,tripmine",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -847,7 +882,7 @@
                 "name": "EDF Logo Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -866,7 +901,11 @@
                 "name": "Pool Steroids",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$logic_hard",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_extreme"
                 ]
               }
             ]
@@ -885,7 +924,11 @@
                 "name": "Pool Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$logic_hard",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_extreme"
                 ]
               }
             ]
@@ -904,7 +947,9 @@
                 "name": "Hidden Screen Room Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$jump",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$logic_hard",
+                  "ep2,e2l2_unlock,$can_open,$logic_extreme"
                 ]
               }
             ]
@@ -923,7 +968,7 @@
                 "name": "Armory RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -942,7 +987,16 @@
                 "name": "Pipebombs behind Turret",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key,jetpack",
+                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key,progressive_jetpack",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$logic_hard,jetpack",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$logic_hard,progressive_jetpack",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,jetpack,steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_jetpack,steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,jetpack,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_jetpack,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_extreme,jetpack",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_extreme,progressive_jetpack"
                 ]
               }
             ]
@@ -980,7 +1034,7 @@
                 "name": "Force Field Control Atomic Health 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -999,7 +1053,7 @@
                 "name": "Force Field Control Atomic Health 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -1018,7 +1072,7 @@
                 "name": "Force Field Control Chaingun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -1075,7 +1129,7 @@
                 "name": "Armory Tripmine 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -1094,7 +1148,7 @@
                 "name": "Armory Tripmine 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -1113,7 +1167,7 @@
                 "name": "Armory Tripmine 3",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -1132,7 +1186,7 @@
                 "name": "Wall Panel Holo Duke",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -1151,7 +1205,7 @@
                 "name": "Cupboard Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$jump"
                 ]
               }
             ]
@@ -1170,7 +1224,7 @@
                 "name": "Yellow Key Card",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -1189,7 +1243,7 @@
                 "name": "Start Shotgun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open"
                 ]
               }
             ]
@@ -1208,7 +1262,9 @@
                 "name": "Control Room Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$logic_extreme,tripmine",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -1227,7 +1283,19 @@
                 "name": "Overgrown Passage Shrinker",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,e2l2_yellow_key",
+                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key,jetpack",
+                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key,progressive_jetpack",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_sprint,$can_use,$glitched,$logic_hard",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$logic_hard,jetpack",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$logic_hard,progressive_jetpack",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_hard,steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,jetpack,steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_jetpack,steroids",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_hard,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,jetpack,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_jetpack,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_extreme"
                 ]
               }
             ]
@@ -1246,7 +1314,7 @@
                 "name": "Secret EDF Logo",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock,secrets"
+                  "ep2,e2l2_unlock,secrets,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -1265,7 +1333,7 @@
                 "name": "Secret Force Field Control Wall",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock,secrets"
+                  "ep2,e2l2_unlock,secrets,$can_open,$can_use"
                 ]
               }
             ]
@@ -1284,7 +1352,9 @@
                 "name": "Secret Hidden Screen Room 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock,secrets"
+                  "ep2,e2l2_unlock,secrets,$can_open,$jump",
+                  "ep2,e2l2_unlock,secrets,$can_open,$can_sprint,$logic_hard",
+                  "ep2,e2l2_unlock,secrets,$can_open,$logic_extreme"
                 ]
               }
             ]
@@ -1303,7 +1373,9 @@
                 "name": "Secret Hidden Screen Room 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock,secrets"
+                  "ep2,e2l2_unlock,secrets,$can_open,$jump",
+                  "ep2,e2l2_unlock,secrets,$can_open,$can_sprint,$logic_hard",
+                  "ep2,e2l2_unlock,secrets,$can_open,$logic_extreme"
                 ]
               }
             ]
@@ -1322,7 +1394,7 @@
                 "name": "Secret Wall Panel",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock,secrets"
+                  "ep2,e2l2_unlock,secrets,$can_open,$can_use"
                 ]
               }
             ]
@@ -1341,7 +1413,11 @@
                 "name": "Exit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock"
+                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$logic_hard",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_extreme"
                 ]
               }
             ]
@@ -1368,7 +1444,7 @@
                 "name": "Engine Room Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open"
                 ]
               }
             ]
@@ -1387,7 +1463,7 @@
                 "name": "Engine Room Shotgun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open"
                 ]
               }
             ]
@@ -1406,7 +1482,7 @@
                 "name": "MP Drone Room Holo Duke",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open"
                 ]
               }
             ]
@@ -1425,7 +1501,7 @@
                 "name": "Blue Key Card",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_crouch,$can_open"
                 ]
               }
             ]
@@ -1444,7 +1520,7 @@
                 "name": "Main Room Shrinker",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open"
                 ]
               }
             ]
@@ -1463,7 +1539,7 @@
                 "name": "Engine Room Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$jump"
                 ]
               }
             ]
@@ -1482,7 +1558,7 @@
                 "name": "MP Control Room Jetpack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key"
                 ]
               }
             ]
@@ -1501,7 +1577,7 @@
                 "name": "Ready Room Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key"
                 ]
               }
             ]
@@ -1520,7 +1596,7 @@
                 "name": "Control Room Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key"
                 ]
               }
             ]
@@ -1539,7 +1615,7 @@
                 "name": "Engine Room Tripmine",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open"
                 ]
               }
             ]
@@ -1577,7 +1653,7 @@
                 "name": "Wall Panel Freezethrower",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open"
                 ]
               }
             ]
@@ -1596,7 +1672,7 @@
                 "name": "Wall Panel Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open"
                 ]
               }
             ]
@@ -1615,7 +1691,12 @@
                 "name": "Reactor Atomic Health 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key,jetpack",
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key,progressive_jetpack",
+                  "ep2,e2l3_unlock,$can_open,$can_use,$glitched,$sr50,e2l3_yellow_key",
+                  "ep2,e2l3_unlock,$can_crouch,$can_open,$logic_hard,$sprint,jetpack",
+                  "ep2,e2l3_unlock,$can_crouch,$can_open,$logic_hard,$sprint,progressive_jetpack",
+                  "ep2,e2l3_unlock,$can_crouch,$can_open,$glitched,$logic_hard,$sprint,$sr50"
                 ]
               }
             ]
@@ -1634,7 +1715,12 @@
                 "name": "Reactor Atomic Health 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key,jetpack",
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key,progressive_jetpack",
+                  "ep2,e2l3_unlock,$can_open,$can_use,$glitched,$sr50,e2l3_yellow_key",
+                  "ep2,e2l3_unlock,$can_crouch,$can_open,$logic_hard,$sprint,jetpack",
+                  "ep2,e2l3_unlock,$can_crouch,$can_open,$logic_hard,$sprint,progressive_jetpack",
+                  "ep2,e2l3_unlock,$can_crouch,$can_open,$glitched,$logic_hard,$sprint,$sr50"
                 ]
               }
             ]
@@ -1653,7 +1739,7 @@
                 "name": "Control Room Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key"
                 ]
               }
             ]
@@ -1672,7 +1758,7 @@
                 "name": "Yellow Key Card",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_blue_key"
                 ]
               }
             ]
@@ -1691,7 +1777,7 @@
                 "name": "Control Room Holo Duke",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key"
                 ]
               }
             ]
@@ -1710,7 +1796,7 @@
                 "name": "Conveyor Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key"
                 ]
               }
             ]
@@ -1729,7 +1815,7 @@
                 "name": "Control Room Steroids",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,$jump,e2l3_yellow_key"
                 ]
               }
             ]
@@ -1748,7 +1834,7 @@
                 "name": "Engine Room Burrowed Atomic Health 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_blue_key"
                 ]
               }
             ]
@@ -1767,7 +1853,7 @@
                 "name": "Drone Room Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open"
                 ]
               }
             ]
@@ -1786,7 +1872,7 @@
                 "name": "Engine Room Burrowed Atomic Health 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_blue_key"
                 ]
               }
             ]
@@ -1805,7 +1891,7 @@
                 "name": "Engine Room Burrowed Atomic Health 3",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_blue_key"
                 ]
               }
             ]
@@ -1824,7 +1910,7 @@
                 "name": "Main Room Shotgun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open"
                 ]
               }
             ]
@@ -1843,7 +1929,7 @@
                 "name": "Control Room RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key"
                 ]
               }
             ]
@@ -1862,7 +1948,7 @@
                 "name": "Left Wing RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_blue_key"
                 ]
               }
             ]
@@ -1881,7 +1967,7 @@
                 "name": "MP Control Room Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key"
                 ]
               }
             ]
@@ -1900,7 +1986,7 @@
                 "name": "MP Main Room Chaingun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open"
                 ]
               }
             ]
@@ -1919,7 +2005,7 @@
                 "name": "Really Ready Room Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key"
                 ]
               }
             ]
@@ -1938,7 +2024,7 @@
                 "name": "Really Ready Room Freezethrower",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key"
                 ]
               }
             ]
@@ -1957,7 +2043,7 @@
                 "name": "Bridge Chaingun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key"
                 ]
               }
             ]
@@ -1976,7 +2062,7 @@
                 "name": "Bridge Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key"
                 ]
               }
             ]
@@ -1995,7 +2081,7 @@
                 "name": "Bridge RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key"
                 ]
               }
             ]
@@ -2014,7 +2100,7 @@
                 "name": "Bridge Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key"
                 ]
               }
             ]
@@ -2033,7 +2119,7 @@
                 "name": "Secret Enterprise Bridge",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock,secrets"
+                  "ep2,e2l3_unlock,secrets,$can_open,$can_use,e2l3_yellow_key"
                 ]
               }
             ]
@@ -2052,7 +2138,7 @@
                 "name": "Secret Really Ready Room",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock,secrets"
+                  "ep2,e2l3_unlock,secrets,$can_open,$can_use,e2l3_yellow_key"
                 ]
               }
             ]
@@ -2071,7 +2157,8 @@
                 "name": "Exit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock"
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key",
+                  "ep2,e2l3_unlock,$can_crouch,$can_open,$can_use,$logic_hard,$sprint"
                 ]
               }
             ]
@@ -2098,7 +2185,7 @@
                 "name": "Timed Room Freezethrower",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -2117,7 +2204,11 @@
                 "name": "Column Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2136,7 +2227,7 @@
                 "name": "Start Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_use"
                 ]
               }
             ]
@@ -2155,7 +2246,11 @@
                 "name": "First Level Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2174,7 +2269,11 @@
                 "name": "Reactor Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2193,7 +2292,8 @@
                 "name": "Top Floor Chaingun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack"
                 ]
               }
             ]
@@ -2212,7 +2312,11 @@
                 "name": "MP Reactor Holo Duke",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2231,7 +2335,7 @@
                 "name": "Start Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_use"
                 ]
               }
             ]
@@ -2250,7 +2354,7 @@
                 "name": "Pistons Tripmine 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -2269,7 +2373,7 @@
                 "name": "Pistons Tripmine 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -2288,7 +2392,7 @@
                 "name": "Pistons Protective Boots",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -2307,7 +2411,13 @@
                 "name": "Top Ledge Atomic Health 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2326,7 +2436,13 @@
                 "name": "Top Ledge Atomic Health 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2345,7 +2461,11 @@
                 "name": "Red Room Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2364,7 +2484,8 @@
                 "name": "Top Floor Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack"
                 ]
               }
             ]
@@ -2383,7 +2504,11 @@
                 "name": "Top Floor Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2402,7 +2527,7 @@
                 "name": "Start Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_use"
                 ]
               }
             ]
@@ -2421,7 +2546,13 @@
                 "name": "Top Ledge Jetpack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2440,7 +2571,11 @@
                 "name": "Vents Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2459,7 +2594,7 @@
                 "name": "Shotgun behind Babe",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_use"
                 ]
               }
             ]
@@ -2478,7 +2613,7 @@
                 "name": "Pistons Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -2497,7 +2632,7 @@
                 "name": "Pistons Tripmine 3",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -2516,7 +2651,7 @@
                 "name": "Pistons Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -2535,7 +2670,7 @@
                 "name": "Pistons Chaingun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -2554,7 +2689,11 @@
                 "name": "First Level Shrinker",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2573,7 +2712,7 @@
                 "name": "Underwater Pipebombs 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -2592,7 +2731,7 @@
                 "name": "Underwater Pipebombs 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -2611,7 +2750,7 @@
                 "name": "Start RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_use"
                 ]
               }
             ]
@@ -2630,7 +2769,7 @@
                 "name": "MP Floor Jetpack 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -2649,7 +2788,7 @@
                 "name": "MP Floor Jetpack 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -2668,7 +2807,7 @@
                 "name": "MP Floor Jetpack 3",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -2687,7 +2826,7 @@
                 "name": "MP Floor Jetpack 4",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -2706,7 +2845,7 @@
                 "name": "Pistons Atomic Health 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -2725,7 +2864,7 @@
                 "name": "Pistons Atomic Health 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -2744,7 +2883,7 @@
                 "name": "Pistons Tunnel Pipebombs 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -2763,7 +2902,7 @@
                 "name": "Pistons Tunnel Pipebombs 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -2782,7 +2921,11 @@
                 "name": "Top Floor Shotgun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2801,7 +2944,7 @@
                 "name": "MP Floor RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -2820,7 +2963,7 @@
                 "name": "MP Floor Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -2839,7 +2982,11 @@
                 "name": "Slime Hallway Tripmine 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2858,7 +3005,11 @@
                 "name": "Slime Hallway Tripmine 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2877,7 +3028,11 @@
                 "name": "MP Reactor Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2896,7 +3051,7 @@
                 "name": "MP Floor Protective Boots 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -2915,7 +3070,7 @@
                 "name": "MP Floor Protective Boots 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -2934,7 +3089,7 @@
                 "name": "MP Floor Protective Boots 3",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -2953,7 +3108,7 @@
                 "name": "MP Floor Protective Boots 4",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -2972,7 +3127,11 @@
                 "name": "Red Room Steroids",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2991,7 +3150,7 @@
                 "name": "Pistons Ledge Steroids",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -3010,7 +3169,11 @@
                 "name": "Secret Top of Vents",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock,secrets"
+                  "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$jump,jetpack",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$jump,progressive_jetpack",
+                  "ep2,e2l4_unlock,secrets,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,secrets,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -3029,7 +3192,7 @@
                 "name": "Secret Pistons Tunnel",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock,secrets"
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -3048,7 +3211,7 @@
                 "name": "Secret Pistons Tunnel Ledge",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock,secrets"
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -3067,7 +3230,7 @@
                 "name": "Secret Pistons Chamber",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock,secrets"
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -3086,7 +3249,11 @@
                 "name": "Secret Column",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock,secrets"
+                  "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,jetpack",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,secrets,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,secrets,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -3105,7 +3272,7 @@
                 "name": "Secret Timed Blade Room",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock,secrets"
+                  "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -3124,7 +3291,32 @@
                 "name": "Secret Vents Wall",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock,secrets"
+                  "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump,rpg",
+                  "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump,progressive_rpg",
+                  "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump,pipebomb",
+                  "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump,progressive_pipebomb",
+                  "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump,devastator",
+                  "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump,progressive_devastator",
+                  "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump,tripmine",
+                  "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump,progressive_tripmine",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,jetpack,rpg",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,jetpack,progressive_rpg",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,jetpack,pipebomb",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,jetpack,progressive_pipebomb",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,devastator,jetpack",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,jetpack,progressive_devastator",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,jetpack,tripmine",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,jetpack,progressive_tripmine",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,progressive_jetpack,rpg",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,progressive_jetpack,progressive_rpg",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,pipebomb,progressive_jetpack",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,progressive_jetpack,progressive_pipebomb",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,devastator,progressive_jetpack",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,progressive_devastator,progressive_jetpack",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,progressive_jetpack,tripmine",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,progressive_jetpack,progressive_tripmine",
+                  "ep2,e2l4_unlock,secrets,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,secrets,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -3143,7 +3335,8 @@
                 "name": "Exit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock"
+                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack"
                 ]
               }
             ]
@@ -3170,7 +3363,7 @@
                 "name": "Vent RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open"
                 ]
               }
             ]
@@ -3189,7 +3382,7 @@
                 "name": "Vent Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open"
                 ]
               }
             ]
@@ -3208,7 +3401,9 @@
                 "name": "MP Center Room Freezethrower",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open,$can_use,e2l5_blue_key",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,progressive_steroids"
                 ]
               }
             ]
@@ -3227,7 +3422,7 @@
                 "name": "Slime Room Pipebombs 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open"
                 ]
               }
             ]
@@ -3246,7 +3441,8 @@
                 "name": "Monitors Tripmine 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open,$can_use,$jump,$logic_medium,e2l5_red_key",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$jump,e2l5_red_key"
                 ]
               }
             ]
@@ -3265,7 +3461,8 @@
                 "name": "Monitors Tripmine 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open,$can_use,$jump,$logic_medium,e2l5_red_key",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$jump,e2l5_red_key"
                 ]
               }
             ]
@@ -3284,7 +3481,11 @@
                 "name": "MP Center Room Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open,$can_use,e2l5_blue_key",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,jetpack,steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,progressive_jetpack,steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,jetpack,progressive_steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,progressive_jetpack,progressive_steroids"
                 ]
               }
             ]
@@ -3303,7 +3504,7 @@
                 "name": "Blue Key Card",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open,$can_use,e2l5_red_key"
                 ]
               }
             ]
@@ -3322,7 +3523,7 @@
                 "name": "Red Key Card",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open"
                 ]
               }
             ]
@@ -3341,7 +3542,8 @@
                 "name": "Blastdoor Hole Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_crouch",
+                  "ep2,e2l5_unlock,$can_jump,$logic_medium"
                 ]
               }
             ]
@@ -3360,7 +3562,7 @@
                 "name": "Slime Room Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open"
                 ]
               }
             ]
@@ -3417,7 +3619,7 @@
                 "name": "Corridor Holo Duke",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open"
                 ]
               }
             ]
@@ -3436,7 +3638,7 @@
                 "name": "MP Battlelord Shrinker",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open,$can_use,e2l5_red_key"
                 ]
               }
             ]
@@ -3455,7 +3657,9 @@
                 "name": "Center Room Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open,$can_use,e2l5_blue_key",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,progressive_steroids"
                 ]
               }
             ]
@@ -3493,7 +3697,7 @@
                 "name": "Ramp Steroids",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open"
                 ]
               }
             ]
@@ -3512,7 +3716,7 @@
                 "name": "MP Large Door Jetpack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open"
                 ]
               }
             ]
@@ -3531,7 +3735,7 @@
                 "name": "Slime Room Pipebombs 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open"
                 ]
               }
             ]
@@ -3550,7 +3754,8 @@
                 "name": "Monitors Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open,$can_use,$jump,$logic_medium,e2l5_red_key",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$jump,e2l5_red_key"
                 ]
               }
             ]
@@ -3569,7 +3774,11 @@
                 "name": "Hallway Alcove Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open,jetpack",
+                  "ep2,e2l5_unlock,$can_open,progressive_jetpack",
+                  "ep2,e2l5_unlock,$can_jump,$can_open,$logic_hard",
+                  "ep2,e2l5_unlock,$can_jump,$can_open,$can_sprint,steroids",
+                  "ep2,e2l5_unlock,$can_jump,$can_open,$can_sprint,progressive_steroids"
                 ]
               }
             ]
@@ -3588,7 +3797,11 @@
                 "name": "MP Exit RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open,$can_use,e2l5_blue_key",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,jetpack,steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,progressive_jetpack,steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,jetpack,progressive_steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,progressive_jetpack,progressive_steroids"
                 ]
               }
             ]
@@ -3607,7 +3820,7 @@
                 "name": "Ramp Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open"
                 ]
               }
             ]
@@ -3626,7 +3839,7 @@
                 "name": "Slime Room Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open"
                 ]
               }
             ]
@@ -3645,7 +3858,7 @@
                 "name": "Large Door Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open"
                 ]
               }
             ]
@@ -3683,7 +3896,11 @@
                 "name": "Secret Hallway Alcove",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock,secrets"
+                  "ep2,e2l5_unlock,secrets,$can_open,jetpack",
+                  "ep2,e2l5_unlock,secrets,$can_open,progressive_jetpack",
+                  "ep2,e2l5_unlock,secrets,$can_jump,$can_open,$logic_hard",
+                  "ep2,e2l5_unlock,secrets,$can_jump,$can_open,$can_sprint,steroids",
+                  "ep2,e2l5_unlock,secrets,$can_jump,$can_open,$can_sprint,progressive_steroids"
                 ]
               }
             ]
@@ -3702,7 +3919,8 @@
                 "name": "Secret Blastdoor Hole",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock,secrets"
+                  "ep2,e2l5_unlock,secrets,$can_crouch",
+                  "ep2,e2l5_unlock,secrets,$can_jump,$logic_medium"
                 ]
               }
             ]
@@ -3721,7 +3939,7 @@
                 "name": "Secret Vent",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock,secrets"
+                  "ep2,e2l5_unlock,secrets,$can_open"
                 ]
               }
             ]
@@ -3740,7 +3958,8 @@
                 "name": "Secret Monitors",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock,secrets"
+                  "ep2,e2l5_unlock,secrets,$can_open,$can_use,$jump,$logic_medium,e2l5_red_key",
+                  "ep2,e2l5_unlock,secrets,$can_crouch,$can_open,$can_use,$jump,e2l5_red_key"
                 ]
               }
             ]
@@ -3759,7 +3978,11 @@
                 "name": "Exit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open,$can_use,e2l5_blue_key",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,jetpack,steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,progressive_jetpack,steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,jetpack,progressive_steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,progressive_jetpack,progressive_steroids"
                 ]
               }
             ]
@@ -3778,7 +4001,16 @@
                 "name": "Secret Exit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock"
+                  "ep2,e2l5_unlock,$can_open,$can_use,e2l5_blue_key,jetpack",
+                  "ep2,e2l5_unlock,$can_open,$can_use,e2l5_blue_key,progressive_jetpack",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,jetpack,steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,progressive_jetpack,steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,jetpack,progressive_steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,progressive_jetpack,progressive_steroids",
+                  "ep2,e2l5_unlock,$can_open,$can_use,$jump,$logic_medium,e2l5_blue_key",
+                  "ep2,e2l5_unlock,$can_open,$can_sprint,$can_use,$jump,e2l5_blue_key",
+                  "ep2,e2l5_unlock,$can_open,$can_sprint,$can_use,e2l5_blue_key,steroids",
+                  "ep2,e2l5_unlock,$can_open,$can_sprint,$can_use,e2l5_blue_key,progressive_steroids"
                 ]
               }
             ]
@@ -3805,7 +4037,24 @@
                 "name": "Timed Wall RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_open,jetpack",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,progressive_jetpack",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump,$logic_medium,rpg",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump,$logic_medium,progressive_rpg",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump,$logic_medium,pipebomb",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump,$logic_medium,progressive_pipebomb",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump,$logic_medium,devastator",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump,$logic_medium,progressive_devastator",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump,$logic_medium,tripmine",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump,$logic_medium,progressive_tripmine",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,rpg",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_rpg",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,pipebomb",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_pipebomb",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$logic_medium,devastator,e2l6_blue_key",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_devastator",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,tripmine",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_tripmine"
                 ]
               }
             ]
@@ -3824,7 +4073,8 @@
                 "name": "Toxic Room Protective Boots",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,e2l6_blue_key"
                 ]
               }
             ]
@@ -3843,7 +4093,8 @@
                 "name": "Toxic Room Scuba Gear",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,e2l6_blue_key"
                 ]
               }
             ]
@@ -3862,7 +4113,8 @@
                 "name": "Underwater Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_dive,$can_jump,$can_open,$jump",
+                  "ep2,e2l6_unlock,$can_dive,$can_jump,$can_open,$can_use,e2l6_blue_key"
                 ]
               }
             ]
@@ -3881,7 +4133,8 @@
                 "name": "Underwater Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_dive,$can_jump,$can_open,$jump",
+                  "ep2,e2l6_unlock,$can_dive,$can_jump,$can_open,$can_use,e2l6_blue_key"
                 ]
               }
             ]
@@ -3900,7 +4153,22 @@
                 "name": "Toxic Room Wall Jetpack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump,rpg",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump,progressive_rpg",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump,pipebomb",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump,progressive_pipebomb",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump,devastator",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump,progressive_devastator",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump,tripmine",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump,progressive_tripmine",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,e2l6_blue_key,rpg",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,e2l6_blue_key,progressive_rpg",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,e2l6_blue_key,pipebomb",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,e2l6_blue_key,progressive_pipebomb",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,devastator,e2l6_blue_key",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,e2l6_blue_key,progressive_devastator",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,e2l6_blue_key,tripmine",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,e2l6_blue_key,progressive_tripmine"
                 ]
               }
             ]
@@ -3919,7 +4187,7 @@
                 "name": "Supplies Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use"
                 ]
               }
             ]
@@ -3938,7 +4206,7 @@
                 "name": "Supplies Armor 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_use"
                 ]
               }
             ]
@@ -3957,7 +4225,7 @@
                 "name": "Supplies Armor 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_use"
                 ]
               }
             ]
@@ -3976,7 +4244,7 @@
                 "name": "Blue Key Card",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump"
                 ]
               }
             ]
@@ -3995,7 +4263,7 @@
                 "name": "Water Fountain Pipebombs 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump"
                 ]
               }
             ]
@@ -4014,7 +4282,7 @@
                 "name": "Water Fountain Pipebombs 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump"
                 ]
               }
             ]
@@ -4033,7 +4301,7 @@
                 "name": "Armory Shrinker",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_use"
                 ]
               }
             ]
@@ -4052,7 +4320,9 @@
                 "name": "Timed Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_use",
+                  "ep2,e2l6_unlock,$can_jump,$fast_sprint,$glitched,$logic_extreme,tripmine",
+                  "ep2,e2l6_unlock,$can_jump,$fast_sprint,$glitched,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -4071,7 +4341,7 @@
                 "name": "Monitor Room Shotgun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump"
                 ]
               }
             ]
@@ -4090,7 +4360,7 @@
                 "name": "Monitor Room Holo Duke",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_crouch,$can_jump,$can_open,$jump"
                 ]
               }
             ]
@@ -4109,7 +4379,9 @@
                 "name": "Corridor Wall Steroids",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump",
+                  "ep2,e2l6_unlock,$can_jump,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l6_unlock,$can_jump,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -4128,7 +4400,9 @@
                 "name": "Timed Room Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_use,$jump",
+                  "ep2,e2l6_unlock,$can_jump,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l6_unlock,$can_jump,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -4147,7 +4421,8 @@
                 "name": "Toxic Alcove Atomic Health 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,e2l6_blue_key"
                 ]
               }
             ]
@@ -4166,7 +4441,8 @@
                 "name": "Toxic Alcove Atomic Health 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,e2l6_blue_key"
                 ]
               }
             ]
@@ -4185,7 +4461,7 @@
                 "name": "Corridor Wall Explosion RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_open"
                 ]
               }
             ]
@@ -4204,7 +4480,8 @@
                 "name": "Toxic Room Freezethrower",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$jump",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,e2l6_blue_key"
                 ]
               }
             ]
@@ -4223,7 +4500,9 @@
                 "name": "Exit Vent Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_open,jetpack",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,progressive_jetpack",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$logic_medium"
                 ]
               }
             ]
@@ -4242,7 +4521,11 @@
                 "name": "Exit Room Chaingun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$jump,e2l6_red_key",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,e2l6_blue_key,e2l6_red_key",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,jetpack",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,progressive_jetpack",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$logic_medium"
                 ]
               }
             ]
@@ -4261,7 +4544,7 @@
                 "name": "Bathroom Tripmine 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_open"
                 ]
               }
             ]
@@ -4280,7 +4563,7 @@
                 "name": "Bathroom Tripmine 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_open"
                 ]
               }
             ]
@@ -4299,7 +4582,7 @@
                 "name": "Armory Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_use"
                 ]
               }
             ]
@@ -4318,7 +4601,9 @@
                 "name": "Corridor Wall Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_open",
+                  "ep2,e2l6_unlock,$can_jump,$fast_sprint,$glitched,$logic_extreme,tripmine",
+                  "ep2,e2l6_unlock,$can_jump,$fast_sprint,$glitched,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -4337,7 +4622,7 @@
                 "name": "MP Toilet Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_open"
                 ]
               }
             ]
@@ -4356,7 +4641,8 @@
                 "name": "Red Key Card",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_dive,$can_jump,$can_open,$jump",
+                  "ep2,e2l6_unlock,$can_dive,$can_jump,$can_open,$can_use,e2l6_blue_key"
                 ]
               }
             ]
@@ -4375,7 +4661,8 @@
                 "name": "Secret Toxic Alcove 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock,secrets"
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key"
                 ]
               }
             ]
@@ -4394,7 +4681,8 @@
                 "name": "Secret Toxic Alcove 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock,secrets"
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key"
                 ]
               }
             ]
@@ -4413,7 +4701,9 @@
                 "name": "Secret Corridor Wall",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock,secrets"
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$fast_sprint,$glitched,$logic_extreme,tripmine",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$fast_sprint,$glitched,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -4432,7 +4722,22 @@
                 "name": "Secret Toxic Room Wall",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock,secrets"
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,progressive_rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,progressive_pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,devastator",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,progressive_devastator",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,tripmine",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,progressive_tripmine",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,progressive_rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,progressive_pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,devastator,e2l6_blue_key",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,progressive_devastator",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,tripmine",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,progressive_tripmine"
                 ]
               }
             ]
@@ -4451,7 +4756,7 @@
                 "name": "Secret Water Fountain Wall",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock,secrets"
+                  "ep2,e2l6_unlock,secrets,$can_jump"
                 ]
               }
             ]
@@ -4470,7 +4775,7 @@
                 "name": "Secret Supplies",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock,secrets"
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use"
                 ]
               }
             ]
@@ -4489,7 +4794,14 @@
                 "name": "Secret Vent Wall Crack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock,secrets"
+                  "ep2,e2l6_unlock,secrets,$can_jump,$jump,rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$jump,progressive_rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$jump,pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$jump,progressive_pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$jump,devastator",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$jump,progressive_devastator",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$jump,tripmine",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$jump,progressive_tripmine"
                 ]
               }
             ]
@@ -4508,7 +4820,24 @@
                 "name": "Secret Timed Wall",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock,secrets"
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,jetpack",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,progressive_jetpack",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,progressive_rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,progressive_pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,devastator",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,progressive_devastator",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,tripmine",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,progressive_tripmine",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,devastator,e2l6_blue_key",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_devastator",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,tripmine",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_tripmine"
                 ]
               }
             ]
@@ -4527,7 +4856,10 @@
                 "name": "Exit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock"
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$jump,e2l6_red_key",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$jump,jetpack",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$jump,progressive_jetpack",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium"
                 ]
               }
             ]
@@ -4554,7 +4886,7 @@
                 "name": "Toilet Steroids",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open"
                 ]
               }
             ]
@@ -4573,7 +4905,7 @@
                 "name": "Start Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open"
                 ]
               }
             ]
@@ -4592,7 +4924,14 @@
                 "name": "Trash Compactor Atomic Health 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_sprint,$can_use,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$logic_medium,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_sprint,$can_use,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_sprint,$can_use,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_open,$can_sprint,$can_use,$jump,e2l7_yellow_key",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,$logic_medium,e2l7_yellow_key"
                 ]
               }
             ]
@@ -4611,7 +4950,14 @@
                 "name": "Trash Compactor Atomic Health 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_sprint,$can_use,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$logic_medium,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_sprint,$can_use,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_sprint,$can_use,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_open,$can_sprint,$can_use,$jump,e2l7_yellow_key",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,$logic_medium,e2l7_yellow_key"
                 ]
               }
             ]
@@ -4630,7 +4976,7 @@
                 "name": "Reactor RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_yellow_key"
                 ]
               }
             ]
@@ -4649,7 +4995,7 @@
                 "name": "Reactor Lookout Shotgun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_yellow_key"
                 ]
               }
             ]
@@ -4668,7 +5014,10 @@
                 "name": "Canyon Cave Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
             ]
@@ -4687,7 +5036,10 @@
                 "name": "Canyon Cave Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
             ]
@@ -4706,7 +5058,7 @@
                 "name": "Toilet Tripmine",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open"
                 ]
               }
             ]
@@ -4725,7 +5077,16 @@
                 "name": "Canyon Floor Jetpack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,$logic_medium,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$sprint,e2l7_blue_key,jetpack",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$sprint,e2l7_blue_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$sprint,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$sprint,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,$logic_medium,e2l7_yellow_key",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,$sprint,e2l7_yellow_key,jetpack",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,$sprint,e2l7_yellow_key,progressive_jetpack"
                 ]
               }
             ]
@@ -4744,7 +5105,7 @@
                 "name": "Reactor Vent Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
             ]
@@ -4763,7 +5124,9 @@
                 "name": "Slime Holo Duke",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_yellow_key",
+                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_red_key"
                 ]
               }
             ]
@@ -4782,7 +5145,9 @@
                 "name": "Slime Freezethrower",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_yellow_key",
+                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_red_key"
                 ]
               }
             ]
@@ -4801,7 +5166,14 @@
                 "name": "Luke Skywalker Shrinker",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,$logic_medium,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$sprint,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$sprint,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$sprint,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,$logic_medium,e2l7_yellow_key",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,$sprint,e2l7_yellow_key"
                 ]
               }
             ]
@@ -4820,7 +5192,10 @@
                 "name": "Crew Quarters Tripmine",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
             ]
@@ -4839,7 +5214,10 @@
                 "name": "Crew Quarters Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
             ]
@@ -4858,7 +5236,10 @@
                 "name": "Crew Quarters Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
             ]
@@ -4877,7 +5258,10 @@
                 "name": "Blue Vent Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
             ]
@@ -4896,7 +5280,10 @@
                 "name": "Crew Quarters Chaingun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
             ]
@@ -4915,7 +5302,7 @@
                 "name": "Yellow Door Vent Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock,e2l7_yellow_key"
+                  "ep2,e2l7_unlock,$can_open,$jump"
                 ]
               }
             ]
@@ -4934,7 +5321,7 @@
                 "name": "Toilet Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open"
                 ]
               }
             ]
@@ -4953,7 +5340,9 @@
                 "name": "Vent Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_jump,$can_open",
+                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_yellow_key,jetpack",
+                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_yellow_key,progressive_jetpack"
                 ]
               }
             ]
@@ -4972,7 +5361,7 @@
                 "name": "Toilet RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open"
                 ]
               }
             ]
@@ -4991,7 +5380,9 @@
                 "name": "Red Key Card",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_yellow_key",
+                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_red_key"
                 ]
               }
             ]
@@ -5010,7 +5401,7 @@
                 "name": "Blue Key Card",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open"
                 ]
               }
             ]
@@ -5029,7 +5420,7 @@
                 "name": "Start Shotgun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open"
                 ]
               }
             ]
@@ -5048,7 +5439,18 @@
                 "name": "Yellow Key Card",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,$logic_medium,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$sprint,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$sprint,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$sprint,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,$logic_medium,e2l7_yellow_key",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,$sprint,e2l7_yellow_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_jump,$can_open,$can_use,$logic_medium,e2l7_red_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_sprint,$can_use,$logic_medium,e2l7_red_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,steroids",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,progressive_steroids"
                 ]
               }
             ]
@@ -5067,7 +5469,9 @@
                 "name": "Slime Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_yellow_key",
+                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_red_key"
                 ]
               }
             ]
@@ -5086,7 +5490,7 @@
                 "name": "Reactor Stairs Tripmine",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_yellow_key"
                 ]
               }
             ]
@@ -5105,7 +5509,7 @@
                 "name": "Reactor Lookout Tripmine",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_yellow_key"
                 ]
               }
             ]
@@ -5124,7 +5528,7 @@
                 "name": "Reactor Lookout Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_yellow_key"
                 ]
               }
             ]
@@ -5143,7 +5547,7 @@
                 "name": "Reactor Ledge Tripmine 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
             ]
@@ -5162,7 +5566,7 @@
                 "name": "Reactor Ledge Tripmine 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
             ]
@@ -5181,7 +5585,9 @@
                 "name": "Slime Protective Boots",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_yellow_key",
+                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_red_key"
                 ]
               }
             ]
@@ -5200,7 +5606,7 @@
                 "name": "Reactor Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
             ]
@@ -5219,7 +5625,14 @@
                 "name": "Secret Trash Compactor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock,secrets"
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_sprint,$can_use,e2l7_blue_key",
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,$logic_medium,e2l7_blue_key",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_sprint,$can_use,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_sprint,$can_use,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_sprint,$can_use,$jump,e2l7_yellow_key",
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,$jump,$logic_medium,e2l7_yellow_key"
                 ]
               }
             ]
@@ -5238,7 +5651,9 @@
                 "name": "Secret Slime Monitors",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock,secrets"
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,e2l7_blue_key",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$jump,e2l7_yellow_key",
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,e2l7_red_key"
                 ]
               }
             ]
@@ -5257,7 +5672,14 @@
                 "name": "Secret Luke Skywalker",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock,secrets"
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,$logic_medium,e2l7_blue_key",
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,$sprint,e2l7_blue_key",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$sprint,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$sprint,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,$jump,$logic_medium,e2l7_yellow_key",
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,$jump,$sprint,e2l7_yellow_key"
                 ]
               }
             ]
@@ -5276,7 +5698,10 @@
                 "name": "Secret Canyon Cave",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock,secrets"
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,$jump,e2l7_blue_key",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$jump,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$jump,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
             ]
@@ -5295,7 +5720,10 @@
                 "name": "Secret Canyon Monitors",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock,secrets"
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,e2l7_blue_key",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,e2l7_red_key,jetpack",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
             ]
@@ -5314,7 +5742,7 @@
                 "name": "Secret Reactor Ledge 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock,secrets"
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
             ]
@@ -5333,7 +5761,7 @@
                 "name": "Secret Reactor Ledge 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock,secrets"
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
             ]
@@ -5352,7 +5780,7 @@
                 "name": "Exit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l7_unlock"
+                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_yellow_key"
                 ]
               }
             ]
@@ -5379,7 +5807,15 @@
                 "name": "Overlord Pool Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,devastator,e2l8_yellow_key",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,progressive_tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$logic_hard,e2l8_yellow_key"
                 ]
               }
             ]
@@ -5398,7 +5834,7 @@
                 "name": "Beta Wall Atomic Health 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key"
                 ]
               }
             ]
@@ -5417,7 +5853,7 @@
                 "name": "Beta Wall Atomic Health 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key"
                 ]
               }
             ]
@@ -5436,7 +5872,15 @@
                 "name": "Overlord Pool Shrinker",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,devastator,e2l8_yellow_key",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,progressive_tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$logic_hard,e2l8_yellow_key"
                 ]
               }
             ]
@@ -5455,7 +5899,15 @@
                 "name": "Hatching Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,devastator,e2l8_yellow_key",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key,progressive_tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$logic_hard,e2l8_yellow_key"
                 ]
               }
             ]
@@ -5474,7 +5926,7 @@
                 "name": "Surface Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key"
                 ]
               }
             ]
@@ -5493,7 +5945,7 @@
                 "name": "Spacesuit RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key"
                 ]
               }
             ]
@@ -5512,7 +5964,7 @@
                 "name": "Outlook Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key"
                 ]
               }
             ]
@@ -5531,7 +5983,7 @@
                 "name": "Beta Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key"
                 ]
               }
             ]
@@ -5550,7 +6002,7 @@
                 "name": "Beta Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key"
                 ]
               }
             ]
@@ -5569,7 +6021,8 @@
                 "name": "Reactor Control Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$logic_extreme"
                 ]
               }
             ]
@@ -5588,7 +6041,7 @@
                 "name": "Babes Shotgun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -5607,7 +6060,7 @@
                 "name": "Gamma Vent Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -5626,7 +6079,7 @@
                 "name": "Gamma Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -5645,7 +6098,12 @@
                 "name": "Top of Hub Chaingun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_sprint,$can_use,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,e2l8_blue_key,steroids",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,e2l8_blue_key,progressive_steroids",
+                  "ep2,e2l8_unlock,$can_open,jetpack",
+                  "ep2,e2l8_unlock,$can_open,progressive_jetpack",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$logic_medium"
                 ]
               }
             ]
@@ -5664,7 +6122,10 @@
                 "name": "Hub Crate RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,jetpack",
+                  "ep2,e2l8_unlock,$can_open,progressive_jetpack",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$logic_medium"
                 ]
               }
             ]
@@ -5683,7 +6144,7 @@
                 "name": "Reactor Control Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -5702,7 +6163,7 @@
                 "name": "Hub Atomic Health 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open"
                 ]
               }
             ]
@@ -5721,7 +6182,7 @@
                 "name": "Hub Atomic Health 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open"
                 ]
               }
             ]
@@ -5740,7 +6201,7 @@
                 "name": "Alpha Lab Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -5759,7 +6220,7 @@
                 "name": "Alpha Lab Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -5778,7 +6239,7 @@
                 "name": "Waste Pool Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_dive,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -5797,7 +6258,7 @@
                 "name": "Alpha Lab Tripmine",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -5816,7 +6277,7 @@
                 "name": "Alpha Lab Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -5835,7 +6296,7 @@
                 "name": "Alpha Lab Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -5854,7 +6315,7 @@
                 "name": "Start Shotgun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open"
                 ]
               }
             ]
@@ -5873,7 +6334,7 @@
                 "name": "Crumbling Canyon Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -5892,7 +6353,7 @@
                 "name": "Crumbling Canyon Chaingun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -5911,7 +6372,7 @@
                 "name": "MP Tank Chaingun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_dive,$can_open,$can_use"
                 ]
               }
             ]
@@ -5930,7 +6391,7 @@
                 "name": "Tank Shrinker",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_dive,$can_open,$can_use"
                 ]
               }
             ]
@@ -5949,7 +6410,7 @@
                 "name": "Blue Key Card",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -5968,7 +6429,7 @@
                 "name": "Hub Freezethrower",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open"
                 ]
               }
             ]
@@ -5987,7 +6448,7 @@
                 "name": "Hub Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open"
                 ]
               }
             ]
@@ -6006,7 +6467,14 @@
                 "name": "Alpha Wall Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,rpg",
+                  "ep2,e2l8_unlock,$can_open,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_open,pipebomb",
+                  "ep2,e2l8_unlock,$can_open,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_open,devastator",
+                  "ep2,e2l8_unlock,$can_open,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_open,tripmine",
+                  "ep2,e2l8_unlock,$can_open,progressive_tripmine"
                 ]
               }
             ]
@@ -6025,7 +6493,7 @@
                 "name": "MP Tank RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_dive,$can_open,$can_use"
                 ]
               }
             ]
@@ -6044,7 +6512,7 @@
                 "name": "Alpha Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open"
                 ]
               }
             ]
@@ -6063,7 +6531,8 @@
                 "name": "Yellow Key Card",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$logic_extreme"
                 ]
               }
             ]
@@ -6082,7 +6551,7 @@
                 "name": "Start Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open"
                 ]
               }
             ]
@@ -6101,7 +6570,7 @@
                 "name": "Outlook Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key"
                 ]
               }
             ]
@@ -6120,7 +6589,7 @@
                 "name": "Alpha Lab Steroids",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -6139,7 +6608,7 @@
                 "name": "Alpha Lab Holo Duke",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -6158,7 +6627,7 @@
                 "name": "Reactor Control Protective Boots",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -6177,7 +6646,10 @@
                 "name": "Top of Hub Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,jetpack",
+                  "ep2,e2l8_unlock,$can_open,progressive_jetpack",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$logic_medium"
                 ]
               }
             ]
@@ -6196,7 +6668,10 @@
                 "name": "Top of Hub Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,jetpack",
+                  "ep2,e2l8_unlock,$can_open,progressive_jetpack",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$logic_medium"
                 ]
               }
             ]
@@ -6215,7 +6690,7 @@
                 "name": "MP Start Jetpack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open"
                 ]
               }
             ]
@@ -6234,7 +6709,7 @@
                 "name": "MP Surface Atomic Health 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key"
                 ]
               }
             ]
@@ -6253,7 +6728,7 @@
                 "name": "MP Surface Atomic Health 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key"
                 ]
               }
             ]
@@ -6272,7 +6747,7 @@
                 "name": "MP Surface Steroids",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key"
                 ]
               }
             ]
@@ -6291,7 +6766,7 @@
                 "name": "MP Surface Jetpack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key"
                 ]
               }
             ]
@@ -6310,7 +6785,7 @@
                 "name": "MP Surface Shrinker",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key"
                 ]
               }
             ]
@@ -6329,7 +6804,7 @@
                 "name": "MP Surface RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key"
                 ]
               }
             ]
@@ -6348,7 +6823,7 @@
                 "name": "MP Surface Freezethrower",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key"
                 ]
               }
             ]
@@ -6367,7 +6842,10 @@
                 "name": "Gamma Tripmine 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,jetpack",
+                  "ep2,e2l8_unlock,$can_open,progressive_jetpack",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$logic_medium"
                 ]
               }
             ]
@@ -6386,7 +6864,7 @@
                 "name": "Gamma Shrinker",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -6405,7 +6883,10 @@
                 "name": "Gamma Tripmine 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,jetpack",
+                  "ep2,e2l8_unlock,$can_open,progressive_jetpack",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$logic_medium"
                 ]
               }
             ]
@@ -6424,7 +6905,7 @@
                 "name": "Outlook Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_yellow_key"
                 ]
               }
             ]
@@ -6443,7 +6924,14 @@
                 "name": "Babes Pipebombs 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_tripmine"
                 ]
               }
             ]
@@ -6462,7 +6950,14 @@
                 "name": "Babes Pipebombs 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_tripmine"
                 ]
               }
             ]
@@ -6481,7 +6976,14 @@
                 "name": "Babes Pipebombs 3",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_tripmine"
                 ]
               }
             ]
@@ -6500,7 +7002,14 @@
                 "name": "Secret Babes Wall",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,secrets"
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,rpg",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,progressive_rpg",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,pipebomb",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,progressive_pipebomb",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,devastator",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,progressive_devastator",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,tripmine",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,progressive_tripmine"
                 ]
               }
             ]
@@ -6519,7 +7028,7 @@
                 "name": "Secret Alpha Lab Tanks",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,secrets"
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use"
                 ]
               }
             ]
@@ -6538,7 +7047,7 @@
                 "name": "Secret Hub Monitor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,secrets"
+                  "ep2,e2l8_unlock,secrets,$can_crouch,$can_open"
                 ]
               }
             ]
@@ -6557,7 +7066,7 @@
                 "name": "Secret Beta Transport Wall",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,secrets"
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,e2l8_yellow_key"
                 ]
               }
             ]
@@ -6576,7 +7085,14 @@
                 "name": "Secret Alpha Cracked Wall",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,secrets"
+                  "ep2,e2l8_unlock,secrets,$can_open,rpg",
+                  "ep2,e2l8_unlock,secrets,$can_open,progressive_rpg",
+                  "ep2,e2l8_unlock,secrets,$can_open,pipebomb",
+                  "ep2,e2l8_unlock,secrets,$can_open,progressive_pipebomb",
+                  "ep2,e2l8_unlock,secrets,$can_open,devastator",
+                  "ep2,e2l8_unlock,secrets,$can_open,progressive_devastator",
+                  "ep2,e2l8_unlock,secrets,$can_open,tripmine",
+                  "ep2,e2l8_unlock,secrets,$can_open,progressive_tripmine"
                 ]
               }
             ]
@@ -6595,7 +7111,7 @@
                 "name": "Secret Gamma Monitor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,secrets"
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -6614,7 +7130,15 @@
                 "name": "Secret Overlord Overhang",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,secrets"
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,e2l8_yellow_key,rpg",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,e2l8_yellow_key,progressive_rpg",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,e2l8_yellow_key,pipebomb",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,e2l8_yellow_key,progressive_pipebomb",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,devastator,e2l8_yellow_key",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,e2l8_yellow_key,progressive_devastator",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,e2l8_yellow_key,tripmine",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,e2l8_yellow_key,progressive_tripmine",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,$logic_hard,e2l8_yellow_key"
                 ]
               }
             ]
@@ -6633,7 +7157,15 @@
                 "name": "Exit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_dive,$can_open,$can_use,e2l8_yellow_key,rpg",
+                  "ep2,e2l8_unlock,$can_dive,$can_open,$can_use,e2l8_yellow_key,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_dive,$can_open,$can_use,e2l8_yellow_key,pipebomb",
+                  "ep2,e2l8_unlock,$can_dive,$can_open,$can_use,e2l8_yellow_key,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_dive,$can_open,$can_use,devastator,e2l8_yellow_key",
+                  "ep2,e2l8_unlock,$can_dive,$can_open,$can_use,e2l8_yellow_key,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_dive,$can_open,$can_use,e2l8_yellow_key,tripmine",
+                  "ep2,e2l8_unlock,$can_dive,$can_open,$can_use,e2l8_yellow_key,progressive_tripmine",
+                  "ep2,e2l8_unlock,$can_dive,$can_open,$can_use,$logic_hard,e2l8_yellow_key"
                 ]
               }
             ]
@@ -6652,7 +7184,15 @@
                 "name": "Secret Exit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock"
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_yellow_key,rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_yellow_key,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_yellow_key,pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_yellow_key,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,devastator,e2l8_yellow_key",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_yellow_key,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_yellow_key,tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_yellow_key,progressive_tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,$logic_hard,e2l8_yellow_key"
                 ]
               }
             ]
@@ -6679,7 +7219,11 @@
                 "name": "Timed Wall RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$can_use,$jump",
+                  "ep2,e2l9_unlock,$jump,$logic_medium,jetpack",
+                  "ep2,e2l9_unlock,$jump,$logic_medium,progressive_jetpack",
+                  "ep2,e2l9_unlock,$logic_extreme,$logic_medium,jetpack",
+                  "ep2,e2l9_unlock,$logic_extreme,$logic_medium,progressive_jetpack"
                 ]
               }
             ]
@@ -6698,7 +7242,14 @@
                 "name": "Control Room Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump,jetpack",
+                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
               }
             ]
@@ -6717,7 +7268,8 @@
                 "name": "Waterfall Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme"
                 ]
               }
             ]
@@ -6736,7 +7288,14 @@
                 "name": "Vents Pipebombs 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump,jetpack",
+                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
               }
             ]
@@ -6755,7 +7314,14 @@
                 "name": "Overlord Tunnel Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$can_dive,$jump,jetpack,scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$jump,jetpack,progressive_scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$jump,progressive_jetpack,scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$jump,progressive_jetpack,progressive_scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$can_jump,$jump,$sr50,scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$can_jump,$jump,$sr50,progressive_scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$can_jump,$can_use,$jump,scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$can_jump,$can_use,$jump,progressive_scuba_gear"
                 ]
               }
             ]
@@ -6774,7 +7340,8 @@
                 "name": "Broken Wall Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme"
                 ]
               }
             ]
@@ -6793,7 +7360,8 @@
                 "name": "Waterfall Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme"
                 ]
               }
             ]
@@ -6812,7 +7380,8 @@
                 "name": "Waterfall Scuba Gear",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme"
                 ]
               }
             ]
@@ -6869,7 +7438,8 @@
                 "name": "Waterfall Tripmine",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme"
                 ]
               }
             ]
@@ -6888,7 +7458,14 @@
                 "name": "Overlord Tripmine 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump,jetpack",
+                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
               }
             ]
@@ -6907,7 +7484,14 @@
                 "name": "Overlord Tripmine 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump,jetpack",
+                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
               }
             ]
@@ -6926,7 +7510,14 @@
                 "name": "Overlord Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump,jetpack",
+                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
               }
             ]
@@ -6945,7 +7536,8 @@
                 "name": "Combination Lock Scuba Gear",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme"
                 ]
               }
             ]
@@ -6964,7 +7556,14 @@
                 "name": "Control Room Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump,jetpack",
+                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
               }
             ]
@@ -6983,7 +7582,14 @@
                 "name": "Control Room Chaingun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump,jetpack",
+                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
               }
             ]
@@ -7002,7 +7608,14 @@
                 "name": "Vents Center Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump,jetpack",
+                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
               }
             ]
@@ -7021,7 +7634,8 @@
                 "name": "Waterfall Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme"
                 ]
               }
             ]
@@ -7040,7 +7654,8 @@
                 "name": "Waterfall Shrinker",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme"
                 ]
               }
             ]
@@ -7059,7 +7674,14 @@
                 "name": "Overlord Tunnel Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$can_dive,$jump,jetpack,scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$jump,jetpack,progressive_scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$jump,progressive_jetpack,scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$jump,progressive_jetpack,progressive_scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$can_jump,$jump,$sr50,scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$can_jump,$jump,$sr50,progressive_scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$can_jump,$can_use,$jump,scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$can_jump,$can_use,$jump,progressive_scuba_gear"
                 ]
               }
             ]
@@ -7078,7 +7700,8 @@
                 "name": "Waterfall RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme"
                 ]
               }
             ]
@@ -7097,7 +7720,11 @@
                 "name": "Reactor Freezethrower",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$can_use,$jump",
+                  "ep2,e2l9_unlock,$jump,$logic_medium,jetpack",
+                  "ep2,e2l9_unlock,$jump,$logic_medium,progressive_jetpack",
+                  "ep2,e2l9_unlock,$logic_extreme,$logic_medium,jetpack",
+                  "ep2,e2l9_unlock,$logic_extreme,$logic_medium,progressive_jetpack"
                 ]
               }
             ]
@@ -7135,7 +7762,7 @@
                 "name": "Start Underwater Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$can_use"
                 ]
               }
             ]
@@ -7154,7 +7781,14 @@
                 "name": "Vents Pipebombs 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump,jetpack",
+                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
               }
             ]
@@ -7173,7 +7807,10 @@
                 "name": "Waterfall Holo Duke",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$can_dive,$jump,scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$jump,progressive_scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$logic_extreme,scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$logic_extreme,progressive_scuba_gear"
                 ]
               }
             ]
@@ -7192,7 +7829,14 @@
                 "name": "Overlord Tunnel Jetpack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$can_dive,$jump,jetpack,scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$jump,jetpack,progressive_scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$jump,progressive_jetpack,scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$jump,progressive_jetpack,progressive_scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$can_jump,$jump,$sr50,scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$can_jump,$jump,$sr50,progressive_scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$can_jump,$can_use,$jump,scuba_gear",
+                  "ep2,e2l9_unlock,$can_dive,$can_jump,$can_use,$jump,progressive_scuba_gear"
                 ]
               }
             ]
@@ -7211,7 +7855,14 @@
                 "name": "Timed Wall Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump,jetpack",
+                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
               }
             ]
@@ -7230,7 +7881,14 @@
                 "name": "Timed Wall Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump,jetpack",
+                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
+                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
               }
             ]
@@ -7249,7 +7907,22 @@
                 "name": "Waterfall Wall Pipebombs 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump,rpg",
+                  "ep2,e2l9_unlock,$jump,progressive_rpg",
+                  "ep2,e2l9_unlock,$jump,pipebomb",
+                  "ep2,e2l9_unlock,$jump,progressive_pipebomb",
+                  "ep2,e2l9_unlock,$jump,devastator",
+                  "ep2,e2l9_unlock,$jump,progressive_devastator",
+                  "ep2,e2l9_unlock,$jump,tripmine",
+                  "ep2,e2l9_unlock,$jump,progressive_tripmine",
+                  "ep2,e2l9_unlock,$logic_extreme,rpg",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_rpg",
+                  "ep2,e2l9_unlock,$logic_extreme,pipebomb",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_pipebomb",
+                  "ep2,e2l9_unlock,$logic_extreme,devastator",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_devastator",
+                  "ep2,e2l9_unlock,$logic_extreme,tripmine",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -7268,7 +7941,22 @@
                 "name": "Waterfall Wall Pipebombs 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$jump,rpg",
+                  "ep2,e2l9_unlock,$jump,progressive_rpg",
+                  "ep2,e2l9_unlock,$jump,pipebomb",
+                  "ep2,e2l9_unlock,$jump,progressive_pipebomb",
+                  "ep2,e2l9_unlock,$jump,devastator",
+                  "ep2,e2l9_unlock,$jump,progressive_devastator",
+                  "ep2,e2l9_unlock,$jump,tripmine",
+                  "ep2,e2l9_unlock,$jump,progressive_tripmine",
+                  "ep2,e2l9_unlock,$logic_extreme,rpg",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_rpg",
+                  "ep2,e2l9_unlock,$logic_extreme,pipebomb",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_pipebomb",
+                  "ep2,e2l9_unlock,$logic_extreme,devastator",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_devastator",
+                  "ep2,e2l9_unlock,$logic_extreme,tripmine",
+                  "ep2,e2l9_unlock,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -7306,7 +7994,14 @@
                 "name": "Secret Timed Overlord Wall",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,secrets"
+                  "ep2,e2l9_unlock,secrets,$jump,jetpack",
+                  "ep2,e2l9_unlock,secrets,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,secrets,$can_jump,$jump,$sr50",
+                  "ep2,e2l9_unlock,secrets,$can_jump,$can_use,$jump",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,jetpack",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,secrets,$can_jump,$logic_extreme,$sr50",
+                  "ep2,e2l9_unlock,secrets,$can_jump,$can_use,$logic_extreme"
                 ]
               }
             ]
@@ -7325,7 +8020,22 @@
                 "name": "Secret Waterfall Wall",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,secrets"
+                  "ep2,e2l9_unlock,secrets,$jump,rpg",
+                  "ep2,e2l9_unlock,secrets,$jump,progressive_rpg",
+                  "ep2,e2l9_unlock,secrets,$jump,pipebomb",
+                  "ep2,e2l9_unlock,secrets,$jump,progressive_pipebomb",
+                  "ep2,e2l9_unlock,secrets,$jump,devastator",
+                  "ep2,e2l9_unlock,secrets,$jump,progressive_devastator",
+                  "ep2,e2l9_unlock,secrets,$jump,tripmine",
+                  "ep2,e2l9_unlock,secrets,$jump,progressive_tripmine",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,rpg",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,progressive_rpg",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,pipebomb",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,progressive_pipebomb",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,devastator",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,progressive_devastator",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,tripmine",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -7344,7 +8054,11 @@
                 "name": "Secret Timed Reactor Wall",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,secrets"
+                  "ep2,e2l9_unlock,secrets,$can_use,$jump",
+                  "ep2,e2l9_unlock,secrets,$jump,$logic_medium,jetpack",
+                  "ep2,e2l9_unlock,secrets,$jump,$logic_medium,progressive_jetpack",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,$logic_medium,jetpack",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,$logic_medium,progressive_jetpack"
                 ]
               }
             ]
@@ -7363,7 +8077,22 @@
                 "name": "Exit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock"
+                  "ep2,e2l9_unlock,$can_kill_boss_2,$jump,jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$glitched,$jump,jetpack",
+                  "ep2,e2l9_unlock,$can_kill_boss_2,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$glitched,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$can_kill_boss_2,$jump,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$glitched,$jump,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_kill_boss_2,$can_use,$jump",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$glitched,$jump",
+                  "ep2,e2l9_unlock,$can_kill_boss_2,$logic_extreme,jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$glitched,$logic_extreme,jetpack",
+                  "ep2,e2l9_unlock,$can_kill_boss_2,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$glitched,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_jump,$can_kill_boss_2,$logic_extreme,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$glitched,$logic_extreme,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_kill_boss_2,$can_use,$logic_extreme",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$glitched,$logic_extreme"
                 ]
               }
             ]
@@ -7466,7 +8195,7 @@
                 "name": "Gamma Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l10_unlock"
+                  "ep2,e2l10_unlock,$can_open"
                 ]
               }
             ]
@@ -7561,7 +8290,7 @@
                 "name": "Beta Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l10_unlock"
+                  "ep2,e2l10_unlock,$can_open"
                 ]
               }
             ]
@@ -7580,7 +8309,7 @@
                 "name": "Alpha Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l10_unlock"
+                  "ep2,e2l10_unlock,$can_open"
                 ]
               }
             ]
@@ -7599,7 +8328,7 @@
                 "name": "Delta Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l10_unlock"
+                  "ep2,e2l10_unlock,$can_open"
                 ]
               }
             ]
@@ -7694,7 +8423,7 @@
                 "name": "Alpha Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l10_unlock"
+                  "ep2,e2l10_unlock,$can_open"
                 ]
               }
             ]
@@ -7713,7 +8442,7 @@
                 "name": "Gamma Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l10_unlock"
+                  "ep2,e2l10_unlock,$can_open"
                 ]
               }
             ]
@@ -7732,7 +8461,7 @@
                 "name": "Beta Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l10_unlock"
+                  "ep2,e2l10_unlock,$can_open"
                 ]
               }
             ]
@@ -7751,7 +8480,7 @@
                 "name": "Center Holo Duke",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l10_unlock"
+                  "ep2,e2l10_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -7770,7 +8499,7 @@
                 "name": "Center Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l10_unlock"
+                  "ep2,e2l10_unlock,$can_open,$can_use"
                 ]
               }
             ]
@@ -7789,7 +8518,8 @@
                 "name": "Exit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l10_unlock"
+                  "ep2,e2l10_unlock,$can_open,$can_use,$jump",
+                  "ep2,e2l10_unlock,$can_open,$can_use,$logic_hard"
                 ]
               }
             ]
@@ -7816,7 +8546,8 @@
                 "name": "Center Ring Shrinker",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use,$jump",
+                  "ep2,e2l11_unlock,$can_use,$logic_medium"
                 ]
               }
             ]
@@ -7835,7 +8566,7 @@
                 "name": "Top Ledge Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use"
                 ]
               }
             ]
@@ -7854,7 +8585,8 @@
                 "name": "MP Center Ring Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use,$jump",
+                  "ep2,e2l11_unlock,$can_use,$logic_medium"
                 ]
               }
             ]
@@ -7873,7 +8605,8 @@
                 "name": "Bottom Ring Holo Duke",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_open,$can_use",
+                  "ep2,e2l11_unlock,$can_use,$fast_crouch_jump"
                 ]
               }
             ]
@@ -7892,7 +8625,8 @@
                 "name": "Center Ring RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use,$jump",
+                  "ep2,e2l11_unlock,$can_use,$logic_medium"
                 ]
               }
             ]
@@ -7911,7 +8645,8 @@
                 "name": "Bottom Ring Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_open,$can_use",
+                  "ep2,e2l11_unlock,$can_use,$fast_crouch_jump"
                 ]
               }
             ]
@@ -7930,7 +8665,8 @@
                 "name": "MP Center Ring Jetpack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use,$jump",
+                  "ep2,e2l11_unlock,$can_use,$logic_medium"
                 ]
               }
             ]
@@ -7949,7 +8685,8 @@
                 "name": "Center Ring Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use,$jump",
+                  "ep2,e2l11_unlock,$can_use,$logic_medium"
                 ]
               }
             ]
@@ -7968,7 +8705,7 @@
                 "name": "Top Ledge Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use"
                 ]
               }
             ]
@@ -7987,7 +8724,8 @@
                 "name": "Center Ring Steroids",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use,$jump",
+                  "ep2,e2l11_unlock,$can_use,$logic_medium"
                 ]
               }
             ]
@@ -8006,7 +8744,7 @@
                 "name": "Bottom Ring Tripmine",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use"
                 ]
               }
             ]
@@ -8025,7 +8763,7 @@
                 "name": "Top Ledge Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use"
                 ]
               }
             ]
@@ -8044,7 +8782,7 @@
                 "name": "MP Top Ledge Shrinker",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use"
                 ]
               }
             ]
@@ -8063,7 +8801,8 @@
                 "name": "Center Ring Chaingun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use,$jump",
+                  "ep2,e2l11_unlock,$can_use,$logic_medium"
                 ]
               }
             ]
@@ -8082,7 +8821,7 @@
                 "name": "Center Ring Shotgun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use"
                 ]
               }
             ]
@@ -8101,7 +8840,7 @@
                 "name": "Bottom Ring Freezethrower",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use"
                 ]
               }
             ]
@@ -8120,7 +8859,7 @@
                 "name": "Bottom Ring Shotgun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use"
                 ]
               }
             ]
@@ -8139,7 +8878,8 @@
                 "name": "Center Ring Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use,$jump",
+                  "ep2,e2l11_unlock,$can_use,$logic_medium"
                 ]
               }
             ]
@@ -8158,7 +8898,7 @@
                 "name": "Center Top Atomic Health 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use,$jump"
                 ]
               }
             ]
@@ -8177,7 +8917,7 @@
                 "name": "Center Top Atomic Health 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use,$jump"
                 ]
               }
             ]
@@ -8196,7 +8936,8 @@
                 "name": "Exit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l11_unlock"
+                  "ep2,e2l11_unlock,$can_use,$jump",
+                  "ep2,e2l11_unlock,$can_use,$logic_medium"
                 ]
               }
             ]

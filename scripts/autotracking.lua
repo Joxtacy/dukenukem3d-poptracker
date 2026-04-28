@@ -82,12 +82,40 @@ function onClear(slot_data)
     end
     set_toggle("e1l7_enabled", active_levels["E1L7"] == true)
 
-    -- 4. Ability/Interact gating from slot_data["settings"]["lock"].
+    -- 4. Ability/Interact gating from slot_data["settings"]["lock"]. Each
+    --    pair (ab_locked / ab_unlocked, int_locked / int_unlocked) is set
+    --    as the inverse of the other so access_rules can express
+    --    "always-have-X OR have-X-as-item" without negation, which
+    --    PopTracker doesn't natively support.
     local lock = (slot_data and slot_data["settings"] and slot_data["settings"]["lock"]) or {}
     local ab_locked = lock["jump"] or lock["crouch"] or lock["run"] or lock["dive"]
     local int_locked = lock["open"] or lock["use"]
     set_toggle("ab_locked", ab_locked == true)
     set_toggle("int_locked", int_locked == true)
+    set_toggle("ab_unlocked", ab_locked ~= true)
+    set_toggle("int_unlocked", int_locked ~= true)
+
+    -- 4a. Logic-difficulty stage on the progressive `logic_difficulty` item
+    --     (0=easy, 1=medium, 2=hard, 3=extreme — same as the apworld).
+    --     Default to medium (the apworld's default) since slot_data
+    --     doesn't currently carry this. Active=true keeps the icon bright.
+    local diff = 1
+    if slot_data and slot_data["settings"]
+            and slot_data["settings"]["logic_difficulty"] ~= nil then
+        diff = slot_data["settings"]["logic_difficulty"]
+    end
+    local diff_obj = Tracker:FindObjectForCode("logic_difficulty")
+    if diff_obj then
+        diff_obj.CurrentStage = diff
+        diff_obj.Active = true
+    end
+
+    -- 4b. Glitched logic. Defaults off (apworld's default).
+    local glitched = false
+    if slot_data and slot_data["settings"] then
+        glitched = slot_data["settings"]["glitch_logic"] == true
+    end
+    set_toggle("glitched_logic", glitched)
 
     -- 5. Detect "include_secrets" by scanning ACTIVE_LOCATIONS for any
     --    location whose path contains "/Secret " (i.e. a sector check).

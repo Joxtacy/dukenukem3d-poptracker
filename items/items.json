@@ -48,6 +48,18 @@
     "codes": "int_locked"
   },
   {
+    "name": "Abilities Unlocked",
+    "type": "toggle",
+    "img": "images/blank.png",
+    "codes": "ab_unlocked"
+  },
+  {
+    "name": "Interact Unlocked",
+    "type": "toggle",
+    "img": "images/blank.png",
+    "codes": "int_unlocked"
+  },
+  {
     "name": "Area Maps Unlockable",
     "type": "toggle",
     "img": "images/blank.png",
@@ -58,6 +70,37 @@
     "type": "toggle",
     "img": "images/blank.png",
     "codes": "e1l7_enabled"
+  },
+  {
+    "name": "Logic Difficulty",
+    "type": "progressive",
+    "img": "images/logic_medium.png",
+    "codes": "logic_difficulty",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/logic_easy.png",
+        "codes": "logic_difficulty"
+      },
+      {
+        "img": "images/logic_medium.png",
+        "codes": "logic_difficulty"
+      },
+      {
+        "img": "images/logic_hard.png",
+        "codes": "logic_difficulty"
+      },
+      {
+        "img": "images/logic_extreme.png",
+        "codes": "logic_difficulty"
+      }
+    ]
+  },
+  {
+    "name": "Glitched Logic",
+    "type": "toggle",
+    "img": "images/glitched_logic.png",
+    "codes": "glitched_logic"
   },
   {
     "name": "Exits",

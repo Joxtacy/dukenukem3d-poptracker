@@ -41,6 +41,8 @@ PALETTE = {
     "goal_secret":((140, 60, 180), (255, 255, 255)),  # purple
     "goal_boss":  ((180, 30, 30),  (255, 255, 255)),  # blood red
     "map":        ((20, 20, 20),   (200, 200, 200)),
+    "logic":      ((90, 60, 130),  (255, 255, 220)),  # purple-grey
+    "glitch":     ((180, 60, 30),  (255, 255, 100)),  # orange-yellow
 }
 
 # (filename, label, palette key)
@@ -114,6 +116,13 @@ ICONS: list[tuple[str, str, str]] = [
     ("key_blue.png",   "BLUE\nKEY",   "key_blue"),
     ("key_red.png",    "RED\nKEY",    "key_red"),
     ("key_yellow.png", "YELLOW\nKEY", "key_yellow"),
+
+    # Logic-difficulty / glitch settings (settings panel in the layout).
+    ("logic_easy.png",      "EASY\nLOGIC",  "logic"),
+    ("logic_medium.png",    "MED\nLOGIC",   "logic"),
+    ("logic_hard.png",      "HARD\nLOGIC",  "logic"),
+    ("logic_extreme.png",   "XTRM\nLOGIC",  "logic"),
+    ("glitched_logic.png",  "GLITCH\nLOGIC","glitch"),
 ]
 
 

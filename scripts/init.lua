@@ -17,6 +17,17 @@ Tracker:AddMaps("maps/e4_maps.json")
 
 Tracker:AddLayouts("layouts/tracker.json")
 
+-- Default the Logic Difficulty progressive at pack load. Four stages
+-- (0=easy, 1=medium, 2=hard, 3=extreme) mirror the apworld option;
+-- default to medium. Active=true keeps the icon rendered bright since
+-- it's a settings dial, not a collectible item — onClear re-sets this
+-- whenever AP reconnects.
+local diff_obj = Tracker:FindObjectForCode("logic_difficulty")
+if diff_obj then
+    diff_obj.CurrentStage = 1  -- medium
+    diff_obj.Active = true
+end
+
 if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/autotracking_data.lua")
     ScriptHost:LoadScript("scripts/autotracking.lua")

@@ -202,8 +202,33 @@ def build_items_json(levels: list[LevelData]) -> list[dict[str, Any]]:
     add("Include Secrets", "secrets", "toggle", "images/blank.png")
     add("Unlock Abilities", "ab_locked", "toggle", "images/blank.png")
     add("Unlock Interact", "int_locked", "toggle", "images/blank.png")
+    add("Abilities Unlocked", "ab_unlocked", "toggle", "images/blank.png")
+    add("Interact Unlocked", "int_unlocked", "toggle", "images/blank.png")
     add("Area Maps Unlockable", "maps_unlockable", "toggle", "images/blank.png")
     add("E1L7 Enabled", "e1l7_enabled", "toggle", "images/blank.png")
+    # Logic difficulty: a single progressive item that cycles
+    # easy → medium → hard → extreme. logic.lua's $logic_X helpers read
+    # the CurrentStage to answer the apworld's `r.difficulty("X")` checks.
+    # Surfaced in the layout's Settings group; click to advance, since the
+    # apworld doesn't currently transmit logic_difficulty in slot_data.
+    # Four stages mirroring the apworld's logic_difficulty option
+    # (0=easy, 1=medium, 2=hard, 3=extreme). loop=true so right-click at
+    # stage 0 wraps to stage 3 instead of dropping to inactive/greyed.
+    # init.lua + onClear keep Active=true so the icon never renders greyed.
+    items.append({
+        "name": "Logic Difficulty",
+        "type": "progressive",
+        "img": "images/logic_medium.png",
+        "codes": "logic_difficulty",
+        "loop": True,
+        "stages": [
+            {"img": "images/logic_easy.png",    "codes": "logic_difficulty"},
+            {"img": "images/logic_medium.png",  "codes": "logic_difficulty"},
+            {"img": "images/logic_hard.png",    "codes": "logic_difficulty"},
+            {"img": "images/logic_extreme.png", "codes": "logic_difficulty"},
+        ],
+    })
+    add("Glitched Logic", "glitched_logic", "toggle", "images/glitched_logic.png")
 
     # --- goal counters (consumables, max set dynamically in onClear) ---
     for sid, code, display in GOAL_ITEMS:
@@ -355,6 +380,14 @@ def load_map_pins(repo_root: Path) -> dict[str, dict[str, list[int]]]:
     return json.loads(p.read_text())
 
 
+def load_level_rules(apworld_dir: Path) -> dict[str, dict[str, list[str]]]:
+    """Use parse_level_logic to compute per-location access_rules from each
+    level's region graph. Returns {prefix: {loc_name: [rule_string, ...]}}."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from parse_level_logic import compute_all_level_rules
+    return compute_all_level_rules(apworld_dir)
+
+
 # Heuristic: location names that strongly indicate gating by a colored key
 # card. Two patterns:
 #   1) "<Color> <Keyword>" where Keyword is a noun for a colored door / room
@@ -388,6 +421,7 @@ def detect_key_gates(name: str) -> set[str]:
 def build_episode_locations(
     levels: list[LevelData], episode: int,
     pins: dict[str, dict[str, list[int]]] | None = None,
+    level_rules: dict[str, dict[str, list[str]]] | None = None,
 ) -> list[dict[str, Any]]:
     """Build the locations JSON for a single episode.
 
@@ -414,26 +448,45 @@ def build_episode_locations(
             base_rule = f"ep1,e1l7_enabled,{cp}_unlock"
 
         level_key_codes = {k.lower() for k in level.keys}
+        computed = (level_rules or {}).get(level.prefix, {})
         for loc in level.location_defs:
             loc_name: str = loc["name"]
             loc_type: str = loc["type"]
 
-            if loc_type == "exit":
-                rule = base_rule
-            elif loc_type == "sector":
-                rule = f"{base_rule},secrets"
-            else:  # sprite
-                rule = base_rule
+            if loc_type == "sector":
+                # Sector secrets carry the include_secrets gate on top of
+                # whatever the region graph requires.
+                slot_prefix = f"{base_rule},secrets"
+            else:
+                slot_prefix = base_rule
 
-            # Heuristic per-key gating. Only append a key requirement if
-            # the matched colour is actually one of this level's keys —
-            # otherwise we'd reference an item code that doesn't exist.
-            gate_colours = detect_key_gates(loc_name) & level_key_codes
-            if gate_colours:
-                extra = ",".join(
-                    f"{cp}_{c}_key" for c in sorted(gate_colours)
-                )
-                rule = f"{rule},{extra}"
+            # Prefer the AST-computed region-graph rules; fall back to the
+            # v0.2 heuristic for the ~20 locations parse_level_logic doesn't
+            # currently catch.
+            comp_alts = computed.get(loc_name)
+            if comp_alts is None:
+                gate_colours = detect_key_gates(loc_name) & level_key_codes
+                if gate_colours:
+                    extra = ",".join(
+                        f"{cp}_{c}_key" for c in sorted(gate_colours)
+                    )
+                    rule_alts = [f"{slot_prefix},{extra}"]
+                else:
+                    rule_alts = [slot_prefix]
+            else:
+                # Combine the slot prefix with each computed alternative.
+                # Empty string from compute means "always reachable past
+                # the slot prefix", so just use the prefix alone.
+                rule_alts = []
+                for alt in comp_alts:
+                    if alt:
+                        rule_alts.append(f"{slot_prefix},{alt}")
+                    else:
+                        rule_alts.append(slot_prefix)
+                if not rule_alts:
+                    # FALSE per the parser; encode as a never-satisfied rule
+                    # so the section visibly stays unreachable.
+                    rule_alts = [f"{slot_prefix},__never__"]
 
             pin = level_pins.get(loc_name, [100, 100])
             loc_children.append(
@@ -449,7 +502,7 @@ def build_episode_locations(
                             # "<group>/<level>/<loc>/<loc>".
                             "name": loc_name,
                             "item_count": 1,
-                            "access_rules": [rule],
+                            "access_rules": rule_alts,
                         }
                     ],
                 }
@@ -636,6 +689,11 @@ def main():
         print("No tools/map_pins.json found; pins will all be (100, 100). "
               "Run tools/gen_maps.py first if you want real coordinates.")
 
+    print("Computing per-location access rules from apworld region graph...")
+    level_rules = load_level_rules(apworld_dir)
+    n_rules = sum(len(v) for v in level_rules.values())
+    print(f"Computed rules for {n_rules} locations across {len(level_rules)} levels.")
+
     id_map_path = apworld_dir / "resources" / "id_map.json"
     id_map = json.loads(id_map_path.read_text())
     print(
@@ -652,7 +710,8 @@ def main():
 
     # locations/eN_locations.json + maps/eN_maps.json
     for ep in (1, 2, 3, 4):
-        loc_data = build_episode_locations(levels, ep, pins=map_pins)
+        loc_data = build_episode_locations(levels, ep, pins=map_pins,
+                                           level_rules=level_rules)
         loc_path = out / "locations" / f"e{ep}_locations.json"
         loc_path.parent.mkdir(parents=True, exist_ok=True)
         loc_path.write_text(json.dumps(loc_data, indent=2) + "\n")

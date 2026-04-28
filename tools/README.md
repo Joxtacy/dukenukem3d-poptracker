@@ -5,6 +5,7 @@ These scripts generate the bulk of the pack's data and assets. None of them ship
 | Script | Run when |
 |---|---|
 | [`gen_pack_data.py`](#gen_pack_datapy) | The Duke3D apworld changes (new NBloodAP release). |
+| [`parse_level_logic.py`](#parse_level_logicpy) | Library imported by `gen_pack_data.py`; AST-parses each level's region graph and emits per-location PopTracker access rules. Not normally invoked directly. |
 | [`gen_layout.py`](#gen_layoutpy) | The level list, episode count, or per-tab layout structure changes. Rare. |
 | [`gen_maps.py`](#gen_mapspy) | First-time setup of real per-level top-down maps + pin coordinates, or after the apworld bumps the levels' `location_defs`. |
 | [`gen_placeholders.py`](#gen_placeholderspy) | You want to wipe `images/` back to text-labeled placeholders, or a new icon was added. |
@@ -68,6 +69,25 @@ After committing, cut a new tracker release via the GitHub Action.
 --apworld-dir PATH   Path to the extracted apworld (default: /tmp/duke3d-apworld/extracted/duke3d)
 --out PATH           Output repo root (default: this repo)
 ```
+
+---
+
+## `parse_level_logic.py`
+
+Library used by `gen_pack_data.py`. AST-walks each level's `main_region()` method, builds the region DAG, and translates rule expressions (`r.jump`, `r.can_open`, `r.explosives`, `self.red_key`, `self.event(...)`, `&` / `|` operators, etc.) into PopTracker `access_rules`. For each location, computes the OR of (AND of edge rules along each path from the start region to the location's region), AND-ed with any per-location `restrict()` rule, and emits the result as DNF.
+
+**Key design choices**
+
+- Uses **`$func` Lua helpers** (defined in `scripts/logic.lua`) for primitives that are conditional on YAML options. `$can_jump` returns true if abilities are unlocked OR the Jump item is held; this avoids combinatorial explosion that would otherwise come from expanding every conditional with complementary toggles.
+- Conditional ability gating reads from `ab_unlocked` / `int_unlocked` hidden toggles (set in `onClear` from `slot_data["settings"]["lock"]`).
+- Logic difficulty maps to `logic_easy` / `logic_medium` / `logic_hard` / `logic_extreme` toggles. Each `logic_X` is active iff the seed's logic_difficulty option is at least X. The apworld doesn't currently include these in slot_data; tracker defaults to medium-no-glitch, user can toggle manually.
+- Fuel-amount granularity (`r.jetpack(50)` vs `r.jetpack(200)`) is collapsed to "has jetpack at all". Documented as a future improvement.
+- Events (`self.event("Backrooms Switch")`) are inline-resolved to the access rule of their triggering location, with up to 4 fixed-point iterations to handle event chains.
+- The 17 locations the parser doesn't model (DukeMatch arenas, Alpha/Beta sub-region patterns) fall back to the v0.2 key-name heuristic in `gen_pack_data.py`.
+
+**When to maintain it**
+
+- A new apworld release adds patterns the parser doesn't recognise (new rule primitives in `rules.py`, new region-construction patterns in level files). Symptom: drop in the "Computed rules for N locations" line in `gen_pack_data.py` output. Inspect a few of the missing locations and extend `_translate_attr` or the level-graph extraction in `parse_level_graph`.
 
 ---
 

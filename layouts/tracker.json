@@ -179,6 +179,22 @@
                           ]
                         ]
                       }
+                    },
+                    {
+                      "type": "group",
+                      "header": "Logic settings (click to cycle / right-click to toggle)",
+                      "dock": "top",
+                      "content": {
+                        "type": "itemgrid",
+                        "item_size": 40,
+                        "item_margin": 4,
+                        "rows": [
+                          [
+                            "logic_difficulty",
+                            "glitched_logic"
+                          ]
+                        ]
+                      }
                     }
                   ]
                 }
