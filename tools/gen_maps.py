@@ -113,10 +113,19 @@ def parse_map(data: bytes) -> dict:
     sprites = []
     for _ in range(numsprites):
         x, y, z = struct.unpack_from("<iii", data, pos)
-        sprites.append({"x": x, "y": y, "z": z})
+        # picnum lives at offset 14 within the 44-byte sprite struct
+        # (after x/y/z and cstat).
+        picnum = struct.unpack_from("<h", data, pos + 14)[0]
+        sprites.append({"x": x, "y": y, "z": z, "picnum": picnum})
         pos += SPRITE_SIZE
 
     return {"sectors": sectors, "walls": walls, "sprites": sprites}
+
+
+# Duke 3D "NUKEBUTTON" — the level-end lever sprite. Both regular and secret
+# exits use this picnum; we count them and match to the apworld's exit-type
+# locations (declared in order: Exit, then Secret Exit when present).
+NUKEBUTTON_PICNUM = 142
 
 
 # ---------------------------------------------------------------------------
@@ -296,6 +305,13 @@ def extract_pins_calibrated(level, parsed: dict, cal_entry: dict) -> dict:
     cx_w = (bbox[0] + bbox[2]) / 2
     cy_w = (bbox[1] + bbox[3]) / 2
 
+    # Same exit handling as extract_pins (see above).
+    exit_sprites = [
+        (sp["x"], sp["y"]) for sp in parsed["sprites"]
+        if sp.get("picnum") == NUKEBUTTON_PICNUM
+    ]
+    exit_iter = iter(exit_sprites)
+
     for loc in level.location_defs:
         loc_name = loc["name"]
         loc_type = loc["type"]
@@ -311,7 +327,10 @@ def extract_pins_calibrated(level, parsed: dict, cal_entry: dict) -> dict:
             if c is not None:
                 wx, wy = c
         elif loc_type == "exit":
-            wx, wy = cx_w, cy_w
+            try:
+                wx, wy = next(exit_iter)
+            except StopIteration:
+                wx, wy = cx_w, cy_w
 
         if wx is None:
             wx, wy = cx_w, cy_w
@@ -342,6 +361,16 @@ def extract_pins(level, parsed: dict, size: tuple[int, int],
     pins: dict[str, list[int]] = {}
     cx, cy = (bbox[0] + bbox[2]) / 2, (bbox[1] + bbox[3]) / 2  # fallback: center
 
+    # Collect NUKEBUTTON sprites in sprite-index order so we can match them
+    # to the level's exit-type locations one-by-one. The apworld declares
+    # exits in a consistent order (Exit first, Secret Exit when present),
+    # which lines up with sprite-index order in the .MAP files I've seen.
+    exit_sprites = [
+        (sp["x"], sp["y"]) for sp in parsed["sprites"]
+        if sp.get("picnum") == NUKEBUTTON_PICNUM
+    ]
+    exit_iter = iter(exit_sprites)
+
     for loc in level.location_defs:
         loc_name = loc["name"]
         loc_type = loc["type"]
@@ -357,10 +386,13 @@ def extract_pins(level, parsed: dict, size: tuple[int, int],
             if c is not None:
                 wx, wy = c
         elif loc_type == "exit":
-            # Exit's `id` is a lotag, not a sprite/sector index. We don't
-            # try to disambiguate — the user clicks the section panel,
-            # and we drop a pin at the bbox center as a soft hint.
-            wx, wy = cx, cy
+            # Use the next available NUKEBUTTON sprite. Boss-only levels
+            # (which trigger end-of-level by killing the boss, not by
+            # pressing a button) get the bbox-center fallback.
+            try:
+                wx, wy = next(exit_iter)
+            except StopIteration:
+                wx, wy = cx, cy
 
         if wx is None:
             wx, wy = cx, cy
