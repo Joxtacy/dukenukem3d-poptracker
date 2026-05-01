@@ -43,6 +43,8 @@ PALETTE = {
     "map":        ((20, 20, 20),   (200, 200, 200)),
     "logic":      ((90, 60, 130),  (255, 255, 220)),  # purple-grey
     "glitch":     ((180, 60, 30),  (255, 255, 100)),  # orange-yellow
+    "skill":      ((130, 90, 30),  (255, 240, 200)),  # warm bronze
+    "no_save":    ((100, 30, 30),  (255, 200, 200)),  # dark red-pink
 }
 
 # (filename, label, palette key)
@@ -123,6 +125,13 @@ ICONS: list[tuple[str, str, str]] = [
     ("logic_hard.png",      "HARD\nLOGIC",  "logic"),
     ("logic_extreme.png",   "XTRM\nLOGIC",  "logic"),
     ("glitched_logic.png",  "GLITCH\nLOGIC","glitch"),
+
+    # Seed-info badges (auto-set from slot_data in onClear).
+    ("skill_piece_of_cake.png", "PIECE\nOF CAKE", "skill"),
+    ("skill_lets_rock.png",     "LET'S\nROCK",    "skill"),
+    ("skill_come_get_some.png", "COME\nGET SOME", "skill"),
+    ("skill_damn_im_good.png",  "DAMN\nI'M GOOD", "skill"),
+    ("no_save.png",             "NO\nSAVE",       "no_save"),
 ]
 
 

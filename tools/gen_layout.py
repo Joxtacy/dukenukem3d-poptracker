@@ -66,6 +66,7 @@ def status_tab():
     capacity_row = [f"{w}_capacity" for w in WEAPON_ORDER]
     progressive_row = [f"progressive_{w}" for w in WEAPON_ORDER]
     ammo_row = [f"{w}_ammo" for w in WEAPON_ORDER]
+    max_start_row = [f"{w}_max_start" for w in WEAPON_ORDER]
 
     return {
         "title": "Status",
@@ -78,7 +79,7 @@ def status_tab():
                 "content": [
                     {
                         "type": "group",
-                        "header": "Weapons (base / capacity / progressive / ammo)",
+                        "header": "Weapons (base / capacity / progressive / ammo / seed start cap)",
                         "dock": "top",
                         "content": {
                             "type": "itemgrid",
@@ -89,6 +90,7 @@ def status_tab():
                                 capacity_row,
                                 progressive_row,
                                 ammo_row,
+                                max_start_row,
                             ],
                         },
                     },
@@ -144,16 +146,29 @@ def status_tab():
                         },
                     },
                     {
+                        # Seed info. Both items are auto-set in onClear from
+                        # slot_data.settings (skill_level + no_save). They
+                        # don't affect access rules; they're informational.
+                        "type": "group",
+                        "header": "Seed info (auto-set from slot data)",
+                        "dock": "top",
+                        "content": {
+                            "type": "itemgrid",
+                            "item_size": 40,
+                            "item_margin": 4,
+                            "rows": [
+                                ["skill_level", "no_save"],
+                            ],
+                        },
+                    },
+                    {
                         # Logic settings. The apworld currently doesn't
                         # transmit logic_difficulty / glitch_logic in
                         # slot_data, so onClear defaults to medium-no-glitch
                         # and the player adjusts here if their seed differs.
                         # Click `logic_difficulty` to cycle easy → medium →
                         # hard → extreme; right-click `glitched_logic` to
-                        # toggle. NOTE: the in-game `skill_level` and the
-                        # randomizer pool `difficulty` options have no
-                        # effect on tracker access rules — only the two
-                        # below do.
+                        # toggle.
                         "type": "group",
                         "header": "Logic settings (click to cycle / right-click to toggle)",
                         "dock": "top",

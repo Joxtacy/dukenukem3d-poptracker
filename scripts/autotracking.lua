@@ -147,6 +147,46 @@ function onClear(slot_data)
     end
     set_toggle("glitched_logic", glitched)
 
+    -- 4d. Seed info badges (display-only, no effect on access rules).
+    --     skill_level: progressive item with 4 stages mirroring the apworld
+    --     option (0=Piece of Cake → 3=Damn I'm Good). Default to apworld
+    --     default (1=Let's Rock) when slot_data is missing the field.
+    local skill = 1
+    if slot_data and slot_data["settings"]
+            and slot_data["settings"]["difficulty"] ~= nil then
+        skill = slot_data["settings"]["difficulty"]
+    end
+    local skill_obj = Tracker:FindObjectForCode("skill_level")
+    if skill_obj then
+        skill_obj.CurrentStage = skill
+        skill_obj.Active = true
+    end
+
+    -- no_save: simple toggle; apworld field is settings.no_save (the inverse
+    -- of allow_saving). Defaults off when slot_data is missing the field.
+    local no_save = false
+    if slot_data and slot_data["settings"] then
+        no_save = slot_data["settings"]["no_save"] == true
+    end
+    set_toggle("no_save", no_save)
+
+    -- 4e. Per-weapon starting ammo cap. The apworld scales these by the
+    --     randomizer Difficulty option and writes them to settings.maximum
+    --     keyed by lowercase weapon name. Set the consumable's
+    --     AcquiredCount so the icon's count badge displays the seed value.
+    local maximum = (slot_data and slot_data["settings"]
+            and slot_data["settings"]["maximum"]) or {}
+    local WEAPON_KEYS = {
+        "pistol", "shotgun", "chaingun", "rpg", "pipebomb",
+        "shrinker", "devastator", "tripmine", "freezethrower", "expander",
+    }
+    for _, w in ipairs(WEAPON_KEYS) do
+        local obj = Tracker:FindObjectForCode(w .. "_max_start")
+        if obj then
+            obj.AcquiredCount = tonumber(maximum[w]) or 0
+        end
+    end
+
     -- 4c. Fuel-aware logic: read per-pickup capacities for jetpack and scuba
     --     from slot_data.settings.dynamic. The apworld writes the same
     --     `capacity` value to every entry in a fuel group, so first match

@@ -103,6 +103,127 @@
     "codes": "glitched_logic"
   },
   {
+    "name": "Skill Level",
+    "type": "progressive",
+    "img": "images/skill_lets_rock.png",
+    "codes": "skill_level",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/skill_piece_of_cake.png",
+        "codes": "skill_level"
+      },
+      {
+        "img": "images/skill_lets_rock.png",
+        "codes": "skill_level"
+      },
+      {
+        "img": "images/skill_come_get_some.png",
+        "codes": "skill_level"
+      },
+      {
+        "img": "images/skill_damn_im_good.png",
+        "codes": "skill_level"
+      }
+    ]
+  },
+  {
+    "name": "No Save",
+    "type": "toggle",
+    "img": "images/no_save.png",
+    "codes": "no_save"
+  },
+  {
+    "name": "Pistol Starting Ammo",
+    "type": "consumable",
+    "img": "images/pistol.png",
+    "codes": "pistol_max_start",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Shotgun Starting Ammo",
+    "type": "consumable",
+    "img": "images/shotgun.png",
+    "codes": "shotgun_max_start",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Chaingun Starting Ammo",
+    "type": "consumable",
+    "img": "images/chaingun.png",
+    "codes": "chaingun_max_start",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "RPG Starting Ammo",
+    "type": "consumable",
+    "img": "images/rpg.png",
+    "codes": "rpg_max_start",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Pipebomb Starting Ammo",
+    "type": "consumable",
+    "img": "images/pipebomb.png",
+    "codes": "pipebomb_max_start",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Shrinker Starting Ammo",
+    "type": "consumable",
+    "img": "images/shrinker.png",
+    "codes": "shrinker_max_start",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Devastator Starting Ammo",
+    "type": "consumable",
+    "img": "images/devastator.png",
+    "codes": "devastator_max_start",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Tripmine Starting Ammo",
+    "type": "consumable",
+    "img": "images/tripmine.png",
+    "codes": "tripmine_max_start",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Freezethrower Starting Ammo",
+    "type": "consumable",
+    "img": "images/freezethrower.png",
+    "codes": "freezethrower_max_start",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Expander Starting Ammo",
+    "type": "consumable",
+    "img": "images/expander.png",
+    "codes": "expander_max_start",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
     "name": "Exits",
     "type": "consumable",
     "img": "images/goal_exit.png",

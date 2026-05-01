@@ -37,7 +37,7 @@
                   "content": [
                     {
                       "type": "group",
-                      "header": "Weapons (base / capacity / progressive / ammo)",
+                      "header": "Weapons (base / capacity / progressive / ammo / seed start cap)",
                       "dock": "top",
                       "content": {
                         "type": "itemgrid",
@@ -91,6 +91,18 @@
                             "tripmine_ammo",
                             "freezethrower_ammo",
                             "expander_ammo"
+                          ],
+                          [
+                            "pistol_max_start",
+                            "shotgun_max_start",
+                            "chaingun_max_start",
+                            "rpg_max_start",
+                            "pipebomb_max_start",
+                            "shrinker_max_start",
+                            "devastator_max_start",
+                            "tripmine_max_start",
+                            "freezethrower_max_start",
+                            "expander_max_start"
                           ]
                         ]
                       }
@@ -176,6 +188,22 @@
                             "pity_heal",
                             "ego_boost",
                             "buff_up"
+                          ]
+                        ]
+                      }
+                    },
+                    {
+                      "type": "group",
+                      "header": "Seed info (auto-set from slot data)",
+                      "dock": "top",
+                      "content": {
+                        "type": "itemgrid",
+                        "item_size": 40,
+                        "item_margin": 4,
+                        "rows": [
+                          [
+                            "skill_level",
+                            "no_save"
                           ]
                         ]
                       }

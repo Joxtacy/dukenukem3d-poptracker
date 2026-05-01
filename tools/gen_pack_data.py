@@ -230,6 +230,41 @@ def build_items_json(levels: list[LevelData]) -> list[dict[str, Any]]:
     })
     add("Glitched Logic", "glitched_logic", "toggle", "images/glitched_logic.png")
 
+    # --- seed-info display items (driven by onClear from slot_data) ---
+    # In-game skill_level (apworld option `skill_level`, slot_data field
+    # `settings.difficulty`). Four stages mirror the apworld values
+    # (0=Piece of Cake, 1=Let's Rock, 2=Come Get Some, 3=Damn I'm Good).
+    # Same loop=true + Active=true treatment as logic_difficulty so the icon
+    # never renders greyed at any stage.
+    items.append({
+        "name": "Skill Level",
+        "type": "progressive",
+        "img": "images/skill_lets_rock.png",
+        "codes": "skill_level",
+        "loop": True,
+        "stages": [
+            {"img": "images/skill_piece_of_cake.png", "codes": "skill_level"},
+            {"img": "images/skill_lets_rock.png",    "codes": "skill_level"},
+            {"img": "images/skill_come_get_some.png","codes": "skill_level"},
+            {"img": "images/skill_damn_im_good.png", "codes": "skill_level"},
+        ],
+    })
+    add("No Save", "no_save", "toggle", "images/no_save.png")
+
+    # --- per-weapon starting-ammo display (driven by onClear from
+    #     slot_data.settings.maximum). Consumables so the count renders as
+    #     a badge on the icon. Re-set every onClear so accidental clicks
+    #     resolve on the next reconnect.
+    for w in WEAPONS:
+        _, _, _, _, root, display = w
+        add(
+            f"{display} Starting Ammo",
+            f"{root}_max_start",
+            "consumable",
+            f"images/{root}.png",
+            extra={"max_quantity": 999, "increment": 1, "initial_quantity": 0},
+        )
+
     # --- goal counters (consumables, max set dynamically in onClear) ---
     for sid, code, display in GOAL_ITEMS:
         add(
