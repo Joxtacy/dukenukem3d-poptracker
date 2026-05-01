@@ -11,6 +11,36 @@ GOAL_CODES = { exit = "goal_exit", secret = "goal_secret", boss = "goal_boss" }
 -- Active location IDs for the connected slot (subset of LOCATION_MAP).
 ACTIVE_LOCATIONS = {}
 
+-- Fuel-aware logic state. The apworld's `r.jetpack(N)` and `r.dive(N)` rules
+-- depend on (1) having the gear and (2) having received enough total fuel.
+-- Per-pickup fuel comes from slot_data.settings.dynamic (set per seed via the
+-- YAML fuel_per_jetpack / fuel_per_scuba_gear options); total fuel is summed
+-- in onItem. Defaults match the apworld defaults so manual variant + missing
+-- slot_data still produce sensible numbers.
+local function build_fuel_id_set(target_codes)
+    local set = {}
+    if type(ITEM_MAP) ~= "table" then return set end
+    for ap_id, code in pairs(ITEM_MAP) do
+        if target_codes[code] then set[ap_id] = true end
+    end
+    return set
+end
+
+JETPACK_ITEM_IDS = build_fuel_id_set({
+    jetpack = true,
+    jetpack_capacity = true,
+    progressive_jetpack = true,
+})
+SCUBA_ITEM_IDS = build_fuel_id_set({
+    scuba_gear = true,
+    scuba_gear_capacity = true,
+    progressive_scuba_gear = true,
+})
+JETPACK_FUEL_PER_PICKUP = 100
+SCUBA_FUEL_PER_PICKUP = 400
+JETPACK_FUEL_TOTAL = 0
+SCUBA_FUEL_TOTAL = 0
+
 -- ============================================================
 -- Helpers
 -- ============================================================
@@ -117,6 +147,30 @@ function onClear(slot_data)
     end
     set_toggle("glitched_logic", glitched)
 
+    -- 4c. Fuel-aware logic: read per-pickup capacities for jetpack and scuba
+    --     from slot_data.settings.dynamic. The apworld writes the same
+    --     `capacity` value to every entry in a fuel group, so first match
+    --     wins. Reset accumulated totals; onItem will bump them as items
+    --     stream back in after reconnect.
+    JETPACK_FUEL_PER_PICKUP = 100
+    SCUBA_FUEL_PER_PICKUP = 400
+    JETPACK_FUEL_TOTAL = 0
+    SCUBA_FUEL_TOTAL = 0
+    local dynamic = slot_data and slot_data["settings"]
+            and slot_data["settings"]["dynamic"]
+    if type(dynamic) == "table" then
+        for ap_id_str, entry in pairs(dynamic) do
+            local ap_id = tonumber(ap_id_str)
+            if ap_id and type(entry) == "table" and entry.capacity then
+                if JETPACK_ITEM_IDS[ap_id] then
+                    JETPACK_FUEL_PER_PICKUP = entry.capacity
+                elseif SCUBA_ITEM_IDS[ap_id] then
+                    SCUBA_FUEL_PER_PICKUP = entry.capacity
+                end
+            end
+        end
+    end
+
     -- 5. Detect "include_secrets" by scanning ACTIVE_LOCATIONS for any
     --    location whose path contains "/Secret " (i.e. a sector check).
     local has_secrets = false
@@ -166,6 +220,15 @@ function onClear(slot_data)
 end
 
 function onItem(index, item_id, item_name, player_number)
+    -- Fuel-aware accumulation. A single item can grant fuel even if it's also
+    -- the goal/regular item path below — handle these in parallel rather than
+    -- inside the dispatch chain. (No jetpack/scuba item is also a goal item.)
+    if JETPACK_ITEM_IDS[item_id] then
+        JETPACK_FUEL_TOTAL = JETPACK_FUEL_TOTAL + JETPACK_FUEL_PER_PICKUP
+    elseif SCUBA_ITEM_IDS[item_id] then
+        SCUBA_FUEL_TOTAL = SCUBA_FUEL_TOTAL + SCUBA_FUEL_PER_PICKUP
+    end
+
     -- Goal items: bump the matching consumable counter.
     for kind, goal_id in pairs(GOAL_IDS) do
         if goal_id and item_id == goal_id then

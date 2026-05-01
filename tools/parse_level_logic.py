@@ -359,10 +359,18 @@ def _r_attr_with_args(attr: str, args: list[ast.AST], ctx: Ctx) -> Rule:
         # Approximate: at least one in group; lose count granularity.
         return _group_or(args[0].value)
     if attr == "jetpack":
-        # r.jetpack(N) → simplification: has-any-jetpack. Fuel granularity is v0.4.
+        # r.jetpack(N) → $has_jetpack_fuel|N (gear + ≥N fuel). Falls back to
+        # has-any-jetpack when N isn't a constant int (degraded permissive).
+        if args and isinstance(args[0], ast.Constant) \
+                and isinstance(args[0].value, int):
+            return Lit(f"$has_jetpack_fuel|{args[0].value}")
         return _group_or("Jetpack")
     if attr == "dive":
-        # r.dive(N) → can_dive & has-scuba. Simplification on fuel.
+        # r.dive(N) → $can_dive_fuel|N (can_dive + ≥N fuel). Falls back to
+        # can_dive & has-scuba when N isn't a constant int.
+        if args and isinstance(args[0], ast.Constant) \
+                and isinstance(args[0].value, int):
+            return Lit(f"$can_dive_fuel|{args[0].value}")
         return AND(Lit("$can_dive"), _group_or("Scuba Gear"))
     if attr == "difficulty" and args and isinstance(args[0], ast.Constant):
         lit = _DIFF_LIT.get(args[0].value)

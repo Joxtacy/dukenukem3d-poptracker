@@ -61,10 +61,29 @@ local function has_group_steroids()
     return has("steroids") or has("progressive_steroids")
 end
 
--- Any "simple jump sequence": real jumping or short jetpack burst.
--- The apworld defines r.jump = can_jump | jetpack(50). We collapse fuel.
+-- Fuel-aware jetpack / scuba helpers. Mirrors the apworld's
+-- CanJetPack(fuel) / CanDiveTo(fuel) rules: gear + enough accumulated
+-- fuel-per-pickup to cover the threshold. JETPACK_FUEL_TOTAL etc. are
+-- maintained by autotracking.lua. In manual variant they're nil; we treat
+-- "having the gear" as sufficient there since the user is checking by hand.
+function has_jetpack_fuel(fuel)
+    fuel = tonumber(fuel) or 0
+    if not has_group_jetpack() then return 0 end
+    if JETPACK_FUEL_TOTAL == nil then return 1 end
+    return bool(JETPACK_FUEL_TOTAL >= fuel)
+end
+
+function can_dive_fuel(fuel)
+    fuel = tonumber(fuel) or 0
+    if can_dive() == 0 then return 0 end
+    if SCUBA_FUEL_TOTAL == nil then return 1 end
+    return bool(SCUBA_FUEL_TOTAL >= fuel)
+end
+
+-- Any "simple jump sequence": real jumping or a 50-fuel jetpack burst.
+-- The apworld defines r.jump = can_jump | jetpack(50).
 function jump()
-    return bool(has("ab_unlocked") or has("jump") or has_group_jetpack())
+    return bool(has("ab_unlocked") or has("jump") or has_jetpack_fuel(50) == 1)
 end
 
 -- Any sprint source. r.sprint = can_sprint | steroids.
@@ -147,11 +166,12 @@ function can_kill_boss_3()
     -- rpg | devastator | (medium & ((can_jump & sprint) | jetpack(50)))
     if has_group_rpg() or has_group_devastator() then return 1 end
     local cj = has("ab_unlocked") or has("jump")
-    return bool(logic_medium() == 1 and ((cj and sprint() == 1) or has_group_jetpack()))
+    return bool(logic_medium() == 1
+        and ((cj and sprint() == 1) or has_jetpack_fuel(50) == 1))
 end
 
 function can_kill_boss_4()
     -- dive(400) & rpg & devastator
-    return bool(can_dive() == 1 and (has("scuba_gear") or has("progressive_scuba_gear"))
+    return bool(can_dive_fuel(400) == 1
         and has_group_rpg() and has_group_devastator())
 end
