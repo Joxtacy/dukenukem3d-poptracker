@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "0.0.4",
+      "download_url": "https://github.com/Joxtacy/dukenukem3d-poptracker/releases/download/v0.0.4/duke_nukem_3d_ap_tracker_0.0.4.zip",
+      "sha256": "95e4b77ba138c9fa66c31a6a846438ada9645c1bc339cc5f6e531219d7fcec45",
+      "changelog": [
+        "fix(maps): swap E2L8 / E3L8 Exit / Secret Exit pins"
+      ]
+    },
+    {
       "package_version": "0.0.3",
       "download_url": "https://github.com/Joxtacy/dukenukem3d-poptracker/releases/download/v0.0.3/duke_nukem_3d_ap_tracker_0.0.3.zip",
       "sha256": "a7ca34fab2d17174c4089d69c6f2d3bb64277c8adbae07e280159715f34f964b",
