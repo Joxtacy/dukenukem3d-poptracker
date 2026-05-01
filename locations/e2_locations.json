@@ -98,8 +98,7 @@
                 "name": "MP Elevator Corner Freezethrower",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,jetpack",
-                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
+                  "ep2,e2l1_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e2l1_blue_key"
                 ]
               }
             ]
@@ -137,8 +136,7 @@
                 "name": "Attic Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,jetpack",
-                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
+                  "ep2,e2l1_unlock,$can_open,$can_use,$has_jetpack_fuel|100,e2l1_blue_key"
                 ]
               }
             ]
@@ -328,8 +326,7 @@
                 "name": "Top Floor Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,jetpack",
-                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
+                  "ep2,e2l1_unlock,$can_open,$can_use,$has_jetpack_fuel|75,e2l1_blue_key"
                 ]
               }
             ]
@@ -424,8 +421,7 @@
                 "name": "MP Attic Tripmine 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,jetpack",
-                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
+                  "ep2,e2l1_unlock,$can_open,$can_use,$has_jetpack_fuel|100,e2l1_blue_key"
                 ]
               }
             ]
@@ -444,8 +440,7 @@
                 "name": "MP Attic Tripmine 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,jetpack",
-                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
+                  "ep2,e2l1_unlock,$can_open,$can_use,$has_jetpack_fuel|100,e2l1_blue_key"
                 ]
               }
             ]
@@ -464,8 +459,7 @@
                 "name": "MP Attic Tripmine 3",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,jetpack",
-                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
+                  "ep2,e2l1_unlock,$can_open,$can_use,$has_jetpack_fuel|100,e2l1_blue_key"
                 ]
               }
             ]
@@ -503,8 +497,7 @@
                 "name": "Top Floor Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,jetpack",
-                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
+                  "ep2,e2l1_unlock,$can_open,$can_use,$has_jetpack_fuel|75,e2l1_blue_key"
                 ]
               }
             ]
@@ -523,8 +516,7 @@
                 "name": "Middle Room Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,jetpack",
-                  "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
+                  "ep2,e2l1_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e2l1_blue_key"
                 ]
               }
             ]
@@ -581,8 +573,7 @@
                 "name": "Secret Top Floor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,secrets,$can_open,$can_use,e2l1_blue_key,jetpack",
-                  "ep2,e2l1_unlock,secrets,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
+                  "ep2,e2l1_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|75,e2l1_blue_key"
                 ]
               }
             ]
@@ -620,8 +611,7 @@
                 "name": "Secret Elevator Corner",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,secrets,$can_open,$can_use,e2l1_blue_key,jetpack",
-                  "ep2,e2l1_unlock,secrets,$can_open,$can_use,e2l1_blue_key,progressive_jetpack"
+                  "ep2,e2l1_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|50,e2l1_blue_key"
                 ]
               }
             ]
@@ -748,17 +738,18 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,e2l2_yellow_key",
-                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key,jetpack",
-                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key,progressive_jetpack",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e2l2_yellow_key",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|150,$logic_medium,e2l2_yellow_key",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|250,e2l2_yellow_key",
                   "ep2,e2l2_unlock,$can_jump,$can_open,$can_sprint,$can_use,$glitched,$logic_hard",
-                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$logic_hard,jetpack",
-                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$logic_hard,progressive_jetpack",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$has_jetpack_fuel|150,$logic_hard,$logic_medium",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$has_jetpack_fuel|250,$logic_hard",
                   "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_hard,steroids",
-                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,jetpack,steroids",
-                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_jetpack,steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|150,$logic_hard,$logic_medium,steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|250,$logic_hard,steroids",
                   "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_hard,progressive_steroids",
-                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,jetpack,progressive_steroids",
-                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_jetpack,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|150,$logic_hard,$logic_medium,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|250,$logic_hard,progressive_steroids",
                   "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_extreme"
                 ]
               }
@@ -987,16 +978,19 @@
                 "name": "Pipebombs behind Turret",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key,jetpack",
-                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key,progressive_jetpack",
-                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$logic_hard,jetpack",
-                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$logic_hard,progressive_jetpack",
-                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,jetpack,steroids",
-                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_jetpack,steroids",
-                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,jetpack,progressive_steroids",
-                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_jetpack,progressive_steroids",
-                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_extreme,jetpack",
-                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_extreme,progressive_jetpack"
+                  "ep2,e2l2_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e2l2_yellow_key",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|150,$logic_medium,e2l2_yellow_key",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|250,e2l2_yellow_key",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$has_jetpack_fuel|150,$logic_hard,$logic_medium",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$has_jetpack_fuel|250,$logic_hard",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|150,$logic_hard,$logic_medium,steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|250,$logic_hard,steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|150,$logic_hard,$logic_medium,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|250,$logic_hard,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$has_jetpack_fuel|50,$logic_extreme,tripmine",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$has_jetpack_fuel|50,$logic_extreme,progressive_tripmine",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$has_jetpack_fuel|150,$logic_extreme,$logic_medium",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$has_jetpack_fuel|250,$logic_extreme"
                 ]
               }
             ]
@@ -1284,17 +1278,18 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,e2l2_yellow_key",
-                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key,jetpack",
-                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key,progressive_jetpack",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e2l2_yellow_key",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|150,$logic_medium,e2l2_yellow_key",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|250,e2l2_yellow_key",
                   "ep2,e2l2_unlock,$can_jump,$can_open,$can_sprint,$can_use,$glitched,$logic_hard",
-                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$logic_hard,jetpack",
-                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$logic_hard,progressive_jetpack",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$has_jetpack_fuel|150,$logic_hard,$logic_medium",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$has_jetpack_fuel|250,$logic_hard",
                   "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_hard,steroids",
-                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,jetpack,steroids",
-                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_jetpack,steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|150,$logic_hard,$logic_medium,steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|250,$logic_hard,steroids",
                   "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_hard,progressive_steroids",
-                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,jetpack,progressive_steroids",
-                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_jetpack,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|150,$logic_hard,$logic_medium,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$has_jetpack_fuel|250,$logic_hard,progressive_steroids",
                   "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_extreme"
                 ]
               }
@@ -1691,11 +1686,9 @@
                 "name": "Reactor Atomic Health 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key,jetpack",
-                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key,progressive_jetpack",
+                  "ep2,e2l3_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e2l3_yellow_key",
                   "ep2,e2l3_unlock,$can_open,$can_use,$glitched,$sr50,e2l3_yellow_key",
-                  "ep2,e2l3_unlock,$can_crouch,$can_open,$logic_hard,$sprint,jetpack",
-                  "ep2,e2l3_unlock,$can_crouch,$can_open,$logic_hard,$sprint,progressive_jetpack",
+                  "ep2,e2l3_unlock,$can_crouch,$can_open,$has_jetpack_fuel|50,$logic_hard,$sprint",
                   "ep2,e2l3_unlock,$can_crouch,$can_open,$glitched,$logic_hard,$sprint,$sr50"
                 ]
               }
@@ -1715,11 +1708,9 @@
                 "name": "Reactor Atomic Health 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key,jetpack",
-                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_yellow_key,progressive_jetpack",
+                  "ep2,e2l3_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e2l3_yellow_key",
                   "ep2,e2l3_unlock,$can_open,$can_use,$glitched,$sr50,e2l3_yellow_key",
-                  "ep2,e2l3_unlock,$can_crouch,$can_open,$logic_hard,$sprint,jetpack",
-                  "ep2,e2l3_unlock,$can_crouch,$can_open,$logic_hard,$sprint,progressive_jetpack",
+                  "ep2,e2l3_unlock,$can_crouch,$can_open,$has_jetpack_fuel|50,$logic_hard,$sprint",
                   "ep2,e2l3_unlock,$can_crouch,$can_open,$glitched,$logic_hard,$sprint,$sr50"
                 ]
               }
@@ -2205,8 +2196,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -2247,8 +2237,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -2270,8 +2259,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -2292,8 +2280,8 @@
                 "name": "Top Floor Chaingun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$has_jetpack_fuel|50,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100"
                 ]
               }
             ]
@@ -2313,8 +2301,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -2412,10 +2399,8 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,$jump,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,progressive_jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,$jump,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,$has_jetpack_fuel|100",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100,$jump",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -2437,10 +2422,8 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,$jump,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,progressive_jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,$jump,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,$has_jetpack_fuel|100",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100,$jump",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -2462,8 +2445,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -2484,8 +2466,8 @@
                 "name": "Top Floor Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$has_jetpack_fuel|50,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100"
                 ]
               }
             ]
@@ -2505,8 +2487,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -2547,10 +2528,8 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,$jump,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,progressive_jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,$jump,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,$has_jetpack_fuel|100",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100,$jump",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -2572,8 +2551,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_use,$jump,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,$jump,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100,$jump",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -2690,8 +2668,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -2922,8 +2899,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -2983,8 +2959,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -3006,8 +2981,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -3029,8 +3003,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -3128,8 +3101,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -3170,8 +3142,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$jump,jetpack",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$jump,progressive_jetpack",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|100,$jump",
                   "ep2,e2l4_unlock,secrets,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,secrets,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -3250,8 +3221,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,jetpack",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,progressive_jetpack",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|100",
                   "ep2,e2l4_unlock,secrets,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,secrets,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -3299,22 +3269,14 @@
                   "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump,progressive_devastator",
                   "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump,tripmine",
                   "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump,progressive_tripmine",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,jetpack,rpg",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,jetpack,progressive_rpg",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,jetpack,pipebomb",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,jetpack,progressive_pipebomb",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,devastator,jetpack",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,jetpack,progressive_devastator",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,jetpack,tripmine",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,jetpack,progressive_tripmine",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,progressive_jetpack,rpg",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,progressive_jetpack,progressive_rpg",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,pipebomb,progressive_jetpack",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,progressive_jetpack,progressive_pipebomb",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,devastator,progressive_jetpack",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,progressive_devastator,progressive_jetpack",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,progressive_jetpack,tripmine",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,progressive_jetpack,progressive_tripmine",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|100,rpg",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|100,progressive_rpg",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|100,pipebomb",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|100,progressive_pipebomb",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|100,devastator",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|100,progressive_devastator",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|100,tripmine",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|100,progressive_tripmine",
                   "ep2,e2l4_unlock,secrets,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,secrets,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
@@ -3335,8 +3297,8 @@
                 "name": "Exit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock,$can_open,$can_use,jetpack",
-                  "ep2,e2l4_unlock,$can_open,$can_use,progressive_jetpack"
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$has_jetpack_fuel|50,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100"
                 ]
               }
             ]
@@ -3482,10 +3444,8 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l5_unlock,$can_open,$can_use,e2l5_blue_key",
-                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,jetpack,steroids",
-                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,progressive_jetpack,steroids",
-                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,jetpack,progressive_steroids",
-                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,progressive_jetpack,progressive_steroids"
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,$has_jetpack_fuel|50,steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,$has_jetpack_fuel|50,progressive_steroids"
                 ]
               }
             ]
@@ -3774,8 +3734,7 @@
                 "name": "Hallway Alcove Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock,$can_open,jetpack",
-                  "ep2,e2l5_unlock,$can_open,progressive_jetpack",
+                  "ep2,e2l5_unlock,$can_open,$has_jetpack_fuel|50",
                   "ep2,e2l5_unlock,$can_jump,$can_open,$logic_hard",
                   "ep2,e2l5_unlock,$can_jump,$can_open,$can_sprint,steroids",
                   "ep2,e2l5_unlock,$can_jump,$can_open,$can_sprint,progressive_steroids"
@@ -3798,10 +3757,8 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l5_unlock,$can_open,$can_use,e2l5_blue_key",
-                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,jetpack,steroids",
-                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,progressive_jetpack,steroids",
-                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,jetpack,progressive_steroids",
-                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,progressive_jetpack,progressive_steroids"
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,$has_jetpack_fuel|50,steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$glitched,$has_jetpack_fuel|50,progressive_steroids"
                 ]
               }
             ]
@@ -3896,8 +3853,7 @@
                 "name": "Secret Hallway Alcove",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock,secrets,$can_open,jetpack",
-                  "ep2,e2l5_unlock,secrets,$can_open,progressive_jetpack",
+                  "ep2,e2l5_unlock,secrets,$can_open,$has_jetpack_fuel|50",
                   "ep2,e2l5_unlock,secrets,$can_jump,$can_open,$logic_hard",
                   "ep2,e2l5_unlock,secrets,$can_jump,$can_open,$can_sprint,steroids",
                   "ep2,e2l5_unlock,secrets,$can_jump,$can_open,$can_sprint,progressive_steroids"
@@ -3979,10 +3935,8 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l5_unlock,$can_open,$can_use,e2l5_blue_key",
-                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,jetpack,steroids",
-                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,progressive_jetpack,steroids",
-                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,jetpack,progressive_steroids",
-                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,progressive_jetpack,progressive_steroids"
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,$has_jetpack_fuel|50,steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,$has_jetpack_fuel|50,progressive_steroids"
                 ]
               }
             ]
@@ -4001,12 +3955,9 @@
                 "name": "Secret Exit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l5_unlock,$can_open,$can_use,e2l5_blue_key,jetpack",
-                  "ep2,e2l5_unlock,$can_open,$can_use,e2l5_blue_key,progressive_jetpack",
-                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,jetpack,steroids",
-                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,progressive_jetpack,steroids",
-                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,jetpack,progressive_steroids",
-                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,progressive_jetpack,progressive_steroids",
+                  "ep2,e2l5_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e2l5_blue_key",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,$has_jetpack_fuel|50,steroids",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$glitched,$has_jetpack_fuel|50,progressive_steroids",
                   "ep2,e2l5_unlock,$can_open,$can_use,$jump,$logic_medium,e2l5_blue_key",
                   "ep2,e2l5_unlock,$can_open,$can_sprint,$can_use,$jump,e2l5_blue_key",
                   "ep2,e2l5_unlock,$can_open,$can_sprint,$can_use,e2l5_blue_key,steroids",
@@ -4037,8 +3988,7 @@
                 "name": "Timed Wall RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock,$can_jump,$can_open,jetpack",
-                  "ep2,e2l6_unlock,$can_jump,$can_open,progressive_jetpack",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$has_jetpack_fuel|50",
                   "ep2,e2l6_unlock,$can_jump,$can_open,$jump,$logic_medium,rpg",
                   "ep2,e2l6_unlock,$can_jump,$can_open,$jump,$logic_medium,progressive_rpg",
                   "ep2,e2l6_unlock,$can_jump,$can_open,$jump,$logic_medium,pipebomb",
@@ -4500,8 +4450,7 @@
                 "name": "Exit Vent Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock,$can_jump,$can_open,jetpack",
-                  "ep2,e2l6_unlock,$can_jump,$can_open,progressive_jetpack",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$has_jetpack_fuel|50",
                   "ep2,e2l6_unlock,$can_jump,$can_open,$logic_medium"
                 ]
               }
@@ -4523,8 +4472,7 @@
                 "access_rules": [
                   "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$jump,e2l6_red_key",
                   "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,e2l6_blue_key,e2l6_red_key",
-                  "ep2,e2l6_unlock,$can_jump,$can_open,jetpack",
-                  "ep2,e2l6_unlock,$can_jump,$can_open,progressive_jetpack",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$has_jetpack_fuel|50",
                   "ep2,e2l6_unlock,$can_jump,$can_open,$logic_medium"
                 ]
               }
@@ -4820,8 +4768,7 @@
                 "name": "Secret Timed Wall",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,jetpack",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,progressive_jetpack",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$has_jetpack_fuel|50",
                   "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,rpg",
                   "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,progressive_rpg",
                   "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,pipebomb",
@@ -4857,8 +4804,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$jump,e2l6_red_key",
-                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$jump,jetpack",
-                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$jump,progressive_jetpack",
+                  "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$has_jetpack_fuel|50,$jump",
                   "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium"
                 ]
               }
@@ -4926,10 +4872,8 @@
                 "access_rules": [
                   "ep2,e2l7_unlock,$can_open,$can_sprint,$can_use,e2l7_blue_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$logic_medium,e2l7_blue_key",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_sprint,$can_use,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_sprint,$can_use,e2l7_red_key,progressive_jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_sprint,$can_use,$has_jetpack_fuel|50,e2l7_red_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$logic_medium,e2l7_red_key",
                   "ep2,e2l7_unlock,$can_open,$can_sprint,$can_use,$jump,e2l7_yellow_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,$logic_medium,e2l7_yellow_key"
                 ]
@@ -4952,10 +4896,8 @@
                 "access_rules": [
                   "ep2,e2l7_unlock,$can_open,$can_sprint,$can_use,e2l7_blue_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$logic_medium,e2l7_blue_key",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_sprint,$can_use,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_sprint,$can_use,e2l7_red_key,progressive_jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_sprint,$can_use,$has_jetpack_fuel|50,e2l7_red_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$logic_medium,e2l7_red_key",
                   "ep2,e2l7_unlock,$can_open,$can_sprint,$can_use,$jump,e2l7_yellow_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,$logic_medium,e2l7_yellow_key"
                 ]
@@ -5015,8 +4957,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_blue_key",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$jump,e2l7_red_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
@@ -5037,8 +4978,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_blue_key",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$jump,e2l7_red_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
@@ -5078,15 +5018,11 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l7_unlock,$can_open,$can_use,$logic_medium,e2l7_blue_key",
-                  "ep2,e2l7_unlock,$can_open,$can_use,$sprint,e2l7_blue_key,jetpack",
-                  "ep2,e2l7_unlock,$can_open,$can_use,$sprint,e2l7_blue_key,progressive_jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$sprint,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,progressive_jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$sprint,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$sprint,e2l7_blue_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$logic_medium,e2l7_red_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$sprint,e2l7_red_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,$logic_medium,e2l7_yellow_key",
-                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,$sprint,e2l7_yellow_key,jetpack",
-                  "ep2,e2l7_unlock,$can_open,$can_use,$jump,$sprint,e2l7_yellow_key,progressive_jetpack"
+                  "ep2,e2l7_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,$sprint,e2l7_yellow_key"
                 ]
               }
             ]
@@ -5168,10 +5104,8 @@
                 "access_rules": [
                   "ep2,e2l7_unlock,$can_open,$can_use,$logic_medium,e2l7_blue_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$sprint,e2l7_blue_key",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$sprint,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,progressive_jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$sprint,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$logic_medium,e2l7_red_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$sprint,e2l7_red_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,$logic_medium,e2l7_yellow_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,$sprint,e2l7_yellow_key"
                 ]
@@ -5193,8 +5127,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l7_unlock,$can_open,$can_use,e2l7_blue_key",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,e2l7_red_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
@@ -5215,8 +5148,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l7_unlock,$can_open,$can_use,e2l7_blue_key",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,e2l7_red_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
@@ -5237,8 +5169,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l7_unlock,$can_open,$can_use,e2l7_blue_key",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,e2l7_red_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
@@ -5259,8 +5190,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_blue_key",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$jump,e2l7_red_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
@@ -5281,8 +5211,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l7_unlock,$can_open,$can_use,e2l7_blue_key",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,e2l7_red_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
@@ -5341,8 +5270,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l7_unlock,$can_jump,$can_open",
-                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_yellow_key,jetpack",
-                  "ep2,e2l7_unlock,$can_open,$can_use,e2l7_yellow_key,progressive_jetpack"
+                  "ep2,e2l7_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e2l7_yellow_key"
                 ]
               }
             ]
@@ -5441,10 +5369,8 @@
                 "access_rules": [
                   "ep2,e2l7_unlock,$can_open,$can_use,$logic_medium,e2l7_blue_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$sprint,e2l7_blue_key",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$sprint,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,progressive_jetpack",
-                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$sprint,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$logic_medium,e2l7_red_key",
+                  "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$sprint,e2l7_red_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,$logic_medium,e2l7_yellow_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,$sprint,e2l7_yellow_key",
                   "ep2,e2l7_unlock,$can_crouch,$can_jump,$can_open,$can_use,$logic_medium,e2l7_red_key",
@@ -5627,10 +5553,8 @@
                 "access_rules": [
                   "ep2,e2l7_unlock,secrets,$can_open,$can_sprint,$can_use,e2l7_blue_key",
                   "ep2,e2l7_unlock,secrets,$can_open,$can_use,$logic_medium,e2l7_blue_key",
-                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_sprint,$can_use,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_sprint,$can_use,e2l7_red_key,progressive_jetpack",
-                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_sprint,$can_use,$has_jetpack_fuel|50,e2l7_red_key",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$logic_medium,e2l7_red_key",
                   "ep2,e2l7_unlock,secrets,$can_open,$can_sprint,$can_use,$jump,e2l7_yellow_key",
                   "ep2,e2l7_unlock,secrets,$can_open,$can_use,$jump,$logic_medium,e2l7_yellow_key"
                 ]
@@ -5674,10 +5598,8 @@
                 "access_rules": [
                   "ep2,e2l7_unlock,secrets,$can_open,$can_use,$logic_medium,e2l7_blue_key",
                   "ep2,e2l7_unlock,secrets,$can_open,$can_use,$sprint,e2l7_blue_key",
-                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$sprint,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$logic_medium,e2l7_red_key,progressive_jetpack",
-                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$sprint,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$logic_medium,e2l7_red_key",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$sprint,e2l7_red_key",
                   "ep2,e2l7_unlock,secrets,$can_open,$can_use,$jump,$logic_medium,e2l7_yellow_key",
                   "ep2,e2l7_unlock,secrets,$can_open,$can_use,$jump,$sprint,e2l7_yellow_key"
                 ]
@@ -5699,8 +5621,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l7_unlock,secrets,$can_open,$can_use,$jump,e2l7_blue_key",
-                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$jump,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$jump,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$jump,e2l7_red_key",
                   "ep2,e2l7_unlock,secrets,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
@@ -5721,8 +5642,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l7_unlock,secrets,$can_open,$can_use,e2l7_blue_key",
-                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,e2l7_red_key,jetpack",
-                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,e2l7_red_key,progressive_jetpack",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,e2l7_red_key",
                   "ep2,e2l7_unlock,secrets,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
               }
@@ -6101,8 +6021,7 @@
                   "ep2,e2l8_unlock,$can_jump,$can_open,$can_sprint,$can_use,e2l8_blue_key",
                   "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,e2l8_blue_key,steroids",
                   "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,e2l8_blue_key,progressive_steroids",
-                  "ep2,e2l8_unlock,$can_open,jetpack",
-                  "ep2,e2l8_unlock,$can_open,progressive_jetpack",
+                  "ep2,e2l8_unlock,$can_open,$has_jetpack_fuel|50",
                   "ep2,e2l8_unlock,$can_jump,$can_open,$logic_medium"
                 ]
               }
@@ -6123,8 +6042,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l8_unlock,$can_open,$can_use,e2l8_blue_key",
-                  "ep2,e2l8_unlock,$can_open,jetpack",
-                  "ep2,e2l8_unlock,$can_open,progressive_jetpack",
+                  "ep2,e2l8_unlock,$can_open,$has_jetpack_fuel|50",
                   "ep2,e2l8_unlock,$can_jump,$can_open,$logic_medium"
                 ]
               }
@@ -6647,8 +6565,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l8_unlock,$can_open,$can_use,e2l8_blue_key",
-                  "ep2,e2l8_unlock,$can_open,jetpack",
-                  "ep2,e2l8_unlock,$can_open,progressive_jetpack",
+                  "ep2,e2l8_unlock,$can_open,$has_jetpack_fuel|50",
                   "ep2,e2l8_unlock,$can_jump,$can_open,$logic_medium"
                 ]
               }
@@ -6669,8 +6586,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l8_unlock,$can_open,$can_use,e2l8_blue_key",
-                  "ep2,e2l8_unlock,$can_open,jetpack",
-                  "ep2,e2l8_unlock,$can_open,progressive_jetpack",
+                  "ep2,e2l8_unlock,$can_open,$has_jetpack_fuel|50",
                   "ep2,e2l8_unlock,$can_jump,$can_open,$logic_medium"
                 ]
               }
@@ -6843,8 +6759,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l8_unlock,$can_open,$can_use,e2l8_blue_key",
-                  "ep2,e2l8_unlock,$can_open,jetpack",
-                  "ep2,e2l8_unlock,$can_open,progressive_jetpack",
+                  "ep2,e2l8_unlock,$can_open,$has_jetpack_fuel|50",
                   "ep2,e2l8_unlock,$can_jump,$can_open,$logic_medium"
                 ]
               }
@@ -6884,8 +6799,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l8_unlock,$can_open,$can_use,e2l8_blue_key",
-                  "ep2,e2l8_unlock,$can_open,jetpack",
-                  "ep2,e2l8_unlock,$can_open,progressive_jetpack",
+                  "ep2,e2l8_unlock,$can_open,$has_jetpack_fuel|50",
                   "ep2,e2l8_unlock,$can_jump,$can_open,$logic_medium"
                 ]
               }
@@ -7220,10 +7134,8 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l9_unlock,$can_use,$jump",
-                  "ep2,e2l9_unlock,$jump,$logic_medium,jetpack",
-                  "ep2,e2l9_unlock,$jump,$logic_medium,progressive_jetpack",
-                  "ep2,e2l9_unlock,$logic_extreme,$logic_medium,jetpack",
-                  "ep2,e2l9_unlock,$logic_extreme,$logic_medium,progressive_jetpack"
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|50,$jump,$logic_medium",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|50,$logic_extreme,$logic_medium"
                 ]
               }
             ]
@@ -7242,12 +7154,10 @@
                 "name": "Control Room Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,$jump,jetpack",
-                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$jump",
                   "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
-                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
-                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$logic_extreme",
                   "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
@@ -7288,12 +7198,10 @@
                 "name": "Vents Pipebombs 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,$jump,jetpack",
-                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$jump",
                   "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
-                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
-                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$logic_extreme",
                   "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
@@ -7314,14 +7222,9 @@
                 "name": "Overlord Tunnel Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,$can_dive,$jump,jetpack,scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$jump,jetpack,progressive_scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$jump,progressive_jetpack,scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$jump,progressive_jetpack,progressive_scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$can_jump,$jump,$sr50,scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$can_jump,$jump,$sr50,progressive_scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$can_jump,$can_use,$jump,scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$can_jump,$can_use,$jump,progressive_scuba_gear"
+                  "ep2,e2l9_unlock,$can_dive_fuel|100,$has_jetpack_fuel|25,$jump",
+                  "ep2,e2l9_unlock,$can_dive_fuel|100,$can_jump,$jump,$sr50",
+                  "ep2,e2l9_unlock,$can_dive_fuel|100,$can_jump,$can_use,$jump"
                 ]
               }
             ]
@@ -7458,12 +7361,10 @@
                 "name": "Overlord Tripmine 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,$jump,jetpack",
-                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$jump",
                   "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
-                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
-                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$logic_extreme",
                   "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
@@ -7484,12 +7385,10 @@
                 "name": "Overlord Tripmine 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,$jump,jetpack",
-                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$jump",
                   "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
-                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
-                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$logic_extreme",
                   "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
@@ -7510,12 +7409,10 @@
                 "name": "Overlord Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,$jump,jetpack",
-                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$jump",
                   "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
-                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
-                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$logic_extreme",
                   "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
@@ -7556,12 +7453,10 @@
                 "name": "Control Room Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,$jump,jetpack",
-                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$jump",
                   "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
-                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
-                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$logic_extreme",
                   "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
@@ -7582,12 +7477,10 @@
                 "name": "Control Room Chaingun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,$jump,jetpack",
-                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$jump",
                   "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
-                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
-                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$logic_extreme",
                   "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
@@ -7608,12 +7501,10 @@
                 "name": "Vents Center Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,$jump,jetpack",
-                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$jump",
                   "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
-                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
-                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$logic_extreme",
                   "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
@@ -7674,14 +7565,9 @@
                 "name": "Overlord Tunnel Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,$can_dive,$jump,jetpack,scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$jump,jetpack,progressive_scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$jump,progressive_jetpack,scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$jump,progressive_jetpack,progressive_scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$can_jump,$jump,$sr50,scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$can_jump,$jump,$sr50,progressive_scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$can_jump,$can_use,$jump,scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$can_jump,$can_use,$jump,progressive_scuba_gear"
+                  "ep2,e2l9_unlock,$can_dive_fuel|100,$has_jetpack_fuel|25,$jump",
+                  "ep2,e2l9_unlock,$can_dive_fuel|100,$can_jump,$jump,$sr50",
+                  "ep2,e2l9_unlock,$can_dive_fuel|100,$can_jump,$can_use,$jump"
                 ]
               }
             ]
@@ -7721,10 +7607,8 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l9_unlock,$can_use,$jump",
-                  "ep2,e2l9_unlock,$jump,$logic_medium,jetpack",
-                  "ep2,e2l9_unlock,$jump,$logic_medium,progressive_jetpack",
-                  "ep2,e2l9_unlock,$logic_extreme,$logic_medium,jetpack",
-                  "ep2,e2l9_unlock,$logic_extreme,$logic_medium,progressive_jetpack"
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|50,$jump,$logic_medium",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|50,$logic_extreme,$logic_medium"
                 ]
               }
             ]
@@ -7781,12 +7665,10 @@
                 "name": "Vents Pipebombs 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,$jump,jetpack",
-                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$jump",
                   "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
-                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
-                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$logic_extreme",
                   "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
@@ -7807,10 +7689,8 @@
                 "name": "Waterfall Holo Duke",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,$can_dive,$jump,scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$jump,progressive_scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$logic_extreme,scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$logic_extreme,progressive_scuba_gear"
+                  "ep2,e2l9_unlock,$can_dive_fuel|100,$jump",
+                  "ep2,e2l9_unlock,$can_dive_fuel|100,$logic_extreme"
                 ]
               }
             ]
@@ -7829,14 +7709,9 @@
                 "name": "Overlord Tunnel Jetpack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,$can_dive,$jump,jetpack,scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$jump,jetpack,progressive_scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$jump,progressive_jetpack,scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$jump,progressive_jetpack,progressive_scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$can_jump,$jump,$sr50,scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$can_jump,$jump,$sr50,progressive_scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$can_jump,$can_use,$jump,scuba_gear",
-                  "ep2,e2l9_unlock,$can_dive,$can_jump,$can_use,$jump,progressive_scuba_gear"
+                  "ep2,e2l9_unlock,$can_dive_fuel|100,$has_jetpack_fuel|25,$jump",
+                  "ep2,e2l9_unlock,$can_dive_fuel|100,$can_jump,$jump,$sr50",
+                  "ep2,e2l9_unlock,$can_dive_fuel|100,$can_jump,$can_use,$jump"
                 ]
               }
             ]
@@ -7855,12 +7730,10 @@
                 "name": "Timed Wall Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,$jump,jetpack",
-                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$jump",
                   "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
-                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
-                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$logic_extreme",
                   "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
@@ -7881,12 +7754,10 @@
                 "name": "Timed Wall Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,$jump,jetpack",
-                  "ep2,e2l9_unlock,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$jump",
                   "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
-                  "ep2,e2l9_unlock,$logic_extreme,jetpack",
-                  "ep2,e2l9_unlock,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$logic_extreme",
                   "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
                 ]
@@ -7994,12 +7865,10 @@
                 "name": "Secret Timed Overlord Wall",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,secrets,$jump,jetpack",
-                  "ep2,e2l9_unlock,secrets,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,secrets,$has_jetpack_fuel|25,$jump",
                   "ep2,e2l9_unlock,secrets,$can_jump,$jump,$sr50",
                   "ep2,e2l9_unlock,secrets,$can_jump,$can_use,$jump",
-                  "ep2,e2l9_unlock,secrets,$logic_extreme,jetpack",
-                  "ep2,e2l9_unlock,secrets,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,secrets,$has_jetpack_fuel|25,$logic_extreme",
                   "ep2,e2l9_unlock,secrets,$can_jump,$logic_extreme,$sr50",
                   "ep2,e2l9_unlock,secrets,$can_jump,$can_use,$logic_extreme"
                 ]
@@ -8055,10 +7924,8 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l9_unlock,secrets,$can_use,$jump",
-                  "ep2,e2l9_unlock,secrets,$jump,$logic_medium,jetpack",
-                  "ep2,e2l9_unlock,secrets,$jump,$logic_medium,progressive_jetpack",
-                  "ep2,e2l9_unlock,secrets,$logic_extreme,$logic_medium,jetpack",
-                  "ep2,e2l9_unlock,secrets,$logic_extreme,$logic_medium,progressive_jetpack"
+                  "ep2,e2l9_unlock,secrets,$has_jetpack_fuel|50,$jump,$logic_medium",
+                  "ep2,e2l9_unlock,secrets,$has_jetpack_fuel|50,$logic_extreme,$logic_medium"
                 ]
               }
             ]
@@ -8077,18 +7944,14 @@
                 "name": "Exit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l9_unlock,$can_kill_boss_2,$jump,jetpack",
-                  "ep2,e2l9_unlock,$can_jump,$glitched,$jump,jetpack",
-                  "ep2,e2l9_unlock,$can_kill_boss_2,$jump,progressive_jetpack",
-                  "ep2,e2l9_unlock,$can_jump,$glitched,$jump,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_kill_boss_2,$has_jetpack_fuel|25,$jump",
+                  "ep2,e2l9_unlock,$can_jump,$glitched,$has_jetpack_fuel|25,$jump",
                   "ep2,e2l9_unlock,$can_jump,$can_kill_boss_2,$jump,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$glitched,$jump,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_kill_boss_2,$can_use,$jump",
                   "ep2,e2l9_unlock,$can_jump,$can_use,$glitched,$jump",
-                  "ep2,e2l9_unlock,$can_kill_boss_2,$logic_extreme,jetpack",
-                  "ep2,e2l9_unlock,$can_jump,$glitched,$logic_extreme,jetpack",
-                  "ep2,e2l9_unlock,$can_kill_boss_2,$logic_extreme,progressive_jetpack",
-                  "ep2,e2l9_unlock,$can_jump,$glitched,$logic_extreme,progressive_jetpack",
+                  "ep2,e2l9_unlock,$can_kill_boss_2,$has_jetpack_fuel|25,$logic_extreme",
+                  "ep2,e2l9_unlock,$can_jump,$glitched,$has_jetpack_fuel|25,$logic_extreme",
                   "ep2,e2l9_unlock,$can_jump,$can_kill_boss_2,$logic_extreme,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$glitched,$logic_extreme,$sr50",
                   "ep2,e2l9_unlock,$can_jump,$can_kill_boss_2,$can_use,$logic_extreme",

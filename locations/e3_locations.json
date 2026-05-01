@@ -187,8 +187,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l1_unlock,$can_crouch,$can_open,$can_use,$jump",
-                  "ep3,e3l1_unlock,$can_jump,$can_open,$can_use,$logic_medium,jetpack",
-                  "ep3,e3l1_unlock,$can_jump,$can_open,$can_use,$logic_medium,progressive_jetpack"
+                  "ep3,e3l1_unlock,$can_jump,$can_open,$can_use,$has_jetpack_fuel|50,$logic_medium"
                 ]
               }
             ]
@@ -208,8 +207,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l1_unlock,$can_crouch,$can_dive,$can_open,$can_use,$jump",
-                  "ep3,e3l1_unlock,$can_dive,$can_jump,$can_open,$can_use,$logic_medium,jetpack",
-                  "ep3,e3l1_unlock,$can_dive,$can_jump,$can_open,$can_use,$logic_medium,progressive_jetpack"
+                  "ep3,e3l1_unlock,$can_dive,$can_jump,$can_open,$can_use,$has_jetpack_fuel|50,$logic_medium"
                 ]
               }
             ]
@@ -268,8 +266,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l1_unlock,$can_crouch,$can_open,$jump",
-                  "ep3,e3l1_unlock,$can_jump,$can_open,$logic_medium,jetpack",
-                  "ep3,e3l1_unlock,$can_jump,$can_open,$logic_medium,progressive_jetpack"
+                  "ep3,e3l1_unlock,$can_jump,$can_open,$has_jetpack_fuel|50,$logic_medium"
                 ]
               }
             ]
@@ -455,8 +452,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l1_unlock,$can_crouch,$can_open,$can_use,$jump",
-                  "ep3,e3l1_unlock,$can_jump,$can_open,$can_use,$logic_medium,jetpack",
-                  "ep3,e3l1_unlock,$can_jump,$can_open,$can_use,$logic_medium,progressive_jetpack"
+                  "ep3,e3l1_unlock,$can_jump,$can_open,$can_use,$has_jetpack_fuel|50,$logic_medium"
                 ]
               }
             ]
@@ -495,8 +491,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l1_unlock,$can_crouch,$can_dive,$can_open,$can_use,$jump",
-                  "ep3,e3l1_unlock,$can_dive,$can_jump,$can_open,$can_use,$logic_medium,jetpack",
-                  "ep3,e3l1_unlock,$can_dive,$can_jump,$can_open,$can_use,$logic_medium,progressive_jetpack"
+                  "ep3,e3l1_unlock,$can_dive,$can_jump,$can_open,$can_use,$has_jetpack_fuel|50,$logic_medium"
                 ]
               }
             ]
@@ -576,8 +571,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l1_unlock,$can_crouch,$can_open,$can_use,$jump",
-                  "ep3,e3l1_unlock,$can_jump,$can_open,$can_use,$logic_medium,jetpack",
-                  "ep3,e3l1_unlock,$can_jump,$can_open,$can_use,$logic_medium,progressive_jetpack"
+                  "ep3,e3l1_unlock,$can_jump,$can_open,$can_use,$has_jetpack_fuel|50,$logic_medium"
                 ]
               }
             ]
@@ -1040,8 +1034,7 @@
                 "name": "Start Ledge RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l2_unlock,jetpack",
-                  "ep3,e3l2_unlock,progressive_jetpack",
+                  "ep3,e3l2_unlock,$has_jetpack_fuel|50",
                   "ep3,e3l2_unlock,$can_jump,$sprint",
                   "ep3,e3l2_unlock,$can_jump,$logic_hard"
                 ]
@@ -1063,8 +1056,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l2_unlock,$can_open",
-                  "ep3,e3l2_unlock,jetpack",
-                  "ep3,e3l2_unlock,progressive_jetpack"
+                  "ep3,e3l2_unlock,$has_jetpack_fuel|50"
                 ]
               }
             ]
@@ -1084,8 +1076,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l2_unlock,$can_open,$jump",
-                  "ep3,e3l2_unlock,$jump,jetpack",
-                  "ep3,e3l2_unlock,$jump,progressive_jetpack"
+                  "ep3,e3l2_unlock,$has_jetpack_fuel|50,$jump"
                 ]
               }
             ]
@@ -1128,8 +1119,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l2_unlock,$can_open",
-                  "ep3,e3l2_unlock,jetpack",
-                  "ep3,e3l2_unlock,progressive_jetpack"
+                  "ep3,e3l2_unlock,$has_jetpack_fuel|50"
                 ]
               }
             ]
@@ -1208,8 +1198,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l2_unlock,$can_open",
-                  "ep3,e3l2_unlock,jetpack",
-                  "ep3,e3l2_unlock,progressive_jetpack"
+                  "ep3,e3l2_unlock,$has_jetpack_fuel|50"
                 ]
               }
             ]
@@ -1230,10 +1219,8 @@
                 "access_rules": [
                   "ep3,e3l2_unlock,$can_open,$jump",
                   "ep3,e3l2_unlock,$can_open,$sprint",
-                  "ep3,e3l2_unlock,$jump,jetpack",
-                  "ep3,e3l2_unlock,$sprint,jetpack",
-                  "ep3,e3l2_unlock,$jump,progressive_jetpack",
-                  "ep3,e3l2_unlock,$sprint,progressive_jetpack"
+                  "ep3,e3l2_unlock,$has_jetpack_fuel|50,$jump",
+                  "ep3,e3l2_unlock,$has_jetpack_fuel|50,$sprint"
                 ]
               }
             ]
@@ -1254,10 +1241,8 @@
                 "access_rules": [
                   "ep3,e3l2_unlock,$can_open,$jump",
                   "ep3,e3l2_unlock,$can_open,$sprint",
-                  "ep3,e3l2_unlock,$jump,jetpack",
-                  "ep3,e3l2_unlock,$sprint,jetpack",
-                  "ep3,e3l2_unlock,$jump,progressive_jetpack",
-                  "ep3,e3l2_unlock,$sprint,progressive_jetpack"
+                  "ep3,e3l2_unlock,$has_jetpack_fuel|50,$jump",
+                  "ep3,e3l2_unlock,$has_jetpack_fuel|50,$sprint"
                 ]
               }
             ]
@@ -1278,10 +1263,8 @@
                 "access_rules": [
                   "ep3,e3l2_unlock,$can_open,$jump",
                   "ep3,e3l2_unlock,$can_open,$sprint",
-                  "ep3,e3l2_unlock,$jump,jetpack",
-                  "ep3,e3l2_unlock,$sprint,jetpack",
-                  "ep3,e3l2_unlock,$jump,progressive_jetpack",
-                  "ep3,e3l2_unlock,$sprint,progressive_jetpack"
+                  "ep3,e3l2_unlock,$has_jetpack_fuel|50,$jump",
+                  "ep3,e3l2_unlock,$has_jetpack_fuel|50,$sprint"
                 ]
               }
             ]
@@ -1432,8 +1415,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l2_unlock,secrets,$can_open,$jump",
-                  "ep3,e3l2_unlock,secrets,$jump,jetpack",
-                  "ep3,e3l2_unlock,secrets,$jump,progressive_jetpack"
+                  "ep3,e3l2_unlock,secrets,$has_jetpack_fuel|50,$jump"
                 ]
               }
             ]
@@ -1550,8 +1532,14 @@
                 "name": "MP Exit Jetpack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l3_unlock,$can_dive,$can_open,$can_use,$jump,e3l3_red_key,scuba_gear",
-                  "ep3,e3l3_unlock,$can_dive,$can_open,$can_use,$jump,e3l3_red_key,progressive_scuba_gear"
+                  "ep3,e3l3_unlock,$can_dive_fuel|150,$can_jump,$can_open,$can_use,$jump,$sprint,e3l3_red_key",
+                  "ep3,e3l3_unlock,$can_dive_fuel|50,$can_jump,$can_open,$can_use,$jump,$logic_hard,$sprint,e3l3_red_key",
+                  "ep3,e3l3_unlock,$can_dive_fuel|150,$can_open,$can_use,$has_jetpack_fuel|50,$jump,e3l3_red_key",
+                  "ep3,e3l3_unlock,$can_dive_fuel|50,$can_open,$can_use,$has_jetpack_fuel|50,$jump,$logic_hard,e3l3_red_key",
+                  "ep3,e3l3_unlock,$can_dive_fuel|150,$can_open,$can_use,$fast_sprint,$jump,$logic_medium,e3l3_red_key",
+                  "ep3,e3l3_unlock,$can_dive_fuel|50,$can_open,$can_use,$fast_sprint,$jump,$logic_hard,$logic_medium,e3l3_red_key",
+                  "ep3,e3l3_unlock,$can_dive,$can_dive_fuel|150,$can_open,$can_use,$jump,e3l3_red_key",
+                  "ep3,e3l3_unlock,$can_dive,$can_dive_fuel|50,$can_open,$can_use,$jump,$logic_hard,e3l3_red_key"
                 ]
               }
             ]
@@ -1590,8 +1578,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,$can_jump,$jump,$sprint",
-                  "ep3,e3l3_unlock,$jump,jetpack",
-                  "ep3,e3l3_unlock,$jump,progressive_jetpack",
+                  "ep3,e3l3_unlock,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l3_unlock,$fast_sprint,$jump,$logic_medium",
                   "ep3,e3l3_unlock,$can_dive,$can_open,$can_use,$jump,e3l3_yellow_key"
                 ]
@@ -1613,8 +1600,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,$can_jump,$jump,$sprint",
-                  "ep3,e3l3_unlock,$jump,jetpack",
-                  "ep3,e3l3_unlock,$jump,progressive_jetpack",
+                  "ep3,e3l3_unlock,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l3_unlock,$fast_sprint,$jump,$logic_medium",
                   "ep3,e3l3_unlock,$can_dive,$jump"
                 ]
@@ -1636,8 +1622,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,$can_jump,$can_open,$jump,$sprint",
-                  "ep3,e3l3_unlock,$can_open,$jump,jetpack",
-                  "ep3,e3l3_unlock,$can_open,$jump,progressive_jetpack",
+                  "ep3,e3l3_unlock,$can_open,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l3_unlock,$can_open,$fast_sprint,$jump,$logic_medium",
                   "ep3,e3l3_unlock,$can_dive,$can_open,$can_use,$jump,e3l3_yellow_key"
                 ]
@@ -1751,8 +1736,7 @@
                 "access_rules": [
                   "ep3,e3l3_unlock,$fast_sprint",
                   "ep3,e3l3_unlock,$can_jump,$sprint",
-                  "ep3,e3l3_unlock,jetpack",
-                  "ep3,e3l3_unlock,progressive_jetpack",
+                  "ep3,e3l3_unlock,$has_jetpack_fuel|50",
                   "ep3,e3l3_unlock,$can_dive,$can_open,$can_use,e3l3_yellow_key"
                 ]
               }
@@ -1796,8 +1780,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,$can_jump,$jump,$sprint",
-                  "ep3,e3l3_unlock,$jump,jetpack",
-                  "ep3,e3l3_unlock,$jump,progressive_jetpack",
+                  "ep3,e3l3_unlock,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l3_unlock,$fast_sprint,$jump,$logic_medium",
                   "ep3,e3l3_unlock,$can_dive,$jump"
                 ]
@@ -1819,8 +1802,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,$can_jump,$jump,$sprint",
-                  "ep3,e3l3_unlock,$jump,jetpack",
-                  "ep3,e3l3_unlock,$jump,progressive_jetpack",
+                  "ep3,e3l3_unlock,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l3_unlock,$fast_sprint,$jump,$logic_medium",
                   "ep3,e3l3_unlock,$can_dive,$can_open,$can_use,$jump,e3l3_yellow_key"
                 ]
@@ -1865,8 +1847,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,$can_jump,$can_open,$can_use,$jump,$sprint,e3l3_red_key",
-                  "ep3,e3l3_unlock,$can_open,$can_use,$jump,e3l3_red_key,jetpack",
-                  "ep3,e3l3_unlock,$can_open,$can_use,$jump,e3l3_red_key,progressive_jetpack",
+                  "ep3,e3l3_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,e3l3_red_key",
                   "ep3,e3l3_unlock,$can_open,$can_use,$fast_sprint,$jump,$logic_medium,e3l3_red_key",
                   "ep3,e3l3_unlock,$can_dive,$can_open,$can_use,$jump,e3l3_red_key"
                 ]
@@ -1888,8 +1869,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,$can_jump,$jump,$sprint",
-                  "ep3,e3l3_unlock,$jump,jetpack",
-                  "ep3,e3l3_unlock,$jump,progressive_jetpack",
+                  "ep3,e3l3_unlock,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l3_unlock,$fast_sprint,$jump,$logic_medium",
                   "ep3,e3l3_unlock,$can_dive,$jump"
                 ]
@@ -1911,8 +1891,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,$can_jump,$jump,$sprint",
-                  "ep3,e3l3_unlock,$jump,jetpack",
-                  "ep3,e3l3_unlock,$jump,progressive_jetpack",
+                  "ep3,e3l3_unlock,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l3_unlock,$fast_sprint,$jump,$logic_medium",
                   "ep3,e3l3_unlock,$can_dive,$jump"
                 ]
@@ -2017,8 +1996,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,$can_jump,$jump,$sprint",
-                  "ep3,e3l3_unlock,$jump,jetpack",
-                  "ep3,e3l3_unlock,$jump,progressive_jetpack",
+                  "ep3,e3l3_unlock,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l3_unlock,$fast_sprint,$jump,$logic_medium",
                   "ep3,e3l3_unlock,$can_dive,$can_open,$can_use,$jump,e3l3_yellow_key"
                 ]
@@ -2104,8 +2082,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,$can_jump,$jump,$sprint",
-                  "ep3,e3l3_unlock,$jump,jetpack",
-                  "ep3,e3l3_unlock,$jump,progressive_jetpack",
+                  "ep3,e3l3_unlock,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l3_unlock,$fast_sprint,$jump,$logic_medium",
                   "ep3,e3l3_unlock,$can_dive,$jump"
                 ]
@@ -2169,8 +2146,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,$can_jump,$sprint",
-                  "ep3,e3l3_unlock,jetpack",
-                  "ep3,e3l3_unlock,progressive_jetpack",
+                  "ep3,e3l3_unlock,$has_jetpack_fuel|50",
                   "ep3,e3l3_unlock,$fast_sprint,$logic_medium",
                   "ep3,e3l3_unlock,$can_dive,$can_open,$can_use,e3l3_yellow_key"
                 ]
@@ -2216,8 +2192,7 @@
                 "access_rules": [
                   "ep3,e3l3_unlock,$fast_sprint",
                   "ep3,e3l3_unlock,$can_jump,$sprint",
-                  "ep3,e3l3_unlock,jetpack",
-                  "ep3,e3l3_unlock,progressive_jetpack",
+                  "ep3,e3l3_unlock,$has_jetpack_fuel|50",
                   "ep3,e3l3_unlock,$can_dive,$can_open,$can_use,e3l3_yellow_key"
                 ]
               }
@@ -2299,8 +2274,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,$can_jump,$jump,$sprint",
-                  "ep3,e3l3_unlock,$jump,jetpack",
-                  "ep3,e3l3_unlock,$jump,progressive_jetpack",
+                  "ep3,e3l3_unlock,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l3_unlock,$fast_sprint,$jump,$logic_medium",
                   "ep3,e3l3_unlock,$can_dive,$jump"
                 ]
@@ -2322,8 +2296,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,$can_jump,$jump,$sprint",
-                  "ep3,e3l3_unlock,$jump,jetpack",
-                  "ep3,e3l3_unlock,$jump,progressive_jetpack",
+                  "ep3,e3l3_unlock,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l3_unlock,$fast_sprint,$jump,$logic_medium",
                   "ep3,e3l3_unlock,$can_dive,$jump"
                 ]
@@ -2364,8 +2337,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,$can_jump,$jump,$sprint",
-                  "ep3,e3l3_unlock,$jump,jetpack",
-                  "ep3,e3l3_unlock,$jump,progressive_jetpack",
+                  "ep3,e3l3_unlock,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l3_unlock,$fast_sprint,$jump,$logic_medium",
                   "ep3,e3l3_unlock,$can_dive,$jump"
                 ]
@@ -2413,8 +2385,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,secrets,$can_jump,$can_open,$jump,$sprint",
-                  "ep3,e3l3_unlock,secrets,$can_open,$jump,jetpack",
-                  "ep3,e3l3_unlock,secrets,$can_open,$jump,progressive_jetpack",
+                  "ep3,e3l3_unlock,secrets,$can_open,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l3_unlock,secrets,$can_open,$fast_sprint,$jump,$logic_medium",
                   "ep3,e3l3_unlock,secrets,$can_dive,$can_open,$can_use,$jump,e3l3_yellow_key"
                 ]
@@ -2436,8 +2407,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,secrets,$can_jump,$jump,$sprint",
-                  "ep3,e3l3_unlock,secrets,$jump,jetpack",
-                  "ep3,e3l3_unlock,secrets,$jump,progressive_jetpack",
+                  "ep3,e3l3_unlock,secrets,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l3_unlock,secrets,$fast_sprint,$jump,$logic_medium",
                   "ep3,e3l3_unlock,secrets,$can_dive,$jump"
                 ]
@@ -2460,10 +2430,8 @@
                 "access_rules": [
                   "ep3,e3l3_unlock,secrets,$can_jump,$can_open,$jump,$sprint",
                   "ep3,e3l3_unlock,secrets,$can_jump,$fast_crouch_jump,$jump,$sprint",
-                  "ep3,e3l3_unlock,secrets,$can_open,$jump,jetpack",
-                  "ep3,e3l3_unlock,secrets,$fast_crouch_jump,$jump,jetpack",
-                  "ep3,e3l3_unlock,secrets,$can_open,$jump,progressive_jetpack",
-                  "ep3,e3l3_unlock,secrets,$fast_crouch_jump,$jump,progressive_jetpack",
+                  "ep3,e3l3_unlock,secrets,$can_open,$has_jetpack_fuel|50,$jump",
+                  "ep3,e3l3_unlock,secrets,$fast_crouch_jump,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l3_unlock,secrets,$can_open,$fast_sprint,$jump,$logic_medium",
                   "ep3,e3l3_unlock,secrets,$fast_crouch_jump,$fast_sprint,$jump,$logic_medium",
                   "ep3,e3l3_unlock,secrets,$can_dive,$can_open,$jump",
@@ -2487,8 +2455,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,secrets,$can_jump,$can_open,$can_use,$jump,$sprint,e3l3_red_key",
-                  "ep3,e3l3_unlock,secrets,$can_open,$can_use,$jump,e3l3_red_key,jetpack",
-                  "ep3,e3l3_unlock,secrets,$can_open,$can_use,$jump,e3l3_red_key,progressive_jetpack",
+                  "ep3,e3l3_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|50,$jump,e3l3_red_key",
                   "ep3,e3l3_unlock,secrets,$can_open,$can_use,$fast_sprint,$jump,$logic_medium,e3l3_red_key",
                   "ep3,e3l3_unlock,secrets,$can_dive,$can_open,$can_use,$jump,e3l3_red_key"
                 ]
@@ -2510,8 +2477,7 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l3_unlock,$can_jump,$can_open,$can_use,$jump,$sprint,e3l3_red_key",
-                  "ep3,e3l3_unlock,$can_open,$can_use,$jump,e3l3_red_key,jetpack",
-                  "ep3,e3l3_unlock,$can_open,$can_use,$jump,e3l3_red_key,progressive_jetpack",
+                  "ep3,e3l3_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,e3l3_red_key",
                   "ep3,e3l3_unlock,$can_open,$can_use,$fast_sprint,$jump,$logic_medium,e3l3_red_key",
                   "ep3,e3l3_unlock,$can_dive,$can_open,$can_use,$jump,e3l3_red_key"
                 ]
@@ -2550,8 +2516,7 @@
                   "ep3,e3l4_unlock,$can_jump,$can_open,$jump,tripmine",
                   "ep3,e3l4_unlock,$can_jump,$can_open,$jump,progressive_tripmine",
                   "ep3,e3l4_unlock,$can_jump,$crouch_jump",
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack"
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100"
                 ]
               }
             ]
@@ -2598,8 +2563,7 @@
                   "ep3,e3l4_unlock,$can_jump,$can_open,$jump,progressive_devastator",
                   "ep3,e3l4_unlock,$can_jump,$can_open,$jump,tripmine",
                   "ep3,e3l4_unlock,$can_jump,$can_open,$jump,progressive_tripmine",
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100",
                   "ep3,e3l4_unlock,$can_jump,$crouch_jump"
                 ]
               }
@@ -2628,8 +2592,7 @@
                   "ep3,e3l4_unlock,$jump,progressive_devastator",
                   "ep3,e3l4_unlock,$jump,tripmine",
                   "ep3,e3l4_unlock,$jump,progressive_tripmine",
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack"
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100"
                 ]
               }
             ]
@@ -2657,8 +2620,7 @@
                   "ep3,e3l4_unlock,$jump,progressive_devastator",
                   "ep3,e3l4_unlock,$jump,tripmine",
                   "ep3,e3l4_unlock,$jump,progressive_tripmine",
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack"
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100"
                 ]
               }
             ]
@@ -2761,8 +2723,9 @@
                   "ep3,e3l4_unlock,$jump,progressive_devastator",
                   "ep3,e3l4_unlock,$jump,tripmine",
                   "ep3,e3l4_unlock,$jump,progressive_tripmine",
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|50",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100,$sprint",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100,$jump",
                   "ep3,e3l4_unlock,$can_open,$can_use,$sprint,e3l4_blue_key",
                   "ep3,e3l4_unlock,$can_open,$can_use,$jump,e3l4_blue_key"
                 ]
@@ -2812,8 +2775,7 @@
                   "ep3,e3l4_unlock,$can_jump,$can_open,$jump,tripmine",
                   "ep3,e3l4_unlock,$can_jump,$can_open,$jump,progressive_tripmine",
                   "ep3,e3l4_unlock,$can_jump,$crouch_jump",
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack"
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100"
                 ]
               }
             ]
@@ -2850,8 +2812,7 @@
                   "ep3,e3l4_unlock,$can_open,$jump,$sprint,tripmine",
                   "ep3,e3l4_unlock,$can_jump,$can_open,$jump,progressive_tripmine",
                   "ep3,e3l4_unlock,$can_open,$jump,$sprint,progressive_tripmine",
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100",
                   "ep3,e3l4_unlock,$crouch_jump"
                 ]
               }
@@ -2879,8 +2840,9 @@
                   "ep3,e3l4_unlock,$jump,progressive_devastator",
                   "ep3,e3l4_unlock,$jump,tripmine",
                   "ep3,e3l4_unlock,$jump,progressive_tripmine",
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|50",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100,$sprint",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100,$jump",
                   "ep3,e3l4_unlock,$can_open,$can_use,$sprint,e3l4_blue_key",
                   "ep3,e3l4_unlock,$can_open,$can_use,$jump,e3l4_blue_key"
                 ]
@@ -2919,8 +2881,7 @@
                   "ep3,e3l4_unlock,$can_open,$jump,$sprint,tripmine",
                   "ep3,e3l4_unlock,$can_jump,$can_open,$jump,progressive_tripmine",
                   "ep3,e3l4_unlock,$can_open,$jump,$sprint,progressive_tripmine",
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100",
                   "ep3,e3l4_unlock,$crouch_jump"
                 ]
               }
@@ -2950,8 +2911,7 @@
                   "ep3,e3l4_unlock,$can_jump,$can_open,$jump,tripmine",
                   "ep3,e3l4_unlock,$can_jump,$can_open,$jump,progressive_tripmine",
                   "ep3,e3l4_unlock,$can_jump,$crouch_jump",
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack"
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100"
                 ]
               }
             ]
@@ -2970,8 +2930,7 @@
                 "name": "Tower Top Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100",
                   "ep3,e3l4_unlock,$can_open,$can_use,e3l4_blue_key",
                   "ep3,e3l4_unlock,$can_open,$jump,rpg",
                   "ep3,e3l4_unlock,$can_open,$jump,progressive_rpg",
@@ -3019,8 +2978,8 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l4_unlock,$jump",
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|50",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100,$sprint",
                   "ep3,e3l4_unlock,$can_open,$can_use,$sprint,e3l4_blue_key"
                 ]
               }
@@ -3050,8 +3009,7 @@
                   "ep3,e3l4_unlock,$can_jump,$can_open,$jump,tripmine",
                   "ep3,e3l4_unlock,$can_jump,$can_open,$jump,progressive_tripmine",
                   "ep3,e3l4_unlock,$can_jump,$crouch_jump",
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack"
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100"
                 ]
               }
             ]
@@ -3107,8 +3065,7 @@
                   "ep3,e3l4_unlock,$can_open,$jump,$sprint,tripmine",
                   "ep3,e3l4_unlock,$can_jump,$can_open,$jump,progressive_tripmine",
                   "ep3,e3l4_unlock,$can_open,$jump,$sprint,progressive_tripmine",
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100",
                   "ep3,e3l4_unlock,$crouch_jump"
                 ]
               }
@@ -3136,8 +3093,9 @@
                   "ep3,e3l4_unlock,$jump,progressive_devastator",
                   "ep3,e3l4_unlock,$jump,tripmine",
                   "ep3,e3l4_unlock,$jump,progressive_tripmine",
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|50",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100,$sprint",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100,$jump",
                   "ep3,e3l4_unlock,$can_open,$can_use,$sprint,e3l4_blue_key",
                   "ep3,e3l4_unlock,$can_open,$can_use,$jump,e3l4_blue_key"
                 ]
@@ -3158,8 +3116,7 @@
                 "name": "MP Tower Top RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100",
                   "ep3,e3l4_unlock,$can_open,$can_use,e3l4_blue_key",
                   "ep3,e3l4_unlock,$can_open,$jump,rpg",
                   "ep3,e3l4_unlock,$can_open,$jump,progressive_rpg",
@@ -3187,8 +3144,7 @@
                 "name": "MP Elevator Top Chaingun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100",
                   "ep3,e3l4_unlock,$can_open,$can_use,e3l4_blue_key",
                   "ep3,e3l4_unlock,$can_open,$jump,rpg",
                   "ep3,e3l4_unlock,$can_open,$jump,progressive_rpg",
@@ -3300,8 +3256,8 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l4_unlock,$jump",
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|50",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100,$sprint",
                   "ep3,e3l4_unlock,$can_open,$can_use,$sprint,e3l4_blue_key"
                 ]
               }
@@ -3322,8 +3278,8 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l4_unlock,$jump",
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|50",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100,$sprint",
                   "ep3,e3l4_unlock,$can_open,$can_use,$sprint,e3l4_blue_key"
                 ]
               }
@@ -3343,9 +3299,9 @@
                 "name": "Streets Ledge Freezethrower",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|50",
                   "ep3,e3l4_unlock,$can_jump,$logic_medium",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100",
                   "ep3,e3l4_unlock,$can_open,$can_use,e3l4_blue_key",
                   "ep3,e3l4_unlock,$can_open,$jump,rpg",
                   "ep3,e3l4_unlock,$can_open,$jump,progressive_rpg",
@@ -3381,8 +3337,9 @@
                   "ep3,e3l4_unlock,$jump,progressive_devastator",
                   "ep3,e3l4_unlock,$jump,tripmine",
                   "ep3,e3l4_unlock,$jump,progressive_tripmine",
-                  "ep3,e3l4_unlock,jetpack",
-                  "ep3,e3l4_unlock,progressive_jetpack",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|50",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100,$sprint",
+                  "ep3,e3l4_unlock,$has_jetpack_fuel|100,$jump",
                   "ep3,e3l4_unlock,$can_open,$can_use,$sprint,e3l4_blue_key",
                   "ep3,e3l4_unlock,$can_open,$can_use,$jump,e3l4_blue_key"
                 ]
@@ -3440,10 +3397,8 @@
                   "ep3,e3l4_unlock,secrets,$can_jump,$can_open,$jump,progressive_tripmine",
                   "ep3,e3l4_unlock,secrets,$can_jump,$can_open,$crouch_jump",
                   "ep3,e3l4_unlock,secrets,$can_crouch,$can_jump,$crouch_jump,$fast_sprint,$glitched",
-                  "ep3,e3l4_unlock,secrets,$can_open,jetpack",
-                  "ep3,e3l4_unlock,secrets,$can_crouch,$fast_sprint,$glitched,jetpack",
-                  "ep3,e3l4_unlock,secrets,$can_open,progressive_jetpack",
-                  "ep3,e3l4_unlock,secrets,$can_crouch,$fast_sprint,$glitched,progressive_jetpack"
+                  "ep3,e3l4_unlock,secrets,$can_open,$has_jetpack_fuel|100",
+                  "ep3,e3l4_unlock,secrets,$can_crouch,$fast_sprint,$glitched,$has_jetpack_fuel|100"
                 ]
               }
             ]
@@ -3491,8 +3446,7 @@
                   "ep3,e3l4_unlock,$can_jump,$can_open,$can_use,$jump,e3l4_red_key,tripmine",
                   "ep3,e3l4_unlock,$can_jump,$can_open,$can_use,$jump,e3l4_red_key,progressive_tripmine",
                   "ep3,e3l4_unlock,$can_jump,$can_open,$can_use,$crouch_jump,e3l4_red_key",
-                  "ep3,e3l4_unlock,$can_open,$can_use,e3l4_red_key,jetpack",
-                  "ep3,e3l4_unlock,$can_open,$can_use,e3l4_red_key,progressive_jetpack"
+                  "ep3,e3l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100,e3l4_red_key"
                 ]
               }
             ]
@@ -3604,14 +3558,10 @@
                 "name": "Earth Vent Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l5_unlock,$can_jump,$can_open,$can_use,$jump,e3l5_blue_key,e3l5_yellow_key,jetpack",
-                  "ep3,e3l5_unlock,$can_jump,$can_open,$can_use,$jump,e3l5_blue_key,e3l5_yellow_key,progressive_jetpack",
-                  "ep3,e3l5_unlock,$can_jump,$fast_sprint,$glitched,$jump,$logic_extreme,jetpack,tripmine",
-                  "ep3,e3l5_unlock,$can_jump,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_jetpack,tripmine",
-                  "ep3,e3l5_unlock,$can_jump,$fast_sprint,$glitched,$jump,$logic_extreme,jetpack,progressive_tripmine",
-                  "ep3,e3l5_unlock,$can_jump,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_jetpack,progressive_tripmine",
-                  "ep3,e3l5_unlock,$can_crouch,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_medium,e3l5_yellow_key,jetpack",
-                  "ep3,e3l5_unlock,$can_crouch,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_medium,e3l5_yellow_key,progressive_jetpack"
+                  "ep3,e3l5_unlock,$can_jump,$can_open,$can_use,$has_jetpack_fuel|50,$jump,e3l5_blue_key,e3l5_yellow_key",
+                  "ep3,e3l5_unlock,$can_jump,$fast_sprint,$glitched,$has_jetpack_fuel|50,$jump,$logic_extreme,tripmine",
+                  "ep3,e3l5_unlock,$can_jump,$fast_sprint,$glitched,$has_jetpack_fuel|50,$jump,$logic_extreme,progressive_tripmine",
+                  "ep3,e3l5_unlock,$can_crouch,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$has_jetpack_fuel|50,$jump,$logic_medium,e3l5_yellow_key"
                 ]
               }
             ]
@@ -3676,8 +3626,7 @@
                   "ep3,e3l5_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$logic_extreme,e3l5_red_key,progressive_tripmine",
                   "ep3,e3l5_unlock,$can_open,$can_use,e3l5_blue_key,e3l5_red_key",
                   "ep3,e3l5_unlock,$can_crouch,$jump",
-                  "ep3,e3l5_unlock,$can_crouch,$logic_medium,jetpack",
-                  "ep3,e3l5_unlock,$can_crouch,$logic_medium,progressive_jetpack"
+                  "ep3,e3l5_unlock,$can_crouch,$has_jetpack_fuel|50,$logic_medium"
                 ]
               }
             ]
@@ -3763,8 +3712,7 @@
                   "ep3,e3l5_unlock,$can_jump,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep3,e3l5_unlock,$can_jump,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine",
                   "ep3,e3l5_unlock,$can_crouch,$can_open,$fast_sprint,$glitched,$jump,$logic_medium",
-                  "ep3,e3l5_unlock,$can_crouch,$fast_sprint,$glitched,$jump,$logic_medium,jetpack",
-                  "ep3,e3l5_unlock,$can_crouch,$fast_sprint,$glitched,$jump,$logic_medium,progressive_jetpack"
+                  "ep3,e3l5_unlock,$can_crouch,$fast_sprint,$glitched,$has_jetpack_fuel|50,$jump,$logic_medium"
                 ]
               }
             ]
@@ -4198,8 +4146,7 @@
                   "ep3,e3l5_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$logic_extreme,e3l5_red_key,progressive_tripmine",
                   "ep3,e3l5_unlock,$can_open,$can_use,e3l5_blue_key,e3l5_red_key",
                   "ep3,e3l5_unlock,$can_crouch,$jump",
-                  "ep3,e3l5_unlock,$can_crouch,$logic_medium,jetpack",
-                  "ep3,e3l5_unlock,$can_crouch,$logic_medium,progressive_jetpack"
+                  "ep3,e3l5_unlock,$can_crouch,$has_jetpack_fuel|50,$logic_medium"
                 ]
               }
             ]
@@ -4305,8 +4252,7 @@
                   "ep3,e3l5_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$logic_extreme,e3l5_red_key,progressive_tripmine",
                   "ep3,e3l5_unlock,$can_open,$can_use,e3l5_blue_key,e3l5_red_key",
                   "ep3,e3l5_unlock,$can_crouch,$can_use,$jump",
-                  "ep3,e3l5_unlock,$can_crouch,$can_use,$logic_medium,jetpack",
-                  "ep3,e3l5_unlock,$can_crouch,$can_use,$logic_medium,progressive_jetpack"
+                  "ep3,e3l5_unlock,$can_crouch,$can_use,$has_jetpack_fuel|50,$logic_medium"
                 ]
               }
             ]
@@ -4477,8 +4423,7 @@
                 "name": "Bookshelf Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l6_unlock,$can_open,$can_use,e3l6_red_key,jetpack",
-                  "ep3,e3l6_unlock,$can_open,$can_use,e3l6_red_key,progressive_jetpack",
+                  "ep3,e3l6_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e3l6_red_key",
                   "ep3,e3l6_unlock,$can_jump,$can_open,$can_use,e3l6_red_key,rpg",
                   "ep3,e3l6_unlock,$can_jump,$can_open,$can_use,e3l6_red_key,progressive_rpg",
                   "ep3,e3l6_unlock,$can_jump,$can_open,$can_use,e3l6_red_key,pipebomb",
@@ -4978,8 +4923,7 @@
                 "name": "Secret Bookshelves",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l6_unlock,secrets,$can_open,$can_use,e3l6_red_key,jetpack",
-                  "ep3,e3l6_unlock,secrets,$can_open,$can_use,e3l6_red_key,progressive_jetpack",
+                  "ep3,e3l6_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|50,e3l6_red_key",
                   "ep3,e3l6_unlock,secrets,$can_jump,$can_open,$can_use,e3l6_red_key,rpg",
                   "ep3,e3l6_unlock,secrets,$can_jump,$can_open,$can_use,e3l6_red_key,progressive_rpg",
                   "ep3,e3l6_unlock,secrets,$can_jump,$can_open,$can_use,e3l6_red_key,pipebomb",
@@ -5121,16 +5065,13 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l7_unlock,$can_open,$can_use,$jump,e3l7_blue_key",
-                  "ep3,e3l7_unlock,$can_open,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_extreme",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$jump,$logic_extreme,$logic_hard",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,progressive_jetpack"
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$jump,$sprint"
                 ]
               }
             ]
@@ -5149,13 +5090,11 @@
                 "name": "MP Broadcast Jetpack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l7_unlock,$can_open,$can_use,e3l7_yellow_key,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$can_use,e3l7_yellow_key,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_hard,$sprint,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_extreme,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_open,$can_use,e3l7_blue_key,e3l7_yellow_key",
-                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$logic_hard,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$logic_hard,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$has_jetpack_fuel|50,$logic_hard",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$fast_crouch_jump,$logic_hard,$logic_medium,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$fast_crouch_jump,$logic_extreme,$logic_hard,$logic_medium",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$fast_crouch_jump,$logic_hard,$logic_medium,e3l7_blue_key"
@@ -5178,13 +5117,11 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l7_unlock,$can_open,$can_use,$jump,e3l7_blue_key",
-                  "ep3,e3l7_unlock,$can_open,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_extreme",
                   "ep3,e3l7_unlock,$can_crouch,$can_jump,$glitched,$jump,$logic_hard,$sprint",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,progressive_jetpack"
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$jump,$sprint"
                 ]
               }
             ]
@@ -5203,16 +5140,13 @@
                 "name": "Fire Station Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l7_unlock,$can_open,jetpack",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_extreme",
-                  "ep3,e3l7_unlock,$can_jump,$crouch_jump,$glitched,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$crouch_jump,$glitched,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_jump,$crouch_jump,$glitched,$has_jetpack_fuel|50",
                   "ep3,e3l7_unlock,$can_jump,$crouch_jump,$glitched,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$crouch_jump,$glitched,$logic_extreme",
-                  "ep3,e3l7_unlock,$can_crouch,$crouch_jump,$glitched,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$crouch_jump,$glitched,$sprint,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_crouch,$crouch_jump,$glitched,$has_jetpack_fuel|50,$sprint",
                   "ep3,e3l7_unlock,$can_open,$can_use,e3l7_blue_key"
                 ]
               }
@@ -5232,16 +5166,13 @@
                 "name": "Fire Truck Holo Duke",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l7_unlock,$can_open,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_extreme",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$jump,$logic_extreme",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$jump,$sprint",
                   "ep3,e3l7_unlock,$can_open,$can_use,$jump,e3l7_blue_key"
                 ]
               }
@@ -5283,16 +5214,13 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l7_unlock,$can_open,$can_use,$jump,e3l7_blue_key",
-                  "ep3,e3l7_unlock,$can_open,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_extreme",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$jump,$logic_extreme,$logic_hard",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,progressive_jetpack"
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$jump,$sprint"
                 ]
               }
             ]
@@ -5312,16 +5240,13 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l7_unlock,$can_open,$can_use,e3l7_blue_key",
-                  "ep3,e3l7_unlock,$can_open,jetpack",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_extreme",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$logic_extreme,$logic_hard",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_jetpack"
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint"
                 ]
               }
             ]
@@ -5341,16 +5266,13 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l7_unlock,$can_open,$can_use,$jump,e3l7_blue_key",
-                  "ep3,e3l7_unlock,$can_open,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_extreme",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$jump,$logic_extreme,$logic_hard",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,progressive_jetpack"
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$jump,$sprint"
                 ]
               }
             ]
@@ -5370,16 +5292,13 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l7_unlock,$can_open,$can_use,$jump,e3l7_blue_key",
-                  "ep3,e3l7_unlock,$can_open,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_extreme",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$jump,$logic_extreme,$logic_hard",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,progressive_jetpack"
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$jump,$sprint"
                 ]
               }
             ]
@@ -5419,21 +5338,17 @@
                 "name": "Broadcast Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l7_unlock,$can_open,$can_use,e3l7_yellow_key,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$can_use,e3l7_yellow_key,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_hard,$sprint,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_extreme,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_open,$can_use,e3l7_blue_key,e3l7_yellow_key",
-                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$logic_hard,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$logic_hard,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$has_jetpack_fuel|50,$logic_hard",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$fast_crouch_jump,$logic_hard,$logic_medium,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$fast_crouch_jump,$logic_extreme,$logic_hard,$logic_medium",
-                  "ep3,e3l7_unlock,$can_jump,$fast_crouch_jump,$glitched,$logic_hard,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$fast_crouch_jump,$glitched,$logic_hard,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_jump,$fast_crouch_jump,$glitched,$has_jetpack_fuel|50,$logic_hard",
                   "ep3,e3l7_unlock,$can_jump,$fast_crouch_jump,$glitched,$logic_hard,$logic_medium,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$fast_crouch_jump,$glitched,$logic_extreme,$logic_hard,$logic_medium",
-                  "ep3,e3l7_unlock,$can_crouch,$fast_crouch_jump,$glitched,$logic_hard,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$fast_crouch_jump,$glitched,$logic_hard,$sprint,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_crouch,$fast_crouch_jump,$glitched,$has_jetpack_fuel|50,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$fast_crouch_jump,$logic_hard,$logic_medium,e3l7_blue_key"
                 ]
               }
@@ -5453,13 +5368,11 @@
                 "name": "Red Key Card",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l7_unlock,$can_open,$can_use,e3l7_yellow_key,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$can_use,e3l7_yellow_key,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_hard,$sprint,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_extreme,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_open,$can_use,e3l7_blue_key,e3l7_yellow_key",
-                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$logic_hard,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$logic_hard,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$has_jetpack_fuel|50,$logic_hard",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$fast_crouch_jump,$logic_hard,$logic_medium,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$fast_crouch_jump,$logic_extreme,$logic_hard,$logic_medium",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$fast_crouch_jump,$logic_hard,$logic_medium,e3l7_blue_key"
@@ -5481,13 +5394,11 @@
                 "name": "Set Chaingun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l7_unlock,$can_open,$can_use,e3l7_yellow_key,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$can_use,e3l7_yellow_key,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_hard,$sprint,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_extreme,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_open,$can_use,e3l7_blue_key,e3l7_yellow_key",
-                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$logic_hard,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$logic_hard,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$has_jetpack_fuel|50,$logic_hard",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$fast_crouch_jump,$logic_hard,$logic_medium,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$fast_crouch_jump,$logic_extreme,$logic_hard,$logic_medium",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$fast_crouch_jump,$logic_hard,$logic_medium,e3l7_blue_key"
@@ -5510,16 +5421,13 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l7_unlock,$can_open,$can_use,$jump,e3l7_blue_key",
-                  "ep3,e3l7_unlock,$can_open,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_extreme",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$jump,$logic_extreme,$logic_hard",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,progressive_jetpack"
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$jump,$sprint"
                 ]
               }
             ]
@@ -5539,16 +5447,13 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l7_unlock,$can_open,$can_use,$jump,e3l7_blue_key",
-                  "ep3,e3l7_unlock,$can_open,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_extreme",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$jump,$logic_extreme,$logic_hard",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,progressive_jetpack"
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$jump,$sprint"
                 ]
               }
             ]
@@ -5588,21 +5493,17 @@
                 "name": "Broadcast Tripmine",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l7_unlock,$can_open,$can_use,e3l7_yellow_key,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$can_use,e3l7_yellow_key,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_hard,$sprint,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_extreme,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_open,$can_use,e3l7_blue_key,e3l7_yellow_key",
-                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$logic_hard,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$logic_hard,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$has_jetpack_fuel|50,$logic_hard",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$fast_crouch_jump,$logic_hard,$logic_medium,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$fast_crouch_jump,$logic_extreme,$logic_hard,$logic_medium",
-                  "ep3,e3l7_unlock,$can_jump,$fast_crouch_jump,$glitched,$logic_hard,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$fast_crouch_jump,$glitched,$logic_hard,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_jump,$fast_crouch_jump,$glitched,$has_jetpack_fuel|50,$logic_hard",
                   "ep3,e3l7_unlock,$can_jump,$fast_crouch_jump,$glitched,$logic_hard,$logic_medium,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$fast_crouch_jump,$glitched,$logic_extreme,$logic_hard,$logic_medium",
-                  "ep3,e3l7_unlock,$can_crouch,$fast_crouch_jump,$glitched,$logic_hard,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$fast_crouch_jump,$glitched,$logic_hard,$sprint,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_crouch,$fast_crouch_jump,$glitched,$has_jetpack_fuel|50,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$fast_crouch_jump,$logic_hard,$logic_medium,e3l7_blue_key"
                 ]
               }
@@ -5623,16 +5524,13 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l7_unlock,$can_open,$can_use,$jump,e3l7_blue_key",
-                  "ep3,e3l7_unlock,$can_open,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$jump,$logic_extreme",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$jump,$logic_extreme,$logic_hard",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,progressive_jetpack"
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$jump,$sprint"
                 ]
               }
             ]
@@ -5691,26 +5589,16 @@
                 "name": "Fire Station RPG",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l7_unlock,$can_open,jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_open,jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_open,jetpack,pipebomb",
-                  "ep3,e3l7_unlock,$can_open,jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_open,devastator,jetpack",
-                  "ep3,e3l7_unlock,$can_open,jetpack,progressive_devastator",
-                  "ep3,e3l7_unlock,$can_open,jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_open,jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$can_open,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$logic_extreme,jetpack",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_open,pipebomb,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_open,devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_open,progressive_devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$can_open,$jump,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_open,$logic_extreme,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,rpg",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,progressive_rpg",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,pipebomb",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,progressive_pipebomb",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,devastator",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,progressive_devastator",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,tripmine",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,progressive_tripmine",
+                  "ep3,e3l7_unlock,$can_crouch,$can_open,$has_jetpack_fuel|50,$jump",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,$logic_extreme",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_hard,$sprint,rpg",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_hard,$sprint,progressive_rpg",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_hard,$sprint,pipebomb",
@@ -5721,24 +5609,15 @@
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_hard,$sprint,progressive_tripmine",
                   "ep3,e3l7_unlock,$can_crouch,$can_jump,$can_open,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_extreme",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,pipebomb",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,devastator,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,progressive_devastator",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$can_jump,$glitched,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,pipebomb,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$can_jump,$glitched,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,rpg",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,progressive_rpg",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,pipebomb",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,progressive_pipebomb",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,devastator",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,progressive_devastator",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,tripmine",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,progressive_tripmine",
+                  "ep3,e3l7_unlock,$can_crouch,$can_jump,$glitched,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$logic_hard,$sprint,rpg",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$logic_hard,$sprint,progressive_rpg",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$logic_hard,$sprint,pipebomb",
@@ -5749,26 +5628,16 @@
                   "ep3,e3l7_unlock,$can_jump,$glitched,$logic_hard,$sprint,progressive_tripmine",
                   "ep3,e3l7_unlock,$can_crouch,$can_jump,$glitched,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$logic_extreme",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,pipebomb",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,devastator,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,progressive_devastator",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$logic_extreme,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,pipebomb,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$logic_extreme,$sprint,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,rpg",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,progressive_rpg",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,pipebomb",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,progressive_pipebomb",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,devastator",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,progressive_devastator",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,tripmine",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,progressive_tripmine",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$jump,$sprint",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$logic_extreme,$sprint",
                   "ep3,e3l7_unlock,$can_open,$can_use,e3l7_blue_key,rpg",
                   "ep3,e3l7_unlock,$can_open,$can_use,e3l7_blue_key,progressive_rpg",
                   "ep3,e3l7_unlock,$can_open,$can_use,e3l7_blue_key,pipebomb",
@@ -5797,26 +5666,16 @@
                 "name": "Fire Station Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l7_unlock,$can_open,jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_open,jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_open,jetpack,pipebomb",
-                  "ep3,e3l7_unlock,$can_open,jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_open,devastator,jetpack",
-                  "ep3,e3l7_unlock,$can_open,jetpack,progressive_devastator",
-                  "ep3,e3l7_unlock,$can_open,jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_open,jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$can_open,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$logic_extreme,jetpack",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_open,pipebomb,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_open,devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_open,progressive_devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$can_open,$jump,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_open,$logic_extreme,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,rpg",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,progressive_rpg",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,pipebomb",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,progressive_pipebomb",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,devastator",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,progressive_devastator",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,tripmine",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,progressive_tripmine",
+                  "ep3,e3l7_unlock,$can_crouch,$can_open,$has_jetpack_fuel|50,$jump",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,$logic_extreme",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_hard,$sprint,rpg",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_hard,$sprint,progressive_rpg",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_hard,$sprint,pipebomb",
@@ -5827,24 +5686,15 @@
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_hard,$sprint,progressive_tripmine",
                   "ep3,e3l7_unlock,$can_crouch,$can_jump,$can_open,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_extreme",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,pipebomb",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,devastator,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,progressive_devastator",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$can_jump,$glitched,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,pipebomb,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$can_jump,$glitched,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,rpg",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,progressive_rpg",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,pipebomb",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,progressive_pipebomb",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,devastator",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,progressive_devastator",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,tripmine",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,progressive_tripmine",
+                  "ep3,e3l7_unlock,$can_crouch,$can_jump,$glitched,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$logic_hard,$sprint,rpg",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$logic_hard,$sprint,progressive_rpg",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$logic_hard,$sprint,pipebomb",
@@ -5855,26 +5705,16 @@
                   "ep3,e3l7_unlock,$can_jump,$glitched,$logic_hard,$sprint,progressive_tripmine",
                   "ep3,e3l7_unlock,$can_crouch,$can_jump,$glitched,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$logic_extreme",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,pipebomb",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,devastator,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,progressive_devastator",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$logic_extreme,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,pipebomb,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$logic_extreme,$sprint,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,rpg",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,progressive_rpg",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,pipebomb",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,progressive_pipebomb",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,devastator",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,progressive_devastator",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,tripmine",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,progressive_tripmine",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$jump,$sprint",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$logic_extreme,$sprint",
                   "ep3,e3l7_unlock,$can_open,$can_use,e3l7_blue_key,rpg",
                   "ep3,e3l7_unlock,$can_open,$can_use,e3l7_blue_key,progressive_rpg",
                   "ep3,e3l7_unlock,$can_open,$can_use,e3l7_blue_key,pipebomb",
@@ -5903,13 +5743,11 @@
                 "name": "Curtain Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l7_unlock,$can_open,$can_use,e3l7_yellow_key,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$can_use,e3l7_yellow_key,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_hard,$sprint,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_extreme,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_open,$can_use,e3l7_blue_key,e3l7_yellow_key",
-                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$logic_hard,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$logic_hard,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$fast_crouch_jump,$has_jetpack_fuel|50,$logic_hard",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$fast_crouch_jump,$logic_hard,$logic_medium,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$fast_crouch_jump,$logic_extreme,$logic_hard,$logic_medium",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$fast_crouch_jump,$logic_hard,$logic_medium,e3l7_blue_key"
@@ -5931,16 +5769,13 @@
                 "name": "Broadcast Shotgun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l7_unlock,$can_open,jetpack",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_hard,$logic_medium,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_extreme,$logic_medium",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$logic_hard,$logic_medium,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$logic_extreme,$logic_medium",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_medium,e3l7_blue_key",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_hard,$sprint,e3l7_yellow_key",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_extreme,e3l7_yellow_key",
@@ -5963,26 +5798,16 @@
                 "name": "Yellow Key Card",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l7_unlock,$can_open,jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_open,jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_open,jetpack,pipebomb",
-                  "ep3,e3l7_unlock,$can_open,jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_open,devastator,jetpack",
-                  "ep3,e3l7_unlock,$can_open,jetpack,progressive_devastator",
-                  "ep3,e3l7_unlock,$can_open,jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_open,jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$can_open,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_open,$logic_extreme,jetpack",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_open,pipebomb,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_open,devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_open,progressive_devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_open,progressive_jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$can_open,$jump,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_open,$logic_extreme,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,rpg",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,progressive_rpg",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,pipebomb",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,progressive_pipebomb",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,devastator",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,progressive_devastator",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,tripmine",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,progressive_tripmine",
+                  "ep3,e3l7_unlock,$can_crouch,$can_open,$has_jetpack_fuel|50,$jump",
+                  "ep3,e3l7_unlock,$can_open,$has_jetpack_fuel|50,$logic_extreme",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_hard,$sprint,rpg",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_hard,$sprint,$sr50,rpg",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_hard,$sprint,progressive_rpg",
@@ -6003,26 +5828,16 @@
                   "ep3,e3l7_unlock,$can_crouch,$can_jump,$can_open,$jump,$logic_hard,$sprint,$sr50",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$can_use,$logic_extreme",
                   "ep3,e3l7_unlock,$can_jump,$can_open,$logic_extreme,$sr50",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,pipebomb",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,devastator,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,progressive_devastator",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$can_jump,$glitched,$jump,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$logic_extreme,jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,pipebomb,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,progressive_jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$can_jump,$glitched,$jump,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_jump,$glitched,$logic_extreme,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,rpg",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,progressive_rpg",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,pipebomb",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,progressive_pipebomb",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,devastator",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,progressive_devastator",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,tripmine",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,progressive_tripmine",
+                  "ep3,e3l7_unlock,$can_crouch,$can_jump,$glitched,$has_jetpack_fuel|50,$jump",
+                  "ep3,e3l7_unlock,$can_jump,$glitched,$has_jetpack_fuel|50,$logic_extreme",
                   "ep3,e3l7_unlock,$can_jump,$can_use,$glitched,$logic_hard,$sprint,rpg",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$logic_hard,$sprint,$sr50,rpg",
                   "ep3,e3l7_unlock,$can_jump,$can_use,$glitched,$logic_hard,$sprint,progressive_rpg",
@@ -6043,26 +5858,16 @@
                   "ep3,e3l7_unlock,$can_crouch,$can_jump,$glitched,$jump,$logic_hard,$sprint,$sr50",
                   "ep3,e3l7_unlock,$can_jump,$can_use,$glitched,$logic_extreme",
                   "ep3,e3l7_unlock,$can_jump,$glitched,$logic_extreme,$sr50",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,pipebomb",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,devastator,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,progressive_devastator",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$logic_extreme,$sprint,jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_jetpack,rpg",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_jetpack,progressive_rpg",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,pipebomb,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_jetpack,progressive_pipebomb",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_devastator,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_jetpack,tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$sprint,progressive_jetpack,progressive_tripmine",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$jump,$sprint,progressive_jetpack",
-                  "ep3,e3l7_unlock,$can_crouch,$glitched,$logic_extreme,$sprint,progressive_jetpack",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,rpg",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,progressive_rpg",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,pipebomb",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,progressive_pipebomb",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,devastator",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,progressive_devastator",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,tripmine",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$sprint,progressive_tripmine",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$jump,$sprint",
+                  "ep3,e3l7_unlock,$can_crouch,$glitched,$has_jetpack_fuel|50,$logic_extreme,$sprint",
                   "ep3,e3l7_unlock,$can_open,$can_use,e3l7_blue_key,rpg",
                   "ep3,e3l7_unlock,$can_open,$can_use,e3l7_blue_key,progressive_rpg",
                   "ep3,e3l7_unlock,$can_open,$can_use,e3l7_blue_key,pipebomb",
@@ -6091,13 +5896,11 @@
                 "name": "Secret Broadcast",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l7_unlock,secrets,$can_open,$can_use,e3l7_yellow_key,jetpack",
-                  "ep3,e3l7_unlock,secrets,$can_open,$can_use,e3l7_yellow_key,progressive_jetpack",
+                  "ep3,e3l7_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|50,e3l7_yellow_key",
                   "ep3,e3l7_unlock,secrets,$can_jump,$can_open,$can_use,$logic_hard,$sprint,e3l7_yellow_key",
                   "ep3,e3l7_unlock,secrets,$can_jump,$can_open,$can_use,$logic_extreme,e3l7_yellow_key",
                   "ep3,e3l7_unlock,secrets,$can_open,$can_use,e3l7_blue_key,e3l7_yellow_key",
-                  "ep3,e3l7_unlock,secrets,$can_open,$fast_crouch_jump,$logic_hard,jetpack",
-                  "ep3,e3l7_unlock,secrets,$can_open,$fast_crouch_jump,$logic_hard,progressive_jetpack",
+                  "ep3,e3l7_unlock,secrets,$can_open,$fast_crouch_jump,$has_jetpack_fuel|50,$logic_hard",
                   "ep3,e3l7_unlock,secrets,$can_jump,$can_open,$fast_crouch_jump,$logic_hard,$logic_medium,$sprint",
                   "ep3,e3l7_unlock,secrets,$can_jump,$can_open,$fast_crouch_jump,$logic_extreme,$logic_hard,$logic_medium",
                   "ep3,e3l7_unlock,secrets,$can_jump,$can_open,$can_use,$fast_crouch_jump,$logic_hard,$logic_medium,e3l7_blue_key"
@@ -6120,16 +5923,13 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l7_unlock,secrets,$can_open,$can_use,$jump,e3l7_blue_key",
-                  "ep3,e3l7_unlock,secrets,$can_open,$jump,jetpack",
-                  "ep3,e3l7_unlock,secrets,$can_open,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,secrets,$can_open,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,secrets,$can_jump,$can_open,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,secrets,$can_jump,$can_open,$jump,$logic_extreme",
-                  "ep3,e3l7_unlock,secrets,$can_jump,$glitched,$jump,jetpack",
-                  "ep3,e3l7_unlock,secrets,$can_jump,$glitched,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,secrets,$can_jump,$glitched,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,secrets,$can_jump,$glitched,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,secrets,$can_jump,$glitched,$jump,$logic_extreme,$logic_hard",
-                  "ep3,e3l7_unlock,secrets,$can_crouch,$glitched,$jump,$sprint,jetpack",
-                  "ep3,e3l7_unlock,secrets,$can_crouch,$glitched,$jump,$sprint,progressive_jetpack"
+                  "ep3,e3l7_unlock,secrets,$can_crouch,$glitched,$has_jetpack_fuel|50,$jump,$sprint"
                 ]
               }
             ]
@@ -6149,13 +5949,11 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l7_unlock,secrets,$can_open,$can_use,$jump,e3l7_blue_key",
-                  "ep3,e3l7_unlock,secrets,$can_open,$jump,jetpack",
-                  "ep3,e3l7_unlock,secrets,$can_open,$jump,progressive_jetpack",
+                  "ep3,e3l7_unlock,secrets,$can_open,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l7_unlock,secrets,$can_jump,$can_open,$jump,$logic_hard,$sprint",
                   "ep3,e3l7_unlock,secrets,$can_jump,$can_open,$jump,$logic_extreme",
                   "ep3,e3l7_unlock,secrets,$can_crouch,$can_jump,$glitched,$jump,$logic_hard,$sprint",
-                  "ep3,e3l7_unlock,secrets,$can_crouch,$glitched,$jump,$sprint,jetpack",
-                  "ep3,e3l7_unlock,secrets,$can_crouch,$glitched,$jump,$sprint,progressive_jetpack"
+                  "ep3,e3l7_unlock,secrets,$can_crouch,$glitched,$has_jetpack_fuel|50,$jump,$sprint"
                 ]
               }
             ]
@@ -6174,13 +5972,11 @@
                 "name": "Secret Curtain",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l7_unlock,secrets,$can_open,$can_use,e3l7_yellow_key,jetpack",
-                  "ep3,e3l7_unlock,secrets,$can_open,$can_use,e3l7_yellow_key,progressive_jetpack",
+                  "ep3,e3l7_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|50,e3l7_yellow_key",
                   "ep3,e3l7_unlock,secrets,$can_jump,$can_open,$can_use,$logic_hard,$sprint,e3l7_yellow_key",
                   "ep3,e3l7_unlock,secrets,$can_jump,$can_open,$can_use,$logic_extreme,e3l7_yellow_key",
                   "ep3,e3l7_unlock,secrets,$can_open,$can_use,e3l7_blue_key,e3l7_yellow_key",
-                  "ep3,e3l7_unlock,secrets,$can_open,$fast_crouch_jump,$logic_hard,jetpack",
-                  "ep3,e3l7_unlock,secrets,$can_open,$fast_crouch_jump,$logic_hard,progressive_jetpack",
+                  "ep3,e3l7_unlock,secrets,$can_open,$fast_crouch_jump,$has_jetpack_fuel|50,$logic_hard",
                   "ep3,e3l7_unlock,secrets,$can_jump,$can_open,$fast_crouch_jump,$logic_hard,$logic_medium,$sprint",
                   "ep3,e3l7_unlock,secrets,$can_jump,$can_open,$fast_crouch_jump,$logic_extreme,$logic_hard,$logic_medium",
                   "ep3,e3l7_unlock,secrets,$can_jump,$can_open,$can_use,$fast_crouch_jump,$logic_hard,$logic_medium,e3l7_blue_key"
@@ -6544,8 +6340,7 @@
                 "name": "Streets Atomic Health 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l8_unlock,$can_open,$can_use,e3l8_blue_key,jetpack",
-                  "ep3,e3l8_unlock,$can_open,$can_use,e3l8_blue_key,progressive_jetpack",
+                  "ep3,e3l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e3l8_blue_key",
                   "ep3,e3l8_unlock,$can_open,$can_use,e3l8_blue_key,e3l8_yellow_key",
                   "ep3,e3l8_unlock,$can_open,$can_use,$crouch_jump,e3l8_blue_key"
                 ]
@@ -6627,8 +6422,7 @@
                 "name": "Streets Atomic Health 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l8_unlock,$can_open,$can_use,e3l8_blue_key,jetpack",
-                  "ep3,e3l8_unlock,$can_open,$can_use,e3l8_blue_key,progressive_jetpack",
+                  "ep3,e3l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e3l8_blue_key",
                   "ep3,e3l8_unlock,$can_open,$can_use,e3l8_blue_key,e3l8_yellow_key",
                   "ep3,e3l8_unlock,$can_open,$can_use,$crouch_jump,e3l8_blue_key"
                 ]
@@ -8341,32 +8135,23 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,$jump,e3l11_blue_key",
-                  "ep3,e3l11_unlock,$can_dive,$jump,jetpack",
-                  "ep3,e3l11_unlock,$can_dive,$jump,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,rpg",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,rpg",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,rpg",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,rpg",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_rpg",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_rpg",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_rpg",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_rpg",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,pipebomb,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,pipebomb",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_pipebomb",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_pipebomb",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,devastator,e3l11_blue_key",
-                  "ep3,e3l11_unlock,$can_dive,devastator,jetpack",
-                  "ep3,e3l11_unlock,$can_dive,devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,devastator",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_devastator",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_devastator",
-                  "ep3,e3l11_unlock,$can_dive,progressive_devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_devastator",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,tripmine",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,tripmine",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,tripmine",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,tripmine",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_tripmine",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_tripmine",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_tripmine"
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_tripmine"
                 ]
               }
             ]
@@ -8386,32 +8171,23 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,$jump,e3l11_blue_key",
-                  "ep3,e3l11_unlock,$can_dive,$jump,jetpack",
-                  "ep3,e3l11_unlock,$can_dive,$jump,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,rpg",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,rpg",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,rpg",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,rpg",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_rpg",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_rpg",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_rpg",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_rpg",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,pipebomb,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,pipebomb",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_pipebomb",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_pipebomb",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,devastator,e3l11_blue_key",
-                  "ep3,e3l11_unlock,$can_dive,devastator,jetpack",
-                  "ep3,e3l11_unlock,$can_dive,devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,devastator",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_devastator",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_devastator",
-                  "ep3,e3l11_unlock,$can_dive,progressive_devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_devastator",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,tripmine",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,tripmine",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,tripmine",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,tripmine",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_tripmine",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_tripmine",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_tripmine"
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_tripmine"
                 ]
               }
             ]
@@ -8541,32 +8317,23 @@
                 "name": "Ledge Steroids",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l11_unlock,$can_dive,$jump,jetpack",
-                  "ep3,e3l11_unlock,$can_dive,$jump,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,$jump,$logic_medium",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,rpg",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,rpg",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,rpg",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,$logic_medium,rpg",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_rpg",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_rpg",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_rpg",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,$logic_medium,progressive_rpg",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,pipebomb,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,pipebomb",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,$logic_medium,pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_pipebomb",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_pipebomb",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,$logic_medium,progressive_pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,devastator,jetpack",
-                  "ep3,e3l11_unlock,$can_dive,devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,devastator",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,$logic_medium,devastator",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_devastator",
-                  "ep3,e3l11_unlock,$can_dive,progressive_devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_devastator",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,$logic_medium,progressive_devastator",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,tripmine",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,tripmine",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,tripmine",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,$logic_medium,tripmine",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_tripmine",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_tripmine",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_tripmine",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,$logic_medium,progressive_tripmine"
                 ]
               }
@@ -8587,32 +8354,23 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,$jump,e3l11_blue_key",
-                  "ep3,e3l11_unlock,$can_dive,$jump,jetpack",
-                  "ep3,e3l11_unlock,$can_dive,$jump,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,rpg",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,rpg",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,rpg",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,rpg",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_rpg",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_rpg",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_rpg",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_rpg",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,pipebomb,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,pipebomb",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_pipebomb",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_pipebomb",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,devastator,e3l11_blue_key",
-                  "ep3,e3l11_unlock,$can_dive,devastator,jetpack",
-                  "ep3,e3l11_unlock,$can_dive,devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,devastator",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_devastator",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_devastator",
-                  "ep3,e3l11_unlock,$can_dive,progressive_devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_devastator",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,tripmine",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,tripmine",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,tripmine",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,tripmine",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_tripmine",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_tripmine",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_tripmine"
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_tripmine"
                 ]
               }
             ]
@@ -8795,32 +8553,23 @@
                 "name": "Ledge Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l11_unlock,$can_dive,$jump,jetpack",
-                  "ep3,e3l11_unlock,$can_dive,$jump,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,$jump,$logic_medium",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,rpg",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,rpg",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,rpg",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,rpg",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_rpg",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_rpg",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_rpg",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,progressive_rpg",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,pipebomb,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,pipebomb",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_pipebomb",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_pipebomb",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,progressive_pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,devastator,jetpack",
-                  "ep3,e3l11_unlock,$can_dive,devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,devastator",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,devastator",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_devastator",
-                  "ep3,e3l11_unlock,$can_dive,progressive_devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_devastator",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,progressive_devastator",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,tripmine",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,tripmine",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,tripmine",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,tripmine",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_tripmine",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_tripmine",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_tripmine",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,progressive_tripmine"
                 ]
               }
@@ -8997,32 +8746,23 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l11_unlock,$can_crouch,$can_dive,$can_open,$can_use,$jump,e3l11_blue_key",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,$jump,jetpack",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,$jump,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_crouch,$can_dive,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l11_unlock,$can_crouch,$can_dive,$can_open,$can_use,e3l11_blue_key,rpg",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,jetpack,rpg",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,progressive_jetpack,rpg",
+                  "ep3,e3l11_unlock,$can_crouch,$can_dive,$has_jetpack_fuel|50,rpg",
                   "ep3,e3l11_unlock,$can_crouch,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_rpg",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,jetpack,progressive_rpg",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,progressive_jetpack,progressive_rpg",
+                  "ep3,e3l11_unlock,$can_crouch,$can_dive,$has_jetpack_fuel|50,progressive_rpg",
                   "ep3,e3l11_unlock,$can_crouch,$can_dive,$can_open,$can_use,e3l11_blue_key,pipebomb",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,jetpack,pipebomb",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,pipebomb,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_crouch,$can_dive,$has_jetpack_fuel|50,pipebomb",
                   "ep3,e3l11_unlock,$can_crouch,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_pipebomb",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,jetpack,progressive_pipebomb",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,progressive_jetpack,progressive_pipebomb",
+                  "ep3,e3l11_unlock,$can_crouch,$can_dive,$has_jetpack_fuel|50,progressive_pipebomb",
                   "ep3,e3l11_unlock,$can_crouch,$can_dive,$can_open,$can_use,devastator,e3l11_blue_key",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,devastator,jetpack",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_crouch,$can_dive,$has_jetpack_fuel|50,devastator",
                   "ep3,e3l11_unlock,$can_crouch,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_devastator",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,jetpack,progressive_devastator",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,progressive_devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_crouch,$can_dive,$has_jetpack_fuel|50,progressive_devastator",
                   "ep3,e3l11_unlock,$can_crouch,$can_dive,$can_open,$can_use,e3l11_blue_key,tripmine",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,jetpack,tripmine",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,progressive_jetpack,tripmine",
+                  "ep3,e3l11_unlock,$can_crouch,$can_dive,$has_jetpack_fuel|50,tripmine",
                   "ep3,e3l11_unlock,$can_crouch,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_tripmine",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,jetpack,progressive_tripmine",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,progressive_jetpack,progressive_tripmine"
+                  "ep3,e3l11_unlock,$can_crouch,$can_dive,$has_jetpack_fuel|50,progressive_tripmine"
                 ]
               }
             ]
@@ -9042,32 +8782,23 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,$jump,e3l11_blue_key",
-                  "ep3,e3l11_unlock,$can_dive,$jump,jetpack",
-                  "ep3,e3l11_unlock,$can_dive,$jump,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,rpg",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,rpg",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,rpg",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,rpg",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_rpg",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_rpg",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_rpg",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_rpg",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,pipebomb,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,pipebomb",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_pipebomb",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_pipebomb",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,devastator,e3l11_blue_key",
-                  "ep3,e3l11_unlock,$can_dive,devastator,jetpack",
-                  "ep3,e3l11_unlock,$can_dive,devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,devastator",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_devastator",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_devastator",
-                  "ep3,e3l11_unlock,$can_dive,progressive_devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_devastator",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,tripmine",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,tripmine",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,tripmine",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,tripmine",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_tripmine",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_tripmine",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_tripmine"
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_tripmine"
                 ]
               }
             ]
@@ -9122,10 +8853,8 @@
                   "ep3,e3l11_unlock,$can_crouch,$can_dive,$fast_sprint,$glitched,$jump,progressive_devastator",
                   "ep3,e3l11_unlock,$can_crouch,$can_dive,$fast_sprint,$glitched,$jump,tripmine",
                   "ep3,e3l11_unlock,$can_crouch,$can_dive,$fast_sprint,$glitched,$jump,progressive_tripmine",
-                  "ep3,e3l11_unlock,$can_dive,$can_open,$jump,jetpack",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,$fast_sprint,$glitched,$jump,jetpack",
-                  "ep3,e3l11_unlock,$can_dive,$can_open,$jump,progressive_jetpack",
-                  "ep3,e3l11_unlock,$can_crouch,$can_dive,$fast_sprint,$glitched,$jump,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$can_open,$has_jetpack_fuel|50,$jump",
+                  "ep3,e3l11_unlock,$can_crouch,$can_dive,$fast_sprint,$glitched,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l11_unlock,$can_dive,$can_jump,$can_open,$jump,$logic_medium",
                   "ep3,e3l11_unlock,$can_crouch,$can_dive,$can_jump,$fast_sprint,$glitched,$jump,$logic_medium"
                 ]
@@ -9219,32 +8948,23 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,$jump,e3l11_blue_key",
-                  "ep3,e3l11_unlock,$can_dive,$jump,jetpack",
-                  "ep3,e3l11_unlock,$can_dive,$jump,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,rpg",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,rpg",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,rpg",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,rpg",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_rpg",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_rpg",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_rpg",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_rpg",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,pipebomb,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,pipebomb",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_pipebomb",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_pipebomb",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_pipebomb",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,devastator,e3l11_blue_key",
-                  "ep3,e3l11_unlock,$can_dive,devastator,jetpack",
-                  "ep3,e3l11_unlock,$can_dive,devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,devastator",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_devastator",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_devastator",
-                  "ep3,e3l11_unlock,$can_dive,progressive_devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_devastator",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,tripmine",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,tripmine",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,tripmine",
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,tripmine",
                   "ep3,e3l11_unlock,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_tripmine",
-                  "ep3,e3l11_unlock,$can_dive,jetpack,progressive_tripmine",
-                  "ep3,e3l11_unlock,$can_dive,progressive_jetpack,progressive_tripmine"
+                  "ep3,e3l11_unlock,$can_dive,$has_jetpack_fuel|50,progressive_tripmine"
                 ]
               }
             ]
@@ -9309,32 +9029,23 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep3,e3l11_unlock,secrets,$can_dive,$can_open,$can_use,$jump,e3l11_blue_key",
-                  "ep3,e3l11_unlock,secrets,$can_dive,$jump,jetpack",
-                  "ep3,e3l11_unlock,secrets,$can_dive,$jump,progressive_jetpack",
+                  "ep3,e3l11_unlock,secrets,$can_dive,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l11_unlock,secrets,$can_dive,$can_open,$can_use,e3l11_blue_key,rpg",
-                  "ep3,e3l11_unlock,secrets,$can_dive,jetpack,rpg",
-                  "ep3,e3l11_unlock,secrets,$can_dive,progressive_jetpack,rpg",
+                  "ep3,e3l11_unlock,secrets,$can_dive,$has_jetpack_fuel|50,rpg",
                   "ep3,e3l11_unlock,secrets,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_rpg",
-                  "ep3,e3l11_unlock,secrets,$can_dive,jetpack,progressive_rpg",
-                  "ep3,e3l11_unlock,secrets,$can_dive,progressive_jetpack,progressive_rpg",
+                  "ep3,e3l11_unlock,secrets,$can_dive,$has_jetpack_fuel|50,progressive_rpg",
                   "ep3,e3l11_unlock,secrets,$can_dive,$can_open,$can_use,e3l11_blue_key,pipebomb",
-                  "ep3,e3l11_unlock,secrets,$can_dive,jetpack,pipebomb",
-                  "ep3,e3l11_unlock,secrets,$can_dive,pipebomb,progressive_jetpack",
+                  "ep3,e3l11_unlock,secrets,$can_dive,$has_jetpack_fuel|50,pipebomb",
                   "ep3,e3l11_unlock,secrets,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_pipebomb",
-                  "ep3,e3l11_unlock,secrets,$can_dive,jetpack,progressive_pipebomb",
-                  "ep3,e3l11_unlock,secrets,$can_dive,progressive_jetpack,progressive_pipebomb",
+                  "ep3,e3l11_unlock,secrets,$can_dive,$has_jetpack_fuel|50,progressive_pipebomb",
                   "ep3,e3l11_unlock,secrets,$can_dive,$can_open,$can_use,devastator,e3l11_blue_key",
-                  "ep3,e3l11_unlock,secrets,$can_dive,devastator,jetpack",
-                  "ep3,e3l11_unlock,secrets,$can_dive,devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,secrets,$can_dive,$has_jetpack_fuel|50,devastator",
                   "ep3,e3l11_unlock,secrets,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_devastator",
-                  "ep3,e3l11_unlock,secrets,$can_dive,jetpack,progressive_devastator",
-                  "ep3,e3l11_unlock,secrets,$can_dive,progressive_devastator,progressive_jetpack",
+                  "ep3,e3l11_unlock,secrets,$can_dive,$has_jetpack_fuel|50,progressive_devastator",
                   "ep3,e3l11_unlock,secrets,$can_dive,$can_open,$can_use,e3l11_blue_key,tripmine",
-                  "ep3,e3l11_unlock,secrets,$can_dive,jetpack,tripmine",
-                  "ep3,e3l11_unlock,secrets,$can_dive,progressive_jetpack,tripmine",
+                  "ep3,e3l11_unlock,secrets,$can_dive,$has_jetpack_fuel|50,tripmine",
                   "ep3,e3l11_unlock,secrets,$can_dive,$can_open,$can_use,e3l11_blue_key,progressive_tripmine",
-                  "ep3,e3l11_unlock,secrets,$can_dive,jetpack,progressive_tripmine",
-                  "ep3,e3l11_unlock,secrets,$can_dive,progressive_jetpack,progressive_tripmine"
+                  "ep3,e3l11_unlock,secrets,$can_dive,$has_jetpack_fuel|50,progressive_tripmine"
                 ]
               }
             ]
@@ -9389,10 +9100,8 @@
                   "ep3,e3l11_unlock,secrets,$can_crouch,$can_dive,$fast_sprint,$glitched,$jump,progressive_devastator",
                   "ep3,e3l11_unlock,secrets,$can_crouch,$can_dive,$fast_sprint,$glitched,$jump,tripmine",
                   "ep3,e3l11_unlock,secrets,$can_crouch,$can_dive,$fast_sprint,$glitched,$jump,progressive_tripmine",
-                  "ep3,e3l11_unlock,secrets,$can_dive,$can_open,$jump,jetpack",
-                  "ep3,e3l11_unlock,secrets,$can_crouch,$can_dive,$fast_sprint,$glitched,$jump,jetpack",
-                  "ep3,e3l11_unlock,secrets,$can_dive,$can_open,$jump,progressive_jetpack",
-                  "ep3,e3l11_unlock,secrets,$can_crouch,$can_dive,$fast_sprint,$glitched,$jump,progressive_jetpack",
+                  "ep3,e3l11_unlock,secrets,$can_dive,$can_open,$has_jetpack_fuel|50,$jump",
+                  "ep3,e3l11_unlock,secrets,$can_crouch,$can_dive,$fast_sprint,$glitched,$has_jetpack_fuel|50,$jump",
                   "ep3,e3l11_unlock,secrets,$can_dive,$can_jump,$can_open,$jump,$logic_medium",
                   "ep3,e3l11_unlock,secrets,$can_crouch,$can_dive,$can_jump,$fast_sprint,$glitched,$jump,$logic_medium"
                 ]
