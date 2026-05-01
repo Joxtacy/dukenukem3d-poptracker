@@ -6813,8 +6813,8 @@
             "map_locations": [
               {
                 "map": "e3l8_map",
-                "x": 1418,
-                "y": 1572
+                "x": 1321,
+                "y": 208
               }
             ],
             "sections": [
@@ -6837,8 +6837,8 @@
             "map_locations": [
               {
                 "map": "e3l8_map",
-                "x": 1321,
-                "y": 208
+                "x": 1418,
+                "y": 1572
               }
             ],
             "sections": [

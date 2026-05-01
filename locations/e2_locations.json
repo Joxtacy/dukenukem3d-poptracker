@@ -7062,8 +7062,8 @@
             "map_locations": [
               {
                 "map": "e2l8_map",
-                "x": 1254,
-                "y": 349
+                "x": 1364,
+                "y": 239
               }
             ],
             "sections": [
@@ -7089,8 +7089,8 @@
             "map_locations": [
               {
                 "map": "e2l8_map",
-                "x": 1364,
-                "y": 239
+                "x": 1254,
+                "y": 349
               }
             ],
             "sections": [

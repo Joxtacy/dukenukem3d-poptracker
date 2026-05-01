@@ -127,6 +127,12 @@ def parse_map(data: bytes) -> dict:
 # locations (declared in order: Exit, then Secret Exit when present).
 NUKEBUTTON_PICNUM = 142
 
+# Levels where the .MAP author placed the NUKEBUTTON sprites in the opposite
+# order from the apworld's exit-type declaration. For these levels we reverse
+# the sprite list before matching, so Exit lands on the actual normal-exit
+# button and Secret Exit lands on the actual secret-exit button.
+EXIT_REVERSE_LEVELS = {"E2L8", "E3L8"}
+
 
 # ---------------------------------------------------------------------------
 # Coordinate transform
@@ -314,6 +320,8 @@ def extract_pins_calibrated(level, parsed: dict, cal_entry: dict) -> dict:
         (sp["x"], sp["y"]) for sp in parsed["sprites"]
         if sp.get("picnum") == NUKEBUTTON_PICNUM
     ]
+    if level.prefix in EXIT_REVERSE_LEVELS:
+        exit_sprites.reverse()
     exit_iter = iter(exit_sprites)
 
     for loc in level.location_defs:
@@ -373,6 +381,8 @@ def extract_pins(level, parsed: dict, size: tuple[int, int],
         (sp["x"], sp["y"]) for sp in parsed["sprites"]
         if sp.get("picnum") == NUKEBUTTON_PICNUM
     ]
+    if level.prefix in EXIT_REVERSE_LEVELS:
+        exit_sprites.reverse()
     exit_iter = iter(exit_sprites)
 
     for loc in level.location_defs:
