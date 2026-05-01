@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "package_version": "0.0.3",
+      "download_url": "https://github.com/Joxtacy/dukenukem3d-poptracker/releases/download/v0.0.3/duke_nukem_3d_ap_tracker_0.0.3.zip",
+      "sha256": "a7ca34fab2d17174c4089d69c6f2d3bb64277c8adbae07e280159715f34f964b",
+      "changelog": [
+        "feat(maps): thinner walls + --line-width flag",
+        "feat(layout): seed-info badges from slot_data.settings",
+        "chore(codegen): regenerate location rules with fuel-aware literals",
+        "feat(logic): fuel-aware jetpack / dive rules from slot_data.settings.dynamic",
+        "fix(maps): pin Exit / Secret Exit on the actual NUKEBUTTON sprites",
+        "feat(logic): region-graph access rules + logic-difficulty settings panel"
+      ]
+    },
+    {
       "package_version": "0.0.2",
       "download_url": "https://github.com/Joxtacy/dukenukem3d-poptracker/releases/download/v0.0.2/duke_nukem_3d_ap_tracker_0.0.2.zip",
       "sha256": "e7dff625f952c089e2c1d17032c2c89baea8e26a88be1c33b922f488d54a4178",
