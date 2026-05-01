@@ -164,13 +164,17 @@ SECTOR_PIN = (120, 220, 255)
 
 
 def render_map(parsed: dict, size: tuple[int, int],
-               pad=PAD_RATIO) -> Image.Image:
+               pad=PAD_RATIO, line_width: int | None = None) -> Image.Image:
     bbox = compute_bbox(parsed["walls"])
     img = Image.new("RGB", size, BG)
     draw = ImageDraw.Draw(img)
     walls = parsed["walls"]
     # Wall thickness scales with image so very large maps stay readable.
-    line_w = max(2, min(size) // 400)
+    # Override with `line_width` for a fixed thickness across all renders.
+    if line_width is not None:
+        line_w = max(1, line_width)
+    else:
+        line_w = max(1, min(size) // 800)
     for w in walls:
         p2 = w["point2"]
         if p2 >= len(walls):
@@ -424,6 +428,9 @@ def main():
                              "exit. Fill in image_xy and re-run.")
     parser.add_argument("--calibration", type=Path, default=CALIBRATION_PATH,
                         help=f"Calibration JSON path (default: {CALIBRATION_PATH})")
+    parser.add_argument("--line-width", type=int, default=None,
+                        help="Fixed wall line thickness in pixels. If omitted, "
+                             "scales with image size (≈ min(size) // 800).")
     args = parser.parse_args()
 
     if not args.grp.exists():
@@ -469,7 +476,7 @@ def main():
         bbox = compute_bbox(parsed["walls"])
         size = render_size_for(bbox)
         if not args.skip_render:
-            img = render_map(parsed, size)
+            img = render_map(parsed, size, line_width=args.line_width)
             img.save(args.out_images / f"{level.prefix.lower()}_map.png",
                      optimize=True)
             rendered += 1
