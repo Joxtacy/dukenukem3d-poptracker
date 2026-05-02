@@ -170,15 +170,6 @@
     "initial_quantity": 0
   },
   {
-    "name": "Pistol Capacity",
-    "type": "consumable",
-    "img": "images/pistol.png",
-    "codes": "pistol_capacity,d3d_2977761501",
-    "max_quantity": 10,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
     "name": "Progressive Pistol",
     "type": "progressive",
     "img": "images/pistol.png",
@@ -199,15 +190,6 @@
     "img": "images/shotgun.png",
     "codes": "shotgun,d3d_2977761482",
     "max_quantity": 999,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Shotgun Capacity",
-    "type": "consumable",
-    "img": "images/shotgun.png",
-    "codes": "shotgun_capacity,d3d_2977761502",
-    "max_quantity": 10,
     "increment": 1,
     "initial_quantity": 0
   },
@@ -236,15 +218,6 @@
     "initial_quantity": 0
   },
   {
-    "name": "Chaingun Capacity",
-    "type": "consumable",
-    "img": "images/chaingun.png",
-    "codes": "chaingun_capacity,d3d_2977761503",
-    "max_quantity": 10,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
     "name": "Progressive Chaingun",
     "type": "progressive",
     "img": "images/chaingun.png",
@@ -265,15 +238,6 @@
     "img": "images/rpg.png",
     "codes": "rpg,d3d_2977761484",
     "max_quantity": 999,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
-    "name": "RPG Capacity",
-    "type": "consumable",
-    "img": "images/rpg.png",
-    "codes": "rpg_capacity,d3d_2977761504",
-    "max_quantity": 10,
     "increment": 1,
     "initial_quantity": 0
   },
@@ -302,15 +266,6 @@
     "initial_quantity": 0
   },
   {
-    "name": "Pipebomb Capacity",
-    "type": "consumable",
-    "img": "images/pipebomb.png",
-    "codes": "pipebomb_capacity,d3d_2977761505",
-    "max_quantity": 10,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
     "name": "Progressive Pipebomb",
     "type": "progressive",
     "img": "images/pipebomb.png",
@@ -331,15 +286,6 @@
     "img": "images/shrinker.png",
     "codes": "shrinker,d3d_2977761486",
     "max_quantity": 999,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Shrinker Capacity",
-    "type": "consumable",
-    "img": "images/shrinker.png",
-    "codes": "shrinker_capacity,d3d_2977761506",
-    "max_quantity": 10,
     "increment": 1,
     "initial_quantity": 0
   },
@@ -368,15 +314,6 @@
     "initial_quantity": 0
   },
   {
-    "name": "Devastator Capacity",
-    "type": "consumable",
-    "img": "images/devastator.png",
-    "codes": "devastator_capacity,d3d_2977761507",
-    "max_quantity": 10,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
     "name": "Progressive Devastator",
     "type": "progressive",
     "img": "images/devastator.png",
@@ -397,15 +334,6 @@
     "img": "images/tripmine.png",
     "codes": "tripmine,d3d_2977761488",
     "max_quantity": 999,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Tripmine Capacity",
-    "type": "consumable",
-    "img": "images/tripmine.png",
-    "codes": "tripmine_capacity,d3d_2977761508",
-    "max_quantity": 10,
     "increment": 1,
     "initial_quantity": 0
   },
@@ -434,15 +362,6 @@
     "initial_quantity": 0
   },
   {
-    "name": "Freezethrower Capacity",
-    "type": "consumable",
-    "img": "images/freezethrower.png",
-    "codes": "freezethrower_capacity,d3d_2977761509",
-    "max_quantity": 10,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
     "name": "Progressive Freezethrower",
     "type": "progressive",
     "img": "images/freezethrower.png",
@@ -463,15 +382,6 @@
     "img": "images/expander.png",
     "codes": "expander,d3d_2977761491",
     "max_quantity": 999,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Expander Capacity",
-    "type": "consumable",
-    "img": "images/expander.png",
-    "codes": "expander_capacity,d3d_2977761511",
-    "max_quantity": 10,
     "increment": 1,
     "initial_quantity": 0
   },

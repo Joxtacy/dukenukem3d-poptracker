@@ -386,24 +386,29 @@ function onItem(index, item_id, item_name, player_number)
     local code = ITEM_MAP[item_id]
     if not code then return end
 
+    -- obj may be nil for items that exist in ITEM_MAP (auto-generated from
+    -- the apworld) but have no items.json entry (e.g. <weapon>_capacity
+    -- since the dedicated capacity row was retired). Guard the dispatch
+    -- and let the per-weapon cap/ammo bumps below run regardless — those
+    -- only depend on WEAPON_FOR_*_ID maps (keyed by ap_id).
     local obj = Tracker:FindObjectForCode(code)
-    if not obj then return end
-
     local ammo_pack_weapon = WEAPON_FOR_AMMO_ID[item_id]
 
     local prev_stage = nil
-    if obj.Type == "toggle" or obj.Type == "toggle_badged" then
-        obj.Active = true
-    elseif obj.Type == "progressive" then
-        prev_stage = obj.CurrentStage
-        obj.CurrentStage = prev_stage + 1
-    elseif obj.Type == "consumable" then
-        if ammo_pack_weapon then
-            -- Ammo-pack count badge displays total ammo received, not pack count.
-            obj.AcquiredCount = obj.AcquiredCount
-                    + (WEAPON_AMMO_PER_PICKUP[ammo_pack_weapon] or 1)
-        else
-            obj.AcquiredCount = obj.AcquiredCount + 1
+    if obj then
+        if obj.Type == "toggle" or obj.Type == "toggle_badged" then
+            obj.Active = true
+        elseif obj.Type == "progressive" then
+            prev_stage = obj.CurrentStage
+            obj.CurrentStage = prev_stage + 1
+        elseif obj.Type == "consumable" then
+            if ammo_pack_weapon then
+                -- Ammo-pack count badge displays total ammo received, not pack count.
+                obj.AcquiredCount = obj.AcquiredCount
+                        + (WEAPON_AMMO_PER_PICKUP[ammo_pack_weapon] or 1)
+            else
+                obj.AcquiredCount = obj.AcquiredCount + 1
+            end
         end
     end
 
