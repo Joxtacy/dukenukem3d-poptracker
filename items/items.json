@@ -276,7 +276,7 @@
     "type": "consumable",
     "img": "images/pistol_ammo.png",
     "codes": "pistol_ammo,d3d_2977761541",
-    "max_quantity": 99,
+    "max_quantity": 9999,
     "increment": 1,
     "initial_quantity": 0
   },
@@ -306,7 +306,7 @@
     "type": "consumable",
     "img": "images/shotgun_ammo.png",
     "codes": "shotgun_ammo,d3d_2977761542",
-    "max_quantity": 99,
+    "max_quantity": 9999,
     "increment": 1,
     "initial_quantity": 0
   },
@@ -336,7 +336,7 @@
     "type": "consumable",
     "img": "images/chaingun_ammo.png",
     "codes": "chaingun_ammo,d3d_2977761543",
-    "max_quantity": 99,
+    "max_quantity": 9999,
     "increment": 1,
     "initial_quantity": 0
   },
@@ -366,7 +366,7 @@
     "type": "consumable",
     "img": "images/rpg_ammo.png",
     "codes": "rpg_ammo,d3d_2977761544",
-    "max_quantity": 99,
+    "max_quantity": 9999,
     "increment": 1,
     "initial_quantity": 0
   },
@@ -396,7 +396,7 @@
     "type": "consumable",
     "img": "images/pipebomb_ammo.png",
     "codes": "pipebomb_ammo,d3d_2977761545",
-    "max_quantity": 99,
+    "max_quantity": 9999,
     "increment": 1,
     "initial_quantity": 0
   },
@@ -426,7 +426,7 @@
     "type": "consumable",
     "img": "images/shrinker_ammo.png",
     "codes": "shrinker_ammo,d3d_2977761546",
-    "max_quantity": 99,
+    "max_quantity": 9999,
     "increment": 1,
     "initial_quantity": 0
   },
@@ -456,7 +456,7 @@
     "type": "consumable",
     "img": "images/devastator_ammo.png",
     "codes": "devastator_ammo,d3d_2977761547",
-    "max_quantity": 99,
+    "max_quantity": 9999,
     "increment": 1,
     "initial_quantity": 0
   },
@@ -486,7 +486,7 @@
     "type": "consumable",
     "img": "images/tripmine_ammo.png",
     "codes": "tripmine_ammo,d3d_2977761548",
-    "max_quantity": 99,
+    "max_quantity": 9999,
     "increment": 1,
     "initial_quantity": 0
   },
@@ -516,7 +516,7 @@
     "type": "consumable",
     "img": "images/freezethrower_ammo.png",
     "codes": "freezethrower_ammo,d3d_2977761549",
-    "max_quantity": 99,
+    "max_quantity": 9999,
     "increment": 1,
     "initial_quantity": 0
   },
@@ -546,7 +546,7 @@
     "type": "consumable",
     "img": "images/expander_ammo.png",
     "codes": "expander_ammo,d3d_2977761551",
-    "max_quantity": 99,
+    "max_quantity": 9999,
     "increment": 1,
     "initial_quantity": 0
   },

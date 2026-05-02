@@ -71,19 +71,40 @@ WEAPON_CAPACITY_PER_PICKUP = {
     freezethrower = 20,
     expander = 3,
 }
+
+-- Per-weapon ammo bookkeeping. Every weapon-related item the apworld delivers
+-- carries some ammo with it: Ammo packs (static `ammo` field), Capacity items
+-- (static or dynamic-overridable `ammo` bundled in), and Weapon items
+-- (intrinsic `ammo` granted on first pickup; pistol has no Weapon item).
+-- Display the running total on the `<weapon>_ammo` consumable badge so the
+-- count means "rounds received over the run" instead of "packs picked up".
+WEAPON_AMMO_PER_PICKUP = {
+    pistol = 30, shotgun = 15, chaingun = 150,
+    rpg = 10, pipebomb = 10, shrinker = 10,
+    devastator = 50, tripmine = 5, freezethrower = 50,
+    expander = 35,
+}
+WEAPON_CAPACITY_AMMO_PER_PICKUP = {
+    pistol = 10, shotgun = 5, chaingun = 25,
+    rpg = 2, pipebomb = 1, shrinker = 1,
+    devastator = 10, tripmine = 1, freezethrower = 20,
+    expander = 2,
+}
+WEAPON_INTRINSIC_AMMO = {
+    pistol = 0,  -- no Pistol item; pistol weapon is always present
+    shotgun = 15, chaingun = 75,
+    rpg = 5, pipebomb = 4, shrinker = 3,
+    devastator = 15, tripmine = 2, freezethrower = 25,
+    expander = 15,
+}
+
 -- Reverse maps from ap_id to weapon key, built once at module load.
-local function build_weapon_id_map(suffix)
+local function build_weapon_id_map(prefix, suffix)
     local map = {}
     if type(ITEM_MAP) ~= "table" then return map end
     for ap_id, code in pairs(ITEM_MAP) do
         for _, w in ipairs(WEAPON_KEYS) do
-            local target
-            if suffix == "_capacity" then
-                target = w .. "_capacity"
-            else
-                target = "progressive_" .. w
-            end
-            if code == target then
+            if code == (prefix or "") .. w .. (suffix or "") then
                 map[ap_id] = w
                 break
             end
@@ -91,8 +112,10 @@ local function build_weapon_id_map(suffix)
     end
     return map
 end
-WEAPON_FOR_CAPACITY_ID = build_weapon_id_map("_capacity")
-WEAPON_FOR_PROGRESSIVE_ID = build_weapon_id_map("progressive_")
+WEAPON_FOR_CAPACITY_ID = build_weapon_id_map(nil, "_capacity")
+WEAPON_FOR_PROGRESSIVE_ID = build_weapon_id_map("progressive_", nil)
+WEAPON_FOR_AMMO_ID = build_weapon_id_map(nil, "_ammo")
+WEAPON_FOR_BASE_ID = build_weapon_id_map(nil, nil)
 
 -- ============================================================
 -- Helpers
@@ -261,15 +284,25 @@ function onClear(slot_data)
     if type(dynamic) == "table" then
         for ap_id_str, entry in pairs(dynamic) do
             local ap_id = tonumber(ap_id_str)
-            if ap_id and type(entry) == "table" and entry.capacity then
-                if JETPACK_ITEM_IDS[ap_id] then
-                    JETPACK_FUEL_PER_PICKUP = entry.capacity
-                elseif SCUBA_ITEM_IDS[ap_id] then
-                    SCUBA_FUEL_PER_PICKUP = entry.capacity
+            if ap_id and type(entry) == "table" then
+                if entry.capacity then
+                    if JETPACK_ITEM_IDS[ap_id] then
+                        JETPACK_FUEL_PER_PICKUP = entry.capacity
+                    elseif SCUBA_ITEM_IDS[ap_id] then
+                        SCUBA_FUEL_PER_PICKUP = entry.capacity
+                    end
+                    local weapon = WEAPON_FOR_CAPACITY_ID[ap_id]
+                    if weapon then
+                        WEAPON_CAPACITY_PER_PICKUP[weapon] = entry.capacity
+                    end
                 end
-                local weapon = WEAPON_FOR_CAPACITY_ID[ap_id]
-                if weapon then
-                    WEAPON_CAPACITY_PER_PICKUP[weapon] = entry.capacity
+                -- Capacity items also carry bundled `ammo` (apworld defaults
+                -- ceil(capacity_per/2) when overriding capacity).
+                if entry.ammo then
+                    local weapon = WEAPON_FOR_CAPACITY_ID[ap_id]
+                    if weapon then
+                        WEAPON_CAPACITY_AMMO_PER_PICKUP[weapon] = entry.ammo
+                    end
                 end
             end
         end
@@ -351,6 +384,8 @@ function onItem(index, item_id, item_name, player_number)
     local obj = Tracker:FindObjectForCode(code)
     if not obj then return end
 
+    local ammo_pack_weapon = WEAPON_FOR_AMMO_ID[item_id]
+
     local prev_stage = nil
     if obj.Type == "toggle" or obj.Type == "toggle_badged" then
         obj.Active = true
@@ -358,7 +393,29 @@ function onItem(index, item_id, item_name, player_number)
         prev_stage = obj.CurrentStage
         obj.CurrentStage = prev_stage + 1
     elseif obj.Type == "consumable" then
-        obj.AcquiredCount = obj.AcquiredCount + 1
+        if ammo_pack_weapon then
+            -- Ammo-pack count badge displays total ammo received, not pack count.
+            obj.AcquiredCount = obj.AcquiredCount
+                    + (WEAPON_AMMO_PER_PICKUP[ammo_pack_weapon] or 1)
+        else
+            obj.AcquiredCount = obj.AcquiredCount + 1
+        end
+    end
+
+    -- Helper: bump <weapon>_ammo running total by `amount` rounds.
+    local function bump_ammo_total(weapon, amount)
+        if not weapon or not amount or amount <= 0 then return end
+        local ammo_obj = Tracker:FindObjectForCode(weapon .. "_ammo")
+        if ammo_obj then
+            ammo_obj.AcquiredCount = ammo_obj.AcquiredCount + amount
+        end
+    end
+
+    -- Base weapon item (only non-pistol weapons exist; pistol is always
+    -- present). Grants the weapon and intrinsic ammo for it.
+    local base_weapon = WEAPON_FOR_BASE_ID[item_id]
+    if base_weapon then
+        bump_ammo_total(base_weapon, WEAPON_INTRINSIC_AMMO[base_weapon] or 0)
     end
 
     -- Per-weapon ammo cap: every <weapon> Capacity bumps the cap. For
@@ -372,6 +429,7 @@ function onItem(index, item_id, item_name, player_number)
             max_obj.AcquiredCount = max_obj.AcquiredCount
                     + (WEAPON_CAPACITY_PER_PICKUP[cap_weapon] or 0)
         end
+        bump_ammo_total(cap_weapon, WEAPON_CAPACITY_AMMO_PER_PICKUP[cap_weapon] or 0)
     else
         local prog_weapon = WEAPON_FOR_PROGRESSIVE_ID[item_id]
         if prog_weapon then
@@ -382,6 +440,7 @@ function onItem(index, item_id, item_name, player_number)
             if prev_stage == 0 and prog_weapon ~= "pistol" then
                 local toggle_obj = Tracker:FindObjectForCode(prog_weapon)
                 if toggle_obj then toggle_obj.Active = true end
+                bump_ammo_total(prog_weapon, WEAPON_INTRINSIC_AMMO[prog_weapon] or 0)
             end
             -- Cap bump: every Progressive Pistol carries a Pistol Capacity;
             -- other Progressives carry Capacity only at stage 2+.
@@ -391,6 +450,7 @@ function onItem(index, item_id, item_name, player_number)
                     max_obj.AcquiredCount = max_obj.AcquiredCount
                             + (WEAPON_CAPACITY_PER_PICKUP[prog_weapon] or 0)
                 end
+                bump_ammo_total(prog_weapon, WEAPON_CAPACITY_AMMO_PER_PICKUP[prog_weapon] or 0)
             end
         end
     end
