@@ -41,6 +41,14 @@ SCUBA_FUEL_PER_PICKUP = 400
 JETPACK_FUEL_TOTAL = 0
 SCUBA_FUEL_TOTAL = 0
 
+-- Mode flag for the apworld's `progressive_weapons` YAML option. Read from
+-- slot_data.settings.progressive_weapons at onClear; nil when slot_data
+-- doesn't carry it (older apworlds, manual variant). Drives behavior that
+-- depends on whether weapons arrive as separate Weapon + Capacity items
+-- (false) or bundled Progressive items (true). Recommended apworld addition:
+--     self.slot_data["settings"]["progressive_weapons"] = bool(self.options.progressive_weapons)
+IS_PROGRESSIVE_WEAPONS = nil
+
 -- Per-weapon ammo cap state. The displayed `<weapon>_max_start` value is the
 -- player's CURRENT cap, which equals base (settings.maximum.<weapon>) plus the
 -- sum of capacity bumps from received items. The bump-per-item value comes
@@ -215,6 +223,16 @@ function onClear(slot_data)
     end
     set_toggle("no_save", no_save)
 
+    -- Mode: progressive weapons. Stored globally for use elsewhere (currently
+    -- the base-toggle drive in onItem). Stays nil when slot_data omits it,
+    -- which is harmless because in non-progressive mode no progressive_<weapon>
+    -- items arrive (so the toggle-flip path doesn't fire).
+    IS_PROGRESSIVE_WEAPONS = nil
+    if slot_data and slot_data["settings"]
+            and slot_data["settings"]["progressive_weapons"] ~= nil then
+        IS_PROGRESSIVE_WEAPONS = slot_data["settings"]["progressive_weapons"] == true
+    end
+
     -- 4e. Per-weapon ammo cap. settings.maximum.<weapon> is the seed's BASE
     --     cap; the in-game cap grows by `capacity_per` each time a Capacity
     --     (or progressive-stage-2+) item is received. Seed `*_max_start`
@@ -356,11 +374,23 @@ function onItem(index, item_id, item_name, player_number)
         end
     else
         local prog_weapon = WEAPON_FOR_PROGRESSIVE_ID[item_id]
-        if prog_weapon and (prog_weapon == "pistol" or (prev_stage and prev_stage >= 1)) then
-            local max_obj = Tracker:FindObjectForCode(prog_weapon .. "_max_start")
-            if max_obj then
-                max_obj.AcquiredCount = max_obj.AcquiredCount
-                        + (WEAPON_CAPACITY_PER_PICKUP[prog_weapon] or 0)
+        if prog_weapon then
+            -- First Progressive <non-pistol> grants the weapon itself; light
+            -- the base toggle so "owned" reads off the same row regardless of
+            -- progressive_weapons mode. (Pistol's base is a static icon and
+            -- is always present, so no flip needed there.)
+            if prev_stage == 0 and prog_weapon ~= "pistol" then
+                local toggle_obj = Tracker:FindObjectForCode(prog_weapon)
+                if toggle_obj then toggle_obj.Active = true end
+            end
+            -- Cap bump: every Progressive Pistol carries a Pistol Capacity;
+            -- other Progressives carry Capacity only at stage 2+.
+            if prog_weapon == "pistol" or (prev_stage and prev_stage >= 1) then
+                local max_obj = Tracker:FindObjectForCode(prog_weapon .. "_max_start")
+                if max_obj then
+                    max_obj.AcquiredCount = max_obj.AcquiredCount
+                            + (WEAPON_CAPACITY_PER_PICKUP[prog_weapon] or 0)
+                end
             end
         end
     end

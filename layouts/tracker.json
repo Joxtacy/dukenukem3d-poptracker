@@ -37,7 +37,7 @@
                   "content": [
                     {
                       "type": "group",
-                      "header": "Weapons (base / capacity / progressive / ammo / current cap)",
+                      "header": "Weapons (base / progressive / ammo / current cap)",
                       "dock": "top",
                       "content": {
                         "type": "itemgrid",
@@ -55,18 +55,6 @@
                             "tripmine",
                             "freezethrower",
                             "expander"
-                          ],
-                          [
-                            "pistol_capacity",
-                            "shotgun_capacity",
-                            "chaingun_capacity",
-                            "rpg_capacity",
-                            "pipebomb_capacity",
-                            "shrinker_capacity",
-                            "devastator_capacity",
-                            "tripmine_capacity",
-                            "freezethrower_capacity",
-                            "expander_capacity"
                           ],
                           [
                             "progressive_pistol",
