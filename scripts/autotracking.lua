@@ -339,6 +339,19 @@ function onClear(slot_data)
         end
     end
 
+    -- 6a. Pistol ammo baseline. The mod's ap_set_default_inv() (Duke3DAP
+    --     source/rr/src/ap_integration.cpp) gives the player a flat 96 pistol
+    --     rounds on every level entry, clamped to max_ammo[pistol] (= base
+    --     cap). This is independent of skill_level and stacks with AP-
+    --     delivered ammo. Seed it here so the badge mirrors the actual
+    --     level-start ammo; onItem then adds AP-received ammo on top.
+    local PISTOL_BASELINE_AMMO = 96
+    local base_pistol_cap = tonumber(maximum["pistol"]) or PISTOL_BASELINE_AMMO
+    local pistol_ammo_obj = Tracker:FindObjectForCode("pistol_ammo")
+    if pistol_ammo_obj then
+        pistol_ammo_obj.AcquiredCount = math.min(PISTOL_BASELINE_AMMO, base_pistol_cap)
+    end
+
     -- 7. Configure goal counter consumables: badge shows X/Y once MaxQuantity
     --    is set, and we hide the slot for goals not in this seed (count == 0).
     for kind, code in pairs(GOAL_CODES) do
