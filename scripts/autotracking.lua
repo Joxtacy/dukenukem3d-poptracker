@@ -41,6 +41,51 @@ SCUBA_FUEL_PER_PICKUP = 400
 JETPACK_FUEL_TOTAL = 0
 SCUBA_FUEL_TOTAL = 0
 
+-- Per-weapon ammo cap state. The displayed `<weapon>_max_start` value is the
+-- player's CURRENT cap, which equals base (settings.maximum.<weapon>) plus the
+-- sum of capacity bumps from received items. The bump-per-item value comes
+-- from settings.dynamic[<capacity_item_ap_id>].capacity (set per seed by the
+-- apworld). Defaults below match the items/__init__.py fallbacks for the
+-- manual variant where no dynamic value is present.
+WEAPON_KEYS = {
+    "pistol", "shotgun", "chaingun", "rpg", "pipebomb",
+    "shrinker", "devastator", "tripmine", "freezethrower", "expander",
+}
+WEAPON_CAPACITY_PER_PICKUP = {
+    pistol = 20,
+    shotgun = 10,
+    chaingun = 50,
+    rpg = 5,
+    pipebomb = 3,
+    shrinker = 3,
+    devastator = 1,
+    tripmine = 5,
+    freezethrower = 20,
+    expander = 3,
+}
+-- Reverse maps from ap_id to weapon key, built once at module load.
+local function build_weapon_id_map(suffix)
+    local map = {}
+    if type(ITEM_MAP) ~= "table" then return map end
+    for ap_id, code in pairs(ITEM_MAP) do
+        for _, w in ipairs(WEAPON_KEYS) do
+            local target
+            if suffix == "_capacity" then
+                target = w .. "_capacity"
+            else
+                target = "progressive_" .. w
+            end
+            if code == target then
+                map[ap_id] = w
+                break
+            end
+        end
+    end
+    return map
+end
+WEAPON_FOR_CAPACITY_ID = build_weapon_id_map("_capacity")
+WEAPON_FOR_PROGRESSIVE_ID = build_weapon_id_map("progressive_")
+
 -- ============================================================
 -- Helpers
 -- ============================================================
@@ -170,16 +215,13 @@ function onClear(slot_data)
     end
     set_toggle("no_save", no_save)
 
-    -- 4e. Per-weapon starting ammo cap. The apworld scales these by the
-    --     randomizer Difficulty option and writes them to settings.maximum
-    --     keyed by lowercase weapon name. Set the consumable's
-    --     AcquiredCount so the icon's count badge displays the seed value.
+    -- 4e. Per-weapon ammo cap. settings.maximum.<weapon> is the seed's BASE
+    --     cap; the in-game cap grows by `capacity_per` each time a Capacity
+    --     (or progressive-stage-2+) item is received. Seed `*_max_start`
+    --     with the base here; onItem bumps it as items stream in so the
+    --     badge mirrors the player's actual current cap.
     local maximum = (slot_data and slot_data["settings"]
             and slot_data["settings"]["maximum"]) or {}
-    local WEAPON_KEYS = {
-        "pistol", "shotgun", "chaingun", "rpg", "pipebomb",
-        "shrinker", "devastator", "tripmine", "freezethrower", "expander",
-    }
     for _, w in ipairs(WEAPON_KEYS) do
         local obj = Tracker:FindObjectForCode(w .. "_max_start")
         if obj then
@@ -206,6 +248,10 @@ function onClear(slot_data)
                     JETPACK_FUEL_PER_PICKUP = entry.capacity
                 elseif SCUBA_ITEM_IDS[ap_id] then
                     SCUBA_FUEL_PER_PICKUP = entry.capacity
+                end
+                local weapon = WEAPON_FOR_CAPACITY_ID[ap_id]
+                if weapon then
+                    WEAPON_CAPACITY_PER_PICKUP[weapon] = entry.capacity
                 end
             end
         end
@@ -287,12 +333,36 @@ function onItem(index, item_id, item_name, player_number)
     local obj = Tracker:FindObjectForCode(code)
     if not obj then return end
 
+    local prev_stage = nil
     if obj.Type == "toggle" or obj.Type == "toggle_badged" then
         obj.Active = true
     elseif obj.Type == "progressive" then
-        obj.CurrentStage = obj.CurrentStage + 1
+        prev_stage = obj.CurrentStage
+        obj.CurrentStage = prev_stage + 1
     elseif obj.Type == "consumable" then
         obj.AcquiredCount = obj.AcquiredCount + 1
+    end
+
+    -- Per-weapon ammo cap: every <weapon> Capacity bumps the cap. For
+    -- Progressive Pistol every stage is a Pistol Capacity (pistol weapon is
+    -- always present, so items=[Pistol Capacity]); for other progressives
+    -- only stage 2+ delivers a Capacity sub-item (stage 1 is the weapon).
+    local cap_weapon = WEAPON_FOR_CAPACITY_ID[item_id]
+    if cap_weapon then
+        local max_obj = Tracker:FindObjectForCode(cap_weapon .. "_max_start")
+        if max_obj then
+            max_obj.AcquiredCount = max_obj.AcquiredCount
+                    + (WEAPON_CAPACITY_PER_PICKUP[cap_weapon] or 0)
+        end
+    else
+        local prog_weapon = WEAPON_FOR_PROGRESSIVE_ID[item_id]
+        if prog_weapon and (prog_weapon == "pistol" or (prev_stage and prev_stage >= 1)) then
+            local max_obj = Tracker:FindObjectForCode(prog_weapon .. "_max_start")
+            if max_obj then
+                max_obj.AcquiredCount = max_obj.AcquiredCount
+                        + (WEAPON_CAPACITY_PER_PICKUP[prog_weapon] or 0)
+            end
+        end
     end
 end
 

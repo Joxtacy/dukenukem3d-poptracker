@@ -134,7 +134,7 @@
     "codes": "no_save"
   },
   {
-    "name": "Pistol Starting Ammo",
+    "name": "Pistol Ammo Cap",
     "type": "consumable",
     "img": "images/pistol.png",
     "codes": "pistol_max_start",
@@ -143,7 +143,7 @@
     "initial_quantity": 0
   },
   {
-    "name": "Shotgun Starting Ammo",
+    "name": "Shotgun Ammo Cap",
     "type": "consumable",
     "img": "images/shotgun.png",
     "codes": "shotgun_max_start",
@@ -152,7 +152,7 @@
     "initial_quantity": 0
   },
   {
-    "name": "Chaingun Starting Ammo",
+    "name": "Chaingun Ammo Cap",
     "type": "consumable",
     "img": "images/chaingun.png",
     "codes": "chaingun_max_start",
@@ -161,7 +161,7 @@
     "initial_quantity": 0
   },
   {
-    "name": "RPG Starting Ammo",
+    "name": "RPG Ammo Cap",
     "type": "consumable",
     "img": "images/rpg.png",
     "codes": "rpg_max_start",
@@ -170,7 +170,7 @@
     "initial_quantity": 0
   },
   {
-    "name": "Pipebomb Starting Ammo",
+    "name": "Pipebomb Ammo Cap",
     "type": "consumable",
     "img": "images/pipebomb.png",
     "codes": "pipebomb_max_start",
@@ -179,7 +179,7 @@
     "initial_quantity": 0
   },
   {
-    "name": "Shrinker Starting Ammo",
+    "name": "Shrinker Ammo Cap",
     "type": "consumable",
     "img": "images/shrinker.png",
     "codes": "shrinker_max_start",
@@ -188,7 +188,7 @@
     "initial_quantity": 0
   },
   {
-    "name": "Devastator Starting Ammo",
+    "name": "Devastator Ammo Cap",
     "type": "consumable",
     "img": "images/devastator.png",
     "codes": "devastator_max_start",
@@ -197,7 +197,7 @@
     "initial_quantity": 0
   },
   {
-    "name": "Tripmine Starting Ammo",
+    "name": "Tripmine Ammo Cap",
     "type": "consumable",
     "img": "images/tripmine.png",
     "codes": "tripmine_max_start",
@@ -206,7 +206,7 @@
     "initial_quantity": 0
   },
   {
-    "name": "Freezethrower Starting Ammo",
+    "name": "Freezethrower Ammo Cap",
     "type": "consumable",
     "img": "images/freezethrower.png",
     "codes": "freezethrower_max_start",
@@ -215,7 +215,7 @@
     "initial_quantity": 0
   },
   {
-    "name": "Expander Starting Ammo",
+    "name": "Expander Ammo Cap",
     "type": "consumable",
     "img": "images/expander.png",
     "codes": "expander_max_start",

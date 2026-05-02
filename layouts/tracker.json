@@ -37,7 +37,7 @@
                   "content": [
                     {
                       "type": "group",
-                      "header": "Weapons (base / capacity / progressive / ammo / seed start cap)",
+                      "header": "Weapons (base / capacity / progressive / ammo / current cap)",
                       "dock": "top",
                       "content": {
                         "type": "itemgrid",
