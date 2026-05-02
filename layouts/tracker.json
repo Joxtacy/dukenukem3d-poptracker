@@ -37,7 +37,7 @@
                   "content": [
                     {
                       "type": "group",
-                      "header": "Weapons (base / progressive / ammo / current cap)",
+                      "header": "Weapons (icon = owned, badge = current ammo cap; second row = total ammo received)",
                       "dock": "top",
                       "content": {
                         "type": "itemgrid",
@@ -57,18 +57,6 @@
                             "expander"
                           ],
                           [
-                            "progressive_pistol",
-                            "progressive_shotgun",
-                            "progressive_chaingun",
-                            "progressive_rpg",
-                            "progressive_pipebomb",
-                            "progressive_shrinker",
-                            "progressive_devastator",
-                            "progressive_tripmine",
-                            "progressive_freezethrower",
-                            "progressive_expander"
-                          ],
-                          [
                             "pistol_ammo",
                             "shotgun_ammo",
                             "chaingun_ammo",
@@ -79,18 +67,6 @@
                             "tripmine_ammo",
                             "freezethrower_ammo",
                             "expander_ammo"
-                          ],
-                          [
-                            "pistol_max_start",
-                            "shotgun_max_start",
-                            "chaingun_max_start",
-                            "rpg_max_start",
-                            "pipebomb_max_start",
-                            "shrinker_max_start",
-                            "devastator_max_start",
-                            "tripmine_max_start",
-                            "freezethrower_max_start",
-                            "expander_max_start"
                           ]
                         ]
                       }

@@ -134,96 +134,6 @@
     "codes": "no_save"
   },
   {
-    "name": "Pistol Ammo Cap",
-    "type": "consumable",
-    "img": "images/pistol.png",
-    "codes": "pistol_max_start",
-    "max_quantity": 999,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Shotgun Ammo Cap",
-    "type": "consumable",
-    "img": "images/shotgun.png",
-    "codes": "shotgun_max_start",
-    "max_quantity": 999,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Chaingun Ammo Cap",
-    "type": "consumable",
-    "img": "images/chaingun.png",
-    "codes": "chaingun_max_start",
-    "max_quantity": 999,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
-    "name": "RPG Ammo Cap",
-    "type": "consumable",
-    "img": "images/rpg.png",
-    "codes": "rpg_max_start",
-    "max_quantity": 999,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Pipebomb Ammo Cap",
-    "type": "consumable",
-    "img": "images/pipebomb.png",
-    "codes": "pipebomb_max_start",
-    "max_quantity": 999,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Shrinker Ammo Cap",
-    "type": "consumable",
-    "img": "images/shrinker.png",
-    "codes": "shrinker_max_start",
-    "max_quantity": 999,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Devastator Ammo Cap",
-    "type": "consumable",
-    "img": "images/devastator.png",
-    "codes": "devastator_max_start",
-    "max_quantity": 999,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Tripmine Ammo Cap",
-    "type": "consumable",
-    "img": "images/tripmine.png",
-    "codes": "tripmine_max_start",
-    "max_quantity": 999,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Freezethrower Ammo Cap",
-    "type": "consumable",
-    "img": "images/freezethrower.png",
-    "codes": "freezethrower_max_start",
-    "max_quantity": 999,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
-    "name": "Expander Ammo Cap",
-    "type": "consumable",
-    "img": "images/expander.png",
-    "codes": "expander_max_start",
-    "max_quantity": 999,
-    "increment": 1,
-    "initial_quantity": 0
-  },
-  {
     "name": "Exits",
     "type": "consumable",
     "img": "images/goal_exit.png",
@@ -252,9 +162,12 @@
   },
   {
     "name": "Pistol",
-    "type": "static",
+    "type": "toggle_badged",
     "img": "images/pistol.png",
-    "codes": "pistol"
+    "codes": "pistol",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
   },
   {
     "name": "Pistol Capacity",
@@ -282,9 +195,12 @@
   },
   {
     "name": "Shotgun",
-    "type": "toggle",
+    "type": "toggle_badged",
     "img": "images/shotgun.png",
-    "codes": "shotgun,d3d_2977761482"
+    "codes": "shotgun,d3d_2977761482",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
   },
   {
     "name": "Shotgun Capacity",
@@ -312,9 +228,12 @@
   },
   {
     "name": "Chaingun",
-    "type": "toggle",
+    "type": "toggle_badged",
     "img": "images/chaingun.png",
-    "codes": "chaingun,d3d_2977761483"
+    "codes": "chaingun,d3d_2977761483",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
   },
   {
     "name": "Chaingun Capacity",
@@ -342,9 +261,12 @@
   },
   {
     "name": "RPG",
-    "type": "toggle",
+    "type": "toggle_badged",
     "img": "images/rpg.png",
-    "codes": "rpg,d3d_2977761484"
+    "codes": "rpg,d3d_2977761484",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
   },
   {
     "name": "RPG Capacity",
@@ -372,9 +294,12 @@
   },
   {
     "name": "Pipebomb",
-    "type": "toggle",
+    "type": "toggle_badged",
     "img": "images/pipebomb.png",
-    "codes": "pipebomb,d3d_2977761485"
+    "codes": "pipebomb,d3d_2977761485",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
   },
   {
     "name": "Pipebomb Capacity",
@@ -402,9 +327,12 @@
   },
   {
     "name": "Shrinker",
-    "type": "toggle",
+    "type": "toggle_badged",
     "img": "images/shrinker.png",
-    "codes": "shrinker,d3d_2977761486"
+    "codes": "shrinker,d3d_2977761486",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
   },
   {
     "name": "Shrinker Capacity",
@@ -432,9 +360,12 @@
   },
   {
     "name": "Devastator",
-    "type": "toggle",
+    "type": "toggle_badged",
     "img": "images/devastator.png",
-    "codes": "devastator,d3d_2977761487"
+    "codes": "devastator,d3d_2977761487",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
   },
   {
     "name": "Devastator Capacity",
@@ -462,9 +393,12 @@
   },
   {
     "name": "Tripmine",
-    "type": "toggle",
+    "type": "toggle_badged",
     "img": "images/tripmine.png",
-    "codes": "tripmine,d3d_2977761488"
+    "codes": "tripmine,d3d_2977761488",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
   },
   {
     "name": "Tripmine Capacity",
@@ -492,9 +426,12 @@
   },
   {
     "name": "Freezethrower",
-    "type": "toggle",
+    "type": "toggle_badged",
     "img": "images/freezethrower.png",
-    "codes": "freezethrower,d3d_2977761489"
+    "codes": "freezethrower,d3d_2977761489",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
   },
   {
     "name": "Freezethrower Capacity",
@@ -522,9 +459,12 @@
   },
   {
     "name": "Expander",
-    "type": "toggle",
+    "type": "toggle_badged",
     "img": "images/expander.png",
-    "codes": "expander,d3d_2977761491"
+    "codes": "expander,d3d_2977761491",
+    "max_quantity": 999,
+    "increment": 1,
+    "initial_quantity": 0
   },
   {
     "name": "Expander Capacity",

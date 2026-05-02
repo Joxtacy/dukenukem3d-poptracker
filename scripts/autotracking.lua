@@ -258,17 +258,22 @@ function onClear(slot_data)
 
     -- 4e. Per-weapon ammo cap. settings.maximum.<weapon> is the seed's BASE
     --     cap; the in-game cap grows by `capacity_per` each time a Capacity
-    --     (or progressive-stage-2+) item is received. Seed `*_max_start`
-    --     with the base here; onItem bumps it as items stream in so the
-    --     badge mirrors the player's actual current cap.
+    --     (or progressive-stage-2+) item is received. The cap is displayed
+    --     as the toggle_badged AcquiredCount on the weapon icon itself, so
+    --     this also serves as the "reset to base" step before items stream
+    --     in. Pistol is always present, so re-light it (the reset loop
+    --     below would clear Active for any toggle_badged in ITEM_MAP, but
+    --     pistol isn't in ITEM_MAP — still, set explicitly for safety).
     local maximum = (slot_data and slot_data["settings"]
             and slot_data["settings"]["maximum"]) or {}
     for _, w in ipairs(WEAPON_KEYS) do
-        local obj = Tracker:FindObjectForCode(w .. "_max_start")
+        local obj = Tracker:FindObjectForCode(w)
         if obj then
             obj.AcquiredCount = tonumber(maximum[w]) or 0
         end
     end
+    local pistol_obj = Tracker:FindObjectForCode("pistol")
+    if pistol_obj then pistol_obj.Active = true end
 
     -- 4c. Fuel-aware logic: read per-pickup capacities for jetpack and scuba
     --     from slot_data.settings.dynamic. The apworld writes the same
@@ -422,21 +427,26 @@ function onItem(index, item_id, item_name, player_number)
     -- Progressive Pistol every stage is a Pistol Capacity (pistol weapon is
     -- always present, so items=[Pistol Capacity]); for other progressives
     -- only stage 2+ delivers a Capacity sub-item (stage 1 is the weapon).
+    -- Helper: bump the <weapon> toggle_badged AcquiredCount, which is the
+    -- on-icon current ammo cap badge.
+    local function bump_cap(weapon, amount)
+        if not weapon or not amount or amount <= 0 then return end
+        local cap_obj = Tracker:FindObjectForCode(weapon)
+        if cap_obj then
+            cap_obj.AcquiredCount = cap_obj.AcquiredCount + amount
+        end
+    end
+
     local cap_weapon = WEAPON_FOR_CAPACITY_ID[item_id]
     if cap_weapon then
-        local max_obj = Tracker:FindObjectForCode(cap_weapon .. "_max_start")
-        if max_obj then
-            max_obj.AcquiredCount = max_obj.AcquiredCount
-                    + (WEAPON_CAPACITY_PER_PICKUP[cap_weapon] or 0)
-        end
+        bump_cap(cap_weapon, WEAPON_CAPACITY_PER_PICKUP[cap_weapon] or 0)
         bump_ammo_total(cap_weapon, WEAPON_CAPACITY_AMMO_PER_PICKUP[cap_weapon] or 0)
     else
         local prog_weapon = WEAPON_FOR_PROGRESSIVE_ID[item_id]
         if prog_weapon then
             -- First Progressive <non-pistol> grants the weapon itself; light
             -- the base toggle so "owned" reads off the same row regardless of
-            -- progressive_weapons mode. (Pistol's base is a static icon and
-            -- is always present, so no flip needed there.)
+            -- progressive_weapons mode. (Pistol is forced Active in init.)
             if prev_stage == 0 and prog_weapon ~= "pistol" then
                 local toggle_obj = Tracker:FindObjectForCode(prog_weapon)
                 if toggle_obj then toggle_obj.Active = true end
@@ -445,11 +455,7 @@ function onItem(index, item_id, item_name, player_number)
             -- Cap bump: every Progressive Pistol carries a Pistol Capacity;
             -- other Progressives carry Capacity only at stage 2+.
             if prog_weapon == "pistol" or (prev_stage and prev_stage >= 1) then
-                local max_obj = Tracker:FindObjectForCode(prog_weapon .. "_max_start")
-                if max_obj then
-                    max_obj.AcquiredCount = max_obj.AcquiredCount
-                            + (WEAPON_CAPACITY_PER_PICKUP[prog_weapon] or 0)
-                end
+                bump_cap(prog_weapon, WEAPON_CAPACITY_PER_PICKUP[prog_weapon] or 0)
                 bump_ammo_total(prog_weapon, WEAPON_CAPACITY_AMMO_PER_PICKUP[prog_weapon] or 0)
             end
         end
