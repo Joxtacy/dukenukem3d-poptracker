@@ -16,6 +16,7 @@ Top-level entry: compute_all_level_rules(apworld_dir).
 from __future__ import annotations
 
 import ast
+import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Iterable
@@ -481,11 +482,24 @@ def parse_level_graph(level_path: Path) -> LevelGraph:
                 if rname is None:
                     continue
                 full_name = f"{prefix} {rname}"
-                region_locations[full_name] = []
+                # If a region with this name was declared earlier, merge into
+                # it rather than overwriting — otherwise the previous variable's
+                # locations and edges silently leak into the void. This guards
+                # against upstream typos that reuse a region name (e.g. e1l4's
+                # `canyon_return3 = self.region("Canyon Return Path 1", ...)`).
+                already_seen = full_name in region_locations
+                if already_seen:
+                    print(
+                        f"warning: duplicate region name {full_name!r} "
+                        f"(var {stmt.targets[0].id!r}); merging locations",
+                        file=sys.stderr,
+                    )
+                else:
+                    region_locations[full_name] = []
                 if len(call.args) >= 2:
                     locs = _eval_string_list(call.args[1], prefix, self_attrs,
                                              all_loc_names)
-                    region_locations[full_name] = locs
+                    region_locations[full_name].extend(locs)
                 var_to_region[stmt.targets[0].id] = full_name
                 if main_region_name is None:
                     main_region_name = full_name

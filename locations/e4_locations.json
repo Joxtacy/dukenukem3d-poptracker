@@ -6527,7 +6527,14 @@
                 "name": "Blue Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
-                  "ep4,e4l7_unlock"
+                  "ep4,e4l7_unlock,$can_dive,$can_open,$can_use,$jump,e4l7_blue_key",
+                  "ep4,e4l7_unlock,$can_open,$can_use,$crouch_jump,$jump,e4l7_blue_key",
+                  "ep4,e4l7_unlock,$can_dive,$can_open,$can_use,$fast_crouch_jump,$logic_hard",
+                  "ep4,e4l7_unlock,$can_dive,$can_open,$fast_crouch_jump,$has_jetpack_fuel|50,$logic_hard",
+                  "ep4,e4l7_unlock,$can_open,$crouch_jump,$fast_crouch_jump,$logic_hard",
+                  "ep4,e4l7_unlock,$can_crouch,$can_dive,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_hard",
+                  "ep4,e4l7_unlock,$can_crouch,$can_dive,$can_open,$fast_sprint,$glitched,$has_jetpack_fuel|50,$jump,$logic_hard",
+                  "ep4,e4l7_unlock,$can_crouch,$can_open,$crouch_jump,$fast_sprint,$glitched,$jump,$logic_hard"
                 ]
               }
             ]
