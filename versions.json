@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "0.0.6",
+      "download_url": "https://github.com/Joxtacy/dukenukem3d-poptracker/releases/download/v0.0.6/duke_nukem_3d_ap_tracker_0.0.6.zip",
+      "sha256": "2b550dce2d21824cd70ea579d6e88acba5a0ca50d1fae1f73cce9fa5817b8b2e",
+      "changelog": [
+        "fix(autotracker): seed pistol ammo with the mod's 96-round level baseline"
+      ]
+    },
+    {
       "package_version": "0.0.5",
       "download_url": "https://github.com/Joxtacy/dukenukem3d-poptracker/releases/download/v0.0.5/duke_nukem_3d_ap_tracker_0.0.5.zip",
       "sha256": "ef38a75953554eb39ea84b2ff5e5e4be9dacdd0ed6d4b094f20c572b1c723ed1",
