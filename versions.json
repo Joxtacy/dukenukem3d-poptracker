@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "0.0.7",
+      "download_url": "https://github.com/Joxtacy/dukenukem3d-poptracker/releases/download/v0.0.7/duke_nukem_3d_ap_tracker_0.0.7.zip",
+      "sha256": "87fa24adc00a1c69eb0d4a5d20fc43a3c82e72649ad215861e438e96e8c16b11",
+      "changelog": [
+        "fix(logic): merge duplicate region names in apworld parser"
+      ]
+    },
+    {
       "package_version": "0.0.6",
       "download_url": "https://github.com/Joxtacy/dukenukem3d-poptracker/releases/download/v0.0.6/duke_nukem_3d_ap_tracker_0.0.6.zip",
       "sha256": "2b550dce2d21824cd70ea579d6e88acba5a0ca50d1fae1f73cce9fa5817b8b2e",
