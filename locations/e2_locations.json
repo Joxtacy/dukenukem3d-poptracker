@@ -85,12 +85,12 @@
             ]
           },
           {
-            "name": "MP Elevator Corner Freezethrower",
+            "name": "Elevator Corner",
             "map_locations": [
               {
                 "map": "e2l1_map",
-                "x": 763,
-                "y": 645
+                "x": 764,
+                "y": 641
               }
             ],
             "sections": [
@@ -99,6 +99,13 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l1_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e2l1_blue_key"
+                ]
+              },
+              {
+                "name": "Secret Elevator Corner",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l1_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|50,e2l1_blue_key"
                 ]
               }
             ]
@@ -142,17 +149,31 @@
             ]
           },
           {
-            "name": "Underwater Jetpack",
+            "name": "Underwater",
             "map_locations": [
               {
                 "map": "e2l1_map",
-                "x": 162,
+                "x": 161,
                 "y": 563
               }
             ],
             "sections": [
               {
                 "name": "Underwater Jetpack",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l1_unlock,$can_dive,$can_open,$can_use,$jump,e2l1_blue_key"
+                ]
+              },
+              {
+                "name": "Underwater Atomic Health 1",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l1_unlock,$can_dive,$can_open,$can_use,$jump,e2l1_blue_key"
+                ]
+              },
+              {
+                "name": "Underwater Atomic Health 2",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l1_unlock,$can_dive,$can_open,$can_use,$jump,e2l1_blue_key"
@@ -180,12 +201,12 @@
             ]
           },
           {
-            "name": "Start Shotgun",
+            "name": "Monitor",
             "map_locations": [
               {
                 "map": "e2l1_map",
-                "x": 730,
-                "y": 732
+                "x": 735,
+                "y": 724
               }
             ],
             "sections": [
@@ -194,6 +215,20 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l1_unlock"
+                ]
+              },
+              {
+                "name": "Monitor Wall Atomic Health",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l1_unlock,$can_open"
+                ]
+              },
+              {
+                "name": "Secret Monitor Wall",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l1_unlock,secrets,$can_open"
                 ]
               }
             ]
@@ -237,12 +272,12 @@
             ]
           },
           {
-            "name": "Middle Floor Pipebombs",
+            "name": "Middle",
             "map_locations": [
               {
                 "map": "e2l1_map",
-                "x": 1522,
-                "y": 527
+                "x": 1525,
+                "y": 524
               }
             ],
             "sections": [
@@ -252,43 +287,12 @@
                 "access_rules": [
                   "ep2,e2l1_unlock,$can_open,$can_use,e2l1_blue_key"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Underwater Atomic Health 1",
-            "map_locations": [
+              },
               {
-                "map": "e2l1_map",
-                "x": 160,
-                "y": 559
-              }
-            ],
-            "sections": [
-              {
-                "name": "Underwater Atomic Health 1",
+                "name": "Middle Room Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,$can_dive,$can_open,$can_use,$jump,e2l1_blue_key"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Underwater Atomic Health 2",
-            "map_locations": [
-              {
-                "map": "e2l1_map",
-                "x": 160,
-                "y": 566
-              }
-            ],
-            "sections": [
-              {
-                "name": "Underwater Atomic Health 2",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l1_unlock,$can_dive,$can_open,$can_use,$jump,e2l1_blue_key"
+                  "ep2,e2l1_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e2l1_blue_key"
                 ]
               }
             ]
@@ -313,12 +317,12 @@
             ]
           },
           {
-            "name": "Top Floor Atomic Health",
+            "name": "Top Floor",
             "map_locations": [
               {
                 "map": "e2l1_map",
-                "x": 1869,
-                "y": 637
+                "x": 1860,
+                "y": 642
               }
             ],
             "sections": [
@@ -327,6 +331,20 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l1_unlock,$can_open,$can_use,$has_jetpack_fuel|75,e2l1_blue_key"
+                ]
+              },
+              {
+                "name": "Top Floor Devastator",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l1_unlock,$can_open,$can_use,$has_jetpack_fuel|75,e2l1_blue_key"
+                ]
+              },
+              {
+                "name": "Secret Top Floor",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l1_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|75,e2l1_blue_key"
                 ]
               }
             ]
@@ -408,11 +426,11 @@
             ]
           },
           {
-            "name": "MP Attic Tripmine 1",
+            "name": "Attic Tripmine",
             "map_locations": [
               {
                 "map": "e2l1_map",
-                "x": 1939,
+                "x": 1946,
                 "y": 551
               }
             ],
@@ -423,38 +441,14 @@
                 "access_rules": [
                   "ep2,e2l1_unlock,$can_open,$can_use,$has_jetpack_fuel|100,e2l1_blue_key"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "MP Attic Tripmine 2",
-            "map_locations": [
-              {
-                "map": "e2l1_map",
-                "x": 1954,
-                "y": 551
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "MP Attic Tripmine 2",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l1_unlock,$can_open,$can_use,$has_jetpack_fuel|100,e2l1_blue_key"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "MP Attic Tripmine 3",
-            "map_locations": [
-              {
-                "map": "e2l1_map",
-                "x": 1946,
-                "y": 550
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "MP Attic Tripmine 3",
                 "item_count": 1,
@@ -480,43 +474,12 @@
                 "access_rules": [
                   "ep2,e2l1_unlock,$jump"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Top Floor Devastator",
-            "map_locations": [
+              },
               {
-                "map": "e2l1_map",
-                "x": 1856,
-                "y": 650
-              }
-            ],
-            "sections": [
-              {
-                "name": "Top Floor Devastator",
+                "name": "Secret Timed Alcove",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l1_unlock,$can_open,$can_use,$has_jetpack_fuel|75,e2l1_blue_key"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Middle Room Atomic Health",
-            "map_locations": [
-              {
-                "map": "e2l1_map",
-                "x": 1528,
-                "y": 522
-              }
-            ],
-            "sections": [
-              {
-                "name": "Middle Room Atomic Health",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l1_unlock,$can_open,$can_use,$has_jetpack_fuel|50,e2l1_blue_key"
+                  "ep2,e2l1_unlock,secrets,$jump"
                 ]
               }
             ]
@@ -536,82 +499,6 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l1_unlock"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Monitor Wall Atomic Health",
-            "map_locations": [
-              {
-                "map": "e2l1_map",
-                "x": 742,
-                "y": 719
-              }
-            ],
-            "sections": [
-              {
-                "name": "Monitor Wall Atomic Health",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l1_unlock,$can_open"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Top Floor",
-            "map_locations": [
-              {
-                "map": "e2l1_map",
-                "x": 1856,
-                "y": 639
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Top Floor",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l1_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|75,e2l1_blue_key"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Timed Alcove",
-            "map_locations": [
-              {
-                "map": "e2l1_map",
-                "x": 691,
-                "y": 662
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Timed Alcove",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l1_unlock,secrets,$jump"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Elevator Corner",
-            "map_locations": [
-              {
-                "map": "e2l1_map",
-                "x": 765,
-                "y": 637
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Elevator Corner",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l1_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|50,e2l1_blue_key"
                 ]
               }
             ]
@@ -650,25 +537,6 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l1_unlock,secrets,$can_open,$can_use,e2l1_blue_key"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Monitor Wall",
-            "map_locations": [
-              {
-                "map": "e2l1_map",
-                "x": 732,
-                "y": 720
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Monitor Wall",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l1_unlock,secrets,$can_open"
                 ]
               }
             ]
@@ -818,11 +686,11 @@
             ]
           },
           {
-            "name": "Hidden Screen Room Armor",
+            "name": "Hidden Screen Room",
             "map_locations": [
               {
                 "map": "e2l2_map",
-                "x": 1163,
+                "x": 1157,
                 "y": 1297
               }
             ],
@@ -834,6 +702,15 @@
                   "ep2,e2l2_unlock,$can_open,$jump",
                   "ep2,e2l2_unlock,$can_open,$can_sprint,$logic_hard",
                   "ep2,e2l2_unlock,$can_open,$logic_extreme"
+                ]
+              },
+              {
+                "name": "Secret Hidden Screen Room 1",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l2_unlock,secrets,$can_open,$jump",
+                  "ep2,e2l2_unlock,secrets,$can_open,$can_sprint,$logic_hard",
+                  "ep2,e2l2_unlock,secrets,$can_open,$logic_extreme"
                 ]
               }
             ]
@@ -860,12 +737,12 @@
             ]
           },
           {
-            "name": "EDF Logo Medkit",
+            "name": "EDF Logo",
             "map_locations": [
               {
                 "map": "e2l2_map",
                 "x": 918,
-                "y": 1198
+                "y": 1196
               }
             ],
             "sections": [
@@ -875,16 +752,23 @@
                 "access_rules": [
                   "ep2,e2l2_unlock,$can_open,$can_use"
                 ]
+              },
+              {
+                "name": "Secret EDF Logo",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l2_unlock,secrets,$can_open,$can_use,$jump"
+                ]
               }
             ]
           },
           {
-            "name": "Pool Steroids",
+            "name": "Pool",
             "map_locations": [
               {
                 "map": "e2l2_map",
                 "x": 753,
-                "y": 1778
+                "y": 1780
               }
             ],
             "sections": [
@@ -898,19 +782,7 @@
                   "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_steroids",
                   "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_extreme"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Pool Medkit",
-            "map_locations": [
-              {
-                "map": "e2l2_map",
-                "x": 753,
-                "y": 1783
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Pool Medkit",
                 "item_count": 1,
@@ -950,8 +822,8 @@
             "map_locations": [
               {
                 "map": "e2l2_map",
-                "x": 812,
-                "y": 1487
+                "x": 811,
+                "y": 1492
               }
             ],
             "sections": [
@@ -960,6 +832,17 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l2_unlock,$can_open,$can_use"
+                ]
+              },
+              {
+                "name": "Exit",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key",
+                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$logic_hard",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,steroids",
+                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_steroids",
+                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_extreme"
                 ]
               }
             ]
@@ -1072,11 +955,11 @@
             ]
           },
           {
-            "name": "Beta Medkit",
+            "name": "Beta",
             "map_locations": [
               {
                 "map": "e2l2_map",
-                "x": 1207,
+                "x": 1204,
                 "y": 1437
               }
             ],
@@ -1087,19 +970,7 @@
                 "access_rules": [
                   "ep2,e2l2_unlock"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Beta Steroids",
-            "map_locations": [
-              {
-                "map": "e2l2_map",
-                "x": 1201,
-                "y": 1437
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Beta Steroids",
                 "item_count": 1,
@@ -1110,12 +981,12 @@
             ]
           },
           {
-            "name": "Armory Tripmine 1",
+            "name": "Armory Tripmine",
             "map_locations": [
               {
                 "map": "e2l2_map",
-                "x": 679,
-                "y": 1344
+                "x": 686,
+                "y": 1346
               }
             ],
             "sections": [
@@ -1125,38 +996,14 @@
                 "access_rules": [
                   "ep2,e2l2_unlock,$can_open,$can_use"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Armory Tripmine 2",
-            "map_locations": [
-              {
-                "map": "e2l2_map",
-                "x": 693,
-                "y": 1344
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Armory Tripmine 2",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l2_unlock,$can_open,$can_use"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Armory Tripmine 3",
-            "map_locations": [
-              {
-                "map": "e2l2_map",
-                "x": 686,
-                "y": 1349
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Armory Tripmine 3",
                 "item_count": 1,
@@ -1167,12 +1014,12 @@
             ]
           },
           {
-            "name": "Wall Panel Holo Duke",
+            "name": "Wall Panel",
             "map_locations": [
               {
                 "map": "e2l2_map",
-                "x": 574,
-                "y": 1277
+                "x": 576,
+                "y": 1272
               }
             ],
             "sections": [
@@ -1181,6 +1028,13 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l2_unlock,$can_open,$can_use"
+                ]
+              },
+              {
+                "name": "Secret Wall Panel",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l2_unlock,secrets,$can_open,$can_use"
                 ]
               }
             ]
@@ -1296,25 +1150,6 @@
             ]
           },
           {
-            "name": "Secret EDF Logo",
-            "map_locations": [
-              {
-                "map": "e2l2_map",
-                "x": 918,
-                "y": 1195
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret EDF Logo",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l2_unlock,secrets,$can_open,$can_use,$jump"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Secret Force Field Control Wall",
             "map_locations": [
               {
@@ -1329,27 +1164,6 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l2_unlock,secrets,$can_open,$can_use"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Hidden Screen Room 1",
-            "map_locations": [
-              {
-                "map": "e2l2_map",
-                "x": 1151,
-                "y": 1297
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Hidden Screen Room 1",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l2_unlock,secrets,$can_open,$jump",
-                  "ep2,e2l2_unlock,secrets,$can_open,$can_sprint,$logic_hard",
-                  "ep2,e2l2_unlock,secrets,$can_open,$logic_extreme"
                 ]
               }
             ]
@@ -1371,48 +1185,6 @@
                   "ep2,e2l2_unlock,secrets,$can_open,$jump",
                   "ep2,e2l2_unlock,secrets,$can_open,$can_sprint,$logic_hard",
                   "ep2,e2l2_unlock,secrets,$can_open,$logic_extreme"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Wall Panel",
-            "map_locations": [
-              {
-                "map": "e2l2_map",
-                "x": 577,
-                "y": 1268
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Wall Panel",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l2_unlock,secrets,$can_open,$can_use"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Exit",
-            "map_locations": [
-              {
-                "map": "e2l2_map",
-                "x": 810,
-                "y": 1498
-              }
-            ],
-            "sections": [
-              {
-                "name": "Exit",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l2_unlock,$can_open,$can_use,e2l2_yellow_key",
-                  "ep2,e2l2_unlock,$can_open,$can_sprint,$can_use,$glitched,$logic_hard",
-                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,steroids",
-                  "ep2,e2l2_unlock,$can_open,$can_use,$glitched,$logic_hard,progressive_steroids",
-                  "ep2,e2l2_unlock,$can_jump,$can_open,$can_use,$glitched,$logic_extreme"
                 ]
               }
             ]
@@ -1812,17 +1584,31 @@
             ]
           },
           {
-            "name": "Engine Room Burrowed Atomic Health 1",
+            "name": "Engine Room Burrowed Atomic Health",
             "map_locations": [
               {
                 "map": "e2l3_map",
-                "x": 470,
-                "y": 1655
+                "x": 472,
+                "y": 1652
               }
             ],
             "sections": [
               {
                 "name": "Engine Room Burrowed Atomic Health 1",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_blue_key"
+                ]
+              },
+              {
+                "name": "Engine Room Burrowed Atomic Health 2",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_blue_key"
+                ]
+              },
+              {
+                "name": "Engine Room Burrowed Atomic Health 3",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l3_unlock,$can_open,$can_use,e2l3_blue_key"
@@ -1845,44 +1631,6 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l3_unlock,$can_open"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Engine Room Burrowed Atomic Health 2",
-            "map_locations": [
-              {
-                "map": "e2l3_map",
-                "x": 472,
-                "y": 1649
-              }
-            ],
-            "sections": [
-              {
-                "name": "Engine Room Burrowed Atomic Health 2",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_blue_key"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Engine Room Burrowed Atomic Health 3",
-            "map_locations": [
-              {
-                "map": "e2l3_map",
-                "x": 473,
-                "y": 1653
-              }
-            ],
-            "sections": [
-              {
-                "name": "Engine Room Burrowed Atomic Health 3",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l3_unlock,$can_open,$can_use,e2l3_blue_key"
                 ]
               }
             ]
@@ -2182,12 +1930,12 @@
             ]
           },
           {
-            "name": "Column Armor",
+            "name": "Column",
             "map_locations": [
               {
                 "map": "e2l4_map",
                 "x": 625,
-                "y": 249
+                "y": 248
               }
             ],
             "sections": [
@@ -2199,6 +1947,16 @@
                   "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
+                ]
+              },
+              {
+                "name": "Secret Column",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|100",
+                  "ep2,e2l4_unlock,secrets,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,secrets,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2267,17 +2025,25 @@
             ]
           },
           {
-            "name": "Top Floor Chaingun",
+            "name": "Top Floor",
             "map_locations": [
               {
                 "map": "e2l4_map",
-                "x": 725,
-                "y": 925
+                "x": 719,
+                "y": 924
               }
             ],
             "sections": [
               {
                 "name": "Top Floor Chaingun",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$has_jetpack_fuel|50,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100"
+                ]
+              },
+              {
+                "name": "Top Floor Atomic Health",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$has_jetpack_fuel|50,$jump",
@@ -2328,12 +2094,12 @@
             ]
           },
           {
-            "name": "Pistons Tripmine 1",
+            "name": "Pistons Tripmine",
             "map_locations": [
               {
                 "map": "e2l4_map",
-                "x": 1559,
-                "y": 620
+                "x": 1554,
+                "y": 619
               }
             ],
             "sections": [
@@ -2343,21 +2109,16 @@
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_open,$can_use,$jump"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Pistons Tripmine 2",
-            "map_locations": [
-              {
-                "map": "e2l4_map",
-                "x": 1550,
-                "y": 616
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Pistons Tripmine 2",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump"
+                ]
+              },
+              {
+                "name": "Pistons Tripmine 3",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_open,$can_use,$jump"
@@ -2366,12 +2127,12 @@
             ]
           },
           {
-            "name": "Pistons Protective Boots",
+            "name": "Pistons",
             "map_locations": [
               {
                 "map": "e2l4_map",
-                "x": 1509,
-                "y": 520
+                "x": 1516,
+                "y": 519
               }
             ],
             "sections": [
@@ -2381,16 +2142,30 @@
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_open,$can_use"
                 ]
+              },
+              {
+                "name": "Pistons Atomic Health 1",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump"
+                ]
+              },
+              {
+                "name": "Pistons Atomic Health 2",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l4_unlock,$can_open,$can_use,$jump"
+                ]
               }
             ]
           },
           {
-            "name": "Top Ledge Atomic Health 1",
+            "name": "Top Ledge",
             "map_locations": [
               {
                 "map": "e2l4_map",
-                "x": 720,
-                "y": 747
+                "x": 710,
+                "y": 746
               }
             ],
             "sections": [
@@ -2404,21 +2179,20 @@
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Top Ledge Atomic Health 2",
-            "map_locations": [
-              {
-                "map": "e2l4_map",
-                "x": 700,
-                "y": 747
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Top Ledge Atomic Health 2",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,$has_jetpack_fuel|100",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100,$jump",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
+                ]
+              },
+              {
+                "name": "Top Ledge Jetpack",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
@@ -2448,26 +2222,6 @@
                   "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Top Floor Atomic Health",
-            "map_locations": [
-              {
-                "map": "e2l4_map",
-                "x": 713,
-                "y": 923
-              }
-            ],
-            "sections": [
-              {
-                "name": "Top Floor Atomic Health",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$has_jetpack_fuel|50,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100"
                 ]
               }
             ]
@@ -2509,29 +2263,6 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_use"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Top Ledge Jetpack",
-            "map_locations": [
-              {
-                "map": "e2l4_map",
-                "x": 710,
-                "y": 744
-              }
-            ],
-            "sections": [
-              {
-                "name": "Top Ledge Jetpack",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,$has_jetpack_fuel|100",
-                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100,$jump",
-                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
-                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -2589,25 +2320,6 @@
             "sections": [
               {
                 "name": "Pistons Medkit",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l4_unlock,$can_open,$can_use,$jump"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Pistons Tripmine 3",
-            "map_locations": [
-              {
-                "map": "e2l4_map",
-                "x": 1553,
-                "y": 620
-              }
-            ],
-            "sections": [
-              {
-                "name": "Pistons Tripmine 3",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_open,$can_use,$jump"
@@ -2809,50 +2521,12 @@
             ]
           },
           {
-            "name": "Pistons Atomic Health 1",
-            "map_locations": [
-              {
-                "map": "e2l4_map",
-                "x": 1519,
-                "y": 523
-              }
-            ],
-            "sections": [
-              {
-                "name": "Pistons Atomic Health 1",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l4_unlock,$can_open,$can_use,$jump"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Pistons Atomic Health 2",
-            "map_locations": [
-              {
-                "map": "e2l4_map",
-                "x": 1519,
-                "y": 515
-              }
-            ],
-            "sections": [
-              {
-                "name": "Pistons Atomic Health 2",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l4_unlock,$can_open,$can_use,$jump"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Pistons Tunnel Pipebombs 1",
+            "name": "Pistons Tunnel",
             "map_locations": [
               {
                 "map": "e2l4_map",
                 "x": 1619,
-                "y": 607
+                "y": 606
               }
             ],
             "sections": [
@@ -2862,24 +2536,19 @@
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_open,$can_use,$jump"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Pistons Tunnel Pipebombs 2",
-            "map_locations": [
-              {
-                "map": "e2l4_map",
-                "x": 1619,
-                "y": 602
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Pistons Tunnel Pipebombs 2",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,$can_open,$can_use,$jump"
+                ]
+              },
+              {
+                "name": "Secret Pistons Tunnel Ledge",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -2945,12 +2614,12 @@
             ]
           },
           {
-            "name": "Slime Hallway Tripmine 1",
+            "name": "Slime Hallway Tripmine",
             "map_locations": [
               {
                 "map": "e2l4_map",
-                "x": 395,
-                "y": 378
+                "x": 396,
+                "y": 376
               }
             ],
             "sections": [
@@ -2963,19 +2632,7 @@
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
                   "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Slime Hallway Tripmine 2",
-            "map_locations": [
-              {
-                "map": "e2l4_map",
-                "x": 398,
-                "y": 373
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Slime Hallway Tripmine 2",
                 "item_count": 1,
@@ -3169,25 +2826,6 @@
             ]
           },
           {
-            "name": "Secret Pistons Tunnel Ledge",
-            "map_locations": [
-              {
-                "map": "e2l4_map",
-                "x": 1619,
-                "y": 608
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Pistons Tunnel Ledge",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$jump"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Secret Pistons Chamber",
             "map_locations": [
               {
@@ -3202,28 +2840,6 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l4_unlock,secrets,$can_open,$can_use,$jump"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Column",
-            "map_locations": [
-              {
-                "map": "e2l4_map",
-                "x": 625,
-                "y": 248
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Column",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l4_unlock,secrets,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|100",
-                  "ep2,e2l4_unlock,secrets,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
-                  "ep2,e2l4_unlock,secrets,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -3312,12 +2928,12 @@
         ],
         "children": [
           {
-            "name": "Vent RPG",
+            "name": "Vent",
             "map_locations": [
               {
                 "map": "e2l5_map",
                 "x": 1128,
-                "y": 423
+                "y": 429
               }
             ],
             "sections": [
@@ -3327,19 +2943,7 @@
                 "access_rules": [
                   "ep2,e2l5_unlock,$can_open"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Vent Armor",
-            "map_locations": [
-              {
-                "map": "e2l5_map",
-                "x": 1128,
-                "y": 435
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Vent Armor",
                 "item_count": 1,
@@ -3371,12 +2975,12 @@
             ]
           },
           {
-            "name": "Slime Room Pipebombs 1",
+            "name": "Slime Room Pipebombs",
             "map_locations": [
               {
                 "map": "e2l5_map",
-                "x": 468,
-                "y": 1390
+                "x": 465,
+                "y": 1393
               }
             ],
             "sections": [
@@ -3386,16 +2990,23 @@
                 "access_rules": [
                   "ep2,e2l5_unlock,$can_open"
                 ]
+              },
+              {
+                "name": "Slime Room Pipebombs 2",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l5_unlock,$can_open"
+                ]
               }
             ]
           },
           {
-            "name": "Monitors Tripmine 1",
+            "name": "Monitors",
             "map_locations": [
               {
                 "map": "e2l5_map",
-                "x": 45,
-                "y": 475
+                "x": 49,
+                "y": 470
               }
             ],
             "sections": [
@@ -3406,25 +3017,36 @@
                   "ep2,e2l5_unlock,$can_open,$can_use,$jump,$logic_medium,e2l5_red_key",
                   "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$jump,e2l5_red_key"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Monitors Tripmine 2",
-            "map_locations": [
-              {
-                "map": "e2l5_map",
-                "x": 45,
-                "y": 464
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Monitors Tripmine 2",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l5_unlock,$can_open,$can_use,$jump,$logic_medium,e2l5_red_key",
                   "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$jump,e2l5_red_key"
+                ]
+              },
+              {
+                "name": "Blue Key Card",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l5_unlock,$can_open,$can_use,e2l5_red_key"
+                ]
+              },
+              {
+                "name": "Monitors Atomic Health",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l5_unlock,$can_open,$can_use,$jump,$logic_medium,e2l5_red_key",
+                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$jump,e2l5_red_key"
+                ]
+              },
+              {
+                "name": "Secret Monitors",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l5_unlock,secrets,$can_open,$can_use,$jump,$logic_medium,e2l5_red_key",
+                  "ep2,e2l5_unlock,secrets,$can_crouch,$can_open,$can_use,$jump,e2l5_red_key"
                 ]
               }
             ]
@@ -3451,25 +3073,6 @@
             ]
           },
           {
-            "name": "Blue Key Card",
-            "map_locations": [
-              {
-                "map": "e2l5_map",
-                "x": 59,
-                "y": 470
-              }
-            ],
-            "sections": [
-              {
-                "name": "Blue Key Card",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l5_unlock,$can_open,$can_use,e2l5_red_key"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Red Key Card",
             "map_locations": [
               {
@@ -3489,11 +3092,11 @@
             ]
           },
           {
-            "name": "Blastdoor Hole Atomic Health",
+            "name": "Blastdoor Hole",
             "map_locations": [
               {
                 "map": "e2l5_map",
-                "x": 1351,
+                "x": 1358,
                 "y": 325
               }
             ],
@@ -3504,6 +3107,14 @@
                 "access_rules": [
                   "ep2,e2l5_unlock,$can_crouch",
                   "ep2,e2l5_unlock,$can_jump,$logic_medium"
+                ]
+              },
+              {
+                "name": "Secret Blastdoor Hole",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l5_unlock,secrets,$can_crouch",
+                  "ep2,e2l5_unlock,secrets,$can_jump,$logic_medium"
                 ]
               }
             ]
@@ -3682,45 +3293,6 @@
             ]
           },
           {
-            "name": "Slime Room Pipebombs 2",
-            "map_locations": [
-              {
-                "map": "e2l5_map",
-                "x": 462,
-                "y": 1396
-              }
-            ],
-            "sections": [
-              {
-                "name": "Slime Room Pipebombs 2",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l5_unlock,$can_open"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Monitors Atomic Health",
-            "map_locations": [
-              {
-                "map": "e2l5_map",
-                "x": 45,
-                "y": 470
-              }
-            ],
-            "sections": [
-              {
-                "name": "Monitors Atomic Health",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l5_unlock,$can_open,$can_use,$jump,$logic_medium,e2l5_red_key",
-                  "ep2,e2l5_unlock,$can_crouch,$can_open,$can_use,$jump,e2l5_red_key"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Hallway Alcove Atomic Health",
             "map_locations": [
               {
@@ -3862,26 +3434,6 @@
             ]
           },
           {
-            "name": "Secret Blastdoor Hole",
-            "map_locations": [
-              {
-                "map": "e2l5_map",
-                "x": 1365,
-                "y": 325
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Blastdoor Hole",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l5_unlock,secrets,$can_crouch",
-                  "ep2,e2l5_unlock,secrets,$can_jump,$logic_medium"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Secret Vent",
             "map_locations": [
               {
@@ -3896,26 +3448,6 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l5_unlock,secrets,$can_open"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Monitors",
-            "map_locations": [
-              {
-                "map": "e2l5_map",
-                "x": 49,
-                "y": 472
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Monitors",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l5_unlock,secrets,$can_open,$can_use,$jump,$logic_medium,e2l5_red_key",
-                  "ep2,e2l5_unlock,secrets,$can_crouch,$can_open,$can_use,$jump,e2l5_red_key"
                 ]
               }
             ]
@@ -3975,7 +3507,7 @@
         ],
         "children": [
           {
-            "name": "Timed Wall RPG",
+            "name": "Timed Wall",
             "map_locations": [
               {
                 "map": "e2l6_map",
@@ -4005,6 +3537,29 @@
                   "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_devastator",
                   "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,tripmine",
                   "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_tripmine"
+                ]
+              },
+              {
+                "name": "Secret Timed Wall",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$has_jetpack_fuel|50",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,progressive_rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,progressive_pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,devastator",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,progressive_devastator",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,tripmine",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,progressive_tripmine",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,devastator,e2l6_blue_key",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_devastator",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,tripmine",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_tripmine"
                 ]
               }
             ]
@@ -4090,11 +3645,11 @@
             ]
           },
           {
-            "name": "Toxic Room Wall Jetpack",
+            "name": "Toxic Room Wall",
             "map_locations": [
               {
                 "map": "e2l6_map",
-                "x": 671,
+                "x": 670,
                 "y": 712
               }
             ],
@@ -4120,6 +3675,28 @@
                   "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,e2l6_blue_key,tripmine",
                   "ep2,e2l6_unlock,$can_jump,$can_open,$can_use,e2l6_blue_key,progressive_tripmine"
                 ]
+              },
+              {
+                "name": "Secret Toxic Room Wall",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,progressive_rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,progressive_pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,devastator",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,progressive_devastator",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,tripmine",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,progressive_tripmine",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,progressive_rpg",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,progressive_pipebomb",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,devastator,e2l6_blue_key",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,progressive_devastator",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,tripmine",
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,progressive_tripmine"
+                ]
               }
             ]
           },
@@ -4143,12 +3720,12 @@
             ]
           },
           {
-            "name": "Supplies Armor 1",
+            "name": "Supplies",
             "map_locations": [
               {
                 "map": "e2l6_map",
-                "x": 418,
-                "y": 956
+                "x": 426,
+                "y": 953
               }
             ],
             "sections": [
@@ -4158,24 +3735,19 @@
                 "access_rules": [
                   "ep2,e2l6_unlock,$can_jump,$can_use"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Supplies Armor 2",
-            "map_locations": [
-              {
-                "map": "e2l6_map",
-                "x": 434,
-                "y": 956
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Supplies Armor 2",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l6_unlock,$can_jump,$can_use"
+                ]
+              },
+              {
+                "name": "Secret Supplies",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use"
                 ]
               }
             ]
@@ -4200,12 +3772,12 @@
             ]
           },
           {
-            "name": "Water Fountain Pipebombs 1",
+            "name": "Water Fountain",
             "map_locations": [
               {
                 "map": "e2l6_map",
-                "x": 593,
-                "y": 803
+                "x": 588,
+                "y": 806
               }
             ],
             "sections": [
@@ -4215,40 +3787,42 @@
                 "access_rules": [
                   "ep2,e2l6_unlock,$can_jump"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Water Fountain Pipebombs 2",
-            "map_locations": [
-              {
-                "map": "e2l6_map",
-                "x": 585,
-                "y": 811
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Water Fountain Pipebombs 2",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l6_unlock,$can_jump"
                 ]
+              },
+              {
+                "name": "Secret Water Fountain Wall",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l6_unlock,secrets,$can_jump"
+                ]
               }
             ]
           },
           {
-            "name": "Armory Shrinker",
+            "name": "Armory",
             "map_locations": [
               {
                 "map": "e2l6_map",
-                "x": 563,
+                "x": 568,
                 "y": 960
               }
             ],
             "sections": [
               {
                 "name": "Armory Shrinker",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l6_unlock,$can_jump,$can_use"
+                ]
+              },
+              {
+                "name": "Armory Night Vision Goggles",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l6_unlock,$can_jump,$can_use"
@@ -4479,11 +4053,11 @@
             ]
           },
           {
-            "name": "Bathroom Tripmine 1",
+            "name": "Bathroom Tripmine",
             "map_locations": [
               {
                 "map": "e2l6_map",
-                "x": 777,
+                "x": 778,
                 "y": 587
               }
             ],
@@ -4494,43 +4068,12 @@
                 "access_rules": [
                   "ep2,e2l6_unlock,$can_jump,$can_open"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Bathroom Tripmine 2",
-            "map_locations": [
-              {
-                "map": "e2l6_map",
-                "x": 780,
-                "y": 587
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Bathroom Tripmine 2",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l6_unlock,$can_jump,$can_open"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Armory Night Vision Goggles",
-            "map_locations": [
-              {
-                "map": "e2l6_map",
-                "x": 573,
-                "y": 960
-              }
-            ],
-            "sections": [
-              {
-                "name": "Armory Night Vision Goggles",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l6_unlock,$can_jump,$can_use"
                 ]
               }
             ]
@@ -4657,78 +4200,6 @@
             ]
           },
           {
-            "name": "Secret Toxic Room Wall",
-            "map_locations": [
-              {
-                "map": "e2l6_map",
-                "x": 670,
-                "y": 713
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Toxic Room Wall",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,rpg",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,progressive_rpg",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,pipebomb",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,progressive_pipebomb",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,devastator",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,progressive_devastator",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,tripmine",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,progressive_tripmine",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,rpg",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,progressive_rpg",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,pipebomb",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,progressive_pipebomb",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,devastator,e2l6_blue_key",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,progressive_devastator",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,tripmine",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,e2l6_blue_key,progressive_tripmine"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Water Fountain Wall",
-            "map_locations": [
-              {
-                "map": "e2l6_map",
-                "x": 586,
-                "y": 804
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Water Fountain Wall",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l6_unlock,secrets,$can_jump"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Supplies",
-            "map_locations": [
-              {
-                "map": "e2l6_map",
-                "x": 426,
-                "y": 946
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Supplies",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Secret Vent Wall Crack",
             "map_locations": [
               {
@@ -4750,41 +4221,6 @@
                   "ep2,e2l6_unlock,secrets,$can_jump,$jump,progressive_devastator",
                   "ep2,e2l6_unlock,secrets,$can_jump,$jump,tripmine",
                   "ep2,e2l6_unlock,secrets,$can_jump,$jump,progressive_tripmine"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Timed Wall",
-            "map_locations": [
-              {
-                "map": "e2l6_map",
-                "x": 693,
-                "y": 668
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Timed Wall",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$has_jetpack_fuel|50",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,rpg",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,progressive_rpg",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,pipebomb",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,progressive_pipebomb",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,devastator",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,progressive_devastator",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,tripmine",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$jump,$logic_medium,progressive_tripmine",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,rpg",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_rpg",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,pipebomb",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_pipebomb",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,devastator,e2l6_blue_key",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_devastator",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,tripmine",
-                  "ep2,e2l6_unlock,secrets,$can_jump,$can_open,$can_use,$logic_medium,e2l6_blue_key,progressive_tripmine"
                 ]
               }
             ]
@@ -4838,7 +4274,7 @@
             ]
           },
           {
-            "name": "Start Night Vision Goggles",
+            "name": "Start",
             "map_locations": [
               {
                 "map": "e2l7_map",
@@ -4853,15 +4289,22 @@
                 "access_rules": [
                   "ep2,e2l7_unlock,$can_open"
                 ]
+              },
+              {
+                "name": "Start Shotgun",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l7_unlock,$can_open"
+                ]
               }
             ]
           },
           {
-            "name": "Trash Compactor Atomic Health 1",
+            "name": "Trash Compactor",
             "map_locations": [
               {
                 "map": "e2l7_map",
-                "x": 447,
+                "x": 441,
                 "y": 522
               }
             ],
@@ -4876,6 +4319,18 @@
                   "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$logic_medium,e2l7_red_key",
                   "ep2,e2l7_unlock,$can_open,$can_sprint,$can_use,$jump,e2l7_yellow_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,$logic_medium,e2l7_yellow_key"
+                ]
+              },
+              {
+                "name": "Secret Trash Compactor",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_sprint,$can_use,e2l7_blue_key",
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,$logic_medium,e2l7_blue_key",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_sprint,$can_use,$has_jetpack_fuel|50,e2l7_red_key",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$logic_medium,e2l7_red_key",
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_sprint,$can_use,$jump,e2l7_yellow_key",
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,$jump,$logic_medium,e2l7_yellow_key"
                 ]
               }
             ]
@@ -5047,11 +4502,11 @@
             ]
           },
           {
-            "name": "Slime Holo Duke",
+            "name": "Slime",
             "map_locations": [
               {
                 "map": "e2l7_map",
-                "x": 1201,
+                "x": 1196,
                 "y": 487
               }
             ],
@@ -5063,6 +4518,15 @@
                   "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,e2l7_blue_key",
                   "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$jump,e2l7_yellow_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,e2l7_red_key"
+                ]
+              },
+              {
+                "name": "Secret Slime Monitors",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,e2l7_blue_key",
+                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$jump,e2l7_yellow_key",
+                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,e2l7_red_key"
                 ]
               }
             ]
@@ -5113,12 +4577,12 @@
             ]
           },
           {
-            "name": "Crew Quarters Tripmine",
+            "name": "Crew Quarters",
             "map_locations": [
               {
                 "map": "e2l7_map",
                 "x": 321,
-                "y": 612
+                "y": 617
               }
             ],
             "sections": [
@@ -5130,19 +4594,7 @@
                   "ep2,e2l7_unlock,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,e2l7_red_key",
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Crew Quarters Armor",
-            "map_locations": [
-              {
-                "map": "e2l7_map",
-                "x": 321,
-                "y": 622
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Crew Quarters Armor",
                 "item_count": 1,
@@ -5335,25 +4787,6 @@
             ]
           },
           {
-            "name": "Start Shotgun",
-            "map_locations": [
-              {
-                "map": "e2l7_map",
-                "x": 935,
-                "y": 344
-              }
-            ],
-            "sections": [
-              {
-                "name": "Start Shotgun",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l7_unlock,$can_open"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Yellow Key Card",
             "map_locations": [
               {
@@ -5533,51 +4966,6 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l7_unlock,$can_open,$can_use,$jump,e2l7_yellow_key"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Trash Compactor",
-            "map_locations": [
-              {
-                "map": "e2l7_map",
-                "x": 435,
-                "y": 522
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Trash Compactor",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l7_unlock,secrets,$can_open,$can_sprint,$can_use,e2l7_blue_key",
-                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,$logic_medium,e2l7_blue_key",
-                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_sprint,$can_use,$has_jetpack_fuel|50,e2l7_red_key",
-                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$has_jetpack_fuel|50,$logic_medium,e2l7_red_key",
-                  "ep2,e2l7_unlock,secrets,$can_open,$can_sprint,$can_use,$jump,e2l7_yellow_key",
-                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,$jump,$logic_medium,e2l7_yellow_key"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Slime Monitors",
-            "map_locations": [
-              {
-                "map": "e2l7_map",
-                "x": 1190,
-                "y": 487
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Slime Monitors",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,e2l7_blue_key",
-                  "ep2,e2l7_unlock,secrets,$can_crouch,$can_open,$can_use,$jump,e2l7_yellow_key",
-                  "ep2,e2l7_unlock,secrets,$can_open,$can_use,e2l7_red_key"
                 ]
               }
             ]
@@ -5932,13 +5320,21 @@
             "map_locations": [
               {
                 "map": "e2l8_map",
-                "x": 1550,
-                "y": 1670
+                "x": 1556,
+                "y": 1672
               }
             ],
             "sections": [
               {
                 "name": "Reactor Control Armor",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$logic_extreme"
+                ]
+              },
+              {
+                "name": "Yellow Key Card",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l8_unlock,$can_open,$can_use,$jump",
@@ -6068,12 +5464,12 @@
             ]
           },
           {
-            "name": "Hub Atomic Health 1",
+            "name": "Hub",
             "map_locations": [
               {
                 "map": "e2l8_map",
-                "x": 1033,
-                "y": 1040
+                "x": 1037,
+                "y": 1037
               }
             ],
             "sections": [
@@ -6083,24 +5479,33 @@
                 "access_rules": [
                   "ep2,e2l8_unlock,$can_open"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Hub Atomic Health 2",
-            "map_locations": [
-              {
-                "map": "e2l8_map",
-                "x": 1040,
-                "y": 1040
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Hub Atomic Health 2",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l8_unlock,$can_open"
+                ]
+              },
+              {
+                "name": "Hub Freezethrower",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l8_unlock,$can_open"
+                ]
+              },
+              {
+                "name": "Hub Armor",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l8_unlock,$can_open"
+                ]
+              },
+              {
+                "name": "Secret Hub Monitor",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l8_unlock,secrets,$can_crouch,$can_open"
                 ]
               }
             ]
@@ -6201,17 +5606,24 @@
             ]
           },
           {
-            "name": "Alpha Lab Medkit",
+            "name": "Alpha Lab",
             "map_locations": [
               {
                 "map": "e2l8_map",
-                "x": 1755,
+                "x": 1748,
                 "y": 1073
               }
             ],
             "sections": [
               {
                 "name": "Alpha Lab Medkit",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l8_unlock,$can_open,$can_use"
+                ]
+              },
+              {
+                "name": "Alpha Lab Holo Duke",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l8_unlock,$can_open,$can_use"
@@ -6334,50 +5746,12 @@
             ]
           },
           {
-            "name": "Hub Freezethrower",
+            "name": "Alpha",
             "map_locations": [
               {
                 "map": "e2l8_map",
-                "x": 1047,
-                "y": 1032
-              }
-            ],
-            "sections": [
-              {
-                "name": "Hub Freezethrower",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l8_unlock,$can_open"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Hub Armor",
-            "map_locations": [
-              {
-                "map": "e2l8_map",
-                "x": 1029,
-                "y": 1033
-              }
-            ],
-            "sections": [
-              {
-                "name": "Hub Armor",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l8_unlock,$can_open"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Alpha Wall Devastator",
-            "map_locations": [
-              {
-                "map": "e2l8_map",
-                "x": 1199,
-                "y": 1050
+                "x": 1198,
+                "y": 1048
               }
             ],
             "sections": [
@@ -6393,6 +5767,20 @@
                   "ep2,e2l8_unlock,$can_open,progressive_devastator",
                   "ep2,e2l8_unlock,$can_open,tripmine",
                   "ep2,e2l8_unlock,$can_open,progressive_tripmine"
+                ]
+              },
+              {
+                "name": "Secret Alpha Cracked Wall",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l8_unlock,secrets,$can_open,rpg",
+                  "ep2,e2l8_unlock,secrets,$can_open,progressive_rpg",
+                  "ep2,e2l8_unlock,secrets,$can_open,pipebomb",
+                  "ep2,e2l8_unlock,secrets,$can_open,progressive_pipebomb",
+                  "ep2,e2l8_unlock,secrets,$can_open,devastator",
+                  "ep2,e2l8_unlock,secrets,$can_open,progressive_devastator",
+                  "ep2,e2l8_unlock,secrets,$can_open,tripmine",
+                  "ep2,e2l8_unlock,secrets,$can_open,progressive_tripmine"
                 ]
               }
             ]
@@ -6431,26 +5819,6 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l8_unlock,$can_open"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Yellow Key Card",
-            "map_locations": [
-              {
-                "map": "e2l8_map",
-                "x": 1563,
-                "y": 1673
-              }
-            ],
-            "sections": [
-              {
-                "name": "Yellow Key Card",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$logic_extreme"
                 ]
               }
             ]
@@ -6505,25 +5873,6 @@
             "sections": [
               {
                 "name": "Alpha Lab Steroids",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l8_unlock,$can_open,$can_use"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Alpha Lab Holo Duke",
-            "map_locations": [
-              {
-                "map": "e2l8_map",
-                "x": 1742,
-                "y": 1073
-              }
-            ],
-            "sections": [
-              {
-                "name": "Alpha Lab Holo Duke",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l8_unlock,$can_open,$can_use"
@@ -6745,12 +6094,12 @@
             ]
           },
           {
-            "name": "Gamma Tripmine 1",
+            "name": "Gamma",
             "map_locations": [
               {
                 "map": "e2l8_map",
-                "x": 1041,
-                "y": 1145
+                "x": 1037,
+                "y": 1144
               }
             ],
             "sections": [
@@ -6762,38 +6111,14 @@
                   "ep2,e2l8_unlock,$can_open,$has_jetpack_fuel|50",
                   "ep2,e2l8_unlock,$can_jump,$can_open,$logic_medium"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Gamma Shrinker",
-            "map_locations": [
-              {
-                "map": "e2l8_map",
-                "x": 1037,
-                "y": 1141
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Gamma Shrinker",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l8_unlock,$can_open,$can_use,$jump"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Gamma Tripmine 2",
-            "map_locations": [
-              {
-                "map": "e2l8_map",
-                "x": 1032,
-                "y": 1145
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Gamma Tripmine 2",
                 "item_count": 1,
@@ -6801,6 +6126,13 @@
                   "ep2,e2l8_unlock,$can_open,$can_use,e2l8_blue_key",
                   "ep2,e2l8_unlock,$can_open,$has_jetpack_fuel|50",
                   "ep2,e2l8_unlock,$can_jump,$can_open,$logic_medium"
+                ]
+              },
+              {
+                "name": "Secret Gamma Monitor",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -6825,12 +6157,12 @@
             ]
           },
           {
-            "name": "Babes Pipebombs 1",
+            "name": "Babes",
             "map_locations": [
               {
                 "map": "e2l8_map",
-                "x": 1246,
-                "y": 1538
+                "x": 1248,
+                "y": 1541
               }
             ],
             "sections": [
@@ -6847,19 +6179,7 @@
                   "ep2,e2l8_unlock,$can_open,$can_use,$jump,tripmine",
                   "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_tripmine"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Babes Pipebombs 2",
-            "map_locations": [
-              {
-                "map": "e2l8_map",
-                "x": 1242,
-                "y": 1546
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Babes Pipebombs 2",
                 "item_count": 1,
@@ -6873,19 +6193,7 @@
                   "ep2,e2l8_unlock,$can_open,$can_use,$jump,tripmine",
                   "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_tripmine"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Babes Pipebombs 3",
-            "map_locations": [
-              {
-                "map": "e2l8_map",
-                "x": 1254,
-                "y": 1536
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Babes Pipebombs 3",
                 "item_count": 1,
@@ -6899,19 +6207,7 @@
                   "ep2,e2l8_unlock,$can_open,$can_use,$jump,tripmine",
                   "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_tripmine"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Babes Wall",
-            "map_locations": [
-              {
-                "map": "e2l8_map",
-                "x": 1250,
-                "y": 1544
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Secret Babes Wall",
                 "item_count": 1,
@@ -6948,25 +6244,6 @@
             ]
           },
           {
-            "name": "Secret Hub Monitor",
-            "map_locations": [
-              {
-                "map": "e2l8_map",
-                "x": 1037,
-                "y": 1039
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Hub Monitor",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l8_unlock,secrets,$can_crouch,$can_open"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Secret Beta Transport Wall",
             "map_locations": [
               {
@@ -6981,51 +6258,6 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l8_unlock,secrets,$can_open,$can_use,e2l8_yellow_key"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Alpha Cracked Wall",
-            "map_locations": [
-              {
-                "map": "e2l8_map",
-                "x": 1198,
-                "y": 1046
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Alpha Cracked Wall",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l8_unlock,secrets,$can_open,rpg",
-                  "ep2,e2l8_unlock,secrets,$can_open,progressive_rpg",
-                  "ep2,e2l8_unlock,secrets,$can_open,pipebomb",
-                  "ep2,e2l8_unlock,secrets,$can_open,progressive_pipebomb",
-                  "ep2,e2l8_unlock,secrets,$can_open,devastator",
-                  "ep2,e2l8_unlock,secrets,$can_open,progressive_devastator",
-                  "ep2,e2l8_unlock,secrets,$can_open,tripmine",
-                  "ep2,e2l8_unlock,secrets,$can_open,progressive_tripmine"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Gamma Monitor",
-            "map_locations": [
-              {
-                "map": "e2l8_map",
-                "x": 1037,
-                "y": 1144
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Gamma Monitor",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump"
                 ]
               }
             ]
@@ -7120,12 +6352,12 @@
         ],
         "children": [
           {
-            "name": "Timed Wall RPG",
+            "name": "Timed",
             "map_locations": [
               {
                 "map": "e2l9_map",
                 "x": 775,
-                "y": 1042
+                "y": 1046
               }
             ],
             "sections": [
@@ -7136,6 +6368,15 @@
                   "ep2,e2l9_unlock,$can_use,$jump",
                   "ep2,e2l9_unlock,$has_jetpack_fuel|50,$jump,$logic_medium",
                   "ep2,e2l9_unlock,$has_jetpack_fuel|50,$logic_extreme,$logic_medium"
+                ]
+              },
+              {
+                "name": "Secret Timed Reactor Wall",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l9_unlock,secrets,$can_use,$jump",
+                  "ep2,e2l9_unlock,secrets,$has_jetpack_fuel|50,$jump,$logic_medium",
+                  "ep2,e2l9_unlock,secrets,$has_jetpack_fuel|50,$logic_extreme,$logic_medium"
                 ]
               }
             ]
@@ -7165,12 +6406,12 @@
             ]
           },
           {
-            "name": "Waterfall Armor",
+            "name": "Waterfall",
             "map_locations": [
               {
                 "map": "e2l9_map",
-                "x": 415,
-                "y": 1213
+                "x": 414,
+                "y": 1217
               }
             ],
             "sections": [
@@ -7181,21 +6422,55 @@
                   "ep2,e2l9_unlock,$jump",
                   "ep2,e2l9_unlock,$logic_extreme"
                 ]
+              },
+              {
+                "name": "Secret Waterfall Wall",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l9_unlock,secrets,$jump,rpg",
+                  "ep2,e2l9_unlock,secrets,$jump,progressive_rpg",
+                  "ep2,e2l9_unlock,secrets,$jump,pipebomb",
+                  "ep2,e2l9_unlock,secrets,$jump,progressive_pipebomb",
+                  "ep2,e2l9_unlock,secrets,$jump,devastator",
+                  "ep2,e2l9_unlock,secrets,$jump,progressive_devastator",
+                  "ep2,e2l9_unlock,secrets,$jump,tripmine",
+                  "ep2,e2l9_unlock,secrets,$jump,progressive_tripmine",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,rpg",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,progressive_rpg",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,pipebomb",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,progressive_pipebomb",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,devastator",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,progressive_devastator",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,tripmine",
+                  "ep2,e2l9_unlock,secrets,$logic_extreme,progressive_tripmine"
+                ]
               }
             ]
           },
           {
-            "name": "Vents Pipebombs 1",
+            "name": "Vents Pipebombs",
             "map_locations": [
               {
                 "map": "e2l9_map",
                 "x": 775,
-                "y": 1109
+                "y": 1114
               }
             ],
             "sections": [
               {
                 "name": "Vents Pipebombs 1",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$jump",
+                  "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
+                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$logic_extreme",
+                  "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
+                  "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
+                ]
+              },
+              {
+                "name": "Vents Pipebombs 2",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l9_unlock,$has_jetpack_fuel|25,$jump",
@@ -7309,12 +6584,12 @@
             ]
           },
           {
-            "name": "Hidden Wall Armor",
+            "name": "Hidden",
             "map_locations": [
               {
                 "map": "e2l9_map",
                 "x": 775,
-                "y": 890
+                "y": 886
               }
             ],
             "sections": [
@@ -7323,6 +6598,13 @@
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l9_unlock"
+                ]
+              },
+              {
+                "name": "Secret Hidden Reactor Wall",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l9_unlock,secrets"
                 ]
               }
             ]
@@ -7652,30 +6934,6 @@
             ]
           },
           {
-            "name": "Vents Pipebombs 2",
-            "map_locations": [
-              {
-                "map": "e2l9_map",
-                "x": 775,
-                "y": 1119
-              }
-            ],
-            "sections": [
-              {
-                "name": "Vents Pipebombs 2",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$jump",
-                  "ep2,e2l9_unlock,$can_jump,$jump,$sr50",
-                  "ep2,e2l9_unlock,$can_jump,$can_use,$jump",
-                  "ep2,e2l9_unlock,$has_jetpack_fuel|25,$logic_extreme",
-                  "ep2,e2l9_unlock,$can_jump,$logic_extreme,$sr50",
-                  "ep2,e2l9_unlock,$can_jump,$can_use,$logic_extreme"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Waterfall Holo Duke",
             "map_locations": [
               {
@@ -7833,25 +7091,6 @@
             ]
           },
           {
-            "name": "Secret Hidden Reactor Wall",
-            "map_locations": [
-              {
-                "map": "e2l9_map",
-                "x": 775,
-                "y": 882
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Hidden Reactor Wall",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l9_unlock,secrets"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Secret Timed Overlord Wall",
             "map_locations": [
               {
@@ -7871,61 +7110,6 @@
                   "ep2,e2l9_unlock,secrets,$has_jetpack_fuel|25,$logic_extreme",
                   "ep2,e2l9_unlock,secrets,$can_jump,$logic_extreme,$sr50",
                   "ep2,e2l9_unlock,secrets,$can_jump,$can_use,$logic_extreme"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Waterfall Wall",
-            "map_locations": [
-              {
-                "map": "e2l9_map",
-                "x": 412,
-                "y": 1221
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Waterfall Wall",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l9_unlock,secrets,$jump,rpg",
-                  "ep2,e2l9_unlock,secrets,$jump,progressive_rpg",
-                  "ep2,e2l9_unlock,secrets,$jump,pipebomb",
-                  "ep2,e2l9_unlock,secrets,$jump,progressive_pipebomb",
-                  "ep2,e2l9_unlock,secrets,$jump,devastator",
-                  "ep2,e2l9_unlock,secrets,$jump,progressive_devastator",
-                  "ep2,e2l9_unlock,secrets,$jump,tripmine",
-                  "ep2,e2l9_unlock,secrets,$jump,progressive_tripmine",
-                  "ep2,e2l9_unlock,secrets,$logic_extreme,rpg",
-                  "ep2,e2l9_unlock,secrets,$logic_extreme,progressive_rpg",
-                  "ep2,e2l9_unlock,secrets,$logic_extreme,pipebomb",
-                  "ep2,e2l9_unlock,secrets,$logic_extreme,progressive_pipebomb",
-                  "ep2,e2l9_unlock,secrets,$logic_extreme,devastator",
-                  "ep2,e2l9_unlock,secrets,$logic_extreme,progressive_devastator",
-                  "ep2,e2l9_unlock,secrets,$logic_extreme,tripmine",
-                  "ep2,e2l9_unlock,secrets,$logic_extreme,progressive_tripmine"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Secret Timed Reactor Wall",
-            "map_locations": [
-              {
-                "map": "e2l9_map",
-                "x": 775,
-                "y": 1050
-              }
-            ],
-            "sections": [
-              {
-                "name": "Secret Timed Reactor Wall",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l9_unlock,secrets,$can_use,$jump",
-                  "ep2,e2l9_unlock,secrets,$has_jetpack_fuel|50,$jump,$logic_medium",
-                  "ep2,e2l9_unlock,secrets,$has_jetpack_fuel|50,$logic_extreme,$logic_medium"
                 ]
               }
             ]
@@ -8435,17 +7619,25 @@
             ]
           },
           {
-            "name": "MP Center Ring Night Vision Goggles",
+            "name": "Center Ring",
             "map_locations": [
               {
                 "map": "e2l11_map",
-                "x": 137,
-                "y": 1830
+                "x": 136,
+                "y": 1836
               }
             ],
             "sections": [
               {
                 "name": "MP Center Ring Night Vision Goggles",
+                "item_count": 1,
+                "access_rules": [
+                  "ep2,e2l11_unlock,$can_use,$jump",
+                  "ep2,e2l11_unlock,$can_use,$logic_medium"
+                ]
+              },
+              {
+                "name": "Center Ring RPG",
                 "item_count": 1,
                 "access_rules": [
                   "ep2,e2l11_unlock,$can_use,$jump",
@@ -8470,26 +7662,6 @@
                 "access_rules": [
                   "ep2,e2l11_unlock,$can_open,$can_use",
                   "ep2,e2l11_unlock,$can_use,$fast_crouch_jump"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Center Ring RPG",
-            "map_locations": [
-              {
-                "map": "e2l11_map",
-                "x": 136,
-                "y": 1842
-              }
-            ],
-            "sections": [
-              {
-                "name": "Center Ring RPG",
-                "item_count": 1,
-                "access_rules": [
-                  "ep2,e2l11_unlock,$can_use,$jump",
-                  "ep2,e2l11_unlock,$can_use,$logic_medium"
                 ]
               }
             ]
@@ -8748,11 +7920,11 @@
             ]
           },
           {
-            "name": "Center Top Atomic Health 1",
+            "name": "Center Top Atomic Health",
             "map_locations": [
               {
                 "map": "e2l11_map",
-                "x": 131,
+                "x": 136,
                 "y": 1775
               }
             ],
@@ -8763,19 +7935,7 @@
                 "access_rules": [
                   "ep2,e2l11_unlock,$can_use,$jump"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Center Top Atomic Health 2",
-            "map_locations": [
-              {
-                "map": "e2l11_map",
-                "x": 140,
-                "y": 1775
-              }
-            ],
-            "sections": [
+              },
               {
                 "name": "Center Top Atomic Health 2",
                 "item_count": 1,

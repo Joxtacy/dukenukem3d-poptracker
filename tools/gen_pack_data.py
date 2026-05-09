@@ -453,10 +453,157 @@ def detect_key_gates(name: str) -> set[str]:
     return colors
 
 
+# ---------------------------------------------------------------------------
+# Pin clustering: group locations whose pins overlap into shared containers
+# ---------------------------------------------------------------------------
+
+# Pixel radius below which two pins visually overlap on the per-level map.
+# Matches `location_size` in maps/e?_maps.json.
+PIN_CLUSTER_THRESHOLD = 14
+
+
+_QUALIFIER_WORDS = {"Secret", "MP"}
+
+
+def _normalize_loc_name(name: str) -> str:
+    """Strip leading qualifier words ('Secret', 'MP', and combinations like
+    'MP Secret') so cluster-name detection finds the shared room/area part
+    of co-located picks."""
+    parts = name.split()
+    while parts and parts[0] in _QUALIFIER_WORDS:
+        parts.pop(0)
+    return " ".join(parts)
+
+
+def _common_word_prefix(names: list[str]) -> str:
+    if not names:
+        return ""
+    words_lists = [n.split() for n in names]
+    common: list[str] = []
+    for i, w in enumerate(words_lists[0]):
+        if all(i < len(wl) and wl[i] == w for wl in words_lists):
+            common.append(w)
+        else:
+            break
+    return " ".join(common)
+
+
+def _cluster_container_name(member_names: list[str]) -> str:
+    """Pick a name for a shared-pin container. Prefers the longest common
+    word prefix of the cluster's locations (after stripping Secret/MP
+    qualifiers); falls back to the most common starting word; finally
+    to the first member's full name."""
+    normalized = [_normalize_loc_name(n) for n in member_names]
+    prefix = _common_word_prefix(normalized)
+    if prefix:
+        return prefix
+    prefix = _common_word_prefix(member_names)
+    if prefix:
+        return prefix
+    # No shared prefix — pick the starting word that occurs most often.
+    # E.g. an "Exit room" cluster with 5/8 names starting with "Exit" is
+    # better labelled "Exit" than the first member's full name.
+    counts: dict[str, int] = {}
+    for n in normalized:
+        first = n.split()[0] if n.split() else ""
+        if first:
+            counts[first] = counts.get(first, 0) + 1
+    if counts:
+        word, count = max(counts.items(), key=lambda kv: (kv[1], -len(kv[0])))
+        if count >= 2:
+            return word
+    return member_names[0]
+
+
+def cluster_loc_children(
+    loc_children: list[dict[str, Any]],
+    threshold: int = PIN_CLUSTER_THRESHOLD,
+) -> list[dict[str, Any]]:
+    """Merge sibling locations whose pins are within `threshold` px of each
+    other into a shared container. The container holds every member's
+    sections under one map pin (the cluster centroid), so PopTracker
+    renders a single marker the user can click to expand the stack.
+
+    Single-location entries pass through untouched. Order is preserved by
+    the index of each cluster's earliest member.
+    """
+    n = len(loc_children)
+    if n == 0:
+        return []
+    parent = list(range(n))
+
+    def find(i: int) -> int:
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    def union(i: int, j: int) -> None:
+        ri, rj = find(i), find(j)
+        if ri != rj:
+            parent[ri] = rj
+
+    coords = [
+        (ch["map_locations"][0]["x"], ch["map_locations"][0]["y"])
+        for ch in loc_children
+    ]
+    t2 = threshold * threshold
+    for i in range(n):
+        for j in range(i + 1, n):
+            dx = coords[i][0] - coords[j][0]
+            dy = coords[i][1] - coords[j][1]
+            if dx * dx + dy * dy <= t2:
+                union(i, j)
+
+    groups: dict[int, list[int]] = {}
+    group_order: list[int] = []
+    for i in range(n):
+        r = find(i)
+        if r not in groups:
+            groups[r] = []
+            group_order.append(r)
+        groups[r].append(i)
+
+    out: list[dict[str, Any]] = []
+    used_names: set[str] = set()
+    for root in group_order:
+        indices = groups[root]
+        if len(indices) == 1:
+            ch = loc_children[indices[0]]
+            used_names.add(ch["name"])
+            out.append(ch)
+            continue
+        members = [loc_children[i] for i in indices]
+        member_names = [m["name"] for m in members]
+        cx = sum(coords[i][0] for i in indices) / len(indices)
+        cy = sum(coords[i][1] for i in indices) / len(indices)
+        map_name = members[0]["map_locations"][0]["map"]
+        base_name = _cluster_container_name(member_names)
+        # Disambiguate if the same base name appears more than once per level.
+        container_name = base_name
+        suffix = 2
+        while container_name in used_names:
+            container_name = f"{base_name} ({suffix})"
+            suffix += 1
+        used_names.add(container_name)
+        sections = [sec for m in members for sec in m["sections"]]
+        out.append({
+            "name": container_name,
+            "map_locations": [{
+                "map": map_name,
+                "x": int(round(cx)),
+                "y": int(round(cy)),
+            }],
+            "sections": sections,
+        })
+    return out
+
+
 def build_episode_locations(
     levels: list[LevelData], episode: int,
     pins: dict[str, dict[str, list[int]]] | None = None,
     level_rules: dict[str, dict[str, list[str]]] | None = None,
+    section_paths: dict[tuple[str, str], str] | None = None,
 ) -> list[dict[str, Any]]:
     """Build the locations JSON for a single episode.
 
@@ -464,6 +611,11 @@ def build_episode_locations(
     "Episode N: <Name>" with one child per level; each child has a single
     map_locations entry pointing to the per-level stub map and sections
     (Exit, Secret-*, sprite picks) gated by access_rules.
+
+    If `section_paths` is supplied, each section's full PopTracker path
+    (group/level/container/section) is recorded so build_autotracking_data_lua
+    can emit LOCATION_MAP entries that match the (possibly clustered)
+    container name.
     """
     # Three-layer structure (group → level → location → section). The pin
     # lives on the location (grandchild) so each sprite/secret renders its
@@ -543,13 +695,28 @@ def build_episode_locations(
                 }
             )
 
+        # Merge sibling locations whose pins overlap into shared containers.
+        # This collapses each visual cluster on the level map into a single
+        # marker the user can expand, and preserves single-pin locations.
+        clustered = cluster_loc_children(loc_children)
         children.append(
             {
                 "name": f"{level.prefix}: {level.name}",
                 "access_rules": [base_rule],
-                "children": loc_children,
+                "children": clustered,
             }
         )
+
+        if section_paths is not None:
+            ep_path = f"Episode {episode}: {EPISODE_NAMES[episode]}"
+            level_path = f"{ep_path}/{level.prefix}: {level.name}"
+            for container in clustered:
+                cname = container["name"]
+                for sec in container["sections"]:
+                    sname = sec["name"]
+                    section_paths[(level.prefix, sname)] = (
+                        f"{level_path}/{cname}/{sname}"
+                    )
 
     return [
         {
@@ -584,9 +751,16 @@ def lua_str(s: str) -> str:
 
 
 def build_autotracking_data_lua(
-    levels: list[LevelData], id_map: dict[str, Any]
+    levels: list[LevelData], id_map: dict[str, Any],
+    section_paths: dict[tuple[str, str], str] | None = None,
 ) -> str:
-    """Emit ITEM_MAP and LOCATION_MAP Lua tables for autotracking.lua."""
+    """Emit ITEM_MAP and LOCATION_MAP Lua tables for autotracking.lua.
+
+    `section_paths` (built by build_episode_locations) maps
+    (level_prefix, section_name) → full PopTracker path. When supplied,
+    LOCATION_MAP entries use the precomputed path so clustered locations
+    point at their shared container instead of the legacy flat structure.
+    """
     level_path: dict[str, str] = {
         lv.prefix: f"Episode {lv.episode}: {EPISODE_NAMES[lv.episode]}/{lv.prefix}: {lv.name}"
         for lv in levels
@@ -657,9 +831,10 @@ def build_autotracking_data_lua(
                 keycard_id += 1
 
     # Build LOCATION_MAP from id_map.json. Path matches the JSON tree:
-    #   "Episode N: Name/EXLY: Level/<Location>/<Location>"
-    # i.e. group/level-child/location-grandchild/section, with the section
-    # name reusing the location name (see build_episode_locations).
+    # group/level-child/container/section. The container is either the
+    # location name itself (single-pin entry) or the shared-pin cluster
+    # name picked by cluster_loc_children. Use section_paths when supplied
+    # to keep autotracking aligned with the JSON tree's actual shape.
     lines.append("")
     lines.append("-- per-location paths, derived from apworld id_map.json")
     locations_with_secrets: list[str] = []
@@ -668,7 +843,10 @@ def build_autotracking_data_lua(
         prefix, _, section = loc_name.partition(" ")
         if not prefix or not section or prefix not in level_path:
             continue
-        path = f"{level_path[prefix]}/{section}/{section}"
+        if section_paths is not None and (prefix, section) in section_paths:
+            path = section_paths[(prefix, section)]
+        else:
+            path = f"{level_path[prefix]}/{section}/{section}"
         lines.append(f"LOCATION_MAP[{net_id(short_id)}] = {lua_str(path)}")
         if section.startswith("Secret "):
             locations_with_secrets.append(prefix)
@@ -744,9 +922,11 @@ def main():
     print(f"Wrote {items_path} ({len(items)} entries).")
 
     # locations/eN_locations.json + maps/eN_maps.json
+    section_paths: dict[tuple[str, str], str] = {}
     for ep in (1, 2, 3, 4):
         loc_data = build_episode_locations(levels, ep, pins=map_pins,
-                                           level_rules=level_rules)
+                                           level_rules=level_rules,
+                                           section_paths=section_paths)
         loc_path = out / "locations" / f"e{ep}_locations.json"
         loc_path.parent.mkdir(parents=True, exist_ok=True)
         loc_path.write_text(json.dumps(loc_data, indent=2) + "\n")
@@ -767,7 +947,9 @@ def main():
     # scripts/autotracking_data.lua
     lua_path = out / "scripts" / "autotracking_data.lua"
     lua_path.parent.mkdir(parents=True, exist_ok=True)
-    lua_path.write_text(build_autotracking_data_lua(levels, id_map))
+    lua_path.write_text(
+        build_autotracking_data_lua(levels, id_map, section_paths=section_paths)
+    )
     print(f"Wrote {lua_path}.")
 
 
