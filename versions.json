@@ -1,6 +1,15 @@
 {
   "versions": [
     {
+      "package_version": "0.0.9",
+      "download_url": "https://github.com/Joxtacy/dukenukem3d-poptracker/releases/download/v0.0.9/duke_nukem_3d_ap_tracker_0.0.9.zip",
+      "sha256": "fab346728e8307086436021b0c86735781084504a0d4cde3cf1c997dbc1870bc",
+      "changelog": [
+        "feat(goal): show progress as X/<seed target>",
+        "feat(inventory): consolidate to 2-row layout with fuel totals"
+      ]
+    },
+    {
       "package_version": "0.0.8",
       "download_url": "https://github.com/Joxtacy/dukenukem3d-poptracker/releases/download/v0.0.8/duke_nukem_3d_ap_tracker_0.0.8.zip",
       "sha256": "a6d9ea801098ec163cdf2123ad54a5cce31d79612c609ed241dba2336f6d6c9d",
