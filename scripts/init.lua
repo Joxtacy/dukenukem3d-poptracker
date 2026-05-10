@@ -30,9 +30,15 @@ end
 
 -- Pistol is always present in Duke 3D (no Pistol weapon item exists in the
 -- apworld). Force the toggle_badged on so the icon stays lit; only its
--- AcquiredCount badge — driven by onClear / onItem — varies.
+-- AcquiredCount badge — driven by onClear / onItem — varies. Also set
+-- CurrentStage to the active stage (1 of 2) — the toggle_badged items have
+-- a 2-stage array in items.json so PopTracker generates a proper dimmed
+-- disabled stage; CurrentStage picks active/disabled rendering.
 local pistol_obj = Tracker:FindObjectForCode("pistol")
-if pistol_obj then pistol_obj.Active = true end
+if pistol_obj then
+    pistol_obj.Active = true
+    pistol_obj.CurrentStage = 1
+end
 
 if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/autotracking_data.lua")

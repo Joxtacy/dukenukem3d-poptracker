@@ -73,7 +73,7 @@
                     },
                     {
                       "type": "group",
-                      "header": "Inventory",
+                      "header": "Inventory (icon = owned, badge = pickups; second row = fuel received)",
                       "dock": "top",
                       "content": {
                         "type": "itemgrid",
@@ -90,18 +90,9 @@
                             "protective_boots"
                           ],
                           [
-                            "steroids_capacity",
-                            "scuba_gear_capacity",
-                            "jetpack_capacity",
-                            "_",
-                            "_",
-                            "_",
-                            "_"
-                          ],
-                          [
-                            "progressive_steroids",
-                            "progressive_scuba_gear",
-                            "progressive_jetpack",
+                            "steroids_fuel",
+                            "scuba_fuel",
+                            "jetpack_fuel",
                             "_",
                             "_",
                             "_",

@@ -167,7 +167,15 @@
     "codes": "pistol",
     "max_quantity": 999,
     "increment": 1,
-    "initial_quantity": 0
+    "initial_quantity": 0,
+    "stages": [
+      {
+        "img": "images/pistol.png"
+      },
+      {
+        "img": "images/pistol.png"
+      }
+    ]
   },
   {
     "name": "Progressive Pistol",
@@ -191,7 +199,15 @@
     "codes": "shotgun,d3d_2977761482",
     "max_quantity": 999,
     "increment": 1,
-    "initial_quantity": 0
+    "initial_quantity": 0,
+    "stages": [
+      {
+        "img": "images/shotgun.png"
+      },
+      {
+        "img": "images/shotgun.png"
+      }
+    ]
   },
   {
     "name": "Progressive Shotgun",
@@ -215,7 +231,15 @@
     "codes": "chaingun,d3d_2977761483",
     "max_quantity": 999,
     "increment": 1,
-    "initial_quantity": 0
+    "initial_quantity": 0,
+    "stages": [
+      {
+        "img": "images/chaingun.png"
+      },
+      {
+        "img": "images/chaingun.png"
+      }
+    ]
   },
   {
     "name": "Progressive Chaingun",
@@ -239,7 +263,15 @@
     "codes": "rpg,d3d_2977761484",
     "max_quantity": 999,
     "increment": 1,
-    "initial_quantity": 0
+    "initial_quantity": 0,
+    "stages": [
+      {
+        "img": "images/rpg.png"
+      },
+      {
+        "img": "images/rpg.png"
+      }
+    ]
   },
   {
     "name": "Progressive RPG",
@@ -263,7 +295,15 @@
     "codes": "pipebomb,d3d_2977761485",
     "max_quantity": 999,
     "increment": 1,
-    "initial_quantity": 0
+    "initial_quantity": 0,
+    "stages": [
+      {
+        "img": "images/pipebomb.png"
+      },
+      {
+        "img": "images/pipebomb.png"
+      }
+    ]
   },
   {
     "name": "Progressive Pipebomb",
@@ -287,7 +327,15 @@
     "codes": "shrinker,d3d_2977761486",
     "max_quantity": 999,
     "increment": 1,
-    "initial_quantity": 0
+    "initial_quantity": 0,
+    "stages": [
+      {
+        "img": "images/shrinker.png"
+      },
+      {
+        "img": "images/shrinker.png"
+      }
+    ]
   },
   {
     "name": "Progressive Shrinker",
@@ -311,7 +359,15 @@
     "codes": "devastator,d3d_2977761487",
     "max_quantity": 999,
     "increment": 1,
-    "initial_quantity": 0
+    "initial_quantity": 0,
+    "stages": [
+      {
+        "img": "images/devastator.png"
+      },
+      {
+        "img": "images/devastator.png"
+      }
+    ]
   },
   {
     "name": "Progressive Devastator",
@@ -335,7 +391,15 @@
     "codes": "tripmine,d3d_2977761488",
     "max_quantity": 999,
     "increment": 1,
-    "initial_quantity": 0
+    "initial_quantity": 0,
+    "stages": [
+      {
+        "img": "images/tripmine.png"
+      },
+      {
+        "img": "images/tripmine.png"
+      }
+    ]
   },
   {
     "name": "Progressive Tripmine",
@@ -359,7 +423,15 @@
     "codes": "freezethrower,d3d_2977761489",
     "max_quantity": 999,
     "increment": 1,
-    "initial_quantity": 0
+    "initial_quantity": 0,
+    "stages": [
+      {
+        "img": "images/freezethrower.png"
+      },
+      {
+        "img": "images/freezethrower.png"
+      }
+    ]
   },
   {
     "name": "Progressive Freezethrower",
@@ -383,7 +455,15 @@
     "codes": "expander,d3d_2977761491",
     "max_quantity": 999,
     "increment": 1,
-    "initial_quantity": 0
+    "initial_quantity": 0,
+    "stages": [
+      {
+        "img": "images/expander.png"
+      },
+      {
+        "img": "images/expander.png"
+      }
+    ]
   },
   {
     "name": "Progressive Expander",
@@ -402,18 +482,20 @@
   },
   {
     "name": "Steroids",
-    "type": "toggle",
+    "type": "toggle_badged",
     "img": "images/steroids.png",
-    "codes": "steroids,d3d_2977761580"
-  },
-  {
-    "name": "Steroids Capacity",
-    "type": "consumable",
-    "img": "images/steroids.png",
-    "codes": "steroids_capacity,d3d_2977761600",
-    "max_quantity": 10,
+    "codes": "steroids,d3d_2977761580",
+    "max_quantity": 999,
     "increment": 1,
-    "initial_quantity": 0
+    "initial_quantity": 0,
+    "stages": [
+      {
+        "img": "images/steroids.png"
+      },
+      {
+        "img": "images/steroids.png"
+      }
+    ]
   },
   {
     "name": "Progressive Steroids",
@@ -423,18 +505,20 @@
   },
   {
     "name": "Scuba Gear",
-    "type": "toggle",
+    "type": "toggle_badged",
     "img": "images/scuba_gear.png",
-    "codes": "scuba_gear,d3d_2977761582"
-  },
-  {
-    "name": "Scuba Gear Capacity",
-    "type": "consumable",
-    "img": "images/scuba_gear.png",
-    "codes": "scuba_gear_capacity,d3d_2977761602",
-    "max_quantity": 10,
+    "codes": "scuba_gear,d3d_2977761582",
+    "max_quantity": 999,
     "increment": 1,
-    "initial_quantity": 0
+    "initial_quantity": 0,
+    "stages": [
+      {
+        "img": "images/scuba_gear.png"
+      },
+      {
+        "img": "images/scuba_gear.png"
+      }
+    ]
   },
   {
     "name": "Progressive Scuba Gear",
@@ -444,18 +528,20 @@
   },
   {
     "name": "Jetpack",
-    "type": "toggle",
+    "type": "toggle_badged",
     "img": "images/jetpack.png",
-    "codes": "jetpack,d3d_2977761584"
-  },
-  {
-    "name": "Jetpack Capacity",
-    "type": "consumable",
-    "img": "images/jetpack.png",
-    "codes": "jetpack_capacity,d3d_2977761604",
-    "max_quantity": 10,
+    "codes": "jetpack,d3d_2977761584",
+    "max_quantity": 999,
     "increment": 1,
-    "initial_quantity": 0
+    "initial_quantity": 0,
+    "stages": [
+      {
+        "img": "images/jetpack.png"
+      },
+      {
+        "img": "images/jetpack.png"
+      }
+    ]
   },
   {
     "name": "Progressive Jetpack",
@@ -496,6 +582,33 @@
     "img": "images/protective_boots.png",
     "codes": "protective_boots,d3d_2977761590",
     "max_quantity": 99,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Steroids Fuel",
+    "type": "consumable",
+    "img": "images/steroids.png",
+    "codes": "steroids_fuel",
+    "max_quantity": 99999,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Scuba Fuel",
+    "type": "consumable",
+    "img": "images/scuba_gear.png",
+    "codes": "scuba_fuel",
+    "max_quantity": 99999,
+    "increment": 1,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Jetpack Fuel",
+    "type": "consumable",
+    "img": "images/jetpack.png",
+    "codes": "jetpack_fuel",
+    "max_quantity": 99999,
     "increment": 1,
     "initial_quantity": 0
   },

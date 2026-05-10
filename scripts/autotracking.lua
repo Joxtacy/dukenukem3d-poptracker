@@ -36,10 +36,17 @@ SCUBA_ITEM_IDS = build_fuel_id_set({
     scuba_gear_capacity = true,
     progressive_scuba_gear = true,
 })
+STEROIDS_ITEM_IDS = build_fuel_id_set({
+    steroids = true,
+    steroids_capacity = true,
+    progressive_steroids = true,
+})
 JETPACK_FUEL_PER_PICKUP = 100
 SCUBA_FUEL_PER_PICKUP = 400
+STEROIDS_FUEL_PER_PICKUP = 40
 JETPACK_FUEL_TOTAL = 0
 SCUBA_FUEL_TOTAL = 0
+STEROIDS_FUEL_TOTAL = 0
 
 -- Mode flag for the apworld's `progressive_weapons` YAML option. Read from
 -- slot_data.settings.progressive_weapons at onClear; nil when slot_data
@@ -117,6 +124,30 @@ WEAPON_FOR_PROGRESSIVE_ID = build_weapon_id_map("progressive_", nil)
 WEAPON_FOR_AMMO_ID = build_weapon_id_map(nil, "_ammo")
 WEAPON_FOR_BASE_ID = build_weapon_id_map(nil, nil)
 
+-- Reverse maps for the three dual-form inventory items (Steroids / Scuba
+-- Gear / Jetpack). Mirrors the WEAPON_FOR_*_ID pattern. The *_capacity ids
+-- have no items.json counterpart (entries dropped during the inventory
+-- consolidation; ids stay in ITEM_MAP and in JETPACK_ITEM_IDS / SCUBA_ITEM_IDS
+-- so fuel accumulation still fires). Progressive ids do have JsonItems but
+-- are hidden from the layout.
+local INVENTORY_KEYS = { "steroids", "scuba_gear", "jetpack" }
+local function build_inventory_id_map(prefix, suffix)
+    local map = {}
+    if type(ITEM_MAP) ~= "table" then return map end
+    for ap_id, code in pairs(ITEM_MAP) do
+        for _, k in ipairs(INVENTORY_KEYS) do
+            if code == (prefix or "") .. k .. (suffix or "") then
+                map[ap_id] = k
+                break
+            end
+        end
+    end
+    return map
+end
+INVENTORY_FOR_CAPACITY_ID    = build_inventory_id_map(nil,           "_capacity")
+INVENTORY_FOR_PROGRESSIVE_ID = build_inventory_id_map("progressive_", nil)
+INVENTORY_FOR_BASE_ID        = build_inventory_id_map(nil,           nil)
+
 -- ============================================================
 -- Helpers
 -- ============================================================
@@ -124,6 +155,22 @@ WEAPON_FOR_BASE_ID = build_weapon_id_map(nil, nil)
 local function set_toggle(code, active)
     local obj = Tracker:FindObjectForCode(code)
     if obj then obj.Active = active end
+end
+
+-- Set Active on a JsonItem and, for staged toggle_badged items, also sync
+-- CurrentStage. Workaround for a PopTracker rendering quirk: standalone
+-- toggle_badged items don't apply the disabled-image filter when Active=false
+-- (src/ui/trackerview.cpp). Giving the item two stages in items.json (both
+-- with the same image) makes PopTracker generate a properly dimmed disabled
+-- stage at index 0 and an active stage at index 1; CurrentStage picks which
+-- one shows. We sync it here so callers can keep writing obj.Active without
+-- caring about the workaround.
+local function set_active(obj, val)
+    if not obj then return end
+    obj.Active = val
+    if obj.Type == "toggle_badged" then
+        obj.CurrentStage = val and 1 or 0
+    end
 end
 
 local function reset_consumable(code, _max_quantity_unused, active)
@@ -259,31 +306,59 @@ function onClear(slot_data)
     -- 4e. Per-weapon ammo cap. settings.maximum.<weapon> is the seed's BASE
     --     cap; the in-game cap grows by `capacity_per` each time a Capacity
     --     (or progressive-stage-2+) item is received. The cap is displayed
-    --     as the toggle_badged AcquiredCount on the weapon icon itself, so
-    --     this also serves as the "reset to base" step before items stream
-    --     in. Pistol is always present, so re-light it (the reset loop
-    --     below would clear Active for any toggle_badged in ITEM_MAP, but
-    --     pistol isn't in ITEM_MAP — still, set explicitly for safety).
+    --     as the toggle_badged AcquiredCount on the weapon icon itself.
+    --     Don't pre-seed unreceived weapons with the base cap — PopTracker
+    --     renders the badge text on a toggle_badged even when Active=false,
+    --     which made every weapon icon read as "owned" the moment AP
+    --     connected. Cache the base caps in WEAPON_BASE_CAP and only stamp
+    --     them onto the badge in onItem when the corresponding weapon
+    --     actually arrives (base item in non-progressive mode, or
+    --     progressive stage 1 in progressive mode). Pistol is always
+    --     present, so re-light it explicitly and seed its cap immediately.
     local maximum = (slot_data and slot_data["settings"]
             and slot_data["settings"]["maximum"]) or {}
+    WEAPON_BASE_CAP = {}
     for _, w in ipairs(WEAPON_KEYS) do
+        WEAPON_BASE_CAP[w] = tonumber(maximum[w]) or 0
         local obj = Tracker:FindObjectForCode(w)
-        if obj then
-            obj.AcquiredCount = tonumber(maximum[w]) or 0
-        end
+        if obj then obj.AcquiredCount = 0 end
     end
     local pistol_obj = Tracker:FindObjectForCode("pistol")
-    if pistol_obj then pistol_obj.Active = true end
+    if pistol_obj then
+        set_active(pistol_obj, true)
+        pistol_obj.AcquiredCount = WEAPON_BASE_CAP["pistol"] or 0
+    end
 
-    -- 4c. Fuel-aware logic: read per-pickup capacities for jetpack and scuba
-    --     from slot_data.settings.dynamic. The apworld writes the same
-    --     `capacity` value to every entry in a fuel group, so first match
-    --     wins. Reset accumulated totals; onItem will bump them as items
-    --     stream back in after reconnect.
+    -- 4d. Inventory toggle_badged badge reset. The 3 dual-form inventory
+    --     items (Steroids / Scuba Gear / Jetpack) need explicit AcquiredCount
+    --     clearing because the generic toggle_badged reset below only zeroes
+    --     Active. The 3 derived fuel-total consumables (steroids_fuel /
+    --     scuba_fuel / jetpack_fuel) carry no AP id so they're invisible
+    --     to the ITEM_MAP-driven reset — clear them explicitly here. onItem
+    --     will re-bump these as items stream back in after reconnect. (The
+    --     4 plain consumables Holo Duke / NVG / First Aid Kit / Protective
+    --     Boots are reset by the generic consumable branch in the ITEM_MAP
+    --     loop.)
+    for _, code in ipairs({ "steroids", "scuba_gear", "jetpack" }) do
+        local obj = Tracker:FindObjectForCode(code)
+        if obj then obj.AcquiredCount = 0 end
+    end
+    for _, code in ipairs({ "steroids_fuel", "jetpack_fuel", "scuba_fuel" }) do
+        local obj = Tracker:FindObjectForCode(code)
+        if obj then obj.AcquiredCount = 0 end
+    end
+
+    -- 4c. Fuel-aware logic: read per-pickup capacities for jetpack, scuba,
+    --     and steroids from slot_data.settings.dynamic. The apworld writes
+    --     the same `capacity` value to every entry in a fuel group, so first
+    --     match wins. Reset accumulated totals; onItem will bump them as
+    --     items stream back in after reconnect.
     JETPACK_FUEL_PER_PICKUP = 100
     SCUBA_FUEL_PER_PICKUP = 400
+    STEROIDS_FUEL_PER_PICKUP = 40
     JETPACK_FUEL_TOTAL = 0
     SCUBA_FUEL_TOTAL = 0
+    STEROIDS_FUEL_TOTAL = 0
     local dynamic = slot_data and slot_data["settings"]
             and slot_data["settings"]["dynamic"]
     if type(dynamic) == "table" then
@@ -295,6 +370,8 @@ function onClear(slot_data)
                         JETPACK_FUEL_PER_PICKUP = entry.capacity
                     elseif SCUBA_ITEM_IDS[ap_id] then
                         SCUBA_FUEL_PER_PICKUP = entry.capacity
+                    elseif STEROIDS_ITEM_IDS[ap_id] then
+                        STEROIDS_FUEL_PER_PICKUP = entry.capacity
                     end
                     local weapon = WEAPON_FOR_CAPACITY_ID[ap_id]
                     if weapon then
@@ -330,7 +407,7 @@ function onClear(slot_data)
         local obj = Tracker:FindObjectForCode(code)
         if obj then
             if obj.Type == "toggle" or obj.Type == "toggle_badged" then
-                obj.Active = false
+                set_active(obj, false)
             elseif obj.Type == "progressive" then
                 obj.CurrentStage = 0
             elseif obj.Type == "consumable" then
@@ -380,8 +457,16 @@ function onItem(index, item_id, item_name, player_number)
     -- inside the dispatch chain. (No jetpack/scuba item is also a goal item.)
     if JETPACK_ITEM_IDS[item_id] then
         JETPACK_FUEL_TOTAL = JETPACK_FUEL_TOTAL + JETPACK_FUEL_PER_PICKUP
+        local fuel_obj = Tracker:FindObjectForCode("jetpack_fuel")
+        if fuel_obj then fuel_obj.AcquiredCount = JETPACK_FUEL_TOTAL end
     elseif SCUBA_ITEM_IDS[item_id] then
         SCUBA_FUEL_TOTAL = SCUBA_FUEL_TOTAL + SCUBA_FUEL_PER_PICKUP
+        local fuel_obj = Tracker:FindObjectForCode("scuba_fuel")
+        if fuel_obj then fuel_obj.AcquiredCount = SCUBA_FUEL_TOTAL end
+    elseif STEROIDS_ITEM_IDS[item_id] then
+        STEROIDS_FUEL_TOTAL = STEROIDS_FUEL_TOTAL + STEROIDS_FUEL_PER_PICKUP
+        local fuel_obj = Tracker:FindObjectForCode("steroids_fuel")
+        if fuel_obj then fuel_obj.AcquiredCount = STEROIDS_FUEL_TOTAL end
     end
 
     -- Goal items: bump the matching consumable counter.
@@ -410,7 +495,7 @@ function onItem(index, item_id, item_name, player_number)
     local prev_stage = nil
     if obj then
         if obj.Type == "toggle" or obj.Type == "toggle_badged" then
-            obj.Active = true
+            set_active(obj, true)
         elseif obj.Type == "progressive" then
             prev_stage = obj.CurrentStage
             obj.CurrentStage = prev_stage + 1
@@ -434,17 +519,6 @@ function onItem(index, item_id, item_name, player_number)
         end
     end
 
-    -- Base weapon item (only non-pistol weapons exist; pistol is always
-    -- present). Grants the weapon and intrinsic ammo for it.
-    local base_weapon = WEAPON_FOR_BASE_ID[item_id]
-    if base_weapon then
-        bump_ammo_total(base_weapon, WEAPON_INTRINSIC_AMMO[base_weapon] or 0)
-    end
-
-    -- Per-weapon ammo cap: every <weapon> Capacity bumps the cap. For
-    -- Progressive Pistol every stage is a Pistol Capacity (pistol weapon is
-    -- always present, so items=[Pistol Capacity]); for other progressives
-    -- only stage 2+ delivers a Capacity sub-item (stage 1 is the weapon).
     -- Helper: bump the <weapon> toggle_badged AcquiredCount, which is the
     -- on-icon current ammo cap badge.
     local function bump_cap(weapon, amount)
@@ -455,6 +529,20 @@ function onItem(index, item_id, item_name, player_number)
         end
     end
 
+    -- Base weapon item (only non-pistol weapons exist; pistol is always
+    -- present). Grants the weapon, seeds the cap badge with the seed's
+    -- base cap (deferred from onClear so unreceived weapons stay badge-
+    -- less), and grants intrinsic ammo for it.
+    local base_weapon = WEAPON_FOR_BASE_ID[item_id]
+    if base_weapon then
+        bump_cap(base_weapon, (WEAPON_BASE_CAP and WEAPON_BASE_CAP[base_weapon]) or 0)
+        bump_ammo_total(base_weapon, WEAPON_INTRINSIC_AMMO[base_weapon] or 0)
+    end
+
+    -- Per-weapon ammo cap: every <weapon> Capacity bumps the cap. For
+    -- Progressive Pistol every stage is a Pistol Capacity (pistol weapon is
+    -- always present, so items=[Pistol Capacity]); for other progressives
+    -- only stage 2+ delivers a Capacity sub-item (stage 1 is the weapon).
     local cap_weapon = WEAPON_FOR_CAPACITY_ID[item_id]
     if cap_weapon then
         bump_cap(cap_weapon, WEAPON_CAPACITY_PER_PICKUP[cap_weapon] or 0)
@@ -463,11 +551,12 @@ function onItem(index, item_id, item_name, player_number)
         local prog_weapon = WEAPON_FOR_PROGRESSIVE_ID[item_id]
         if prog_weapon then
             -- First Progressive <non-pistol> grants the weapon itself; light
-            -- the base toggle so "owned" reads off the same row regardless of
-            -- progressive_weapons mode. (Pistol is forced Active in init.)
+            -- the base toggle and seed the base cap badge so "owned" reads
+            -- off the same row regardless of progressive_weapons mode.
+            -- (Pistol is forced Active + seeded in onClear.)
             if prev_stage == 0 and prog_weapon ~= "pistol" then
-                local toggle_obj = Tracker:FindObjectForCode(prog_weapon)
-                if toggle_obj then toggle_obj.Active = true end
+                set_active(Tracker:FindObjectForCode(prog_weapon), true)
+                bump_cap(prog_weapon, (WEAPON_BASE_CAP and WEAPON_BASE_CAP[prog_weapon]) or 0)
                 bump_ammo_total(prog_weapon, WEAPON_INTRINSIC_AMMO[prog_weapon] or 0)
             end
             -- Cap bump: every Progressive Pistol carries a Pistol Capacity;
@@ -477,6 +566,47 @@ function onItem(index, item_id, item_name, player_number)
                 bump_ammo_total(prog_weapon, WEAPON_CAPACITY_AMMO_PER_PICKUP[prog_weapon] or 0)
             end
         end
+    end
+
+    -- Inventory cap/progressive bumps (dual-form items: steroids / scuba_gear /
+    -- jetpack). Mirrors the weapon block above. Each capacity stage delivered
+    -- bumps the base toggle_badged AcquiredCount by 1, regardless of whether
+    -- the apworld delivered it as the base item, a *_capacity item, or a
+    -- progressive_* stage. Unlike weapons, the base inventory item itself
+    -- carries a capacity stage (the apworld counts it as a fuel-pickup via
+    -- JETPACK_ITEM_IDS / SCUBA_ITEM_IDS membership), so a base receipt also
+    -- bumps the badge. There is no pistol-equivalent always-on inventory
+    -- item, so progressives obey the non-pistol pattern unconditionally.
+    local function bump_inv_cap(key)
+        if not key then return end
+        local obj_inv = Tracker:FindObjectForCode(key)
+        if obj_inv then
+            obj_inv.AcquiredCount = obj_inv.AcquiredCount + 1
+        end
+    end
+
+    local cap_inv = INVENTORY_FOR_CAPACITY_ID[item_id]
+    if cap_inv then
+        bump_inv_cap(cap_inv)
+    else
+        local prog_inv = INVENTORY_FOR_PROGRESSIVE_ID[item_id]
+        if prog_inv then
+            if prev_stage == 0 then
+                local toggle_obj = Tracker:FindObjectForCode(prog_inv)
+                if toggle_obj then
+                    set_active(toggle_obj, true)
+                    toggle_obj.AcquiredCount = toggle_obj.AcquiredCount + 1
+                end
+            end
+            if prev_stage and prev_stage >= 1 then
+                bump_inv_cap(prog_inv)
+            end
+        end
+    end
+
+    local base_inv = INVENTORY_FOR_BASE_ID[item_id]
+    if base_inv then
+        bump_inv_cap(base_inv)
     end
 end
 
