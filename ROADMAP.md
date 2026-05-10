@@ -7,7 +7,7 @@ Living list of what's shipped, what's next, and what's deliberately deferred. Up
 - Single "All Episodes" variant; episode rows hidden via `epN` toggles when an episode isn't in the seed.
 - 239 items: weapons + ammo + capacity + progressive variants, inventory, armor, abilities, healing, per-level Unlock + Automap + colour Key Cards, hidden setting toggles, goal counters.
 - 1608 locations across 40 levels (Exit + Secret Exit, sector secrets, every sprite pickup including density-5 MP-only spots).
-- Goal counter (Exit / Secret / Boss). Ticks correctly; currently displays as `X/99` because PopTracker's `JsonItem.MaxQuantity` is read-only at runtime — see v0.2.
+- Goal counter (Exit / Secret / Boss). Ticks correctly and shows progress as `X / <slot target>`, turning green when the target is hit.
 - Autotracker: derives active episodes from `slot_data["levels"]`, ability/interact gating from `slot_data["settings"]["lock"]`, secrets toggle from active location names, E1L7 from active levels.
 - Simplified access rules (`epN,eXlY_unlock`, plus `secrets` for sector checks). Sections show as accessible the moment the level unlocks.
 - Tooling: `gen_pack_data.py`, `gen_layout.py`, `gen_placeholders.py`, `gen_recolors.py` (see [`tools/README.md`](tools/README.md)).
@@ -21,7 +21,7 @@ Polish pass focused on real visual tracking and tighter logic.
   - **Vector renders (default)**: parse each `.MAP` file from `duke3d.grp` and render a wireframe top-down PNG plus accurate sprite/sector pin coordinates. Already wired; run `tools/gen_maps.py --grp <path>` then `python3 tools/gen_pack_data.py`.
   - **Manual / wiki images via calibration**: drop your own per-level PNGs into `images/eXlY_map.png`, then run `tools/gen_maps.py --init-calibration` to generate `tools/map_calibration.json` with three auto-picked reference sprites per level. Fill in pixel coords in any image editor that shows cursor position, re-run `gen_maps.py`, and a 3-point affine transform produces pins aligned to your manual images. Mix and match per-level. Full workflow in [`tools/README.md`](tools/README.md#calibration-mode-use-a-manual-map-image-instead-of-the-vector-render).
 - ~~**Per-key access_rules gating.**~~ Done — heuristic regex in `gen_pack_data.py` matches `<Color> Door/Room/Gate/Basement/Storage/Boat/Auction/Cashier` and `near <Color> Door/Gate` patterns and appends `<level>_<color>_key` to the access rule. Catches 24 sections across all four episodes, all confirmed correct against the apworld region graph. Ability/explosive/jetpack-fuel gating moves to v0.3.
-- **Dynamic goal target display.** Replace the static `X/99` badge with a text-label widget that reads `GOAL_TARGETS` and renders `X / <slot target>`. Layout tweak.
+- ~~**Dynamic goal target display.**~~ Done — goal items switched from `consumable` to `toggle` so PopTracker's trackerview doesn't override the badge text with `std::to_string(count)`. Progress kept in `GOAL_COUNTS` and rendered via `:SetOverlay("X/Y")` in `render_goal` (`scripts/autotracking.lua`); turns green at completion.
 - **Real icons for remaining placeholders.** Whatever still ships as text-labelled stubs in `images/`.
 
 ## v0.3+ — future / nice-to-have

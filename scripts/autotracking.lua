@@ -4,8 +4,14 @@
 -- LEVEL_PATH, LEVEL_TO_EPISODE, UNLOCK_ID_TO_PREFIX.
 
 -- Goal item AP IDs and target counts, populated each onClear from slot_data.
+-- GOAL_COUNTS is the running progress per kind; rendered as "X/Y" via SetOverlay
+-- in render_goal. We can't use consumable AcquiredCount here: PopTracker's
+-- trackerview overrides the badge text with std::to_string(count) whenever
+-- count > 0 (src/ui/trackerview.cpp), so a custom "X/Y" overlay would be
+-- clobbered on every redraw. Toggles keep the user-set overlay intact.
 GOAL_IDS = { exit = nil, secret = nil, boss = nil }
 GOAL_TARGETS = { exit = 0, secret = 0, boss = 0 }
+GOAL_COUNTS = { exit = 0, secret = 0, boss = 0 }
 GOAL_CODES = { exit = "goal_exit", secret = "goal_secret", boss = "goal_boss" }
 
 -- Active location IDs for the connected slot (subset of LOCATION_MAP).
@@ -173,15 +179,23 @@ local function set_active(obj, val)
     end
 end
 
-local function reset_consumable(code, _max_quantity_unused, active)
-    -- NOTE: PopTracker JsonItem doesn't expose MaxQuantity as a writable
-    -- property at runtime. The cap from items.json (99) is fixed; the
-    -- goal counter shows X/99 rather than X/<seed target>. Showing the
-    -- real target needs a separate text-label widget (v0.2 layout work).
-    local obj = Tracker:FindObjectForCode(code)
+-- Render a goal toggle's "X/Y" badge from GOAL_COUNTS / GOAL_TARGETS. Hides the
+-- icon (Active=false, blank overlay) when the goal isn't in this seed, and
+-- turns the count green once the target is hit.
+local function render_goal(kind)
+    local code = GOAL_CODES[kind]
+    local obj = code and Tracker:FindObjectForCode(code)
     if not obj then return end
-    obj.AcquiredCount = 0
-    if active ~= nil then obj.Active = active end
+    local target = GOAL_TARGETS[kind] or 0
+    local current = GOAL_COUNTS[kind] or 0
+    if target > 0 then
+        obj.Active = true
+        obj:SetOverlay(string.format("%d/%d", current, target))
+        obj:SetOverlayColor(current >= target and "#1FFF1F" or "#DCDCDC")
+    else
+        obj.Active = false
+        obj:SetOverlay("")
+    end
 end
 
 -- ============================================================
@@ -429,12 +443,11 @@ function onClear(slot_data)
         pistol_ammo_obj.AcquiredCount = math.min(PISTOL_BASELINE_AMMO, base_pistol_cap)
     end
 
-    -- 7. Configure goal counter consumables: badge shows X/Y once MaxQuantity
-    --    is set, and we hide the slot for goals not in this seed (count == 0).
-    for kind, code in pairs(GOAL_CODES) do
-        local target = GOAL_TARGETS[kind] or 0
-        local max_q = target > 0 and target or 1
-        reset_consumable(code, max_q, target > 0)
+    -- 7. Reset goal progress and render the X/Y badges. Goals not in this
+    --    seed (target == 0) are deactivated by render_goal.
+    GOAL_COUNTS = { exit = 0, secret = 0, boss = 0 }
+    for kind, _ in pairs(GOAL_CODES) do
+        render_goal(kind)
     end
 
     -- 8. Reset all locations. Inactive ones get AvailableChestCount = 0 so
@@ -469,14 +482,11 @@ function onItem(index, item_id, item_name, player_number)
         if fuel_obj then fuel_obj.AcquiredCount = STEROIDS_FUEL_TOTAL end
     end
 
-    -- Goal items: bump the matching consumable counter.
+    -- Goal items: bump the matching counter and re-render its X/Y badge.
     for kind, goal_id in pairs(GOAL_IDS) do
         if goal_id and item_id == goal_id then
-            local code = GOAL_CODES[kind]
-            local obj = Tracker:FindObjectForCode(code)
-            if obj then
-                obj.AcquiredCount = obj.AcquiredCount + 1
-            end
+            GOAL_COUNTS[kind] = (GOAL_COUNTS[kind] or 0) + 1
+            render_goal(kind)
             return
         end
     end

@@ -135,30 +135,21 @@
   },
   {
     "name": "Exits",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/goal_exit.png",
-    "codes": "goal_exit,d3d_2977761380",
-    "max_quantity": 99,
-    "increment": 1,
-    "initial_quantity": 0
+    "codes": "goal_exit,d3d_2977761380"
   },
   {
     "name": "Secrets",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/goal_secret.png",
-    "codes": "goal_secret,d3d_2977761381",
-    "max_quantity": 99,
-    "increment": 1,
-    "initial_quantity": 0
+    "codes": "goal_secret,d3d_2977761381"
   },
   {
     "name": "Bosses",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/goal_boss.png",
-    "codes": "goal_boss,d3d_2977761382",
-    "max_quantity": 99,
-    "increment": 1,
-    "initial_quantity": 0
+    "codes": "goal_boss,d3d_2977761382"
   },
   {
     "name": "Pistol",
