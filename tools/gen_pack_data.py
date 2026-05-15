@@ -36,8 +36,6 @@ AUTOMAP_BASE = 1600
 UNLOCK_BASE = 1700
 KEYCARD_BASE = 1800
 
-KEY_FLAG_ORDER = ("Blue", "Red", "Yellow")  # iteration order in items/__init__.py
-
 
 def net_id(short_id: int) -> int:
     return NET_ID_BASE | (short_id & 0x7FF)
@@ -389,16 +387,15 @@ def build_items_json(levels: list[LevelData]) -> list[dict[str, Any]]:
         )
         unlock_id += 1
 
-        for color in KEY_FLAG_ORDER:
-            if color in level.keys:
-                add(
-                    f"{level.prefix} {color} Key Card",
-                    f"{cp}_{color.lower()}_key",
-                    "toggle",
-                    f"images/key_{color.lower()}.png",
-                    short_id=keycard_id,
-                )
-                keycard_id += 1
+        for color in level.keys:
+            add(
+                f"{level.prefix} {color} Key Card",
+                f"{cp}_{color.lower()}_key",
+                "toggle",
+                f"images/key_{color.lower()}.png",
+                short_id=keycard_id,
+            )
+            keycard_id += 1
 
     return items
 
@@ -821,14 +818,13 @@ def build_autotracking_data_lua(
         automap_id += 1
         emit_item(unlock_id, f"{cp}_unlock", f"{level.prefix} Unlock")
         unlock_id += 1
-        for color in KEY_FLAG_ORDER:
-            if color in level.keys:
-                emit_item(
-                    keycard_id,
-                    f"{cp}_{color.lower()}_key",
-                    f"{level.prefix} {color} Key Card",
-                )
-                keycard_id += 1
+        for color in level.keys:
+            emit_item(
+                keycard_id,
+                f"{cp}_{color.lower()}_key",
+                f"{level.prefix} {color} Key Card",
+            )
+            keycard_id += 1
 
     # Build LOCATION_MAP from id_map.json. Path matches the JSON tree:
     # group/level-child/container/section. The container is either the

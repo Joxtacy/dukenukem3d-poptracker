@@ -1468,13 +1468,13 @@
     "name": "E4L4 Blue Key Card",
     "type": "toggle",
     "img": "images/key_blue.png",
-    "codes": "e4l4_blue_key,d3d_2977763135"
+    "codes": "e4l4_blue_key,d3d_2977763136"
   },
   {
     "name": "E4L4 Red Key Card",
     "type": "toggle",
     "img": "images/key_red.png",
-    "codes": "e4l4_red_key,d3d_2977763136"
+    "codes": "e4l4_red_key,d3d_2977763135"
   },
   {
     "name": "E4L5 Automap",
@@ -1522,13 +1522,13 @@
     "name": "E4L6 Blue Key Card",
     "type": "toggle",
     "img": "images/key_blue.png",
-    "codes": "e4l6_blue_key,d3d_2977763140"
+    "codes": "e4l6_blue_key,d3d_2977763141"
   },
   {
     "name": "E4L6 Red Key Card",
     "type": "toggle",
     "img": "images/key_red.png",
-    "codes": "e4l6_red_key,d3d_2977763141"
+    "codes": "e4l6_red_key,d3d_2977763140"
   },
   {
     "name": "E4L6 Yellow Key Card",
@@ -1552,13 +1552,13 @@
     "name": "E4L7 Blue Key Card",
     "type": "toggle",
     "img": "images/key_blue.png",
-    "codes": "e4l7_blue_key,d3d_2977763143"
+    "codes": "e4l7_blue_key,d3d_2977763144"
   },
   {
     "name": "E4L7 Red Key Card",
     "type": "toggle",
     "img": "images/key_red.png",
-    "codes": "e4l7_red_key,d3d_2977763144"
+    "codes": "e4l7_red_key,d3d_2977763143"
   },
   {
     "name": "E4L8 Automap",
@@ -1576,13 +1576,13 @@
     "name": "E4L8 Blue Key Card",
     "type": "toggle",
     "img": "images/key_blue.png",
-    "codes": "e4l8_blue_key,d3d_2977763145"
+    "codes": "e4l8_blue_key,d3d_2977763146"
   },
   {
     "name": "E4L8 Red Key Card",
     "type": "toggle",
     "img": "images/key_red.png",
-    "codes": "e4l8_red_key,d3d_2977763146"
+    "codes": "e4l8_red_key,d3d_2977763145"
   },
   {
     "name": "E4L8 Yellow Key Card",
@@ -1606,13 +1606,13 @@
     "name": "E4L9 Blue Key Card",
     "type": "toggle",
     "img": "images/key_blue.png",
-    "codes": "e4l9_blue_key,d3d_2977763148"
+    "codes": "e4l9_blue_key,d3d_2977763149"
   },
   {
     "name": "E4L9 Red Key Card",
     "type": "toggle",
     "img": "images/key_red.png",
-    "codes": "e4l9_red_key,d3d_2977763149"
+    "codes": "e4l9_red_key,d3d_2977763148"
   },
   {
     "name": "E4L9 Yellow Key Card",
@@ -1636,13 +1636,13 @@
     "name": "E4L10 Blue Key Card",
     "type": "toggle",
     "img": "images/key_blue.png",
-    "codes": "e4l10_blue_key,d3d_2977763151"
+    "codes": "e4l10_blue_key,d3d_2977763152"
   },
   {
     "name": "E4L10 Red Key Card",
     "type": "toggle",
     "img": "images/key_red.png",
-    "codes": "e4l10_red_key,d3d_2977763152"
+    "codes": "e4l10_red_key,d3d_2977763151"
   },
   {
     "name": "E4L10 Yellow Key Card",
@@ -1666,13 +1666,13 @@
     "name": "E4L11 Blue Key Card",
     "type": "toggle",
     "img": "images/key_blue.png",
-    "codes": "e4l11_blue_key,d3d_2977763154"
+    "codes": "e4l11_blue_key,d3d_2977763155"
   },
   {
     "name": "E4L11 Red Key Card",
     "type": "toggle",
     "img": "images/key_red.png",
-    "codes": "e4l11_red_key,d3d_2977763155"
+    "codes": "e4l11_red_key,d3d_2977763154"
   },
   {
     "name": "E4L11 Yellow Key Card",
