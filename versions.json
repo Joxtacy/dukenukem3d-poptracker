@@ -1,6 +1,15 @@
 {
   "versions": [
     {
+      "package_version": "0.0.10",
+      "download_url": "https://github.com/Joxtacy/dukenukem3d-poptracker/releases/download/v0.0.10/duke_nukem_3d_ap_tracker_0.0.10.zip",
+      "sha256": "75355343c10fe392a5f9b2e745ea3cf53147699986ca356b84a5dc70591acd44",
+      "changelog": [
+        "fix(logic): expand local rule vars + collapse dominated fuel literals",
+        "fix(autotracking): correct Blue/Red key swap in 7 E4 levels"
+      ]
+    },
+    {
       "package_version": "0.0.9",
       "download_url": "https://github.com/Joxtacy/dukenukem3d-poptracker/releases/download/v0.0.9/duke_nukem_3d_ap_tracker_0.0.9.zip",
       "sha256": "fab346728e8307086436021b0c86735781084504a0d4cde3cf1c997dbc1870bc",
