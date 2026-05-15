@@ -139,13 +139,41 @@ def to_dnf(rule: Rule) -> list[list[Lit]]:
     raise TypeError(f"unknown rule type: {type(rule)}")
 
 
+# Fuel literal families: within an AND, lower-threshold checks are implied by
+# higher ones (have ≥1000 ⟹ have ≥500), so keeping the max is sufficient.
+# Without this, chained dive rules in e1l4 (first/second/third dive) leave
+# every dive_fuel|N pair in the conjunction and inflate DNF size ~15×.
+_FUEL_PREFIXES = ("$can_dive_fuel|", "$has_jetpack_fuel|")
+
+
+def _collapse_fuel_lits(names: set[str]) -> set[str]:
+    """Within a single conjunction, drop fuel literals that are dominated by
+    a higher threshold from the same family."""
+    out = set(names)
+    for prefix in _FUEL_PREFIXES:
+        matches = [n for n in out if n.startswith(prefix)]
+        if len(matches) <= 1:
+            continue
+        thresholds = []
+        for n in matches:
+            try:
+                thresholds.append((int(n[len(prefix):]), n))
+            except ValueError:
+                pass
+        if len(thresholds) <= 1:
+            continue
+        keep = max(thresholds)[1]
+        out -= {n for _, n in thresholds if n != keep}
+    return out
+
+
 def _dedupe_dnf(dnf: list[list[Lit]]) -> list[list[Lit]]:
     """Remove duplicate conjunctions and within-conjunction duplicate literals.
     Drops conjunctions that are supersets of others (less restrictive →
     redundant); the smaller one already covers them."""
     cleaned: list[frozenset[str]] = []
     for conj in dnf:
-        s = frozenset(lit.name for lit in conj)
+        s = frozenset(_collapse_fuel_lits({lit.name for lit in conj}))
         if not any(other <= s and other != s for other in cleaned):
             cleaned = [c for c in cleaned if not s <= c or c == s]
             if s not in cleaned:
@@ -207,6 +235,11 @@ class Ctx:
     events: set[str]      # event names defined on this level
     # Per-event resolved access rule (filled lazily by resolve_event_rules).
     event_rules: dict[str, Rule] = field(default_factory=dict)
+    # Local rule variables bound inside main_region (e.g. e1l4's `second_dive
+    # = r.dive(1000) | ...`). translate_rule expands ast.Name references
+    # through this map so the rules survive the AST walk instead of falling
+    # through to TRUE.
+    local_vars: dict[str, ast.AST] = field(default_factory=dict)
 
 
 # ---------------------------------------------------------------------------
@@ -257,6 +290,17 @@ def translate_rule(node: ast.AST, ctx: Ctx) -> Rule:  # noqa: C901
             return TRUE
         if node.value is False:
             return FALSE
+
+    # Bare name reference. The apworld occasionally pre-builds a sub-
+    # expression into a local var to reuse it across multiple connects
+    # (e.g. e1l4's `second_dive = r.dive(1000) | ...`). parse_level_graph
+    # captures these into ctx.local_vars so we can recurse here instead of
+    # silently dropping the constraint.
+    if isinstance(node, ast.Name):
+        expr = ctx.local_vars.get(node.id)
+        if expr is not None:
+            return translate_rule(expr, ctx)
+        return TRUE
 
     # Anything else: permissive default
     return TRUE
@@ -414,6 +458,7 @@ class LevelGraph:
     edges: list[tuple[str, str, ast.AST | None]]  # (src, dst, raw rule AST)
     restrict_asts: dict[str, ast.AST]   # location_name -> raw rule AST
     events: set[str]
+    local_vars: dict[str, ast.AST] = field(default_factory=dict)
 
 
 def parse_level_graph(level_path: Path) -> LevelGraph:
@@ -469,9 +514,32 @@ def parse_level_graph(level_path: Path) -> LevelGraph:
     edges: list[tuple[str, str, ast.AST | None]] = []
     restrict_asts: dict[str, ast.AST] = {}
     var_to_region: dict[str, str] = {}
+    local_vars: dict[str, ast.AST] = {}
     main_region_name: str | None = None
 
     for stmt in main_region_method.body:
+        # Capture plain `name = <expr>` assignments as reusable rule fragments.
+        # Skips the two structural assignment forms handled below:
+        #   - `var = self.region(...)` (region binding)
+        #   - `r = self.rules` (rule-namespace alias, already special-cased
+        #     in _translate_attr)
+        # Everything else is treated as a pre-built sub-expression and stashed
+        # for translate_rule's ast.Name handler. e1l4's `second_dive` /
+        # `third_dive` are the only live users today.
+        if isinstance(stmt, ast.Assign) and len(stmt.targets) == 1 and \
+                isinstance(stmt.targets[0], ast.Name):
+            tname = stmt.targets[0].id
+            v = stmt.value
+            is_region_call = isinstance(v, ast.Call) and _is_self_call(v, "region")
+            is_rules_alias = (
+                isinstance(v, ast.Attribute)
+                and isinstance(v.value, ast.Name)
+                and v.value.id == "self"
+                and v.attr == "rules"
+            )
+            if not is_region_call and not is_rules_alias:
+                local_vars[tname] = v
+
         # var = self.region(...) (or self.region(..., [...])  )
         if isinstance(stmt, ast.Assign) and len(stmt.targets) == 1 and \
                 isinstance(stmt.targets[0], ast.Name) and \
@@ -556,6 +624,7 @@ def parse_level_graph(level_path: Path) -> LevelGraph:
         edges=edges,
         restrict_asts=restrict_asts,
         events=events,
+        local_vars=local_vars,
     )
 
 
@@ -715,7 +784,7 @@ def compute_all_level_rules(apworld_dir: Path) -> dict[str, dict[str, list[str]]
             continue
         graph = parse_level_graph(path)
         ctx = Ctx(prefix=graph.prefix, cp=graph.prefix.lower(),
-                  events=graph.events)
+                  events=graph.events, local_vars=graph.local_vars)
         resolve_event_rules(graph, ctx)
 
         per_loc: dict[str, list[str]] = {}

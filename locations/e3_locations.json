@@ -6386,10 +6386,10 @@
                 "name": "Exit Pipebombs",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l8_unlock,$jump,pipebomb",
-                  "ep3,e3l8_unlock,$logic_hard,$sprint,pipebomb",
-                  "ep3,e3l8_unlock,$jump,progressive_pipebomb",
-                  "ep3,e3l8_unlock,$logic_hard,$sprint,progressive_pipebomb",
+                  "ep3,e3l8_unlock,$jump,$logic_medium,pipebomb",
+                  "ep3,e3l8_unlock,$logic_hard,$logic_medium,$sprint,pipebomb",
+                  "ep3,e3l8_unlock,$jump,$logic_medium,progressive_pipebomb",
+                  "ep3,e3l8_unlock,$logic_hard,$logic_medium,$sprint,progressive_pipebomb",
                   "ep3,e3l8_unlock,$crouch_jump,$jump",
                   "ep3,e3l8_unlock,$can_jump,$can_open,$can_use,$jump,e3l8_blue_key,e3l8_yellow_key"
                 ]
@@ -6398,10 +6398,10 @@
                 "name": "Exit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep3,e3l8_unlock,$can_use,$jump,pipebomb",
-                  "ep3,e3l8_unlock,$can_use,$logic_hard,$sprint,pipebomb",
-                  "ep3,e3l8_unlock,$can_use,$jump,progressive_pipebomb",
-                  "ep3,e3l8_unlock,$can_use,$logic_hard,$sprint,progressive_pipebomb",
+                  "ep3,e3l8_unlock,$can_use,$jump,$logic_medium,pipebomb",
+                  "ep3,e3l8_unlock,$can_use,$logic_hard,$logic_medium,$sprint,pipebomb",
+                  "ep3,e3l8_unlock,$can_use,$jump,$logic_medium,progressive_pipebomb",
+                  "ep3,e3l8_unlock,$can_use,$logic_hard,$logic_medium,$sprint,progressive_pipebomb",
                   "ep3,e3l8_unlock,$can_use,$crouch_jump,$jump",
                   "ep3,e3l8_unlock,$can_jump,$can_open,$can_use,$jump,e3l8_blue_key,e3l8_yellow_key"
                 ]

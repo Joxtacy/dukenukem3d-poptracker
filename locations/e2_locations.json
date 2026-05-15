@@ -2173,33 +2173,39 @@
                 "name": "Top Ledge Atomic Health 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,$has_jetpack_fuel|100",
-                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100,$jump",
-                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
-                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
+                  "ep2,e2l4_unlock,$can_dive,$can_jump,$can_open,$can_sprint,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$has_jetpack_fuel|50,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_sprint,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$has_jetpack_fuel|50,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_sprint,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$has_jetpack_fuel|50,$jump,$logic_extreme,progressive_tripmine"
                 ]
               },
               {
                 "name": "Top Ledge Atomic Health 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,$has_jetpack_fuel|100",
-                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100,$jump",
-                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
-                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
+                  "ep2,e2l4_unlock,$can_dive,$can_jump,$can_open,$can_sprint,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$has_jetpack_fuel|50,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_sprint,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$has_jetpack_fuel|50,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_sprint,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$has_jetpack_fuel|50,$jump,$logic_extreme,progressive_tripmine"
                 ]
               },
               {
                 "name": "Top Ledge Jetpack",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$jump",
-                  "ep2,e2l4_unlock,$can_open,$can_sprint,$can_use,$has_jetpack_fuel|100",
-                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100,$jump",
-                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
-                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine"
+                  "ep2,e2l4_unlock,$can_dive,$can_jump,$can_open,$can_sprint,$can_use,$jump",
+                  "ep2,e2l4_unlock,$can_dive,$can_open,$can_use,$has_jetpack_fuel|50,$jump",
+                  "ep2,e2l4_unlock,$can_open,$can_use,$has_jetpack_fuel|100",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_sprint,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$has_jetpack_fuel|50,$jump,$logic_extreme,tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_sprint,$can_use,$fast_sprint,$glitched,$jump,$logic_extreme,progressive_tripmine",
+                  "ep2,e2l4_unlock,$can_jump,$can_open,$can_use,$fast_sprint,$glitched,$has_jetpack_fuel|50,$jump,$logic_extreme,progressive_tripmine"
                 ]
               }
             ]
@@ -5329,16 +5335,24 @@
                 "name": "Reactor Control Armor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$logic_extreme"
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$logic_extreme,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$logic_extreme",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$logic_extreme,$logic_medium"
                 ]
               },
               {
                 "name": "Yellow Key Card",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$logic_extreme"
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$logic_extreme,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$logic_extreme",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$logic_extreme,$logic_medium"
                 ]
               }
             ]
@@ -5357,7 +5371,9 @@
                 "name": "Babes Shotgun",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,$can_open,$can_use"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$logic_medium"
                 ]
               }
             ]
@@ -5376,7 +5392,9 @@
                 "name": "Gamma Vent Atomic Health",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,$can_open,$can_use"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$logic_medium"
                 ]
               }
             ]
@@ -5395,7 +5413,9 @@
                 "name": "Gamma Medkit",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,$can_open,$can_use"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$logic_medium"
                 ]
               }
             ]
@@ -5458,7 +5478,9 @@
                 "name": "Reactor Control Devastator",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,$can_open,$can_use"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$logic_medium"
                 ]
               }
             ]
@@ -5894,7 +5916,9 @@
                 "name": "Reactor Control Protective Boots",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,$can_open,$can_use"
+                  "ep2,e2l8_unlock,$can_open,$can_use,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$logic_medium"
                 ]
               }
             ]
@@ -6116,7 +6140,9 @@
                 "name": "Gamma Shrinker",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump"
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium"
                 ]
               },
               {
@@ -6132,7 +6158,9 @@
                 "name": "Secret Gamma Monitor",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump"
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,e2l8_blue_key",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|50,$jump",
+                  "ep2,e2l8_unlock,secrets,$can_jump,$can_open,$can_use,$jump,$logic_medium"
                 ]
               }
             ]
@@ -6170,56 +6198,120 @@
                 "name": "Babes Pipebombs 1",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,rpg",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_rpg",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,pipebomb",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_pipebomb",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,devastator",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_devastator",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,tripmine",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_tripmine"
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,devastator,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,progressive_tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,progressive_tripmine",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,rpg",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,pipebomb",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,devastator",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,tripmine",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,progressive_tripmine"
                 ]
               },
               {
                 "name": "Babes Pipebombs 2",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,rpg",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_rpg",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,pipebomb",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_pipebomb",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,devastator",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_devastator",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,tripmine",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_tripmine"
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,devastator,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,progressive_tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,progressive_tripmine",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,rpg",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,pipebomb",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,devastator",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,tripmine",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,progressive_tripmine"
                 ]
               },
               {
                 "name": "Babes Pipebombs 3",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,rpg",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_rpg",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,pipebomb",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_pipebomb",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,devastator",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_devastator",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,tripmine",
-                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,progressive_tripmine"
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,devastator,e2l8_blue_key",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$jump,e2l8_blue_key,progressive_tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,tripmine",
+                  "ep2,e2l8_unlock,$can_open,$can_use,$has_jetpack_fuel|50,$jump,progressive_tripmine",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,rpg",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,progressive_rpg",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,pipebomb",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,progressive_pipebomb",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,devastator",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,progressive_devastator",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,tripmine",
+                  "ep2,e2l8_unlock,$can_jump,$can_open,$can_use,$jump,$logic_medium,progressive_tripmine"
                 ]
               },
               {
                 "name": "Secret Babes Wall",
                 "item_count": 1,
                 "access_rules": [
-                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,rpg",
-                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,progressive_rpg",
-                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,pipebomb",
-                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,progressive_pipebomb",
-                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,devastator",
-                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,progressive_devastator",
-                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,tripmine",
-                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,progressive_tripmine"
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,e2l8_blue_key,rpg",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,e2l8_blue_key,progressive_rpg",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,e2l8_blue_key,pipebomb",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,e2l8_blue_key,progressive_pipebomb",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,devastator,e2l8_blue_key",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,e2l8_blue_key,progressive_devastator",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,e2l8_blue_key,tripmine",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$jump,e2l8_blue_key,progressive_tripmine",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|50,$jump,rpg",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|50,$jump,progressive_rpg",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|50,$jump,pipebomb",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|50,$jump,progressive_pipebomb",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|50,$jump,devastator",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|50,$jump,progressive_devastator",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|50,$jump,tripmine",
+                  "ep2,e2l8_unlock,secrets,$can_open,$can_use,$has_jetpack_fuel|50,$jump,progressive_tripmine",
+                  "ep2,e2l8_unlock,secrets,$can_jump,$can_open,$can_use,$jump,$logic_medium,rpg",
+                  "ep2,e2l8_unlock,secrets,$can_jump,$can_open,$can_use,$jump,$logic_medium,progressive_rpg",
+                  "ep2,e2l8_unlock,secrets,$can_jump,$can_open,$can_use,$jump,$logic_medium,pipebomb",
+                  "ep2,e2l8_unlock,secrets,$can_jump,$can_open,$can_use,$jump,$logic_medium,progressive_pipebomb",
+                  "ep2,e2l8_unlock,secrets,$can_jump,$can_open,$can_use,$jump,$logic_medium,devastator",
+                  "ep2,e2l8_unlock,secrets,$can_jump,$can_open,$can_use,$jump,$logic_medium,progressive_devastator",
+                  "ep2,e2l8_unlock,secrets,$can_jump,$can_open,$can_use,$jump,$logic_medium,tripmine",
+                  "ep2,e2l8_unlock,secrets,$can_jump,$can_open,$can_use,$jump,$logic_medium,progressive_tripmine"
                 ]
               }
             ]
