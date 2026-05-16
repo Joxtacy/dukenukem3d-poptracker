@@ -152,6 +152,12 @@
     "codes": "goal_boss,d3d_2977761382"
   },
   {
+    "name": "Auto Map Switching",
+    "type": "toggle",
+    "img": "images/automap.png",
+    "codes": "automap"
+  },
+  {
     "name": "Pistol",
     "type": "toggle_badged",
     "img": "images/pistol.png",

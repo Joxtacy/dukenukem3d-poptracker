@@ -18,7 +18,8 @@
               [
                 "goal_exit",
                 "goal_secret",
-                "goal_boss"
+                "goal_boss",
+                "automap"
               ]
             ]
           }

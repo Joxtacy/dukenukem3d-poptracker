@@ -17,6 +17,15 @@ GOAL_CODES = { exit = "goal_exit", secret = "goal_secret", boss = "goal_boss" }
 -- Active location IDs for the connected slot (subset of LOCATION_MAP).
 ACTIVE_LOCATIONS = {}
 
+-- Auto map switching: rednukemAP publishes the player's current level to a
+-- global DataStorage key on every level/save load (see ap_publish_current_level
+-- in NBloodAP/source/rr/src/ap_integration.cpp). We subscribe in onClear once
+-- the slot is connected and switch tabs via Tracker:UiHint on every update.
+-- LAST_SWITCHED_LEVEL debounces redundant tab hints (save-loads republish the
+-- same level).
+MAP_KEY = nil
+LAST_SWITCHED_LEVEL = nil
+
 -- Fuel-aware logic state. The apworld's `r.jetpack(N)` and `r.dive(N)` rules
 -- depend on (1) having the gear and (2) having received enough total fuel.
 -- Per-pickup fuel comes from slot_data.settings.dynamic (set per seed via the
@@ -196,6 +205,27 @@ local function render_goal(kind)
         obj.Active = false
         obj:SetOverlay("")
     end
+end
+
+-- Activate the Episode tab and the inner level tab for the given level prefix
+-- (e.g. "E2L3"). The inner-tab title is derived from LEVEL_PATH, which encodes
+-- "Episode N: <name>/<EnLm: Level Name>" — we strip the leading episode chunk.
+-- No-ops when the automap toggle is inactive or the prefix is unknown.
+local function switch_to_level_prefix(prefix)
+    if prefix == LAST_SWITCHED_LEVEL then return end
+
+    local automap = Tracker:FindObjectForCode("automap")
+    if not automap or not automap.Active then return end
+
+    local ep = LEVEL_TO_EPISODE[prefix]
+    local full_path = LEVEL_PATH[prefix]
+    if not ep or not full_path then return end
+
+    local inner_tab = full_path:match("/(.+)$") or full_path
+
+    Tracker:UiHint("ActivateTab", "Episode " .. tostring(ep))
+    Tracker:UiHint("ActivateTab", inner_tab)
+    LAST_SWITCHED_LEVEL = prefix
 end
 
 -- ============================================================
@@ -462,6 +492,17 @@ function onClear(slot_data)
             end
         end
     end
+
+    -- Auto-map subscription. PlayerNumber is the AP slot id for this seed;
+    -- the game publishes "duke3d_current_level_<slot>" with {level, episode}.
+    -- Get() seeds onMapChange via AddRetrievedHandler so re-connects land on
+    -- the last known map without waiting for the next level load.
+    LAST_SWITCHED_LEVEL = nil
+    if Archipelago.PlayerNumber and Archipelago.PlayerNumber > -1 then
+        MAP_KEY = "duke3d_current_level_" .. tostring(Archipelago.PlayerNumber)
+        Archipelago:SetNotify({ MAP_KEY })
+        Archipelago:Get({ MAP_KEY })
+    end
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -630,7 +671,23 @@ function onLocation(location_id, location_name)
     end
 end
 
+-- DataStorage callback for the duke3d_current_level_<slot> key. Fires for both
+-- SetNotify updates (live level changes) and the initial Get reply on connect.
+-- Value shape: { level = <1-based level>, episode = <1-based episode> }.
+function onMapChange(key, value, old_value)
+    if type(value) ~= "table" then return end
+
+    local level = value["level"]
+    local episode = value["episode"]
+    if type(level) ~= "number" or type(episode) ~= "number" then return end
+    if level < 1 or episode < 1 then return end
+
+    switch_to_level_prefix("E" .. tostring(episode) .. "L" .. tostring(level))
+end
+
 -- Register AP handlers
 Archipelago:AddClearHandler("duke3d_clear_handler", onClear)
 Archipelago:AddItemHandler("duke3d_item_handler", onItem)
 Archipelago:AddLocationHandler("duke3d_location_handler", onLocation)
+Archipelago:AddSetReplyHandler("duke3d_map_handler", onMapChange)
+Archipelago:AddRetrievedHandler("duke3d_map_retrieved", onMapChange)
